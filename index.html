@@ -176,6 +176,10 @@
   <h2>条件计分 <span style="text-transform:none;letter-spacing:0">— 短线与长线分开，互不干扰</span></h2>
   <div class="card" id="signal"></div>
 
+  <!-- macro -->
+  <h2>宏观与同业 <span style="text-transform:none;letter-spacing:0">— 区分大盘波动与个股问题</span></h2>
+  <div class="card" id="macro"></div>
+
   <!-- 3 hourly -->
   <h2>每小时快照</h2>
   <div class="hr" id="hourly"></div>
@@ -190,6 +194,9 @@
 
   <h2>当前预警</h2>
   <div id="alerts"></div>
+
+  <h2>政策与宏观新闻 <span style="text-transform:none;letter-spacing:0">— 出口管制 / 监管 / 美联储</span></h2>
+  <div class="card news" id="policy"></div>
 
   <h2>财务轨迹 <span style="text-transform:none;letter-spacing:0">— 424B4 经审计数据，单位百万美元</span></h2>
   <div class="card"><div style="overflow-x:auto"><table id="fin"></table></div>
@@ -302,6 +309,38 @@ function render(d){
          之前那版是五对五，那是我凑出来的对称，不是现实的结构。
          现在每一侧有几条就是几条。</div>`;
   }
+
+  // macro + relative strength
+  const MA=d.macro||[], S0=SS?SS.short:null;
+  if(MA.length){
+    const cells=[{label:"ANT 日内",pct:S0?S0.intraday_pct:null,v:null,me:true}]
+      .concat(MA.map(m=>({label:m.label,pct:m.pct,
+        v:m.kind==="rates"?(m.price?m.price.toFixed(3)+"%":null):null})));
+    const rel=S0?S0.rel:null;
+    document.getElementById("macro").innerHTML=
+      `<div class="grid">${cells.map(c=>
+        `<div class="cell"><div class="k">${c.label}</div>
+          <div class="v ${c.pct>0?"up":c.pct<0?"down":""}">${
+            c.v!==null?c.v:(c.pct===null?"—":sign(c.pct))}</div></div>`).join("")}</div>`+
+      (rel!==null?`<div class="diverge" style="margin-top:12px;border-left-color:${
+          rel<=-3?"var(--down)":rel>=3?"var(--up)":"var(--accent)"}">
+        <b>相对强弱 ${rel>0?"+":""}${rel}</b> = ANT 日内 ${sign(S0.intraday_pct)} − 纳指100 ${sign(S0.ndx_pct)}。
+        ${rel<=-3?"<b>ANT 跌得比大盘更多</b>，这部分超额跌幅不能用「大盘不好」解释，是个股自身的问题（供给 / 定价 / 首日换手）。"
+          :rel>=3?"ANT 明显强于大盘。":"ANT 基本跟随大盘，今天的波动大部分不是关于这家公司的消息。"}
+        ${S0.tnx?`<br>美债 10 年期 <b>${S0.tnx.toFixed(3)}%</b>——长久期成长股对利率高度敏感，这个数越高，高估值越难撑。`:""}
+      </div>`:"");
+  }
+
+  // policy news
+  const POL=d.policy||[];
+  document.getElementById("policy").innerHTML = POL.length
+    ? "<ul>"+POL.slice(0,10).map(n=>
+        `<li><div class="hd"><span class="t${n.tier}">T${n.tier}</span>
+          <span class="ttl">${n.title}<div class="meta">${n.source} · ${n.published.slice(5,16)}</div>
+          </span></div></li>`).join("")+"</ul>"
+       +`<div class="note">这一栏独立于公司新闻。AI 板块对<b>出口管制、芯片政策、国会立法、美联储利率</b>的敏感度
+          往往高于公司自身消息——板块一起动的时候，个股基本面说明不了什么。</div>`
+    : `<div style="color:var(--dim)">暂无命中</div>`;
 
   // 3 hourly
   const H=d.hourly||[];

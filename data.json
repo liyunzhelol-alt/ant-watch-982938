@@ -1,6 +1,8 @@
 {
- "generated": "2026-11-19T16:50:14-05:00",
- "errors": [],
+ "generated": "2026-11-19T16:50:54-05:00",
+ "errors": [
+  "policy: HTTP Error 429: Too Many Requests"
+ ],
  "quote": {
   "price": 97.17,
   "prev_close": 83.0,
@@ -31,7 +33,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9954
+    "effective": 0.9952
    },
    "tone": {
     "dir": 0,
@@ -51,7 +53,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9905
+    "effective": 0.9903
    },
    "tone": {
     "dir": 0,
@@ -71,7 +73,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9882
+    "effective": 0.9881
    },
    "tone": {
     "dir": 0,
@@ -91,7 +93,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9493
+    "effective": 0.9491
    },
    "tone": {
     "dir": 1,
@@ -113,7 +115,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5969
+    "effective": 0.5968
    },
    "tone": {
     "dir": -1,
@@ -137,7 +139,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5954
+    "effective": 0.5953
    },
    "tone": {
     "dir": 1,
@@ -160,7 +162,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5939
+    "effective": 0.5938
    },
    "tone": {
     "dir": 0,
@@ -200,7 +202,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5288
+    "effective": 0.5287
    },
    "tone": {
     "dir": 0,
@@ -220,7 +222,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3494
+    "effective": 0.3493
    },
    "tone": {
     "dir": 0,
@@ -235,7 +237,7 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.937,
+    "recency": 0.936,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -279,12 +281,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.99,
+    "recency": 0.989,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2969
+    "effective": 0.2968
    },
    "tone": {
     "dir": 0,
@@ -299,12 +301,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.985,
+    "recency": 0.984,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2954
+    "effective": 0.2953
    },
    "tone": {
     "dir": 1,
@@ -366,7 +368,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2817
+    "effective": 0.2816
    },
    "tone": {
     "dir": 0,
@@ -406,7 +408,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.28
+    "effective": 0.2799
    },
    "tone": {
     "dir": 0,
@@ -446,7 +448,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2719
+    "effective": 0.2718
    },
    "tone": {
     "dir": 0,
@@ -508,7 +510,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2698
+    "effective": 0.2697
    },
    "tone": {
     "dir": 1,
@@ -550,7 +552,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2686
+    "effective": 0.2685
    },
    "tone": {
     "dir": 0,
@@ -565,12 +567,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.893,
+    "recency": 0.892,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2678
+    "effective": 0.2677
    },
    "tone": {
     "dir": 0,
@@ -590,7 +592,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2641
+    "effective": 0.264
    },
    "tone": {
     "dir": 0,
@@ -662,92 +664,7 @@
    "pct": -1.98
   }
  ],
- "policy": [
-  {
-   "title": "‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers - JD Supra",
-   "published": "Thu, 19 Nov 2026 20:54:54 GMT",
-   "source": "jdsupra.com",
-   "tier": 3
-  },
-  {
-   "title": "Nvidia scandal could be tipping point toward tougher export control enforcement - The Washington Post",
-   "published": "Thu, 19 Nov 2026 21:32:47 GMT",
-   "source": "washingtonpost.com",
-   "tier": 3
-  },
-  {
-   "title": "New US export controls on Malaysia, Singapore for advanced chips to take effect Nov 19 - The Edge Malaysia",
-   "published": "Thu, 19 Nov 2026 20:39:18 GMT",
-   "source": "theedgemalaysia.com",
-   "tier": 3
-  },
-  {
-   "title": "What’s next for AI regulation once Democrats control Congress? - AZ Family",
-   "published": "Thu, 19 Nov 2026 01:55:00 GMT",
-   "source": "azfamily.com",
-   "tier": 3
-  },
-  {
-   "title": "Trump Warns Against Regulations That Would ‘Stifle’ AI Industry - Bloomberg.com",
-   "published": "Thu, 19 Nov 2026 03:52:00 GMT",
-   "source": "bloomberg.com",
-   "tier": 1
-  },
-  {
-   "title": "Tighter rules on chip exports come amid broad divisions over AI and China - The Christian Science Monitor",
-   "published": "Wed, 18 Nov 2026 05:00:00 GMT",
-   "source": "csmonitor.com",
-   "tier": 3
-  },
-  {
-   "title": "U.S. Export Controls Extend from Where AI Chips Go to Who Uses the Compute - TrendForce",
-   "published": "Wed, 18 Nov 2026 11:10:21 GMT",
-   "source": "insights.trendforce.com",
-   "tier": 3
-  },
-  {
-   "title": "Nvidia Halts AI Chip Shipments to China as U.S. Tightens Export Controls, Beijing Threatens Countermeasures - Forth.News",
-   "published": "Wed, 18 Nov 2026 09:21:57 GMT",
-   "source": "forth.news",
-   "tier": 3
-  },
-  {
-   "title": "Nvidia Introduced Alibaba to Alice Huang for Workaround on U.S. Export Controls - The Information",
-   "published": "Wed, 18 Nov 2026 03:05:00 GMT",
-   "source": "theinformation.com",
-   "tier": 3
-  },
-  {
-   "title": "BIS targets remote access to advanced chips through overseas data centers - Nixon Peabody",
-   "published": "Tue, 17 Nov 2026 05:29:13 GMT",
-   "source": "nixonpeabody.com",
-   "tier": 3
-  },
-  {
-   "title": "AMD stock drops after Hunterbrook Media raises export control concerns - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 17:15:08 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3
-  },
-  {
-   "title": "US panel proposes tougher AI chip export rules ahead of Xi-Trump talks - South China Morning Post",
-   "published": "Wed, 18 Nov 2026 10:45:05 GMT",
-   "source": "scmp.com",
-   "tier": 3
-  },
-  {
-   "title": "Why Anthropic Wins From Tighter Chip Export Controls - The Daily Upside",
-   "published": "Thu, 19 Nov 2026 05:01:00 GMT",
-   "source": "thedailyupside.com",
-   "tier": 3
-  },
-  {
-   "title": "Nvidia Forms Board Panel on AI Chip Export Controls - TechRepublic",
-   "published": "Wed, 18 Nov 2026 19:39:30 GMT",
-   "source": "techrepublic.com",
-   "tier": 3
-  }
- ],
+ "policy": [],
  "filings": [
   {
    "form": "424B4",
@@ -1276,7 +1193,7 @@
   ],
   "buy_condition_met": false
  },
- "tone_net": 0.1432,
+ "tone_net": 0.1431,
  "signals": {
   "short": {
    "name": "短线",
