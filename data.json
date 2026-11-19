@@ -1,26 +1,26 @@
 {
- "generated": "2026-11-19T14:30:46-05:00",
+ "generated": "2026-11-19T15:00:09-05:00",
  "errors": [],
  "quote": {
-  "price": 96.679,
+  "price": 96.29,
   "prev_close": 83.0,
-  "pct_vs_prev": 16.48,
-  "pct_vs_ipo": 16.48,
-  "pct_vs_day1_open": -13.29,
+  "pct_vs_prev": 16.01,
+  "pct_vs_ipo": 16.01,
+  "pct_vs_day1_open": -13.64,
   "day_high": 114.99,
   "day_low": 92.72,
   "high_52w": 114.99,
   "low_52w": 92.72,
-  "volume": 696380783,
-  "market_time": 1795116649,
+  "volume": 738008921,
+  "market_time": 1795118412,
   "currency": "USD"
  },
  "news": [
   {
-   "title": "Anthropic IPO Live: Stock Price Opens at $111.50; ANT Hits $2 Trillion Market Cap on Nasdaq Debut - WSJ",
-   "published": "Thu, 19 Nov 2026 18:49:00 GMT",
-   "source": "wsj.com",
-   "tier": 1
+   "title": "Anthropic IPO live: Anthropic stock begins trading in record $81B raise with $1.5T valuation - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 19:24:10 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
   },
   {
    "title": "ANT - Anthropic, PBC Ordinary Shares - Class A Analysis - Morningstar",
@@ -47,14 +47,14 @@
    "tier": 3
   },
   {
-   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
-   "published": "Thu, 19 Nov 2026 17:02:02 GMT",
-   "source": "fool.com",
-   "tier": 4
-  },
-  {
    "title": "Anthropic stock's first trade was worth $12 billion — 34% above its IPO price - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 17:17:21 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Why Anthropic Stock Is Up (and Down) Today - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 18:45:02 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
@@ -71,6 +71,24 @@
    "tier": 3
   },
   {
+   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 17:02:02 GMT",
+   "source": "fool.com",
+   "tier": 4
+  },
+  {
+   "title": "Anthropic shares jump in Nasdaq trading debut after record IPO - CBS News",
+   "published": "Thu, 19 Nov 2026 19:30:11 GMT",
+   "source": "cbsnews.com",
+   "tier": 2
+  },
+  {
+   "title": "Anthropic IPO Live: Shares Pop 34% To Open At $111.50 - Forbes",
+   "published": "Thu, 19 Nov 2026 17:00:00 GMT",
+   "source": "forbes.com",
+   "tier": 2
+  },
+  {
    "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 14:54:36 GMT",
    "source": "finance.yahoo.com",
@@ -83,15 +101,21 @@
    "tier": 3
   },
   {
+   "title": "Anthropic goes public as AI bug hunters push cybersecurity stocks higher: Chart of the Day - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 15:00:54 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
    "title": "$100K In Anthropic Stock: Buy Now Or Wait? - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 16:06:50 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
   {
-   "title": "Anthropic goes public as AI bug hunters push cybersecurity stocks higher: Chart of the Day - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 15:00:54 GMT",
-   "source": "finance.yahoo.com",
+   "title": "Anthropic set to begin trading as a $1.5 trillion company in the biggest IPO on record - PBS",
+   "published": "Thu, 19 Nov 2026 14:45:12 GMT",
+   "source": "pbs.org",
    "tier": 3
   },
   {
@@ -99,12 +123,6 @@
    "published": "Thu, 19 Nov 2026 13:05:40 GMT",
    "source": "cnbc.com",
    "tier": 2
-  },
-  {
-   "title": "Anthropic set to begin trading as a $1.5 trillion company in the biggest IPO on record - PBS",
-   "published": "Thu, 19 Nov 2026 14:45:12 GMT",
-   "source": "pbs.org",
-   "tier": 3
   },
   {
    "title": "Anthropic IPO and ANT stock price forecast: valuation and Nasdaq listing - Beinsure",
@@ -125,21 +143,21 @@
    "tier": 3
   },
   {
-   "title": "Anthropic Shares Indicated More Than 20% Higher on Gray Markets - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 10:37:06 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3
-  },
-  {
    "title": "Anthropic's Shadow Market Priced It Above $100 Before the Bell: What the First Trade Reveals - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 14:10:13 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
   {
-   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
-   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
-   "source": "fastcompany.com",
+   "title": "Anthropic officially IPOs on the Nasdaq — with shares at $111.50 - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:03:07 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic Shares Indicated More Than 20% Higher on Gray Markets - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 10:37:06 GMT",
+   "source": "finance.yahoo.com",
    "tier": 3
   },
   {
@@ -150,27 +168,21 @@
   },
   {
    "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
-   "published": "Thu, 19 Nov 2026 14:35:06 GMT",
+   "published": "Thu, 19 Nov 2026 14:55:07 GMT",
    "source": "investorplace.com",
    "tier": 3
   },
   {
-   "title": "Anthropic officially IPOs on the Nasdaq — with shares at $111.50 - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 17:03:07 GMT",
-   "source": "finance.yahoo.com",
+   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
+   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
+   "source": "fastcompany.com",
    "tier": 3
   },
   {
-   "title": "Anthropic shares soar in Nasdaq trading debut, surging as high as $114.99 - CBS News",
-   "published": "Thu, 19 Nov 2026 13:55:00 GMT",
-   "source": "cbsnews.com",
-   "tier": 2
-  },
-  {
-   "title": "Investors scramble for a piece of AI giant Anthropic in blockbuster IPO - NPR",
-   "published": "Thu, 19 Nov 2026 10:00:00 GMT",
-   "source": "npr.org",
-   "tier": 2
+   "title": "What to Know About Anthropic’s Record-Breaking IPO - WSJ",
+   "published": "Thu, 19 Nov 2026 18:14:00 GMT",
+   "source": "wsj.com",
+   "tier": 1
   },
   {
    "title": "Why Anthropic Stock Is Up (and Down) Today - The Motley Fool",
@@ -183,18 +195,6 @@
    "published": "Thu, 19 Nov 2026 16:58:21 GMT",
    "source": "fool.com",
    "tier": 4
-  },
-  {
-   "title": "Why Anthropic Stock Is Up (and Down) Today - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 18:45:02 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3
-  },
-  {
-   "title": "Thousands of Anthropic Employees and Investors Are Set to Reap Fortunes - WSJ",
-   "published": "Thu, 19 Nov 2026 14:00:00 GMT",
-   "source": "wsj.com",
-   "tier": 1
   }
  ],
  "calendar": {
@@ -396,7 +396,7 @@
   {
    "level": "info",
    "code": "BELOW_DAY1_OPEN",
-   "message": "低于首日开盘 $111.5（现 $96.679）",
+   "message": "低于首日开盘 $111.5（现 $96.29）",
    "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
   },
   {
