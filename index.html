@@ -244,7 +244,7 @@
 const fmtM=n=>(n/1e6).toFixed(0)+"M";
 const sign=n=>(n>0?"+":"")+n.toFixed(2)+"%";
 const cls=n=>n>0?"up":n<0?"down":"";
-let lastGen=null, lastPx=null, liveActive=false, ticks=[];
+let lastGen=null, lastPx=null, liveActive=false, ticks=[], lastData=null;
 
 function daysTo(d){ if(!d) return null;
   const t=new Date(); t.setHours(0,0,0,0);
@@ -262,26 +262,7 @@ function sigLabel(s){
   if(s<=-4)return"强烈卖出条件"; if(s<=-2)return"偏卖出条件"; if(s<=-1)return"轻微偏空";
   return"中性 — 双向条件抵消"; }
 
-function render(d){
-  const cal=d.calendar,q=d.quote,r=d.read,sg=d.signal;
-  lastGen=new Date(d.generated).getTime(); tick();
-
-  // 1 price — only paint from data.json if the live feed has not taken over
-  if(q){
-    if(!liveActive) paintPrice(q.price);
-    const dd=q.high_52w?-(1-q.price/q.high_52w)*100:null;
-    document.getElementById("stats").innerHTML=[
-      ["发行价","$"+cal.ipo.price.toFixed(2),""],
-      ["首日开盘","$"+cal.ipo.day1_open.toFixed(2),""],
-      ["vs 首日开盘",sign(q.pct_vs_day1_open),cls(q.pct_vs_day1_open)],
-      ["日内高",q.day_high?"$"+q.day_high.toFixed(2):"—",""],
-      ["日内低",q.day_low?"$"+q.day_low.toFixed(2):"—",""],
-      ["上市后最高",q.high_52w?"$"+q.high_52w.toFixed(2):"—",""],
-      ["较最高回撤",dd!==null?sign(dd):"—",dd<0?"down":""],
-      ["成交量",q.volume?fmtM(q.volume):"—",""]
-    ].map(([k,v,kl])=>`<div class="cell"><div class="k">${k}</div><div class="v ${kl}">${v}</div></div>`).join("");
-  }
-
+function renderSignals(d){
   // 2 arrows — short and long, scored independently
   const SS=d.signals;
   if(SS){
@@ -325,6 +306,32 @@ function render(d){
          权重和理由一起公开，<b>定于 2026-11-19，事后不调</b>。
          每一栏都同时显示「若等权重会是多少」，这样我的权重设定改变了什么，你一眼能看出来。</div>`;
   }
+
+}
+
+function render(d){
+  lastData=d;
+  const cal=d.calendar,q=d.quote,r=d.read,sg=d.signal;
+  lastGen=new Date(d.generated).getTime(); tick();
+  if(liveActive&&lastPx) repriceSignals(lastPx);
+
+  // 1 price — only paint from data.json if the live feed has not taken over
+  if(q){
+    if(!liveActive) paintPrice(q.price);
+    const dd=q.high_52w?-(1-q.price/q.high_52w)*100:null;
+    document.getElementById("stats").innerHTML=[
+      ["发行价","$"+cal.ipo.price.toFixed(2),""],
+      ["首日开盘","$"+cal.ipo.day1_open.toFixed(2),""],
+      ["vs 首日开盘",sign(q.pct_vs_day1_open),cls(q.pct_vs_day1_open)],
+      ["日内高",q.day_high?"$"+q.day_high.toFixed(2):"—",""],
+      ["日内低",q.day_low?"$"+q.day_low.toFixed(2):"—",""],
+      ["上市后最高",q.high_52w?"$"+q.high_52w.toFixed(2):"—",""],
+      ["较最高回撤",dd!==null?sign(dd):"—",dd<0?"down":""],
+      ["成交量",q.volume?fmtM(q.volume):"—",""]
+    ].map(([k,v,kl])=>`<div class="cell"><div class="k">${k}</div><div class="v ${kl}">${v}</div></div>`).join("");
+  }
+
+  renderSignals(d);
 
   // macro + relative strength
   const MA=d.macro||[], S0=SS?SS.short:null;
@@ -574,6 +581,63 @@ function paintPrice(p,size,ts){
   }
   ticks.push(p); if(ticks.length>300) ticks.shift();
   drawSpark();
+  repriceSignals(p);
+}
+
+/* Recompute every price-driven condition on each tick. The server only refreshes
+   every 10 minutes; these conditions change with the price, so leaving them stale
+   would mean the panel disagrees with the number above it. */
+function repriceSignals(px){
+  if(!lastData||!lastData.signals||!px) return;
+  const S=lastData.signals.short, L=lastData.signals.long;
+  const rs=S.live_refs||{}, rl=L.live_refs||{};
+  const pct = rs.open ? (px/rs.open-1)*100 : 0;
+  const rel = (rs.ndx!==null&&rs.ndx!==undefined) ? pct-rs.ndx : null;
+  const dd  = rs.high ? (1-px/rs.high)*100 : 0;
+  const prem= rs.ipo ? (px/rs.ipo-1)*100 : 0;
+  const mcap= rl.shares? rl.shares*px : null;
+  const ps  = (mcap&&rl.rev_annual)? mcap/rl.rev_annual : null;
+  const evs = (mcap&&rl.rev_annual)? (mcap-rl.cash)/rl.rev_annual : null;
+  const sm  = rs.small||4;
+
+  const V={
+    S_DROP:      pct<=-sm && !rs.bad,
+    S_WITH_MKT:  rel!==null && pct<=-sm && rel>=-2,
+    S_ABOVE_MID: rs.mid? px>rs.mid : false,
+    S_CHASE:     pct>=sm,
+    S_LAG_MKT:   rel!==null && rel<=-3,
+    L_BELOW_IPO: px<rs.ipo,
+    L_DRAWDOWN:  dd>=25,
+    L_EVS:       evs!==null && evs<15,
+    L_PS:        ps!==null && ps>30,
+    L_PREMIUM:   prem>=25,
+  };
+  const T={
+    S_DROP:`日内跌幅 ≥4% 且无基本面消息（现 ${pct>0?"+":""}${pct.toFixed(2)}%，自当日开盘）`,
+    S_WITH_MKT:rel===null?null:`跌幅主要来自大盘而非个股（ANT ${pct>0?"+":""}${pct.toFixed(1)}% vs 纳指100 ${rs.ndx>0?"+":""}${rs.ndx.toFixed(1)}%，相对强弱 ${rel>0?"+":""}${rel.toFixed(1)}）`,
+    S_CHASE:`日内涨幅 ≥4%（现 ${pct>0?"+":""}${pct.toFixed(2)}%，短线追高）`,
+    S_LAG_MKT:rel===null?null:`显著跑输大盘（相对强弱 ${rel>0?"+":""}${rel.toFixed(1)}，个股自身问题）`,
+    L_EVS:evs===null?null:`EV/Sales < 15×（现 ${evs.toFixed(0)}×）`,
+    L_PS:ps===null?null:`市销率 ${ps.toFixed(0)}× 高于 30×`,
+  };
+  let changed=false;
+  for(const sg of [S,L])
+    for(const side of ["positive","negative"])
+      for(const c of sg[side]){
+        if(!c.id||!(c.id in V)) continue;
+        if(c.on!==V[c.id]){c.on=V[c.id];changed=true;}
+        if(T[c.id]&&c.t!==T[c.id]){c.t=T[c.id];changed=true;}
+      }
+  const score=sg=>{
+    const w=rows=>rows.reduce((a,c)=>a+(c.on?c.w:0),0);
+    sg.up=w(sg.positive); sg.down=w(sg.negative); sg.net=sg.up-sg.down;
+    sg.up_n=sg.positive.filter(c=>c.on).length;
+    sg.down_n=sg.negative.filter(c=>c.on).length;
+    sg.raw=sg.up_n-sg.down_n;
+    sg.score=Math.max(-5,Math.min(5,Math.round(sg.net/sg.cap*5)));
+  };
+  score(S); score(L);
+  if(changed||true) renderSignals(lastData);
 }
 
 function drawSpark(){
