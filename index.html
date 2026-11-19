@@ -334,7 +334,7 @@ function render(d){
   renderSignals(d);
 
   // macro + relative strength
-  const MA=d.macro||[], S0=SS?SS.short:null;
+  const MA=d.macro||[], S0=(d.signals&&d.signals.short)||null;
   if(MA.length){
     const cells=[{label:"ANT 日内",pct:S0?S0.intraday_pct:null,v:null,me:true}]
       .concat(MA.map(m=>({label:m.label,pct:m.pct,
