@@ -28,6 +28,18 @@
   .px{font-size:56px;font-weight:700;letter-spacing:-2.5px;line-height:1;
     font-variant-numeric:tabular-nums;transition:color .25s}
   .chg{font-size:16px;font-weight:600;margin-left:9px}
+  .livebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:9px;font-size:11px}
+  .sess{font:600 10px/1 ui-monospace,Menlo,monospace;letter-spacing:1px;padding:4px 7px;
+    border-radius:4px;background:#1f2630;color:var(--dim)}
+  .sess.open{background:#13261a;color:var(--up)}
+  .sess.ext{background:#2a2412;color:var(--warn)}
+  .conn{display:flex;align-items:center;gap:5px;color:var(--dim)}
+  .conn i{width:7px;height:7px;border-radius:50%;background:var(--flat);display:block}
+  .conn.ws i{background:var(--up);animation:p 1.6s infinite}
+  .conn.rest i{background:var(--warn)}
+  .conn.off i{background:var(--down)}
+  .lasttrade{color:var(--dim);font-variant-numeric:tabular-nums;margin-left:auto}
+  .spark{width:100%;height:70px;margin-top:10px;display:block}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:1px;
     background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:13px}
   .cell{background:var(--panel);padding:8px 10px}
@@ -121,7 +133,13 @@
 
   <!-- 1 price -->
   <div class="hero">
+    <div class="livebar">
+      <span class="sess" id="sess">—</span>
+      <span class="conn" id="conn"><i></i><span id="connt">连接中…</span></span>
+      <span class="lasttrade" id="lasttrade"></span>
+    </div>
     <div><span class="px" id="px">—</span><span class="chg" id="chg"></span></div>
+    <svg class="spark" id="spark" viewBox="0 0 600 70" preserveAspectRatio="none"></svg>
     <div class="grid" id="stats"></div>
   </div>
 
@@ -172,7 +190,7 @@
 const fmtM=n=>(n/1e6).toFixed(0)+"M";
 const sign=n=>(n>0?"+":"")+n.toFixed(2)+"%";
 const cls=n=>n>0?"up":n<0?"down":"";
-let lastGen=null, lastPx=null;
+let lastGen=null, lastPx=null, liveActive=false, ticks=[];
 
 function daysTo(d){ if(!d) return null;
   const t=new Date(); t.setHours(0,0,0,0);
@@ -194,17 +212,9 @@ function render(d){
   const cal=d.calendar,q=d.quote,r=d.read,sg=d.signal;
   lastGen=new Date(d.generated).getTime(); tick();
 
-  // 1 price
+  // 1 price — only paint from data.json if the live feed has not taken over
   if(q){
-    const el=document.getElementById("px");
-    el.textContent="$"+q.price.toFixed(2);
-    if(lastPx!==null&&q.price!==lastPx){
-      el.style.color=q.price>lastPx?"var(--up)":"var(--down)";
-      setTimeout(()=>el.style.color="",700);
-    }
-    lastPx=q.price;
-    const c=document.getElementById("chg");
-    c.textContent=sign(q.pct_vs_ipo)+" vs 发行价"; c.className="chg "+cls(q.pct_vs_ipo);
+    if(!liveActive) paintPrice(q.price);
     const dd=q.high_52w?-(1-q.price/q.high_52w)*100:null;
     document.getElementById("stats").innerHTML=[
       ["发行价","$"+cal.ipo.price.toFixed(2),""],
@@ -358,7 +368,106 @@ function render(d){
 function poll(){fetch("data.json?t="+Date.now(),{cache:"no-store"})
   .then(r=>r.json()).then(render)
   .catch(e=>document.getElementById("err").textContent="加载失败："+e);}
-poll(); setInterval(poll,15000);
+poll(); setInterval(poll,60000);
+
+/* ================= live tick feed =================
+   Finnhub key is deliberately public: free tier, rate-limited, revocable,
+   and scoped to quotes only. Rotate at finnhub.io if it gets abused. */
+const FH="dbvmd21r01qgh2a66dh0dbvmd21r01qgh2a66dhg";
+const IPO_PX=83.00, OPEN_PX=111.50;
+let ws=null, wsTimer=null, restTimer=null;
+
+function setConn(kind,text){
+  const e=document.getElementById("conn");
+  e.className="conn "+kind; document.getElementById("connt").textContent=text;
+}
+
+function session(){
+  // ET wall clock regardless of the viewer's timezone
+  const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour:"2-digit",
+    minute:"2-digit",weekday:"short",hour12:false}).formatToParts(new Date());
+  const g=t=>p.find(x=>x.type===t).value;
+  const wd=g("weekday"), m=parseInt(g("hour"))*60+parseInt(g("minute"));
+  if(wd==="Sat"||wd==="Sun") return ["休市",""];
+  if(m>=240&&m<570)  return ["盘前 PRE","ext"];
+  if(m>=570&&m<960)  return ["盘中 OPEN","open"];
+  if(m>=960&&m<1200) return ["盘后 POST","ext"];
+  return ["休市 CLOSED",""];
+}
+function paintSession(){
+  const [t,k]=session(); const e=document.getElementById("sess");
+  e.textContent=t; e.className="sess "+k;
+}
+paintSession(); setInterval(paintSession,20000);
+
+function paintPrice(p,size,ts){
+  const el=document.getElementById("px");
+  el.textContent="$"+p.toFixed(2);
+  if(lastPx!==null&&p!==lastPx){
+    el.style.color=p>lastPx?"var(--up)":"var(--down)";
+    setTimeout(()=>el.style.color="",500);
+  }
+  lastPx=p;
+  const c=document.getElementById("chg");
+  const d=(p/IPO_PX-1)*100;
+  c.textContent=sign(d)+" vs 发行价 · "+sign((p/OPEN_PX-1)*100)+" vs 首日开盘";
+  c.className="chg "+cls(d);
+  if(size!==undefined){
+    const tm=new Date(ts).toLocaleTimeString("en-US",{timeZone:"America/New_York",hour12:false});
+    document.getElementById("lasttrade").textContent=`最近成交 ${size} 股 · ${tm} ET`;
+  }
+  ticks.push(p); if(ticks.length>240) ticks.shift();
+  drawSpark();
+}
+
+function drawSpark(){
+  const s=document.getElementById("spark");
+  if(ticks.length<2){s.innerHTML="";return;}
+  const lo=Math.min(...ticks), hi=Math.max(...ticks), rng=(hi-lo)||1;
+  const pts=ticks.map((v,i)=>
+    `${(i/(ticks.length-1)*600).toFixed(1)},${(66-(v-lo)/rng*62).toFixed(1)}`).join(" ");
+  const rising=ticks[ticks.length-1]>=ticks[0];
+  const col=rising?"#3fb950":"#f85149";
+  s.innerHTML=
+    `<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.8"
+       stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+     <text x="2" y="10" fill="#8b949e" font-size="9">$${hi.toFixed(2)}</text>
+     <text x="2" y="68" fill="#8b949e" font-size="9">$${lo.toFixed(2)}</text>
+     <text x="598" y="10" fill="#8b949e" font-size="9" text-anchor="end">${ticks.length} 笔</text>`;
+}
+
+function restTick(){
+  fetch(`https://finnhub.io/api/v1/quote?symbol=ANT&token=${FH}`)
+    .then(r=>r.json()).then(j=>{ if(j&&j.c){ liveActive=true; paintPrice(j.c); } })
+    .catch(()=>{});
+}
+
+function connectWS(){
+  try{ ws=new WebSocket(`wss://ws.finnhub.io?token=${FH}`); }
+  catch(e){ setConn("rest","REST 轮询 3s"); startRest(); return; }
+
+  ws.onopen=()=>{
+    setConn("ws","实时逐笔 · WebSocket");
+    ws.send(JSON.stringify({type:"subscribe",symbol:"ANT"}));
+    clearInterval(restTimer); restTimer=null;
+    restTick();                       // seed a price immediately
+  };
+  ws.onmessage=ev=>{
+    const m=JSON.parse(ev.data);
+    if(m.type==="trade"&&m.data&&m.data.length){
+      const t=m.data[m.data.length-1];
+      liveActive=true; paintPrice(t.p,t.v,t.t);
+    }
+  };
+  ws.onclose=()=>{ setConn("rest","已断开，REST 轮询 3s"); startRest();
+    clearTimeout(wsTimer); wsTimer=setTimeout(connectWS,8000); };
+  ws.onerror=()=>{ try{ws.close();}catch(e){} };
+}
+function startRest(){ if(!restTimer){ restTick(); restTimer=setInterval(restTick,3000); } }
+
+connectWS();
+// if no trade arrives for 20s (thin book / closed session) keep REST ticking too
+setTimeout(()=>{ if(!ticks.length) startRest(); },20000);
 </script>
 </body>
 </html>
