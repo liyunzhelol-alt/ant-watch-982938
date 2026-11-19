@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T16:00:08-05:00",
+ "generated": "2026-11-19T16:08:45-05:00",
  "errors": [],
  "quote": {
-  "price": 96.64,
+  "price": 97.17,
   "prev_close": 83.0,
-  "pct_vs_prev": 16.43,
-  "pct_vs_ipo": 16.43,
-  "pct_vs_day1_open": -13.33,
+  "pct_vs_prev": 17.07,
+  "pct_vs_ipo": 17.07,
+  "pct_vs_day1_open": -12.85,
   "day_high": 115.1,
   "day_low": 92.72,
   "high_52w": 115.1,
   "low_52w": 92.72,
-  "volume": 826010239,
-  "market_time": 1795121964,
+  "volume": 839600387,
+  "market_time": 1795122001,
   "currency": "USD"
  },
  "news": [
@@ -23,27 +23,17 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.999,
+    "recency": 0.997,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9987
-   }
-  },
-  {
-   "title": "Bumpy Markets Didn’t Derail Anthropic’s Mega IPO - Bloomberg.com",
-   "published": "Thu, 19 Nov 2026 19:28:41 GMT",
-   "source": "bloomberg.com",
-   "tier": 1,
-   "weight": {
-    "base": 1.0,
-    "recency": 0.978,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.9782
+    "effective": 0.9966
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -53,12 +43,19 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.961,
+    "recency": 0.959,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9608
+    "effective": 0.9588
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "record"
+    ],
+    "bear": []
    }
   },
   {
@@ -68,12 +65,20 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.979,
+    "recency": 0.977,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5871
+    "effective": 0.5859
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "jump",
+     "record"
+    ],
+    "bear": []
    }
   },
   {
@@ -83,12 +88,17 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.933,
+    "recency": 0.931,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.56
+    "effective": 0.5588
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -98,12 +108,17 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.892,
+    "recency": 0.89,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5352
+    "effective": 0.5341
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -113,12 +128,17 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.853,
+    "recency": 0.851,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5119
+    "effective": 0.5108
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -128,12 +148,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.948,
+    "recency": 0.946,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3697
+    "effective": 0.369
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -143,12 +168,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.907,
+    "recency": 0.905,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3536
+    "effective": 0.3529
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -158,12 +188,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.968,
+    "recency": 0.966,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.334
+    "effective": 0.3333
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -173,12 +208,19 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.996,
+    "recency": 0.994,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2989
+    "effective": 0.2983
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "record"
+    ],
+    "bear": []
    }
   },
   {
@@ -188,12 +230,40 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.977,
+    "recency": 0.975,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2931
+    "effective": 0.2925
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "raise",
+     "record"
+    ],
+    "bear": []
+   }
+  },
+  {
+   "title": "ANT update: Anthropic stock opens higher in Nasdaq debut - Fast Company",
+   "published": "Thu, 19 Nov 2026 17:28:06 GMT",
+   "source": "fastcompany.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.948,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2845
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -203,12 +273,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.948,
+    "recency": 0.946,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2843
+    "effective": 0.2837
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -218,12 +293,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.945,
+    "recency": 0.943,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2834
+    "effective": 0.2828
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -233,12 +313,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.932,
+    "recency": 0.93,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2796
+    "effective": 0.279
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -248,12 +333,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.919,
+    "recency": 0.917,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2756
+    "effective": 0.2751
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -263,27 +353,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.917,
+    "recency": 0.915,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2752
-   }
-  },
-  {
-   "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
-   "published": "Thu, 19 Nov 2026 14:55:07 GMT",
-   "source": "investorplace.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.916,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2748
+    "effective": 0.2746
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -293,12 +373,37 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.916,
+    "recency": 0.914,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2747
+    "effective": 0.2742
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
+   "published": "Thu, 19 Nov 2026 14:55:07 GMT",
+   "source": "investorplace.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.914,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2742
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -308,32 +413,24 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.914,
+    "recency": 0.912,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2741
+    "effective": 0.2735
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "record"
+    ],
+    "bear": []
    }
   },
   {
    "title": "At what price will Anthropic shares open? YF takes a guess - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 14:18:35 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.908,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2724
-   }
-  },
-  {
-   "title": "Anthropic's Shadow Market Priced It Above $100 Before the Bell: What the First Trade Reveals - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 14:10:13 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
@@ -344,6 +441,31 @@
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
     "effective": 0.2718
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic's Shadow Market Priced It Above $100 Before the Bell: What the First Trade Reveals - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:10:13 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.904,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2713
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -353,12 +475,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.903,
+    "recency": 0.901,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.271
+    "effective": 0.2704
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -368,12 +495,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.891,
+    "recency": 0.889,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2673
+    "effective": 0.2667
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -383,12 +515,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.861,
+    "recency": 0.859,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2582
+    "effective": 0.2577
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -398,12 +535,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.785,
+    "recency": 0.783,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2355
+    "effective": 0.235
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -413,12 +555,17 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.738,
+    "recency": 0.736,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2213
+    "effective": 0.2209
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -428,12 +575,17 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.944,
+    "recency": 0.942,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
     "effective": 0.0
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -443,12 +595,17 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.963,
+    "recency": 0.961,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
     "effective": 0.0
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   },
   {
@@ -458,12 +615,17 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.943,
+    "recency": 0.942,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
     "effective": 0.0
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   }
  ],
@@ -666,7 +828,7 @@
   {
    "level": "info",
    "code": "BELOW_DAY1_OPEN",
-   "message": "低于首日开盘 $111.5（现 $96.64）",
+   "message": "低于首日开盘 $111.5（现 $97.17）",
    "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
   },
   {
@@ -680,8 +842,8 @@
   "state": "MECHANICAL",
   "headline": "高位回落，暂无基本面坏消息",
   "evidence": [
-   "现价 $96.64：较发行价 $83 +16.4%，较首日开盘 $111.50 -13.3%",
-   "较上市后最高 $115.10 回撤 16.0%",
+   "现价 $97.17：较发行价 $83 +17.1%，较首日开盘 $111.50 -12.9%",
+   "较上市后最高 $115.10 回撤 15.6%",
    "一、二级信源基本面消息：无",
    "已解禁 315M 股，为 IPO 流通盘 980M 的 32%",
    "上市首日：没有任何前一日收盘价可比，日内波动不构成趋势信号"
@@ -710,6 +872,65 @@
   ],
   "buy_condition_met": false
  },
+ "signal": {
+  "score": 0,
+  "up": 1,
+  "down": 1,
+  "positive": [
+   {
+    "t": "跌破 $83 发行价",
+    "on": false
+   },
+   {
+    "t": "大跌 ≥10% 且无基本面消息（机械性抛压）",
+    "on": false
+   },
+   {
+    "t": "处于解禁后 0–3 天窗口（SpaceX 该窗口 +26%）",
+    "on": true
+   },
+   {
+    "t": "较上市后高点回撤 ≥25%",
+    "on": false
+   },
+   {
+    "t": "已有至少一份上市公司财报可验证",
+    "on": false
+   }
+  ],
+  "negative": [
+   {
+    "t": "高于首日开盘价 $111.50",
+    "on": false
+   },
+   {
+    "t": "3 天内有解禁（抛压通常提前出现）",
+    "on": false
+   },
+   {
+    "t": "一、二级信源出现基本面负面消息",
+    "on": false
+   },
+   {
+    "t": "较发行价溢价 ≥25%",
+    "on": false
+   },
+   {
+    "t": "尚无任何上市公司财报，估值全是预期",
+    "on": true
+   }
+  ]
+ },
+ "tone_net": 0.2388,
+ "hourly": [
+  {
+   "h": "2026-11-19 16:00",
+   "price": 97.17,
+   "state": "MECHANICAL",
+   "score": 0,
+   "tone": 0.239
+  }
+ ],
  "source_records": {},
  "weight_method": {
   "formula": "effective = tier_base x recency x corroboration x track_record",
