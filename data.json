@@ -1,8 +1,6 @@
 {
- "generated": "2026-11-19T16:50:54-05:00",
- "errors": [
-  "policy: HTTP Error 429: Too Many Requests"
- ],
+ "generated": "2026-11-19T16:54:41-05:00",
+ "errors": [],
  "quote": {
   "price": 97.17,
   "prev_close": 83.0,
@@ -22,38 +20,18 @@
  },
  "news": [
   {
-   "title": "Thousands of Anthropic Employees and Investors Are Set to Reap Fortunes - WSJ",
-   "published": "Thu, 19 Nov 2026 21:31:01 GMT",
-   "source": "wsj.com",
-   "tier": 1,
-   "weight": {
-    "base": 1.0,
-    "recency": 0.995,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.9952
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
    "published": "Thu, 19 Nov 2026 21:10:31 GMT",
    "source": "reuters.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.99,
+    "recency": 0.989,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9903
+    "effective": 0.9894
    },
    "tone": {
     "dir": 0,
@@ -68,38 +46,16 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.988,
+    "recency": 0.987,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9881
+    "effective": 0.9872
    },
    "tone": {
     "dir": 0,
     "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "What to Know About Anthropic’s Record-Breaking IPO - WSJ",
-   "published": "Thu, 19 Nov 2026 18:14:00 GMT",
-   "source": "wsj.com",
-   "tier": 1,
-   "weight": {
-    "base": 1.0,
-    "recency": 0.949,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.9491
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "record"
-    ],
     "bear": []
    }
   },
@@ -110,12 +66,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.995,
+    "recency": 0.994,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5968
+    "effective": 0.5963
    },
    "tone": {
     "dir": -1,
@@ -134,12 +90,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.992,
+    "recency": 0.991,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5953
+    "effective": 0.5947
    },
    "tone": {
     "dir": 1,
@@ -151,38 +107,18 @@
    }
   },
   {
-   "title": "Anthropic IPO Live Updates: Shares Close Up 17% - Forbes",
-   "published": "Thu, 19 Nov 2026 21:08:00 GMT",
-   "source": "forbes.com",
-   "tier": 2,
-   "weight": {
-    "base": 0.6,
-    "recency": 0.99,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.5938
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Should You Buy Anthropic Stock at Its IPO? Here’s Everything to Know Before Deciding - Morningstar",
    "published": "Thu, 19 Nov 2026 16:13:11 GMT",
    "source": "morningstar.com",
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.922,
+    "recency": 0.921,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5532
+    "effective": 0.5526
    },
    "tone": {
     "dir": 0,
@@ -197,12 +133,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.881,
+    "recency": 0.88,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5287
+    "effective": 0.5283
    },
    "tone": {
     "dir": 0,
@@ -217,12 +153,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.896,
+    "recency": 0.895,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3493
+    "effective": 0.349
    },
    "tone": {
     "dir": 0,
@@ -242,7 +178,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3231
+    "effective": 0.3228
    },
    "tone": {
     "dir": 0,
@@ -257,12 +193,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.994,
+    "recency": 0.993,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2981
+    "effective": 0.2978
    },
    "tone": {
     "dir": 0,
@@ -286,7 +222,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2968
+    "effective": 0.2966
    },
    "tone": {
     "dir": 0,
@@ -301,12 +237,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.984,
+    "recency": 0.983,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2953
+    "effective": 0.295
    },
    "tone": {
     "dir": 1,
@@ -323,12 +259,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.974,
+    "recency": 0.973,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2922
+    "effective": 0.2919
    },
    "tone": {
     "dir": 0,
@@ -343,12 +279,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.956,
+    "recency": 0.955,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2869
+    "effective": 0.2866
    },
    "tone": {
     "dir": 0,
@@ -363,12 +299,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.939,
+    "recency": 0.938,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2816
+    "effective": 0.2814
    },
    "tone": {
     "dir": 0,
@@ -383,12 +319,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.936,
+    "recency": 0.935,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2809
+    "effective": 0.2806
    },
    "tone": {
     "dir": 0,
@@ -403,12 +339,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.933,
+    "recency": 0.932,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2799
+    "effective": 0.2797
    },
    "tone": {
     "dir": 0,
@@ -423,12 +359,54 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.921,
+    "recency": 0.92,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2762
+    "effective": 0.2759
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic stock pops 30% to $2 trillion market cap, in mega IPO - Fortune",
+   "published": "Thu, 19 Nov 2026 15:28:00 GMT",
+   "source": "fortune.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.911,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2733
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "pop"
+    ],
+    "bear": []
+   }
+  },
+  {
+   "title": "Everything you need to know ahead of Anthropic's IPO - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 15:17:01 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.909,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2726
    },
    "tone": {
     "dir": 0,
@@ -443,12 +421,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.906,
+    "recency": 0.905,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2718
+    "effective": 0.2716
    },
    "tone": {
     "dir": 0,
@@ -463,12 +441,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.905,
+    "recency": 0.904,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2714
+    "effective": 0.2711
    },
    "tone": {
     "dir": 0,
@@ -483,12 +461,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.903,
+    "recency": 0.902,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2708
+    "effective": 0.2705
    },
    "tone": {
     "dir": 1,
@@ -505,12 +483,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.899,
+    "recency": 0.898,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2697
+    "effective": 0.2695
    },
    "tone": {
     "dir": 1,
@@ -527,12 +505,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.897,
+    "recency": 0.896,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2691
+    "effective": 0.2688
    },
    "tone": {
     "dir": 0,
@@ -547,12 +525,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.895,
+    "recency": 0.894,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2685
+    "effective": 0.2683
    },
    "tone": {
     "dir": 0,
@@ -572,7 +550,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2677
+    "effective": 0.2675
    },
    "tone": {
     "dir": 0,
@@ -587,12 +565,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.88,
+    "recency": 0.879,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.264
+    "effective": 0.2638
    },
    "tone": {
     "dir": 0,
@@ -612,7 +590,27 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2551
+    "effective": 0.2549
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
+   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
+   "source": "fastcompany.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.728,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2185
    },
    "tone": {
     "dir": 0,
@@ -627,7 +625,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.933,
+    "recency": 0.932,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -664,7 +662,92 @@
    "pct": -1.98
   }
  ],
- "policy": [],
+ "policy": [
+  {
+   "title": "‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers - JD Supra",
+   "published": "Thu, 19 Nov 2026 20:54:54 GMT",
+   "source": "jdsupra.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia scandal could be tipping point toward tougher export control enforcement - The Washington Post",
+   "published": "Thu, 19 Nov 2026 21:32:47 GMT",
+   "source": "washingtonpost.com",
+   "tier": 3
+  },
+  {
+   "title": "New US export controls on Malaysia, Singapore for advanced chips to take effect Nov 19 - The Edge Malaysia",
+   "published": "Thu, 19 Nov 2026 20:39:18 GMT",
+   "source": "theedgemalaysia.com",
+   "tier": 3
+  },
+  {
+   "title": "What’s next for AI regulation once Democrats control Congress? - AZ Family",
+   "published": "Thu, 19 Nov 2026 01:55:00 GMT",
+   "source": "azfamily.com",
+   "tier": 3
+  },
+  {
+   "title": "Trump Warns Against Regulations That Would ‘Stifle’ AI Industry - Bloomberg.com",
+   "published": "Thu, 19 Nov 2026 03:52:00 GMT",
+   "source": "bloomberg.com",
+   "tier": 1
+  },
+  {
+   "title": "Tighter rules on chip exports come amid broad divisions over AI and China - The Christian Science Monitor",
+   "published": "Wed, 18 Nov 2026 05:00:00 GMT",
+   "source": "csmonitor.com",
+   "tier": 3
+  },
+  {
+   "title": "U.S. Export Controls Extend from Where AI Chips Go to Who Uses the Compute - TrendForce",
+   "published": "Wed, 18 Nov 2026 11:10:21 GMT",
+   "source": "insights.trendforce.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia Halts AI Chip Shipments to China as U.S. Tightens Export Controls, Beijing Threatens Countermeasures - Forth.News",
+   "published": "Wed, 18 Nov 2026 09:21:57 GMT",
+   "source": "forth.news",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia Introduced Alibaba to Alice Huang for Workaround on U.S. Export Controls - The Information",
+   "published": "Wed, 18 Nov 2026 03:05:00 GMT",
+   "source": "theinformation.com",
+   "tier": 3
+  },
+  {
+   "title": "BIS targets remote access to advanced chips through overseas data centers - Nixon Peabody",
+   "published": "Tue, 17 Nov 2026 05:29:13 GMT",
+   "source": "nixonpeabody.com",
+   "tier": 3
+  },
+  {
+   "title": "AMD stock drops after Hunterbrook Media raises export control concerns - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:15:08 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "US panel proposes tougher AI chip export rules ahead of Xi-Trump talks - South China Morning Post",
+   "published": "Wed, 18 Nov 2026 10:45:05 GMT",
+   "source": "scmp.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia Forms Board Panel on AI Chip Export Controls - TechRepublic",
+   "published": "Wed, 18 Nov 2026 19:39:30 GMT",
+   "source": "techrepublic.com",
+   "tier": 3
+  },
+  {
+   "title": "Why Anthropic Wins From Tighter Chip Export Controls - The Daily Upside",
+   "published": "Thu, 19 Nov 2026 05:01:00 GMT",
+   "source": "thedailyupside.com",
+   "tier": 3
+  }
+ ],
  "filings": [
   {
    "form": "424B4",
@@ -1193,73 +1276,99 @@
   ],
   "buy_condition_met": false
  },
- "tone_net": 0.1431,
+ "tone_net": 0.1037,
  "signals": {
   "short": {
    "name": "短线",
    "horizon": "数日内",
-   "score": 1,
-   "up": 2,
-   "down": 1,
-   "max": 6,
-   "note": "全部以当日开盘为参照，首日也成立。新增相对强弱：把大盘波动和个股问题分开——跟着大盘跌不是关于这家公司的消息。",
+   "score": 0,
+   "net": 0,
+   "cap": 13,
+   "up": 3,
+   "down": 3,
+   "up_n": 2,
+   "down_n": 1,
+   "raw": 1,
+   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
      "t": "日内跌幅 ≥4% 且无基本面消息（现 -12.85%，自当日开盘）",
      "on": true,
-     "live": true
+     "live": true,
+     "w": 2,
+     "why": "价格是事实，但「无消息」只能证明我没搜到，不能证明不存在"
     },
     {
      "t": "跌幅主要来自大盘而非个股（ANT -12.8% vs 纳指100 -6.3%，相对强弱 -6.6）",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 3,
+     "why": "两个可独立核对的收盘价相减，是短线最强的「这是不是关于这家公司」的判别器"
     },
     {
      "t": "处于解禁后 0–3 天窗口（利空出尽）",
      "on": true,
-     "live": true
+     "live": true,
+     "w": 1,
+     "why": "依据只有 SpaceX 一个样本（n=1），当趋势用不住"
     },
     {
      "t": "现价站上当日中位价",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 1,
+     "why": "纯价格位置，没有任何信息含量，只是方向的粗略读数"
     },
     {
-     "t": "加权新闻口径为正（现 +0.14）",
+     "t": "加权新闻口径为正（现 +0.10）",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 1,
+     "why": "标题关键词匹配，连句子都没读懂，权重必须低"
     }
    ],
    "negative": [
     {
      "t": "日内涨幅 ≥4%（现 -12.85%，短线追高）",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 1,
+     "why": "「涨多了就危险」是经验法则，不是证据"
     },
     {
      "t": "显著跑输大盘（相对强弱 -6.6，个股自身问题）",
      "on": true,
-     "live": true
+     "live": true,
+     "w": 3,
+     "why": "超额跌幅无法用大盘解释，必然来自这只股票自身"
     },
     {
      "t": "3 天内有解禁",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 2,
+     "why": "合同条款写死的日期和股数，但卖不卖仍取决于持有人"
     },
     {
      "t": "今日出现 Form 4 / 144（内部人在卖）",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 3,
+     "why": "法定申报文件，内部人已经卖了。不是猜测，是记录"
     },
     {
      "t": "一、二级信源出现基本面负面消息",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 3,
+     "why": "通过了信源分级和基本面关键词双重过滤"
     },
     {
-     "t": "加权新闻口径为负（现 +0.14）",
+     "t": "加权新闻口径为负（现 +0.10）",
      "on": false,
-     "live": true
+     "live": true,
+     "w": 1,
+     "why": "同上，关键词启发式"
     }
    ],
    "intraday_pct": -12.85,
@@ -1271,67 +1380,93 @@
    "name": "长线",
    "horizon": "数月",
    "score": 0,
-   "up": 3,
-   "down": 3,
-   "max": 6,
+   "net": 1,
+   "cap": 13,
+   "up": 8,
+   "down": 7,
+   "up_n": 3,
+   "down_n": 3,
+   "raw": 0,
    "note": "基于招股书里经审计的三年财报 + 2026 前九个月，不是占位符。注意：$104B 的净亏损几乎全部是可转债公允价值变动（非现金），IPO 后这些票据转股，该科目基本消失。真正描述生意的是经营利润和经营现金流两行。",
    "positive": [
     {
      "t": "经营现金流为正（9M2026 +$6.6B，上年同期 −$2.0B）",
      "on": true,
-     "live": false
+     "live": false,
+     "w": 3,
+     "why": "经审计的现金流量表。生意自己产生现金，不靠融资续命"
     },
     {
      "t": "经营利润率大幅改善（-205% → -3.8%）",
      "on": true,
-     "live": false
+     "live": false,
+     "w": 3,
+     "why": "经审计，跨五个期间的趋势，不是单点"
     },
     {
      "t": "账上现金占市值 ≥15%（$232B，占 18%）",
      "on": true,
-     "live": false
+     "live": false,
+     "w": 2,
+     "why": "现金是地板不是引擎——能防止死掉，不能让股价涨"
     },
     {
      "t": "跌破 $83 发行价",
      "on": false,
-     "live": false
+     "live": false,
+     "w": 2,
+     "why": "机构配售成本线，有参考意义但本质仍是一个任意价格"
     },
     {
      "t": "较上市后高点回撤 ≥25%",
      "on": false,
-     "live": false
+     "live": false,
+     "w": 1,
+     "why": "纯价格位置。高点本身是首日情绪定的，不是价值锚"
     },
     {
      "t": "EV/Sales < 15×（现 24×）",
      "on": false,
-     "live": false
+     "live": false,
+     "w": 2,
+     "why": "扣现金后的估值，比市销率干净，但 15× 这个门槛是我定的"
     }
    ],
    "negative": [
     {
      "t": "剩余待解禁 10.2B 股 = 流通盘 10.4 倍",
      "on": true,
-     "live": false
+     "live": false,
+     "w": 3,
+     "why": "招股书里逐笔写明的日期和股数，确定性最高的一条"
     },
     {
      "t": "经营仍未转正（9M2026 经营亏损 $1.26B，利润率 -3.8%）",
      "on": true,
-     "live": false
+     "live": false,
+     "w": 1,
+     "why": "技术上成立，但 −3.8% 且在快速收敛，趋势已记在买入侧，这里不该重复计重"
     },
     {
      "t": "算力与基础设施占营收 57%，高于 50%",
      "on": true,
-     "live": false
+     "live": false,
+     "w": 3,
+     "why": "决定这门生意的利润率天花板。营收增速再高也绕不过这一条"
     },
     {
      "t": "市销率 29× 高于 30×",
      "on": false,
-     "live": false
+     "live": false,
+     "w": 2,
+     "why": "估值偏贵，但 30× 这个门槛是惯例不是定律"
     },
     {
      "t": "较发行价溢价 ≥25%",
      "on": false,
-     "live": false
+     "live": false,
+     "w": 1,
+     "why": "相对一个任意的承销定价，信息含量最低"
     }
    ],
    "ps": 29.0,
@@ -1346,68 +1481,94 @@
  "signal": {
   "name": "短线",
   "horizon": "数日内",
-  "score": 1,
-  "up": 2,
-  "down": 1,
-  "max": 6,
-  "note": "全部以当日开盘为参照，首日也成立。新增相对强弱：把大盘波动和个股问题分开——跟着大盘跌不是关于这家公司的消息。",
+  "score": 0,
+  "net": 0,
+  "cap": 13,
+  "up": 3,
+  "down": 3,
+  "up_n": 2,
+  "down_n": 1,
+  "raw": 1,
+  "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
     "t": "日内跌幅 ≥4% 且无基本面消息（现 -12.85%，自当日开盘）",
     "on": true,
-    "live": true
+    "live": true,
+    "w": 2,
+    "why": "价格是事实，但「无消息」只能证明我没搜到，不能证明不存在"
    },
    {
     "t": "跌幅主要来自大盘而非个股（ANT -12.8% vs 纳指100 -6.3%，相对强弱 -6.6）",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 3,
+    "why": "两个可独立核对的收盘价相减，是短线最强的「这是不是关于这家公司」的判别器"
    },
    {
     "t": "处于解禁后 0–3 天窗口（利空出尽）",
     "on": true,
-    "live": true
+    "live": true,
+    "w": 1,
+    "why": "依据只有 SpaceX 一个样本（n=1），当趋势用不住"
    },
    {
     "t": "现价站上当日中位价",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 1,
+    "why": "纯价格位置，没有任何信息含量，只是方向的粗略读数"
    },
    {
-    "t": "加权新闻口径为正（现 +0.14）",
+    "t": "加权新闻口径为正（现 +0.10）",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 1,
+    "why": "标题关键词匹配，连句子都没读懂，权重必须低"
    }
   ],
   "negative": [
    {
     "t": "日内涨幅 ≥4%（现 -12.85%，短线追高）",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 1,
+    "why": "「涨多了就危险」是经验法则，不是证据"
    },
    {
     "t": "显著跑输大盘（相对强弱 -6.6，个股自身问题）",
     "on": true,
-    "live": true
+    "live": true,
+    "w": 3,
+    "why": "超额跌幅无法用大盘解释，必然来自这只股票自身"
    },
    {
     "t": "3 天内有解禁",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 2,
+    "why": "合同条款写死的日期和股数，但卖不卖仍取决于持有人"
    },
    {
     "t": "今日出现 Form 4 / 144（内部人在卖）",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 3,
+    "why": "法定申报文件，内部人已经卖了。不是猜测，是记录"
    },
    {
     "t": "一、二级信源出现基本面负面消息",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 3,
+    "why": "通过了信源分级和基本面关键词双重过滤"
    },
    {
-    "t": "加权新闻口径为负（现 +0.14）",
+    "t": "加权新闻口径为负（现 +0.10）",
     "on": false,
-    "live": true
+    "live": true,
+    "w": 1,
+    "why": "同上，关键词启发式"
    }
   ],
   "intraday_pct": -12.85,
@@ -1420,8 +1581,8 @@
    "h": "2026-11-19 16:00",
    "price": 97.17,
    "state": "MECHANICAL",
-   "score": 1,
-   "tone": 0.143
+   "score": 0,
+   "tone": 0.104
   }
  ],
  "source_records": {},
