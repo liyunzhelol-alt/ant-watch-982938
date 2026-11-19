@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T14:29:57-05:00",
+ "generated": "2026-11-19T14:30:46-05:00",
  "errors": [],
  "quote": {
-  "price": 96.733,
+  "price": 96.679,
   "prev_close": 83.0,
-  "pct_vs_prev": 16.55,
-  "pct_vs_ipo": 16.55,
-  "pct_vs_day1_open": -13.24,
+  "pct_vs_prev": 16.48,
+  "pct_vs_ipo": 16.48,
+  "pct_vs_day1_open": -13.29,
   "day_high": 114.99,
   "day_low": 92.72,
   "high_52w": 114.99,
   "low_52w": 92.72,
-  "volume": 695461988,
-  "market_time": 1795116600,
+  "volume": 696380783,
+  "market_time": 1795116649,
   "currency": "USD"
  },
  "news": [
@@ -396,7 +396,7 @@
   {
    "level": "info",
    "code": "BELOW_DAY1_OPEN",
-   "message": "低于首日开盘 $111.5（现 $96.733）",
+   "message": "低于首日开盘 $111.5（现 $96.679）",
    "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
   },
   {
