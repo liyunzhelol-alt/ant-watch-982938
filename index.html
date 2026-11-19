@@ -6,60 +6,79 @@
 <meta name="robots" content="noindex,nofollow">
 <title>ANT Watch</title>
 <style>
-  :root{
-    --bg:#0d1117; --panel:#161b22; --line:#272e38; --fg:#e6edf3; --dim:#8b949e;
-    --up:#3fb950; --down:#f85149; --warn:#d29922; --accent:#58a6ff;
-  }
+  :root{--bg:#0d1117;--panel:#161b22;--line:#272e38;--fg:#e6edf3;--dim:#8b949e;
+    --up:#3fb950;--down:#f85149;--warn:#d29922;--accent:#58a6ff}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--fg);
     font:15px/1.55 -apple-system,"Segoe UI",system-ui,"PingFang SC","Microsoft YaHei",sans-serif}
-  .wrap{max-width:860px;margin:0 auto;padding:16px 14px 60px}
-  h1{font-size:17px;margin:0;letter-spacing:.5px}
-  h2{font-size:13px;text-transform:uppercase;letter-spacing:1.2px;color:var(--dim);
-    margin:26px 0 10px;font-weight:600}
+  .wrap{max-width:880px;margin:0 auto;padding:14px 13px 60px}
+  h1{font-size:16px;margin:0;letter-spacing:.5px}
+  h2{font-size:12.5px;text-transform:uppercase;letter-spacing:1.2px;color:var(--dim);
+    margin:24px 0 9px;font-weight:600}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
-  .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:14px}
-  .stamp{font-size:11px;color:var(--dim)}
-  .px{font-size:44px;font-weight:700;letter-spacing:-1.5px;line-height:1}
+  .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:12px}
+  .stamp{font-size:11px;color:var(--dim);white-space:nowrap}
+  .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--up);
+    margin-right:5px;vertical-align:middle;animation:p 2s infinite}
+  @keyframes p{50%{opacity:.25}}
+
+  /* ---- judgment, first thing on the page ---- */
+  .read{border:1px solid var(--line);border-left:4px solid var(--accent);
+    background:linear-gradient(180deg,#141b26,#161b22);border-radius:10px;padding:15px}
+  .read.buy{border-left-color:var(--up)}
+  .read.risk{border-left-color:var(--down)}
+  .read .st{font:600 10.5px/1 ui-monospace,Menlo,monospace;letter-spacing:1.3px;color:var(--dim)}
+  .read .hd{font-size:20px;font-weight:700;margin:7px 0 10px;letter-spacing:-.3px}
+  .read li{font-size:13.5px;color:#c9d4df;margin:3px 0}
+  .read ul{margin:0;padding-left:17px}
+  .verdict{margin-top:12px;padding:9px 11px;border-radius:7px;font-size:13.5px;font-weight:600}
+  .verdict.no{background:#1a1f27;color:var(--dim)}
+  .verdict.yes{background:#13261a;color:var(--up)}
+
+  .px{font-size:46px;font-weight:700;letter-spacing:-1.8px;line-height:1;
+    font-variant-numeric:tabular-nums}
   .chg{font-size:15px;font-weight:600;margin-left:8px}
-  .up{color:var(--up)} .down{color:var(--down)} .warn{color:var(--warn)}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:1px;
-    background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:14px}
-  .cell{background:var(--panel);padding:9px 11px}
-  .cell .k{font-size:10.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.7px}
-  .cell .v{font-size:16px;font-weight:600;margin-top:3px}
-  .alert{border-left:3px solid var(--warn);background:#1c1a12;padding:11px 13px;
-    border-radius:0 8px 8px 0;margin-bottom:9px}
+  .up{color:var(--up)}.down{color:var(--down)}.warn{color:var(--warn)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:1px;
+    background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:13px}
+  .cell{background:var(--panel);padding:8px 10px}
+  .cell .k{font-size:10px;color:var(--dim);text-transform:uppercase;letter-spacing:.7px}
+  .cell .v{font-size:15.5px;font-weight:600;margin-top:3px;font-variant-numeric:tabular-nums}
+  .alert{border-left:3px solid var(--warn);background:#1c1a12;padding:10px 12px;
+    border-radius:0 8px 8px 0;margin-bottom:8px}
   .alert.high{border-color:var(--down);background:#1f1416}
   .alert.info{border-color:var(--accent);background:#121a24}
-  .alert .code{font:600 10.5px/1 ui-monospace,Menlo,monospace;color:var(--dim);letter-spacing:1px}
+  .alert .code{font:600 10px/1 ui-monospace,Menlo,monospace;color:var(--dim);letter-spacing:1px}
   .alert .msg{font-weight:600;margin:5px 0 3px}
-  .alert .act{font-size:13.5px;color:var(--dim)}
+  .alert .act{font-size:13px;color:var(--dim)}
   table{width:100%;border-collapse:collapse;font-size:13.5px}
-  th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.8px;
-    color:var(--dim);font-weight:600;padding:0 8px 7px;border-bottom:1px solid var(--line)}
-  td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:.8px;color:var(--dim);
+    font-weight:600;padding:0 7px 6px;border-bottom:1px solid var(--line)}
+  td{padding:7px;border-bottom:1px solid var(--line);vertical-align:top}
   tr:last-child td{border-bottom:0}
   .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   .soon{color:var(--warn);font-weight:600}
   .tbd{color:var(--dim);font-style:italic}
-  .t1,.t2,.t3,.t4{font:600 9.5px/1 ui-monospace,Menlo,monospace;padding:2.5px 5px;
-    border-radius:3px;letter-spacing:.5px}
-  .t1{background:#1b3a24;color:#5fd47f} .t2{background:#15304d;color:#79b8ff}
-  .t3{background:#2b2b2b;color:#9aa4ae} .t4{background:#3d1517;color:#ff7b72}
-  .news li{list-style:none;padding:8px 0;border-bottom:1px solid var(--line);
-    display:flex;gap:9px;align-items:flex-start}
+  .t1,.t2,.t3,.t4{font:600 9.5px/1 ui-monospace,Menlo,monospace;padding:2.5px 5px;border-radius:3px}
+  .t1{background:#1b3a24;color:#5fd47f}.t2{background:#15304d;color:#79b8ff}
+  .t3{background:#2b2b2b;color:#9aa4ae}.t4{background:#3d1517;color:#ff7b72}
   .news ul{margin:0;padding:0}
+  .news li{list-style:none;padding:9px 0;border-bottom:1px solid var(--line)}
+  .news li:last-child{border-bottom:0}
+  .news .hd{display:flex;gap:8px;align-items:flex-start}
   .news .ttl{flex:1}
-  .news .src{font-size:11px;color:var(--dim);display:block;margin-top:2px}
+  .news .meta{font-size:11px;color:var(--dim);margin-top:3px}
+  .news .wsplit{font:10.5px/1.5 ui-monospace,Menlo,monospace;color:var(--dim);margin-top:4px}
+  .ebar{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:5px}
+  .ebar i{display:block;height:100%;background:var(--accent)}
   .w{height:7px;background:var(--line);border-radius:4px;overflow:hidden;margin-top:5px}
   .w i{display:block;height:100%;background:var(--accent)}
   .rule{font-size:13.5px;padding:7px 0;border-bottom:1px solid var(--line)}
   .rule:last-child{border-bottom:0}
-  .rule b{color:var(--accent);font:600 12px/1 ui-monospace,Menlo,monospace}
+  .rule b{color:var(--accent);font:600 11.5px/1 ui-monospace,Menlo,monospace}
   .note{font-size:12.5px;color:var(--dim);margin-top:9px}
-  a{color:var(--accent)}
   .err{color:var(--down);font-size:12.5px}
+  code{font:11.5px ui-monospace,Menlo,monospace;background:#0b0f14;padding:1px 5px;border-radius:3px}
 </style>
 </head>
 <body>
@@ -67,10 +86,14 @@
 
   <div class="top">
     <h1>ANT WATCH <span style="color:var(--dim);font-weight:400">· Anthropic, PBC · NasdaqGS</span></h1>
-    <span class="stamp" id="stamp">loading…</span>
+    <span class="stamp"><span class="dot"></span><span id="stamp">loading…</span></span>
   </div>
 
-  <div class="card">
+  <!-- 1. judgment -->
+  <div id="read"><div class="card" style="color:var(--dim)">loading…</div></div>
+
+  <!-- 2. price -->
+  <div class="card" style="margin-top:14px">
     <div><span class="px" id="px">—</span><span class="chg" id="chg"></span></div>
     <div class="grid" id="stats"></div>
   </div>
@@ -81,122 +104,170 @@
   <h2>解禁日历 <span style="text-transform:none;letter-spacing:0">— 来源：424B4 招股书原文</span></h2>
   <div class="card"><table id="unlocks"></table>
     <div class="note">IPO 自由流通股 <b>9.8 亿</b>。Google 同步私募 <b>3.13 亿股不受锁定期约束</b>。
-      条款含 pro rata 条件：部分持有人获释会触发其他持有人按比例同步释放。</div>
-  </div>
+      条款含 pro rata：部分持有人获释会触发其他持有人按比例同步释放。</div></div>
 
   <h2>催化剂</h2>
   <div class="card"><table id="cats"></table></div>
 
-  <h2>预先承诺的规则 <span style="text-transform:none;letter-spacing:0">— 写定于 2026-11-19，事后不调参</span></h2>
+  <h2>预先承诺的规则 <span style="text-transform:none;letter-spacing:0">— 写定 2026-11-19，事后不调参</span></h2>
   <div class="card" id="rules"></div>
 
-  <h2>信源权重</h2>
+  <h2>信源权重 <span style="text-transform:none;letter-spacing:0">— 动态</span></h2>
   <div class="card" id="tiers"></div>
 
-  <h2>新闻</h2>
+  <h2>新闻 <span style="text-transform:none;letter-spacing:0">— 按有效权重排序</span></h2>
   <div class="card news" id="news"></div>
 
-  <div class="note" style="margin-top:26px">
-    本页只展示事实、日历与预先设定的触发条件。<b>不提供买卖建议。</b>
-    行情经 Yahoo Finance，可能延迟，成交前请以券商报价为准。
+  <div class="note" style="margin-top:24px">
+    本页展示事实、日历、预设触发条件和一个可审计的状态判断。<b>不提供买卖指令，不预测价格。</b>
+    行情经 Yahoo Finance。
   </div>
   <div class="err" id="err"></div>
 </div>
 
 <script>
-const fmtM = n => (n/1e6).toFixed(0) + "M";
-const sign = n => (n > 0 ? "+" : "") + n.toFixed(2) + "%";
-const cls  = n => n > 0 ? "up" : n < 0 ? "down" : "";
+const fmtM = n => (n/1e6).toFixed(0)+"M";
+const sign = n => (n>0?"+":"")+n.toFixed(2)+"%";
+const cls  = n => n>0?"up":n<0?"down":"";
+let lastGen = null;
 
-function daysTo(d){
-  if(!d) return null;
-  const t = new Date(); t.setHours(0,0,0,0);
-  return Math.round((new Date(d+"T00:00:00") - t) / 86400000);
+function daysTo(d){ if(!d) return null;
+  const t=new Date(); t.setHours(0,0,0,0);
+  return Math.round((new Date(d+"T00:00:00")-t)/86400000); }
+
+function tick(){
+  if(!lastGen) return;
+  const s = Math.max(0, Math.round((Date.now()-lastGen)/1000));
+  document.getElementById("stamp").textContent =
+    s<60 ? `数据 ${s} 秒前` : `数据 ${Math.floor(s/60)} 分 ${s%60} 秒前`;
 }
+setInterval(tick, 1000);
 
-fetch("data.json?t=" + Date.now()).then(r => r.json()).then(d => {
-  const cal = d.calendar, q = d.quote;
-  document.getElementById("stamp").textContent = "更新于 " + (d.generated||"").replace("T"," ").slice(0,16) + " ET";
+function render(d){
+  const cal=d.calendar, q=d.quote, r=d.read;
+  lastGen = new Date(d.generated).getTime(); tick();
 
-  if(q){
-    document.getElementById("px").textContent = "$" + q.price.toFixed(2);
-    const c = document.getElementById("chg");
-    c.textContent = sign(q.pct_vs_ipo) + " vs IPO";
-    c.className = "chg " + cls(q.pct_vs_ipo);
-    const cells = [
-      ["发行价", "$" + cal.ipo.price.toFixed(2), ""],
-      ["首日开盘", "$" + cal.ipo.day1_open.toFixed(2), ""],
-      ["vs 首日开盘", sign(q.pct_vs_day1_open), cls(q.pct_vs_day1_open)],
-      ["日内高", q.day_high ? "$" + q.day_high.toFixed(2) : "—", ""],
-      ["日内低", q.day_low  ? "$" + q.day_low.toFixed(2)  : "—", ""],
-      ["上市后最高", q.high_52w ? "$" + q.high_52w.toFixed(2) : "—", ""],
-      ["较最高回撤", q.high_52w ? sign(-(1 - q.price/q.high_52w)*100) : "—",
-        q.high_52w && q.price < q.high_52w ? "down" : ""],
-      ["成交量", q.volume ? fmtM(q.volume) : "—", ""]
-    ];
-    document.getElementById("stats").innerHTML = cells.map(
-      ([k,v,kl]) => `<div class="cell"><div class="k">${k}</div><div class="v ${kl}">${v}</div></div>`).join("");
+  // ---------- judgment first ----------
+  if(r){
+    const kind = r.state==="BELOW_IPO" ? "buy" : r.state==="STORY_RISK" ? "risk" : "";
+    document.getElementById("read").innerHTML =
+      `<div class="read ${kind}">
+        <div class="st">当前判断 · ${r.state}</div>
+        <div class="hd">${r.headline}</div>
+        <ul>${r.evidence.map(e=>`<li>${e}</li>`).join("")}</ul>
+        <div class="verdict ${r.buy_condition_met?"yes":"no"}">
+          ${r.buy_condition_met
+            ? "✓ 预设买入观察条件已触发 — 见下方规则"
+            : "— 预设买入观察条件未触发。上涨不构成买入理由。"}</div>
+        <div class="note" style="margin-top:11px"><b>什么会让我改变判断：</b></div>
+        <ul style="margin-top:4px">${r.would_change.map(e=>`<li style="color:var(--dim)">${e}</li>`).join("")}</ul>
+        <div class="note" style="margin-top:11px"><b>你的三批计划状态：</b></div>
+        <ul style="margin-top:4px">${r.tranches.map(([a,b,s])=>
+          `<li><b>${a}</b> — <span style="color:${s==="ready"?"var(--up)":"var(--dim)"}">${b}</span></li>`).join("")}</ul>
+      </div>`;
   }
 
-  const al = (d.alerts||[]).filter(a => a.level !== "low");
-  if(al.length) document.getElementById("alerts").innerHTML = al.map(a =>
-    `<div class="alert ${a.level}"><div class="code">${a.code}</div>
-     <div class="msg">${a.message}</div><div class="act">${a.action}</div></div>`).join("");
+  // ---------- price ----------
+  if(q){
+    document.getElementById("px").textContent="$"+q.price.toFixed(2);
+    const c=document.getElementById("chg");
+    c.textContent=sign(q.pct_vs_ipo)+" vs IPO"; c.className="chg "+cls(q.pct_vs_ipo);
+    const dd = q.high_52w ? -(1-q.price/q.high_52w)*100 : null;
+    document.getElementById("stats").innerHTML=[
+      ["发行价","$"+cal.ipo.price.toFixed(2),""],
+      ["首日开盘","$"+cal.ipo.day1_open.toFixed(2),""],
+      ["vs 首日开盘",sign(q.pct_vs_day1_open),cls(q.pct_vs_day1_open)],
+      ["日内高",q.day_high?"$"+q.day_high.toFixed(2):"—",""],
+      ["日内低",q.day_low?"$"+q.day_low.toFixed(2):"—",""],
+      ["上市后最高",q.high_52w?"$"+q.high_52w.toFixed(2):"—",""],
+      ["较最高回撤",dd!==null?sign(dd):"—",dd<0?"down":""],
+      ["成交量",q.volume?fmtM(q.volume):"—",""]
+    ].map(([k,v,kl])=>`<div class="cell"><div class="k">${k}</div><div class="v ${kl}">${v}</div></div>`).join("");
+  }
 
-  document.getElementById("unlocks").innerHTML =
-    "<tr><th>日期 / 触发条件</th><th class='num'>股数</th><th class='num'>累计</th></tr>" +
-    (() => { let cum = 0; return cal.unlocks.map(u => {
-      cum += u.shares;
-      const n = daysTo(u.date);
-      const when = u.date
-        ? `${u.date}${n !== null && n >= 0 && n <= 14 ? ` <span class="soon">(${n===0?"今天":n+" 天后"})</span>` : ""}`
+  const al=(d.alerts||[]).filter(a=>a.level!=="low");
+  document.getElementById("alerts").innerHTML = al.length ? al.map(a=>
+    `<div class="alert ${a.level}"><div class="code">${a.code}</div>
+     <div class="msg">${a.message}</div><div class="act">${a.action}</div></div>`).join("")
+    : `<div class="card" style="color:var(--dim)">无</div>`;
+
+  document.getElementById("unlocks").innerHTML=
+    "<tr><th>日期 / 触发条件</th><th class='num'>股数</th><th class='num'>累计</th></tr>"+
+    (()=>{let cum=0; return cal.unlocks.map(u=>{ cum+=u.shares;
+      const n=daysTo(u.date);
+      const when=u.date
+        ? `${u.date}${n!==null&&n>=0&&n<=14?` <span class="soon">(${n===0?"今天":n+" 天后"})</span>`:""}`
         : `<span class="tbd">${u.anchor}</span>`;
       return `<tr><td>${when}<br><span style="font-size:11.5px;color:var(--dim)">${u.note}</span></td>
-        <td class="num">${fmtM(u.shares)}</td><td class="num">${fmtM(cum)}</td></tr>`;
-    }).join(); })();
+        <td class="num">${fmtM(u.shares)}</td><td class="num">${fmtM(cum)}</td></tr>`;}).join();})();
 
-  document.getElementById("cats").innerHTML =
-    "<tr><th>日期</th><th>事件</th></tr>" + cal.catalysts.map(c => {
-      const n = daysTo(c.date);
+  document.getElementById("cats").innerHTML=
+    "<tr><th>日期</th><th>事件</th></tr>"+cal.catalysts.map(c=>{const n=daysTo(c.date);
       return `<tr><td class="num">${c.date
-        ? c.date + (n !== null && n >= 0 && n <= 14 ? `<br><span class="soon">${n===0?"今天":n+" 天后"}</span>` : "")
+        ? c.date+(n!==null&&n>=0&&n<=14?`<br><span class="soon">${n===0?"今天":n+" 天后"}</span>`:"")
         : '<span class="tbd">未公布</span>'}</td>
-        <td><b>${c.label}</b><br><span style="font-size:12px;color:var(--dim)">${c.note}</span></td></tr>`;
-    }).join("");
+        <td><b>${c.label}</b><br><span style="font-size:12px;color:var(--dim)">${c.note}</span></td></tr>`;}).join("");
 
-  document.getElementById("rules").innerHTML = [
-    ["BIG_UP / BIG_DOWN", "日内涨跌 ≥ ±10% → 高优先级推送"],
-    ["SMALL_UP / SMALL_DOWN", "±4% → 仅记录，不推送"],
-    ["BIG_DOWN_MECHANICAL", "大跌但一、二级信源无基本面消息 → 判定为机械性抛压（解禁 / 流动性）。<b style='color:var(--up)'>这是执行下一批买入的预设条件。</b>"],
-    ["BIG_DOWN_STORY", "大跌且伴随财报 / 诉讼 / 监管 / 高管离职等消息 → <b style='color:var(--down)'>明确不接</b>"],
-    ["BELOW_IPO", "跌破 $83 发行价 → 成本低于机构配售价，买入观察条件"],
-    ["UNLOCK_T3", "任一解禁日前 3 天 → 提醒。依据：SpaceX 的抛压出现在解禁之前"],
-    ["UNLOCK_DAY / POST", "解禁当日及之后 3 天 → 观察窗口。依据：SpaceX 首次解禁后涨 26%"],
-    ["CATALYST", "静默期结束 / 财报日 前 3 天及当天"],
-    ["NEWS_T1", "一级信源出现基本面关键词 → 立即推送"]
-  ].map(([k,v]) => `<div class="rule"><b>${k}</b> — ${v}</div>`).join("") +
-   `<div class="note">上涨不构成买入提示。只有 BIG_DOWN_MECHANICAL 和 BELOW_IPO 会被标为买入观察条件，
-    因为只有这两个状态能让你以低于当前市场共识的价格建仓。</div>`;
+  document.getElementById("rules").innerHTML=[
+    ["BIG_DOWN_MECHANICAL","跌 ≥10% 且一、二级信源无基本面消息 → 机械性抛压。<b style='color:var(--up)'>执行下一批的预设条件</b>"],
+    ["BIG_DOWN_STORY","跌 ≥10% 且伴随财报/诉讼/监管/高管离职 → <b style='color:var(--down)'>明确不接</b>"],
+    ["BELOW_IPO","跌破 $83 → 成本低于机构配售价，买入观察条件"],
+    ["BIG_UP","涨 ≥10% → 只通知。<b style='color:var(--warn)'>上涨不是买入理由</b>"],
+    ["±4%","小涨小跌 → 只记录，不推送"],
+    ["UNLOCK_T3","解禁日前 3 天。依据：SpaceX 的抛压出现在解禁之前"],
+    ["UNLOCK_DAY / POST","解禁当日及之后 3 天。依据：SpaceX 首次解禁后涨 26%"],
+    ["NEWS_T1","一级信源出现基本面关键词 → 立即推送"]
+  ].map(([k,v])=>`<div class="rule"><b>${k}</b> — ${v}</div>`).join("");
 
-  const T = cal.source_tiers;
-  document.getElementById("tiers").innerHTML = ["1","2","3","4"].map(k =>
-    `<div style="margin-bottom:11px"><div style="display:flex;justify-content:space-between">
-      <span><span class="t${k}">TIER ${k}</span> ${T[k].label}</span>
-      <b>${(T[k].weight*100).toFixed(0)}%</b></div>
+  // ---------- weights ----------
+  const T=cal.source_tiers, M=d.weight_method||{}, R=d.source_records||{};
+  const recs=Object.entries(R).filter(([,v])=>v.n>0)
+    .sort((a,b)=>b[1].n-a[1].n).slice(0,12);
+  document.getElementById("tiers").innerHTML=
+    `<div class="note" style="margin-top:0"><b>有效权重 = 基础分级 × 时效衰减 × 交叉印证 × 历史记录</b></div>
+     <table style="margin:10px 0 14px"><tr><th>因子</th><th>算法</th></tr>
+      <tr><td><b>基础分级</b></td><td>T1 100% · T2 60% · T3 30% · T4 0%（按编辑问责与一手信源距离）</td></tr>
+      <tr><td><b>时效衰减</b></td><td><code>${M.recency||"—"}</code> — 48 小时权重减半</td></tr>
+      <tr><td><b>交叉印证</b></td><td>${M.corroboration||"—"}</td></tr>
+      <tr><td><b>历史记录</b></td><td>${M.track_record||"—"}</td></tr></table>`+
+    ["1","2","3","4"].map(k=>
+    `<div style="margin-bottom:10px"><div style="display:flex;justify-content:space-between">
+      <span><span class="t${k}">TIER ${k}</span> ${T[k].label}</span><b>${(T[k].weight*100).toFixed(0)}%</b></div>
       <div class="w"><i style="width:${T[k].weight*100}%;${k==="4"?"background:var(--down)":""}"></i></div>
-      <div style="font-size:11.5px;color:var(--dim);margin-top:4px">${T[k].members.join(" · ")}</div></div>`
-  ).join("") +
-  `<div class="note"><b>权重是固定的，不随"实时准确度"动态调整。</b>
-   动态调权需要可度量的 ground truth——新闻对股价的"对错"无法客观判定，
-   任何动态数字都是编的。这里的分级依据是编辑问责制度和一手信源距离，公开可查。</div>`;
+      <div style="font-size:11px;color:var(--dim);margin-top:4px">${T[k].members.join(" · ")}</div></div>`).join("")+
+    `<div class="note"><b>信源历史记录（累积中）</b> — 命中 = 该信源发布后 24 小时内出现 ≥4% 波动。
+      衡量的是"是否先行披露了会动价格的信息"，不是"观点对不对"（后者无法客观判定）。
+      样本 &lt; 5 时权重锁定在 1.0。当前待观察 ${M.pending_observations||0} 条。</div>`+
+    (recs.length
+      ? `<table style="margin-top:8px"><tr><th>信源</th><th class="num">样本</th><th class="num">命中</th><th class="num">系数</th></tr>`+
+        recs.map(([s,v])=>{const rate=v.hits/v.n, t=v.n>=5?(0.7+0.6*rate):1.0;
+          return `<tr><td>${s}</td><td class="num">${v.n}</td><td class="num">${v.hits}</td>
+            <td class="num ${v.n>=5?(t>1?"up":"down"):""}">${t.toFixed(2)}×${v.n<5?" <span style='color:var(--dim)'>锁定</span>":""}</td></tr>`;}).join("")+
+        `</table>`
+      : `<div class="note" style="color:var(--warn)">还没有满 24 小时的观察样本。这张表会在几天内填满——
+         在那之前历史记录系数对所有信源都是 1.0，不影响排序。这是诚实的空表，不是占位符。</div>`);
 
-  document.getElementById("news").innerHTML = "<ul>" + (d.news||[]).slice(0,18).map(n =>
-    `<li><span class="t${n.tier}">T${n.tier}</span><span class="ttl">${n.title}
-     <span class="src">${n.source} · ${n.published.slice(5,16)}</span></span></li>`).join("") + "</ul>";
+  document.getElementById("news").innerHTML="<ul>"+(d.news||[]).slice(0,18).map(n=>{
+    const w=n.weight||{effective:0};
+    return `<li><div class="hd"><span class="t${n.tier}">T${n.tier}</span>
+      <span class="ttl">${n.title}
+        <div class="meta">${n.source} · ${n.published.slice(5,16)}</div>
+        <div class="wsplit">有效 <b style="color:var(--fg)">${(w.effective*100||0).toFixed(0)}</b>
+          = 基础 ${(w.base*100||0).toFixed(0)} × 时效 ${w.recency??"—"} × 印证 ${w.corroboration??"—"}
+          ${w.corroborated_by?`(+${w.corroborated_by} 家)`:""} × 记录 ${w.track??"—"} <span style="opacity:.6">${w.track_note||""}</span></div>
+        <div class="ebar"><i style="width:${Math.min(100,(w.effective||0)*100)}%"></i></div>
+      </span></div></li>`;}).join("")+"</ul>";
 
-  if(d.errors && d.errors.length)
-    document.getElementById("err").textContent = "抓取错误：" + d.errors.join("; ");
-}).catch(e => document.getElementById("err").textContent = "加载失败：" + e);
+  document.getElementById("err").textContent =
+    (d.errors&&d.errors.length) ? "抓取错误："+d.errors.join("; ") : "";
+}
+
+function poll(){
+  fetch("data.json?t="+Date.now(),{cache:"no-store"})
+    .then(r=>r.json()).then(render)
+    .catch(e=>document.getElementById("err").textContent="加载失败："+e);
+}
+poll(); setInterval(poll, 20000);
 </script>
 </body>
 </html>

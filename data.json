@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T15:52:52-05:00",
+ "generated": "2026-11-19T15:54:25-05:00",
  "errors": [],
  "quote": {
-  "price": 96.78,
+  "price": 96.57,
   "prev_close": 83.0,
-  "pct_vs_prev": 16.6,
-  "pct_vs_ipo": 16.6,
-  "pct_vs_day1_open": -13.2,
+  "pct_vs_prev": 16.35,
+  "pct_vs_ipo": 16.35,
+  "pct_vs_day1_open": -13.39,
   "day_high": 115.1,
   "day_low": 92.72,
   "high_52w": 115.1,
   "low_52w": 92.72,
-  "volume": 809811266,
-  "market_time": 1795121574,
+  "volume": 812135543,
+  "market_time": 1795121668,
   "currency": "USD"
  },
  "news": [
@@ -28,7 +28,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9732
+    "effective": 0.9729
    }
   },
   {
@@ -43,7 +43,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9625
+    "effective": 0.9621
    }
   },
   {
@@ -58,7 +58,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5882
+    "effective": 0.588
    }
   },
   {
@@ -73,7 +73,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5609
+    "effective": 0.5607
    }
   },
   {
@@ -83,12 +83,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.894,
+    "recency": 0.893,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5362
+    "effective": 0.536
    }
   },
   {
@@ -98,12 +98,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.855,
+    "recency": 0.854,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5128
+    "effective": 0.5126
    }
   },
   {
@@ -118,7 +118,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3543
+    "effective": 0.3541
    }
   },
   {
@@ -128,12 +128,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.97,
+    "recency": 0.969,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3345
+    "effective": 0.3344
    }
   },
   {
@@ -143,12 +143,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.95,
+    "recency": 0.949,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3276
+    "effective": 0.3275
    }
   },
   {
@@ -163,7 +163,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2961
+    "effective": 0.296
    }
   },
   {
@@ -178,7 +178,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2937
+    "effective": 0.2936
    }
   },
   {
@@ -193,7 +193,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2848
+    "effective": 0.2847
    }
   },
   {
@@ -208,7 +208,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2839
+    "effective": 0.2838
    }
   },
   {
@@ -223,7 +223,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.28
+    "effective": 0.2799
    }
   },
   {
@@ -233,12 +233,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.925,
+    "recency": 0.924,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2774
+    "effective": 0.2773
    }
   },
   {
@@ -253,7 +253,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2761
+    "effective": 0.276
    }
   },
   {
@@ -263,12 +263,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.919,
+    "recency": 0.918,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2756
+    "effective": 0.2755
    }
   },
   {
@@ -283,7 +283,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2752
+    "effective": 0.2751
    }
   },
   {
@@ -298,7 +298,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2752
+    "effective": 0.2751
    }
   },
   {
@@ -313,7 +313,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2746
+    "effective": 0.2745
    }
   },
   {
@@ -328,7 +328,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2728
+    "effective": 0.2727
    }
   },
   {
@@ -338,12 +338,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.908,
+    "recency": 0.907,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2723
+    "effective": 0.2722
    }
   },
   {
@@ -358,7 +358,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2715
+    "effective": 0.2714
    }
   },
   {
@@ -368,12 +368,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.893,
+    "recency": 0.892,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2678
+    "effective": 0.2677
    }
   },
   {
@@ -388,7 +388,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2587
+    "effective": 0.2586
    }
   },
   {
@@ -403,7 +403,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2359
+    "effective": 0.2358
    }
   },
   {
@@ -666,7 +666,7 @@
   {
    "level": "info",
    "code": "BELOW_DAY1_OPEN",
-   "message": "低于首日开盘 $111.5（现 $96.78）",
+   "message": "低于首日开盘 $111.5（现 $96.57）",
    "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
   },
   {
@@ -680,8 +680,8 @@
   "state": "MECHANICAL",
   "headline": "高位回落，暂无基本面坏消息",
   "evidence": [
-   "现价 $96.78：较发行价 $83 +16.6%，较首日开盘 $111.50 -13.2%",
-   "较上市后最高 $115.10 回撤 15.9%",
+   "现价 $96.57：较发行价 $83 +16.3%，较首日开盘 $111.50 -13.4%",
+   "较上市后最高 $115.10 回撤 16.1%",
    "一、二级信源基本面消息：无",
    "已解禁 315M 股，为 IPO 流通盘 980M 的 32%",
    "上市首日：没有任何前一日收盘价可比，日内波动不构成趋势信号"
