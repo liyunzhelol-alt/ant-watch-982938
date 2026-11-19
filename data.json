@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:38:12-05:00",
+ "generated": "2026-11-19T16:39:02-05:00",
  "errors": [],
  "quote": {
   "price": 97.17,
@@ -30,7 +30,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9911
+    "effective": 0.9909
    },
    "tone": {
     "dir": 0,
@@ -45,12 +45,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.99,
+    "recency": 0.989,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9896
+    "effective": 0.9894
    },
    "tone": {
     "dir": 0,
@@ -70,7 +70,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.952
+    "effective": 0.9518
    },
    "tone": {
     "dir": 1,
@@ -92,7 +92,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5971
+    "effective": 0.597
    },
    "tone": {
     "dir": 1,
@@ -115,7 +115,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5956
+    "effective": 0.5955
    },
    "tone": {
     "dir": 0,
@@ -135,7 +135,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5548
+    "effective": 0.5547
    },
    "tone": {
     "dir": 0,
@@ -155,7 +155,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5304
+    "effective": 0.5303
    },
    "tone": {
     "dir": 0,
@@ -175,7 +175,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3504
+    "effective": 0.3503
    },
    "tone": {
     "dir": 0,
@@ -190,12 +190,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.987,
+    "recency": 0.986,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3404
+    "effective": 0.3403
    },
    "tone": {
     "dir": 0,
@@ -210,7 +210,7 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.942,
+    "recency": 0.941,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -235,7 +235,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3241
+    "effective": 0.324
    },
    "tone": {
     "dir": 0,
@@ -250,12 +250,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.997,
+    "recency": 0.996,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.299
+    "effective": 0.2989
    },
    "tone": {
     "dir": 0,
@@ -299,7 +299,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2878
+    "effective": 0.2877
    },
    "tone": {
     "dir": 0,
@@ -339,7 +339,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2808
+    "effective": 0.2807
    },
    "tone": {
     "dir": 0,
@@ -359,7 +359,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.277
+    "effective": 0.2769
    },
    "tone": {
     "dir": 0,
@@ -388,18 +388,18 @@
    }
   },
   {
-   "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
-   "published": "Thu, 19 Nov 2026 14:55:07 GMT",
-   "source": "investorplace.com",
+   "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:54:36 GMT",
+   "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.908,
+    "recency": 0.907,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2723
+    "effective": 0.2722
    },
    "tone": {
     "dir": 0,
@@ -408,9 +408,9 @@
    }
   },
   {
-   "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 14:54:36 GMT",
-   "source": "finance.yahoo.com",
+   "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
+   "published": "Thu, 19 Nov 2026 14:55:07 GMT",
+   "source": "investorplace.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
@@ -478,12 +478,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.9,
+    "recency": 0.899,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2699
+    "effective": 0.2698
    },
    "tone": {
     "dir": 0,
@@ -563,7 +563,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2559
+    "effective": 0.2558
    },
    "tone": {
     "dir": 0,
