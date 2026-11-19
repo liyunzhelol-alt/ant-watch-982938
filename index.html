@@ -78,6 +78,14 @@
   .cond{font-size:12.5px;padding:3px 0;color:var(--dim)}
   .cond.on{color:var(--fg);font-weight:600}
   .cond .b{display:inline-block;width:15px}
+  .cond{padding:6px 0;border-bottom:1px solid #1a2029}
+  .cond:last-child{border-bottom:0}
+  .wchip{display:inline-block;min-width:16px;text-align:center;font:700 9.5px/16px ui-monospace,Menlo,monospace;
+    height:16px;border-radius:3px;margin-right:6px;vertical-align:1px}
+  .wchip.w3{background:rgba(248,81,73,.18);color:#ff9d97}
+  .wchip.w2{background:rgba(210,153,34,.18);color:#e3b341}
+  .wchip.w1{background:#262c35;color:#7d8793}
+  .why{font-size:11.5px;color:#6e7781;margin:2px 0 0 36px;line-height:1.45}
   .hpanel{padding:14px 0;border-bottom:1px solid var(--line)}
   .hpanel:first-child{padding-top:0}
   .hpanel:last-of-type{border-bottom:0}
@@ -277,6 +285,11 @@ function render(d){
   // 2 arrows — short and long, scored independently
   const SS=d.signals;
   if(SS){
+    const WLAB={3:"硬证据",2:"结构性",1:"启发式"};
+    const row=c=>
+      `<div class="cond ${c.on?"on":""}">
+         <span class="b">${c.on?"✓":"○"}</span><span class="wchip w${c.w}">${c.w}</span>${c.t}
+         <div class="why">${WLAB[c.w]} — ${c.why}</div></div>`;
     const panel=(sg,extra)=>{
       const s=sg.score, n=Math.abs(s);
       const arrows=[0,1,2,3,4].map(i=>{
@@ -287,13 +300,12 @@ function render(d){
         <div class="sig"><div class="arrows">${arrows}</div>
           <div class="sigtxt"><div class="lab ${s>0?"up":s<0?"down":""}">
             ${sg.name} · ${sigLabel(s)}</div>
-            <div class="sub">${sg.horizon}　·　计分 ${s>0?"+":""}${s}
-              = 买入条件 ${sg.up} 项 − 卖出条件 ${sg.down} 项${extra||""}</div></div></div>
+            <div class="sub">${sg.horizon}　·　<b>加权净值 ${sg.net>0?"+":""}${sg.net}</b>
+              （买 ${sg.up} − 卖 ${sg.down}，满值 ${sg.cap}）　·
+              <span style="opacity:.7">若等权重则为 ${sg.raw>0?"+":""}${sg.raw}</span>${extra||""}</div></div></div>
         <div class="conds">
-          <div><h4 style="color:var(--up)">买入侧（${sg.positive.length} 条）</h4>${sg.positive.map(c=>
-            `<div class="cond ${c.on?"on":""}"><span class="b">${c.on?"✓":"○"}</span>${c.t}</div>`).join("")}</div>
-          <div><h4 style="color:var(--down)">卖出侧（${sg.negative.length} 条）</h4>${sg.negative.map(c=>
-            `<div class="cond ${c.on?"on":""}"><span class="b">${c.on?"✓":"○"}</span>${c.t}</div>`).join("")}</div>
+          <div><h4 style="color:var(--up)">买入侧 · 加权 ${sg.up}/${sg.cap}</h4>${sg.positive.map(row).join("")}</div>
+          <div><h4 style="color:var(--down)">卖出侧 · 加权 ${sg.down}/${sg.cap}</h4>${sg.negative.map(row).join("")}</div>
         </div>
         <div class="note">${sg.note}</div></div>`;};
     const L=SS.long;
@@ -305,9 +317,13 @@ function render(d){
          短线看的是几天内能翻面的证据，长线看的是估值和供给结构——
          一只股票完全可以"这周值得接、但这个价位不值得长拿"，反过来也一样。
          <b>按你的三批计划，决定权在长线那一侧；短线只决定在哪一天下手。</b></div>`:"") +
-      `<div class="note"><b>两组条件数量不相等是故意的。</b>
-         之前那版是五对五，那是我凑出来的对称，不是现实的结构。
-         现在每一侧有几条就是几条。</div>`;
+      `<div class="note"><b>两组条件数量不相等、权重也不相等，都是故意的。</b>
+         最早那版是五对五、每条算 1 分——对称是我凑的，等权重是我藏起来的假设。
+         现在每条带权重：<span class="wchip w3">3</span> 已申报 / 经审计 / 合同写死的事实，
+         <span class="wchip w2">2</span> 真实但需要解读的结构性事实，
+         <span class="wchip w1">1</span> 启发式或纯价格位置。
+         权重和理由一起公开，<b>定于 2026-11-19，事后不调</b>。
+         每一栏都同时显示「若等权重会是多少」，这样我的权重设定改变了什么，你一眼能看出来。</div>`;
   }
 
   // macro + relative strength
