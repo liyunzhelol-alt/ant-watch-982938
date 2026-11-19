@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>ANT Watch</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --line:#272e38; --fg:#e6edf3; --dim:#8b949e;
+    --up:#3fb950; --down:#f85149; --warn:#d29922; --accent:#58a6ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:15px/1.55 -apple-system,"Segoe UI",system-ui,"PingFang SC","Microsoft YaHei",sans-serif}
+  .wrap{max-width:860px;margin:0 auto;padding:16px 14px 60px}
+  h1{font-size:17px;margin:0;letter-spacing:.5px}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:1.2px;color:var(--dim);
+    margin:26px 0 10px;font-weight:600}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+  .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:14px}
+  .stamp{font-size:11px;color:var(--dim)}
+  .px{font-size:44px;font-weight:700;letter-spacing:-1.5px;line-height:1}
+  .chg{font-size:15px;font-weight:600;margin-left:8px}
+  .up{color:var(--up)} .down{color:var(--down)} .warn{color:var(--warn)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:1px;
+    background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:14px}
+  .cell{background:var(--panel);padding:9px 11px}
+  .cell .k{font-size:10.5px;color:var(--dim);text-transform:uppercase;letter-spacing:.7px}
+  .cell .v{font-size:16px;font-weight:600;margin-top:3px}
+  .alert{border-left:3px solid var(--warn);background:#1c1a12;padding:11px 13px;
+    border-radius:0 8px 8px 0;margin-bottom:9px}
+  .alert.high{border-color:var(--down);background:#1f1416}
+  .alert.info{border-color:var(--accent);background:#121a24}
+  .alert .code{font:600 10.5px/1 ui-monospace,Menlo,monospace;color:var(--dim);letter-spacing:1px}
+  .alert .msg{font-weight:600;margin:5px 0 3px}
+  .alert .act{font-size:13.5px;color:var(--dim)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  th{text-align:left;font-size:10.5px;text-transform:uppercase;letter-spacing:.8px;
+    color:var(--dim);font-weight:600;padding:0 8px 7px;border-bottom:1px solid var(--line)}
+  td{padding:8px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .soon{color:var(--warn);font-weight:600}
+  .tbd{color:var(--dim);font-style:italic}
+  .t1,.t2,.t3,.t4{font:600 9.5px/1 ui-monospace,Menlo,monospace;padding:2.5px 5px;
+    border-radius:3px;letter-spacing:.5px}
+  .t1{background:#1b3a24;color:#5fd47f} .t2{background:#15304d;color:#79b8ff}
+  .t3{background:#2b2b2b;color:#9aa4ae} .t4{background:#3d1517;color:#ff7b72}
+  .news li{list-style:none;padding:8px 0;border-bottom:1px solid var(--line);
+    display:flex;gap:9px;align-items:flex-start}
+  .news ul{margin:0;padding:0}
+  .news .ttl{flex:1}
+  .news .src{font-size:11px;color:var(--dim);display:block;margin-top:2px}
+  .w{height:7px;background:var(--line);border-radius:4px;overflow:hidden;margin-top:5px}
+  .w i{display:block;height:100%;background:var(--accent)}
+  .rule{font-size:13.5px;padding:7px 0;border-bottom:1px solid var(--line)}
+  .rule:last-child{border-bottom:0}
+  .rule b{color:var(--accent);font:600 12px/1 ui-monospace,Menlo,monospace}
+  .note{font-size:12.5px;color:var(--dim);margin-top:9px}
+  a{color:var(--accent)}
+  .err{color:var(--down);font-size:12.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <h1>ANT WATCH <span style="color:var(--dim);font-weight:400">· Anthropic, PBC · NasdaqGS</span></h1>
+    <span class="stamp" id="stamp">loading…</span>
+  </div>
+
+  <div class="card">
+    <div><span class="px" id="px">—</span><span class="chg" id="chg"></span></div>
+    <div class="grid" id="stats"></div>
+  </div>
+
+  <h2>当前预警</h2>
+  <div id="alerts"><div class="card" style="color:var(--dim)">无</div></div>
+
+  <h2>解禁日历 <span style="text-transform:none;letter-spacing:0">— 来源：424B4 招股书原文</span></h2>
+  <div class="card"><table id="unlocks"></table>
+    <div class="note">IPO 自由流通股 <b>9.8 亿</b>。Google 同步私募 <b>3.13 亿股不受锁定期约束</b>。
+      条款含 pro rata 条件：部分持有人获释会触发其他持有人按比例同步释放。</div>
+  </div>
+
+  <h2>催化剂</h2>
+  <div class="card"><table id="cats"></table></div>
+
+  <h2>预先承诺的规则 <span style="text-transform:none;letter-spacing:0">— 写定于 2026-11-19，事后不调参</span></h2>
+  <div class="card" id="rules"></div>
+
+  <h2>信源权重</h2>
+  <div class="card" id="tiers"></div>
+
+  <h2>新闻</h2>
+  <div class="card news" id="news"></div>
+
+  <div class="note" style="margin-top:26px">
+    本页只展示事实、日历与预先设定的触发条件。<b>不提供买卖建议。</b>
+    行情经 Yahoo Finance，可能延迟，成交前请以券商报价为准。
+  </div>
+  <div class="err" id="err"></div>
+</div>
+
+<script>
+const fmtM = n => (n/1e6).toFixed(0) + "M";
+const sign = n => (n > 0 ? "+" : "") + n.toFixed(2) + "%";
+const cls  = n => n > 0 ? "up" : n < 0 ? "down" : "";
+
+function daysTo(d){
+  if(!d) return null;
+  const t = new Date(); t.setHours(0,0,0,0);
+  return Math.round((new Date(d+"T00:00:00") - t) / 86400000);
+}
+
+fetch("data.json?t=" + Date.now()).then(r => r.json()).then(d => {
+  const cal = d.calendar, q = d.quote;
+  document.getElementById("stamp").textContent = "更新于 " + (d.generated||"").replace("T"," ").slice(0,16) + " ET";
+
+  if(q){
+    document.getElementById("px").textContent = "$" + q.price.toFixed(2);
+    const c = document.getElementById("chg");
+    c.textContent = sign(q.pct_vs_ipo) + " vs IPO";
+    c.className = "chg " + cls(q.pct_vs_ipo);
+    const cells = [
+      ["发行价", "$" + cal.ipo.price.toFixed(2), ""],
+      ["首日开盘", "$" + cal.ipo.day1_open.toFixed(2), ""],
+      ["vs 首日开盘", sign(q.pct_vs_day1_open), cls(q.pct_vs_day1_open)],
+      ["日内高", q.day_high ? "$" + q.day_high.toFixed(2) : "—", ""],
+      ["日内低", q.day_low  ? "$" + q.day_low.toFixed(2)  : "—", ""],
+      ["上市后最高", q.high_52w ? "$" + q.high_52w.toFixed(2) : "—", ""],
+      ["较最高回撤", q.high_52w ? sign(-(1 - q.price/q.high_52w)*100) : "—",
+        q.high_52w && q.price < q.high_52w ? "down" : ""],
+      ["成交量", q.volume ? fmtM(q.volume) : "—", ""]
+    ];
+    document.getElementById("stats").innerHTML = cells.map(
+      ([k,v,kl]) => `<div class="cell"><div class="k">${k}</div><div class="v ${kl}">${v}</div></div>`).join("");
+  }
+
+  const al = (d.alerts||[]).filter(a => a.level !== "low");
+  if(al.length) document.getElementById("alerts").innerHTML = al.map(a =>
+    `<div class="alert ${a.level}"><div class="code">${a.code}</div>
+     <div class="msg">${a.message}</div><div class="act">${a.action}</div></div>`).join("");
+
+  document.getElementById("unlocks").innerHTML =
+    "<tr><th>日期 / 触发条件</th><th class='num'>股数</th><th class='num'>累计</th></tr>" +
+    (() => { let cum = 0; return cal.unlocks.map(u => {
+      cum += u.shares;
+      const n = daysTo(u.date);
+      const when = u.date
+        ? `${u.date}${n !== null && n >= 0 && n <= 14 ? ` <span class="soon">(${n===0?"今天":n+" 天后"})</span>` : ""}`
+        : `<span class="tbd">${u.anchor}</span>`;
+      return `<tr><td>${when}<br><span style="font-size:11.5px;color:var(--dim)">${u.note}</span></td>
+        <td class="num">${fmtM(u.shares)}</td><td class="num">${fmtM(cum)}</td></tr>`;
+    }).join(); })();
+
+  document.getElementById("cats").innerHTML =
+    "<tr><th>日期</th><th>事件</th></tr>" + cal.catalysts.map(c => {
+      const n = daysTo(c.date);
+      return `<tr><td class="num">${c.date
+        ? c.date + (n !== null && n >= 0 && n <= 14 ? `<br><span class="soon">${n===0?"今天":n+" 天后"}</span>` : "")
+        : '<span class="tbd">未公布</span>'}</td>
+        <td><b>${c.label}</b><br><span style="font-size:12px;color:var(--dim)">${c.note}</span></td></tr>`;
+    }).join("");
+
+  document.getElementById("rules").innerHTML = [
+    ["BIG_UP / BIG_DOWN", "日内涨跌 ≥ ±10% → 高优先级推送"],
+    ["SMALL_UP / SMALL_DOWN", "±4% → 仅记录，不推送"],
+    ["BIG_DOWN_MECHANICAL", "大跌但一、二级信源无基本面消息 → 判定为机械性抛压（解禁 / 流动性）。<b style='color:var(--up)'>这是执行下一批买入的预设条件。</b>"],
+    ["BIG_DOWN_STORY", "大跌且伴随财报 / 诉讼 / 监管 / 高管离职等消息 → <b style='color:var(--down)'>明确不接</b>"],
+    ["BELOW_IPO", "跌破 $83 发行价 → 成本低于机构配售价，买入观察条件"],
+    ["UNLOCK_T3", "任一解禁日前 3 天 → 提醒。依据：SpaceX 的抛压出现在解禁之前"],
+    ["UNLOCK_DAY / POST", "解禁当日及之后 3 天 → 观察窗口。依据：SpaceX 首次解禁后涨 26%"],
+    ["CATALYST", "静默期结束 / 财报日 前 3 天及当天"],
+    ["NEWS_T1", "一级信源出现基本面关键词 → 立即推送"]
+  ].map(([k,v]) => `<div class="rule"><b>${k}</b> — ${v}</div>`).join("") +
+   `<div class="note">上涨不构成买入提示。只有 BIG_DOWN_MECHANICAL 和 BELOW_IPO 会被标为买入观察条件，
+    因为只有这两个状态能让你以低于当前市场共识的价格建仓。</div>`;
+
+  const T = cal.source_tiers;
+  document.getElementById("tiers").innerHTML = ["1","2","3","4"].map(k =>
+    `<div style="margin-bottom:11px"><div style="display:flex;justify-content:space-between">
+      <span><span class="t${k}">TIER ${k}</span> ${T[k].label}</span>
+      <b>${(T[k].weight*100).toFixed(0)}%</b></div>
+      <div class="w"><i style="width:${T[k].weight*100}%;${k==="4"?"background:var(--down)":""}"></i></div>
+      <div style="font-size:11.5px;color:var(--dim);margin-top:4px">${T[k].members.join(" · ")}</div></div>`
+  ).join("") +
+  `<div class="note"><b>权重是固定的，不随"实时准确度"动态调整。</b>
+   动态调权需要可度量的 ground truth——新闻对股价的"对错"无法客观判定，
+   任何动态数字都是编的。这里的分级依据是编辑问责制度和一手信源距离，公开可查。</div>`;
+
+  document.getElementById("news").innerHTML = "<ul>" + (d.news||[]).slice(0,18).map(n =>
+    `<li><span class="t${n.tier}">T${n.tier}</span><span class="ttl">${n.title}
+     <span class="src">${n.source} · ${n.published.slice(5,16)}</span></span></li>`).join("") + "</ul>";
+
+  if(d.errors && d.errors.length)
+    document.getElementById("err").textContent = "抓取错误：" + d.errors.join("; ");
+}).catch(e => document.getElementById("err").textContent = "加载失败：" + e);
+</script>
+</body>
+</html>

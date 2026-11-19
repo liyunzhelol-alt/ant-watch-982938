@@ -1,0 +1,417 @@
+{
+ "generated": "2026-11-19T14:29:57-05:00",
+ "errors": [],
+ "quote": {
+  "price": 96.733,
+  "prev_close": 83.0,
+  "pct_vs_prev": 16.55,
+  "pct_vs_ipo": 16.55,
+  "pct_vs_day1_open": -13.24,
+  "day_high": 114.99,
+  "day_low": 92.72,
+  "high_52w": 114.99,
+  "low_52w": 92.72,
+  "volume": 695461988,
+  "market_time": 1795116600,
+  "currency": "USD"
+ },
+ "news": [
+  {
+   "title": "Anthropic IPO Live: Stock Price Opens at $111.50; ANT Hits $2 Trillion Market Cap on Nasdaq Debut - WSJ",
+   "published": "Thu, 19 Nov 2026 18:49:00 GMT",
+   "source": "wsj.com",
+   "tier": 1
+  },
+  {
+   "title": "ANT - Anthropic, PBC Ordinary Shares - Class A Analysis - Morningstar",
+   "published": "Thu, 19 Nov 2026 16:48:43 GMT",
+   "source": "morningstar.com",
+   "tier": 2
+  },
+  {
+   "title": "Should You Buy Anthropic Stock? - Kiplinger",
+   "published": "Thu, 19 Nov 2026 14:13:30 GMT",
+   "source": "kiplinger.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic blows past $2 trillion in Nasdaq debut, tops SpaceX's June listing - Reuters",
+   "published": "Thu, 19 Nov 2026 18:29:14 GMT",
+   "source": "reuters.com",
+   "tier": 1
+  },
+  {
+   "title": "ANT update: Anthropic stock opens higher in Nasdaq debut - Fast Company",
+   "published": "Thu, 19 Nov 2026 17:28:06 GMT",
+   "source": "fastcompany.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 17:02:02 GMT",
+   "source": "fool.com",
+   "tier": 4
+  },
+  {
+   "title": "Anthropic stock's first trade was worth $12 billion — 34% above its IPO price - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:17:21 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic IPO: 3 weird facts to know before you buy the stock - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 13:00:27 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Should You Buy Anthropic Stock Now That It's Public? - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:18:21 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:54:36 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic stock pops 30% to $2 trillion market cap, in mega IPO - Fortune",
+   "published": "Thu, 19 Nov 2026 15:28:00 GMT",
+   "source": "fortune.com",
+   "tier": 3
+  },
+  {
+   "title": "$100K In Anthropic Stock: Buy Now Or Wait? - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 16:06:50 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic goes public as AI bug hunters push cybersecurity stocks higher: Chart of the Day - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 15:00:54 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty - CNBC",
+   "published": "Thu, 19 Nov 2026 13:05:40 GMT",
+   "source": "cnbc.com",
+   "tier": 2
+  },
+  {
+   "title": "Anthropic set to begin trading as a $1.5 trillion company in the biggest IPO on record - PBS",
+   "published": "Thu, 19 Nov 2026 14:45:12 GMT",
+   "source": "pbs.org",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic IPO and ANT stock price forecast: valuation and Nasdaq listing - Beinsure",
+   "published": "Thu, 19 Nov 2026 13:57:54 GMT",
+   "source": "beinsure.com",
+   "tier": 3
+  },
+  {
+   "title": "At what price will Anthropic shares open? YF takes a guess - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:18:35 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic Perpetual Futures On Hyperliquid Signals 25% Pop Above $83 IPO Price Before Nasdaq Debut - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:28:41 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic Shares Indicated More Than 20% Higher on Gray Markets - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 10:37:06 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic's Shadow Market Priced It Above $100 Before the Bell: What the First Trade Reveals - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:10:13 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
+   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
+   "source": "fastcompany.com",
+   "tier": 3
+  },
+  {
+   "title": "How high could Anthropic stock fly in 2027? - TradingView",
+   "published": "Thu, 19 Nov 2026 15:08:09 GMT",
+   "source": "tradingview.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
+   "published": "Thu, 19 Nov 2026 14:35:06 GMT",
+   "source": "investorplace.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic officially IPOs on the Nasdaq — with shares at $111.50 - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:03:07 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Anthropic shares soar in Nasdaq trading debut, surging as high as $114.99 - CBS News",
+   "published": "Thu, 19 Nov 2026 13:55:00 GMT",
+   "source": "cbsnews.com",
+   "tier": 2
+  },
+  {
+   "title": "Investors scramble for a piece of AI giant Anthropic in blockbuster IPO - NPR",
+   "published": "Thu, 19 Nov 2026 10:00:00 GMT",
+   "source": "npr.org",
+   "tier": 2
+  },
+  {
+   "title": "Why Anthropic Stock Is Up (and Down) Today - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 18:25:02 GMT",
+   "source": "fool.com",
+   "tier": 4
+  },
+  {
+   "title": "Should You Buy Anthropic Stock Now That It's Public? - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 16:58:21 GMT",
+   "source": "fool.com",
+   "tier": 4
+  },
+  {
+   "title": "Why Anthropic Stock Is Up (and Down) Today - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 18:45:02 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3
+  },
+  {
+   "title": "Thousands of Anthropic Employees and Investors Are Set to Reap Fortunes - WSJ",
+   "published": "Thu, 19 Nov 2026 14:00:00 GMT",
+   "source": "wsj.com",
+   "tier": 1
+  }
+ ],
+ "calendar": {
+  "_source": "SEC EDGAR 424B4 filed 2026-11-19, Anthropic PBC CIK 0002130357, section 'Shares Eligible for Future Sale'. Prospectus dated 2026-11-18.",
+  "_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
+  "ipo": {
+   "price": 83.0,
+   "day1_open": 111.5,
+   "day1_high": 114.99,
+   "shares_sold": 980000000,
+   "listed": "2026-11-19",
+   "exchange": "NasdaqGS",
+   "shares_out_class_a": 7583103996,
+   "shares_out_class_n": 5636538278,
+   "google_private_placement_unlocked": 313253007
+  },
+  "revenue": [
+   {
+    "period": "2023",
+    "usd": 41000000
+   },
+   {
+    "period": "2024",
+    "usd": 386000000
+   },
+   {
+    "period": "2025",
+    "usd": 4600000000
+   },
+   {
+    "period": "9M 2026",
+    "usd": 33200000000
+   }
+  ],
+  "catalysts": [
+   {
+    "date": "2026-12-13",
+    "label": "Underwriter quiet period ends (25th day)",
+    "note": "Prospectus states dealers must deliver prospectus through and including December 13, 2026. Analyst initiations from the 23 underwriters follow.",
+    "confirmed": true
+   },
+   {
+    "date": null,
+    "label": "FY2026 annual results",
+    "note": "Date not yet announced. Triggers the single largest unlock tranche (1.7bn shares).",
+    "confirmed": false
+   },
+   {
+    "date": null,
+    "label": "Q1 2027 results",
+    "note": "Date not yet announced. Triggers 3.0bn share unlock, or the 180th day if earlier.",
+    "confirmed": false
+   },
+   {
+    "date": "2027-05-17",
+    "label": "180th day after prospectus",
+    "note": "Backstop date for the Q1 tranche if earnings land later.",
+    "confirmed": true
+   }
+  ],
+  "unlocks": [
+   {
+    "date": "2026-11-19",
+    "shares": 315000000,
+    "anchor": "fixed",
+    "who": "Non-founder directors, officers, current and former employees and consultants",
+    "note": "Available from the first trading day. Equals ~32% of the IPO float."
+   },
+   {
+    "date": "2026-12-15",
+    "shares": 303000000,
+    "anchor": "fixed",
+    "who": "27th day after prospectus",
+    "note": "174m Class A + 129m Class N"
+   },
+   {
+    "date": "2027-01-05",
+    "shares": 303000000,
+    "anchor": "fixed",
+    "who": "48th day after prospectus",
+    "note": "174m Class A + 129m Class N"
+   },
+   {
+    "date": "2027-01-19",
+    "shares": 353000000,
+    "anchor": "fixed",
+    "who": "62nd day after prospectus",
+    "note": "203m Class A + 151m Class N"
+   },
+   {
+    "date": "2027-02-02",
+    "shares": 353000000,
+    "anchor": "fixed",
+    "who": "76th day after prospectus",
+    "note": "203m Class A + 151m Class N. Cumulative reaches 1.63bn."
+   },
+   {
+    "date": null,
+    "shares": 1700000000,
+    "anchor": "FY26 earnings + 2 trading days",
+    "who": "Broad release",
+    "note": "1.5bn Class A + 269m Class N. Largest single tranche before Q1."
+   },
+   {
+    "date": null,
+    "shares": 2400000000,
+    "anchor": "FY26 earnings +13/+27/+41/+55/+69 days",
+    "who": "Five tranches of 480m",
+    "note": "275m Class A + 204m Class N each"
+   },
+   {
+    "date": null,
+    "shares": 3000000000,
+    "anchor": "Q1 2027 earnings +2 trading days, or 180th day if earlier",
+    "who": "Broad release",
+    "note": "2.7bn Class A + 336m Class N. Largest tranche overall."
+   },
+   {
+    "date": null,
+    "shares": 1788000000,
+    "anchor": "Q1 earnings +34/+48/+62/+76 days",
+    "who": "Four tranches of 447m",
+    "note": "137m Class A + 309m Class N each"
+   }
+  ],
+  "source_tiers": {
+   "_method": "Fixed, published weights. These are NOT dynamically reweighted — see the rules panel for why.",
+   "1": {
+    "weight": 1.0,
+    "label": "Primary / wire",
+    "members": [
+     "sec.gov",
+     "reuters.com",
+     "bloomberg.com",
+     "ft.com",
+     "wsj.com",
+     "apnews.com",
+     "nasdaq.com"
+    ]
+   },
+   "2": {
+    "weight": 0.6,
+    "label": "Quality secondary",
+    "members": [
+     "cnbc.com",
+     "barrons.com",
+     "morningstar.com",
+     "economist.com",
+     "axios.com",
+     "bbc.com",
+     "npr.org",
+     "theguardian.com",
+     "forbes.com",
+     "investopedia.com",
+     "marketwatch.com",
+     "nytimes.com",
+     "cbsnews.com",
+     "aljazeera.com"
+    ]
+   },
+   "3": {
+    "weight": 0.3,
+    "label": "Aggregator / syndicated",
+    "members": [
+     "finance.yahoo.com",
+     "tradingview.com",
+     "businessinsider.com",
+     "fortune.com",
+     "tipranks.com",
+     "benzinga.com",
+     "qz.com",
+     "decrypt.co",
+     "techi.com",
+     "fastcompany.com",
+     "wired.com"
+    ]
+   },
+   "4": {
+    "weight": 0.0,
+    "label": "Content farm — ignore",
+    "members": [
+     "fool.com",
+     "247wallst.com",
+     "kalkinemedia.com",
+     "cryptoticker.io",
+     "marketwise.com",
+     "tradingkey.com",
+     "biggo.com",
+     "admirals.com",
+     "ig.com",
+     "nypost.com",
+     "tikr.com",
+     "barchart.com"
+    ]
+   }
+  }
+ },
+ "alerts": [
+  {
+   "level": "info",
+   "code": "BELOW_DAY1_OPEN",
+   "message": "低于首日开盘 $111.5（现 $96.733）",
+   "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
+  },
+  {
+   "level": "high",
+   "code": "UNLOCK_DAY",
+   "message": "今日解禁 315M 股",
+   "action": "SpaceX 首次解禁后三天内涨 26%。观察窗口。"
+  }
+ ],
+ "next_unlock": {
+  "date": "2026-11-19",
+  "shares": 315000000,
+  "anchor": "fixed",
+  "who": "Non-founder directors, officers, current and former employees and consultants",
+  "note": "Available from the first trading day. Equals ~32% of the IPO float.",
+  "days_away": 0
+ }
+}
