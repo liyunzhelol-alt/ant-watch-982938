@@ -191,6 +191,10 @@
   <h2>当前预警</h2>
   <div id="alerts"></div>
 
+  <h2>财务轨迹 <span style="text-transform:none;letter-spacing:0">— 424B4 经审计数据，单位百万美元</span></h2>
+  <div class="card"><div style="overflow-x:auto"><table id="fin"></table></div>
+    <div class="note" id="finnote"></div></div>
+
   <h2>SEC 申报流 <span style="text-transform:none;letter-spacing:0">— 一手，无中介</span></h2>
   <div class="card"><table id="filings"></table>
     <div class="note"><b>Form 4 = 内部人实际买卖已发生</b>，<b>Form 144 = 关联方拟售通知</b>。
@@ -351,6 +355,31 @@ function render(d){
     `<div class="alert ${a.level}"><div class="code">${a.code}</div>
      <div class="msg">${a.message}</div><div class="act">${a.action}</div></div>`).join("")
     :`<div class="card" style="color:var(--dim)">无</div>`;
+
+  // financials
+  const F=cal.financials;
+  if(F){
+    const money=v=>{const a=Math.abs(v);
+      const s=a>=1000?("$"+(a/1000).toFixed(a>=10000?0:1)+"B"):("$"+a+"M");
+      return v<0?"−"+s:s;};
+    const rows=[
+      ["营收",F.revenue,1],["算力与基础设施",F.compute_infra,-1],["人力",F.personnel,-1],
+      ["销售与市场",F.sales_mktg,-1],["其他运营",F.other_opex,-1],
+      ["经营亏损",F.operating_loss,1],["经营现金流",F.operating_cash_flow,1],
+      ["股权激励",F.sbc,-1]];
+    document.getElementById("fin").innerHTML=
+      "<tr><th></th>"+F.periods.map(p=>`<th class="num">${p}</th>`).join("")+"</tr>"+
+      rows.map(([k,v,sgn])=>`<tr><td><b>${k}</b></td>`+v.map(x=>
+        `<td class="num ${sgn===1?(x>0?"up":"down"):""}">${money(x)}</td>`).join("")+"</tr>").join("")+
+      `<tr><td><b>经营利润率</b></td>`+F.revenue.map((r,i)=>{
+        const m=F.operating_loss[i]/r*100;
+        return `<td class="num ${m>-10?"up":"down"}">${m.toFixed(m>-10?1:0)}%</td>`;}).join("")+"</tr>";
+    document.getElementById("finnote").innerHTML=
+      `<b>这张表是最重要的一块，之前我漏了。</b>${F.note}
+       <br><br>经营利润率从 <b>−1344%</b> 一路走到 <b>−3.8%</b>，
+       经营现金流在 9M2026 首次转正（<b class="up">+$6.6B</b>）。
+       IPO 后现金与短期投资约 <b>$232B</b>。`;
+  }
 
   const FIL=d.filings||[];
   document.getElementById("filings").innerHTML=
