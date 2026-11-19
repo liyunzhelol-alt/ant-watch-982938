@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:10:07-05:00",
+ "generated": "2026-11-19T16:10:40-05:00",
  "errors": [],
  "quote": {
   "price": 97.17,
@@ -28,7 +28,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9963
+    "effective": 0.9961
    },
    "tone": {
     "dir": 0,
@@ -48,7 +48,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9585
+    "effective": 0.9584
    },
    "tone": {
     "dir": 1,
@@ -93,7 +93,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5586
+    "effective": 0.5585
    },
    "tone": {
     "dir": 0,
@@ -113,7 +113,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.534
+    "effective": 0.5339
    },
    "tone": {
     "dir": 0,
@@ -168,12 +168,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.905,
+    "recency": 0.904,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3528
+    "effective": 0.3527
    },
    "tone": {
     "dir": 0,
@@ -193,7 +193,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3332
+    "effective": 0.3331
    },
    "tone": {
     "dir": 0,
@@ -273,12 +273,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.946,
+    "recency": 0.945,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2837
+    "effective": 0.2836
    },
    "tone": {
     "dir": 0,
@@ -298,7 +298,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2827
+    "effective": 0.2826
    },
    "tone": {
     "dir": 0,
@@ -313,12 +313,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.93,
+    "recency": 0.929,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2789
+    "effective": 0.2788
    },
    "tone": {
     "dir": 0,
@@ -333,12 +333,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.917,
+    "recency": 0.916,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.275
+    "effective": 0.2749
    },
    "tone": {
     "dir": 0,
@@ -367,26 +367,6 @@
    }
   },
   {
-   "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 14:54:36 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.914,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2741
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
    "published": "Thu, 19 Nov 2026 14:55:07 GMT",
    "source": "investorplace.com",
@@ -407,18 +387,38 @@
    }
   },
   {
+   "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:54:36 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.913,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.274
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
    "title": "Anthropic set to begin trading as a $1.5 trillion company in the biggest IPO on record - PBS",
    "published": "Thu, 19 Nov 2026 14:45:12 GMT",
    "source": "pbs.org",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.912,
+    "recency": 0.911,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2735
+    "effective": 0.2734
    },
    "tone": {
     "dir": 1,
@@ -460,7 +460,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2712
+    "effective": 0.2711
    },
    "tone": {
     "dir": 0,
@@ -480,7 +480,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2704
+    "effective": 0.2703
    },
    "tone": {
     "dir": 0,
@@ -921,7 +921,7 @@
    }
   ]
  },
- "tone_net": 0.2388,
+ "tone_net": 0.2389,
  "hourly": [
   {
    "h": "2026-11-19 16:00",
