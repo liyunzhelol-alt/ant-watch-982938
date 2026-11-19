@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T15:00:09-05:00",
+ "generated": "2026-11-19T15:30:08-05:00",
  "errors": [],
  "quote": {
-  "price": 96.29,
+  "price": 95.1,
   "prev_close": 83.0,
-  "pct_vs_prev": 16.01,
-  "pct_vs_ipo": 16.01,
-  "pct_vs_day1_open": -13.64,
-  "day_high": 114.99,
+  "pct_vs_prev": 14.58,
+  "pct_vs_ipo": 14.58,
+  "pct_vs_day1_open": -14.71,
+  "day_high": 115.1,
   "day_low": 92.72,
-  "high_52w": 114.99,
+  "high_52w": 115.1,
   "low_52w": 92.72,
-  "volume": 738008921,
-  "market_time": 1795118412,
+  "volume": 775244442,
+  "market_time": 1795120211,
   "currency": "USD"
  },
  "news": [
@@ -23,27 +23,15 @@
    "tier": 3
   },
   {
-   "title": "ANT - Anthropic, PBC Ordinary Shares - Class A Analysis - Morningstar",
-   "published": "Thu, 19 Nov 2026 16:48:43 GMT",
-   "source": "morningstar.com",
-   "tier": 2
+   "title": "Notice on Anthropic (ANT) on Binance Stocks - 2026-11-19 - Binance",
+   "published": "Thu, 19 Nov 2026 04:13:33 GMT",
+   "source": "binance.com",
+   "tier": 3
   },
   {
    "title": "Should You Buy Anthropic Stock? - Kiplinger",
    "published": "Thu, 19 Nov 2026 14:13:30 GMT",
    "source": "kiplinger.com",
-   "tier": 3
-  },
-  {
-   "title": "Anthropic blows past $2 trillion in Nasdaq debut, tops SpaceX's June listing - Reuters",
-   "published": "Thu, 19 Nov 2026 18:29:14 GMT",
-   "source": "reuters.com",
-   "tier": 1
-  },
-  {
-   "title": "ANT update: Anthropic stock opens higher in Nasdaq debut - Fast Company",
-   "published": "Thu, 19 Nov 2026 17:28:06 GMT",
-   "source": "fastcompany.com",
    "tier": 3
   },
   {
@@ -71,22 +59,16 @@
    "tier": 3
   },
   {
-   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
-   "published": "Thu, 19 Nov 2026 17:02:02 GMT",
-   "source": "fool.com",
-   "tier": 4
-  },
-  {
    "title": "Anthropic shares jump in Nasdaq trading debut after record IPO - CBS News",
    "published": "Thu, 19 Nov 2026 19:30:11 GMT",
    "source": "cbsnews.com",
    "tier": 2
   },
   {
-   "title": "Anthropic IPO Live: Shares Pop 34% To Open At $111.50 - Forbes",
-   "published": "Thu, 19 Nov 2026 17:00:00 GMT",
-   "source": "forbes.com",
-   "tier": 2
+   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 17:02:02 GMT",
+   "source": "fool.com",
+   "tier": 4
   },
   {
    "title": "Anthropic set to start trading after completing largest-ever IPO - Yahoo Finance",
@@ -101,14 +83,14 @@
    "tier": 3
   },
   {
-   "title": "Anthropic goes public as AI bug hunters push cybersecurity stocks higher: Chart of the Day - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 15:00:54 GMT",
+   "title": "$100K In Anthropic Stock: Buy Now Or Wait? - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 16:06:50 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
   {
-   "title": "$100K In Anthropic Stock: Buy Now Or Wait? - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 16:06:50 GMT",
+   "title": "Anthropic goes public as AI bug hunters push cybersecurity stocks higher: Chart of the Day - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 15:00:54 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
@@ -131,20 +113,14 @@
    "tier": 3
   },
   {
-   "title": "At what price will Anthropic shares open? YF takes a guess - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 14:18:35 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3
-  },
-  {
    "title": "Anthropic Perpetual Futures On Hyperliquid Signals 25% Pop Above $83 IPO Price Before Nasdaq Debut - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 14:28:41 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
   {
-   "title": "Anthropic's Shadow Market Priced It Above $100 Before the Bell: What the First Trade Reveals - Yahoo Finance",
-   "published": "Thu, 19 Nov 2026 14:10:13 GMT",
+   "title": "At what price will Anthropic shares open? YF takes a guess - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:18:35 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
@@ -155,21 +131,39 @@
    "tier": 3
   },
   {
+   "title": "Anthropic - ANT - Stock Price & News - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 20:23:49 GMT",
+   "source": "fool.com",
+   "tier": 4
+  },
+  {
    "title": "Anthropic Shares Indicated More Than 20% Higher on Gray Markets - Yahoo Finance",
    "published": "Thu, 19 Nov 2026 10:37:06 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
   {
-   "title": "How high could Anthropic stock fly in 2027? - TradingView",
-   "published": "Thu, 19 Nov 2026 15:08:09 GMT",
-   "source": "tradingview.com",
+   "title": "Anthropic's Shadow Market Priced It Above $100 Before the Bell: What the First Trade Reveals - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:10:13 GMT",
+   "source": "finance.yahoo.com",
    "tier": 3
+  },
+  {
+   "title": "Should You Buy Anthropic Stock at Its IPO? Here’s Everything to Know Before Deciding - Morningstar",
+   "published": "Thu, 19 Nov 2026 16:13:11 GMT",
+   "source": "morningstar.com",
+   "tier": 2
   },
   {
    "title": "Anthropic IPO: Why the Stakes Go Far Beyond ANT Stock - InvestorPlace",
    "published": "Thu, 19 Nov 2026 14:55:07 GMT",
    "source": "investorplace.com",
+   "tier": 3
+  },
+  {
+   "title": "How high could Anthropic stock fly in 2027? - TradingView",
+   "published": "Thu, 19 Nov 2026 15:08:09 GMT",
+   "source": "tradingview.com",
    "tier": 3
   },
   {
@@ -193,6 +187,12 @@
   {
    "title": "Should You Buy Anthropic Stock Now That It's Public? - The Motley Fool",
    "published": "Thu, 19 Nov 2026 16:58:21 GMT",
+   "source": "fool.com",
+   "tier": 4
+  },
+  {
+   "title": "I’m Buying Anthropic Stock, Just Not on Day 1. Here’s My Plan. - The Motley Fool",
+   "published": "Thu, 19 Nov 2026 14:46:02 GMT",
    "source": "fool.com",
    "tier": 4
   }
@@ -396,7 +396,7 @@
   {
    "level": "info",
    "code": "BELOW_DAY1_OPEN",
-   "message": "低于首日开盘 $111.5（现 $96.29）",
+   "message": "低于首日开盘 $111.5（现 $95.1）",
    "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
   },
   {
