@@ -25,21 +25,40 @@
 
   /* 1 price */
   .hero{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
-  .px{font-size:56px;font-weight:700;letter-spacing:-2.5px;line-height:1;
-    font-variant-numeric:tabular-nums;transition:color .25s}
-  .chg{font-size:16px;font-weight:600;margin-left:9px}
-  .livebar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:9px;font-size:11px}
-  .sess{font:600 10px/1 ui-monospace,Menlo,monospace;letter-spacing:1px;padding:4px 7px;
-    border-radius:4px;background:#1f2630;color:var(--dim)}
-  .sess.open{background:#13261a;color:var(--up)}
-  .sess.ext{background:#2a2412;color:var(--warn)}
-  .conn{display:flex;align-items:center;gap:5px;color:var(--dim)}
+  .hero{padding:22px 20px}
+  .px{font-size:72px;font-weight:700;letter-spacing:-3.5px;line-height:1.02;
+    font-variant-numeric:tabular-nums;transition:color .2s;display:block}
+  .pxrow{display:flex;align-items:flex-end;gap:14px;flex-wrap:wrap;margin:4px 0 2px}
+  .pill{font-size:15px;font-weight:700;padding:6px 11px;border-radius:7px;
+    background:#1a2029;color:var(--dim);font-variant-numeric:tabular-nums;margin-bottom:7px}
+  .pill.u{background:rgba(63,185,80,.14);color:var(--up)}
+  .pill.d{background:rgba(248,81,73,.14);color:var(--down)}
+  .pillsub{font-size:12.5px;color:var(--dim);margin-bottom:11px}
+  .livebar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:16px;font-size:11.5px}
+  .sess{font:600 10px/1 ui-monospace,Menlo,monospace;letter-spacing:1.2px;padding:5px 9px;
+    border-radius:5px;background:#1f2630;color:var(--dim)}
+  .sess.open{background:rgba(63,185,80,.16);color:var(--up)}
+  .sess.ext{background:rgba(210,153,34,.16);color:var(--warn)}
+  .conn{display:flex;align-items:center;gap:6px;color:var(--dim)}
   .conn i{width:7px;height:7px;border-radius:50%;background:var(--flat);display:block}
   .conn.ws i{background:var(--up);animation:p 1.6s infinite}
   .conn.rest i{background:var(--warn)}
   .conn.off i{background:var(--down)}
-  .lasttrade{color:var(--dim);font-variant-numeric:tabular-nums;margin-left:auto}
-  .spark{width:100%;height:70px;margin-top:10px;display:block}
+  .spark{width:100%;height:190px;margin:18px 0 4px;display:block}
+  /* trade tape */
+  .tape{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
+  .tape h5{margin:0 0 8px;font:600 10px/1 ui-monospace,Menlo,monospace;
+    letter-spacing:1.2px;color:var(--dim)}
+  .tape .rows{display:flex;flex-direction:column;gap:0}
+  .tape .tr{display:grid;grid-template-columns:auto 1fr auto;gap:12px;padding:6px 0;
+    font-size:13.5px;font-variant-numeric:tabular-nums;border-bottom:1px solid #1c222b;
+    animation:slide .35s ease}
+  .tape .tr:last-child{border-bottom:0}
+  @keyframes slide{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
+  .tape .tm{color:var(--dim);font-size:12px}
+  .tape .tp{font-weight:700}
+  .tape .tv{color:var(--dim);text-align:right}
+  .tape .empty{color:var(--dim);font-size:13px;padding:6px 0}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(108px,1fr));gap:1px;
     background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden;margin-top:13px}
   .cell{background:var(--panel);padding:8px 10px}
@@ -136,11 +155,16 @@
     <div class="livebar">
       <span class="sess" id="sess">—</span>
       <span class="conn" id="conn"><i></i><span id="connt">连接中…</span></span>
-      <span class="lasttrade" id="lasttrade"></span>
     </div>
-    <div><span class="px" id="px">—</span><span class="chg" id="chg"></span></div>
-    <svg class="spark" id="spark" viewBox="0 0 600 70" preserveAspectRatio="none"></svg>
+    <span class="px" id="px">—</span>
+    <div class="pxrow"><span class="pill" id="pill1">—</span><span class="pill" id="pill2">—</span></div>
+    <div class="pillsub" id="pillsub"></div>
+    <svg class="spark" id="spark" viewBox="0 0 1000 190" preserveAspectRatio="none"></svg>
     <div class="grid" id="stats"></div>
+    <div class="tape">
+      <h5>逐笔成交 LIVE TAPE</h5>
+      <div class="rows" id="tape"><div class="empty">等待成交…</div></div>
+    </div>
   </div>
 
   <!-- 2 arrows -->
@@ -161,6 +185,12 @@
 
   <h2>当前预警</h2>
   <div id="alerts"></div>
+
+  <h2>SEC 申报流 <span style="text-transform:none;letter-spacing:0">— 一手，无中介</span></h2>
+  <div class="card"><table id="filings"></table>
+    <div class="note"><b>Form 4 = 内部人实际买卖已发生</b>，<b>Form 144 = 关联方拟售通知</b>。
+      这两种出现时会立刻推送——它们是解禁是否真的变成抛压的唯一一手证据，比任何新闻都早。
+      Form 3 是 IPO 常规的初始持股申报，不是卖出信号。</div></div>
 
   <h2>解禁日历 <span style="text-transform:none;letter-spacing:0">— 424B4 招股书原文</span></h2>
   <div class="card"><table id="unlocks"></table>
@@ -302,6 +332,16 @@ function render(d){
      <div class="msg">${a.message}</div><div class="act">${a.action}</div></div>`).join("")
     :`<div class="card" style="color:var(--dim)">无</div>`;
 
+  const FIL=d.filings||[];
+  document.getElementById("filings").innerHTML=
+    "<tr><th>日期</th><th>表格</th><th>含义</th></tr>"+(FIL.length?FIL.slice(0,12).map(f=>{
+      const hot=["4","144"].includes(f.form), warn=["8-K","10-Q","10-K"].includes(f.form);
+      return `<tr><td class="num" style="color:var(--dim)">${f.date}</td>
+        <td><b style="color:${hot?"var(--down)":warn?"var(--warn)":"var(--fg)"}">${f.form}</b></td>
+        <td>${f.url?`<a href="${f.url}" target="_blank" rel="noopener">${f.meaning}</a>`:f.meaning}</td></tr>`;
+      }).join("")
+      :`<tr><td colspan="3" style="color:var(--dim)">暂无数据</td></tr>`);
+
   document.getElementById("unlocks").innerHTML=
     "<tr><th>日期 / 触发条件</th><th class='num'>股数</th><th class='num'>累计</th></tr>"+
     (()=>{let cum=0;return cal.unlocks.map(u=>{cum+=u.shares;const n=daysTo(u.date);
@@ -400,40 +440,60 @@ function paintSession(){
 }
 paintSession(); setInterval(paintSession,20000);
 
+let tape=[];
+const etTime=ts=>new Date(ts).toLocaleTimeString("en-US",
+  {timeZone:"America/New_York",hour12:false});
+
 function paintPrice(p,size,ts){
   const el=document.getElementById("px");
   el.textContent="$"+p.toFixed(2);
   if(lastPx!==null&&p!==lastPx){
     el.style.color=p>lastPx?"var(--up)":"var(--down)";
-    setTimeout(()=>el.style.color="",500);
+    setTimeout(()=>el.style.color="",450);
   }
-  lastPx=p;
-  const c=document.getElementById("chg");
-  const d=(p/IPO_PX-1)*100;
-  c.textContent=sign(d)+" vs 发行价 · "+sign((p/OPEN_PX-1)*100)+" vs 首日开盘";
-  c.className="chg "+cls(d);
+  const prevPx=lastPx; lastPx=p;
+
+  const d1=(p/IPO_PX-1)*100, d2=(p/OPEN_PX-1)*100;
+  const a=document.getElementById("pill1"), b=document.getElementById("pill2");
+  a.textContent=sign(d1); a.className="pill "+(d1>0?"u":d1<0?"d":"");
+  b.textContent=sign(d2); b.className="pill "+(d2>0?"u":d2<0?"d":"");
+  document.getElementById("pillsub").innerHTML=
+    `第一个相对<b>发行价 $83</b>　·　第二个相对<b>首日开盘 $111.50</b>`;
+
   if(size!==undefined){
-    const tm=new Date(ts).toLocaleTimeString("en-US",{timeZone:"America/New_York",hour12:false});
-    document.getElementById("lasttrade").textContent=`最近成交 ${size} 股 · ${tm} ET`;
+    tape.unshift({p,size,ts,up:prevPx===null?true:p>=prevPx});
+    if(tape.length>12) tape.pop();
+    document.getElementById("tape").innerHTML=tape.map(t=>
+      `<div class="tr"><span class="tm">${etTime(t.ts)}</span>
+        <span class="tp ${t.up?"up":"down"}">$${t.p.toFixed(2)}</span>
+        <span class="tv">${t.size.toLocaleString()} 股</span></div>`).join("");
   }
-  ticks.push(p); if(ticks.length>240) ticks.shift();
+  ticks.push(p); if(ticks.length>300) ticks.shift();
   drawSpark();
 }
 
 function drawSpark(){
   const s=document.getElementById("spark");
   if(ticks.length<2){s.innerHTML="";return;}
+  const W=1000,H=190,PAD=16;
   const lo=Math.min(...ticks), hi=Math.max(...ticks), rng=(hi-lo)||1;
-  const pts=ticks.map((v,i)=>
-    `${(i/(ticks.length-1)*600).toFixed(1)},${(66-(v-lo)/rng*62).toFixed(1)}`).join(" ");
+  const x=i=>(i/(ticks.length-1)*W).toFixed(1);
+  const y=v=>(H-PAD-(v-lo)/rng*(H-PAD*2)).toFixed(1);
+  const line=ticks.map((v,i)=>`${x(i)},${y(v)}`).join(" ");
   const rising=ticks[ticks.length-1]>=ticks[0];
   const col=rising?"#3fb950":"#f85149";
+  const area=`0,${H} ${line} ${W},${H}`;
   s.innerHTML=
-    `<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.8"
-       stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
-     <text x="2" y="10" fill="#8b949e" font-size="9">$${hi.toFixed(2)}</text>
-     <text x="2" y="68" fill="#8b949e" font-size="9">$${lo.toFixed(2)}</text>
-     <text x="598" y="10" fill="#8b949e" font-size="9" text-anchor="end">${ticks.length} 笔</text>`;
+    `<defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
+       <stop offset="0" stop-color="${col}" stop-opacity=".22"/>
+       <stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
+     <polygon points="${area}" fill="url(#g)"/>
+     <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2.2"
+       stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+     <circle cx="${x(ticks.length-1)}" cy="${y(ticks[ticks.length-1])}" r="4" fill="${col}"/>
+     <text x="8" y="16" fill="#8b949e" font-size="12">$${hi.toFixed(2)}</text>
+     <text x="8" y="${H-4}" fill="#8b949e" font-size="12">$${lo.toFixed(2)}</text>
+     <text x="${W-8}" y="16" fill="#8b949e" font-size="12" text-anchor="end">${ticks.length} 笔</text>`;
 }
 
 function restTick(){
