@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:20:07-05:00",
+ "generated": "2026-11-19T16:25:29-05:00",
  "errors": [],
  "quote": {
   "price": 97.17,
@@ -25,12 +25,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.995,
+    "recency": 0.994,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9954
+    "effective": 0.9941
    },
    "tone": {
     "dir": 0,
@@ -45,12 +45,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.994,
+    "recency": 0.993,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9939
+    "effective": 0.9926
    },
    "tone": {
     "dir": 0,
@@ -65,12 +65,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.956,
+    "recency": 0.955,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9562
+    "effective": 0.955
    },
    "tone": {
     "dir": 1,
@@ -87,12 +87,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.974,
+    "recency": 0.973,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5843
+    "effective": 0.5836
    },
    "tone": {
     "dir": 1,
@@ -110,12 +110,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.929,
+    "recency": 0.928,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5573
+    "effective": 0.5566
    },
    "tone": {
     "dir": 0,
@@ -130,12 +130,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.888,
+    "recency": 0.887,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5327
+    "effective": 0.532
    },
    "tone": {
     "dir": 0,
@@ -150,12 +150,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.902,
+    "recency": 0.901,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3519
+    "effective": 0.3515
    },
    "tone": {
     "dir": 0,
@@ -170,12 +170,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.991,
+    "recency": 0.99,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3419
+    "effective": 0.3415
    },
    "tone": {
     "dir": 0,
@@ -190,12 +190,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.963,
+    "recency": 0.962,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3324
+    "effective": 0.3319
    },
    "tone": {
     "dir": 0,
@@ -210,12 +210,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.946,
+    "recency": 0.944,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3263
+    "effective": 0.3258
    },
    "tone": {
     "dir": 0,
@@ -230,12 +230,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.943,
+    "recency": 0.942,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3255
+    "effective": 0.3251
    },
    "tone": {
     "dir": 0,
@@ -250,12 +250,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.992,
+    "recency": 0.99,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2975
+    "effective": 0.2971
    },
    "tone": {
     "dir": 1,
@@ -272,12 +272,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.972,
+    "recency": 0.971,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2917
+    "effective": 0.2914
    },
    "tone": {
     "dir": 1,
@@ -295,12 +295,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.943,
+    "recency": 0.942,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.283
+    "effective": 0.2826
    },
    "tone": {
     "dir": 0,
@@ -315,12 +315,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.94,
+    "recency": 0.939,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.282
+    "effective": 0.2816
    },
    "tone": {
     "dir": 0,
@@ -335,32 +335,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.927,
+    "recency": 0.926,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2782
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "How high could Anthropic stock fly in 2027? - TradingView",
-   "published": "Thu, 19 Nov 2026 15:08:09 GMT",
-   "source": "tradingview.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.914,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2743
+    "effective": 0.2779
    },
    "tone": {
     "dir": 0,
@@ -375,12 +355,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.913,
+    "recency": 0.912,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2738
+    "effective": 0.2735
    },
    "tone": {
     "dir": 0,
@@ -395,12 +375,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.911,
+    "recency": 0.91,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2734
+    "effective": 0.2731
    },
    "tone": {
     "dir": 0,
@@ -415,12 +395,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.911,
+    "recency": 0.91,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2734
+    "effective": 0.2731
    },
    "tone": {
     "dir": 0,
@@ -435,17 +415,39 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.909,
+    "recency": 0.908,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2728
+    "effective": 0.2724
    },
    "tone": {
     "dir": 1,
     "bull": [
      "record"
+    ],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic Perpetual Futures On Hyperliquid Signals 25% Pop Above $83 IPO Price Before Nasdaq Debut - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 14:28:41 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.905,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2714
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "pop"
     ],
     "bear": []
    }
@@ -457,12 +459,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.904,
+    "recency": 0.902,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2711
+    "effective": 0.2707
    },
    "tone": {
     "dir": 0,
@@ -477,12 +479,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.902,
+    "recency": 0.901,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2705
+    "effective": 0.2702
    },
    "tone": {
     "dir": 0,
@@ -497,12 +499,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.899,
+    "recency": 0.898,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2697
+    "effective": 0.2694
    },
    "tone": {
     "dir": 0,
@@ -517,12 +519,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.887,
+    "recency": 0.886,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.266
+    "effective": 0.2657
    },
    "tone": {
     "dir": 0,
@@ -537,12 +539,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.857,
+    "recency": 0.856,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.257
+    "effective": 0.2567
    },
    "tone": {
     "dir": 0,
@@ -557,12 +559,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.781,
+    "recency": 0.78,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2343
+    "effective": 0.234
    },
    "tone": {
     "dir": 0,
@@ -577,12 +579,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.734,
+    "recency": 0.733,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2203
+    "effective": 0.22
    },
    "tone": {
     "dir": 0,
@@ -597,7 +599,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.94,
+    "recency": 0.939,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -617,7 +619,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.959,
+    "recency": 0.957,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -629,6 +631,208 @@
     "bull": [],
     "bear": []
    }
+  }
+ ],
+ "filings": [
+  {
+   "form": "424B4",
+   "date": "2026-11-19",
+   "meaning": "最终招股书",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-19",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm"
+  },
+  {
+   "form": "S-8",
+   "date": "2026-11-19",
+   "meaning": "员工持股计划登记",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074934/anthropicpbc-sx8resale.htm"
+  },
+  {
+   "form": "S-8",
+   "date": "2026-11-19",
+   "meaning": "员工持股计划登记",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074931/anthropicpbc-formsx8.htm"
+  },
+  {
+   "form": "EFFECT",
+   "date": "2026-11-18",
+   "meaning": "注册生效",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/999999999526003574/xslEFFECTX01/primary_doc.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000215807926000002/xslF345X06/form3-11192026_021154.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000215800226000002/xslF345X06/form3-11192026_021150.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000215844126000002/xslF345X06/form3-11192026_021134.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000199724426000004/xslF345X06/form3-11192026_021127.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000122182026000004/xslF345X06/form3-11192026_021133.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000103333126000003/xslF345X06/form3-11192026_021143.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000215812026000002/xslF345X06/form3-11192026_011136.xml"
+  },
+  {
+   "form": "3",
+   "date": "2026-11-18",
+   "meaning": "内部人初始持股申报（IPO 常规）",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000215794726000003/xslF345X06/form3-11192026_011132.xml"
+  },
+  {
+   "form": "S-1MEF",
+   "date": "2026-11-18",
+   "meaning": "其他申报",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074904/anthropic-sx1mef.htm"
+  },
+  {
+   "form": "CERT",
+   "date": "2026-11-18",
+   "meaning": "其他申报",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000135445726001088/ANT_8A_Cert_0002130357.pdf"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-18",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074628/anthropicpbc-fwpjapanprospa.htm"
+  },
+  {
+   "form": "8-A12B",
+   "date": "2026-11-17",
+   "meaning": "其他申报",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074342/anthropic-8xa12b.htm"
+  },
+  {
+   "form": "S-1/A",
+   "date": "2026-11-17",
+   "meaning": "其他申报",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-12",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073045/anthropicpbc-fwpjapanamend.htm"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-12",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-12",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072953/anthropicpbc-fwpauswrapcap.htm"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-12",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072952/anthropicpbc-fwpukmaterials.htm"
+  },
+  {
+   "form": "FWP",
+   "date": "2026-11-12",
+   "meaning": "自由书面招股材料",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072949/anthropicpbc-fwpipowebsi.htm"
+  },
+  {
+   "form": "S-1/A",
+   "date": "2026-11-10",
+   "meaning": "其他申报",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm"
+  },
+  {
+   "form": "S-1/A",
+   "date": "2026-11-02",
+   "meaning": "其他申报",
+   "dir": 0,
+   "level": "info",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
   }
  ],
  "calendar": {
@@ -923,14 +1127,14 @@
    }
   ]
  },
- "tone_net": 0.2207,
+ "tone_net": 0.2457,
  "hourly": [
   {
    "h": "2026-11-19 16:00",
    "price": 97.17,
    "state": "MECHANICAL",
    "score": 0,
-   "tone": 0.221
+   "tone": 0.246
   }
  ],
  "source_records": {},
