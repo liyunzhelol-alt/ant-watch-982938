@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:05:13-05:00",
+ "generated": "2026-11-19T17:06:00-05:00",
  "errors": [],
  "quote": {
   "price": 97.17,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.994,
+    "recency": 0.993,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9937
+    "effective": 0.9935
    },
    "tone": {
     "dir": 0,
@@ -51,7 +51,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9894
+    "effective": 0.9892
    },
    "tone": {
     "dir": 0,
@@ -71,7 +71,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9869
+    "effective": 0.9867
    },
    "tone": {
     "dir": 0,
@@ -91,7 +91,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9459
+    "effective": 0.9457
    },
    "tone": {
     "dir": 1,
@@ -113,7 +113,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5948
+    "effective": 0.5947
    },
    "tone": {
     "dir": -1,
@@ -137,7 +137,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5932
+    "effective": 0.5931
    },
    "tone": {
     "dir": 1,
@@ -160,7 +160,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5513
+    "effective": 0.5512
    },
    "tone": {
     "dir": 0,
@@ -180,7 +180,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5269
+    "effective": 0.5268
    },
    "tone": {
     "dir": 0,
@@ -220,7 +220,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3382
+    "effective": 0.3381
    },
    "tone": {
     "dir": 0,
@@ -260,7 +260,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.322
+    "effective": 0.3219
    },
    "tone": {
     "dir": 0,
@@ -304,7 +304,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2943
+    "effective": 0.2942
    },
    "tone": {
     "dir": 1,
@@ -321,12 +321,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.971,
+    "recency": 0.97,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2912
+    "effective": 0.2911
    },
    "tone": {
     "dir": 0,
@@ -346,7 +346,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2859
+    "effective": 0.2858
    },
    "tone": {
     "dir": 0,
@@ -386,7 +386,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.279
+    "effective": 0.2789
    },
    "tone": {
     "dir": 0,
@@ -448,7 +448,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2709
+    "effective": 0.2708
    },
    "tone": {
     "dir": 0,
@@ -463,12 +463,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.902,
+    "recency": 0.901,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2705
+    "effective": 0.2704
    },
    "tone": {
     "dir": 0,
@@ -483,12 +483,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.9,
+    "recency": 0.899,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2699
+    "effective": 0.2698
    },
    "tone": {
     "dir": 1,
@@ -510,7 +510,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2688
+    "effective": 0.2687
    },
    "tone": {
     "dir": 1,
@@ -552,7 +552,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2676
+    "effective": 0.2675
    },
    "tone": {
     "dir": 0,
@@ -572,7 +572,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2668
+    "effective": 0.2667
    },
    "tone": {
     "dir": 0,
@@ -627,7 +627,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.93,
+    "recency": 0.929,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -1298,35 +1298,40 @@
      "on": true,
      "live": true,
      "w": 2,
-     "why": "价格是事实，但「无消息」只能证明我没搜到，不能证明不存在"
+     "why": "价格是事实，但「无消息」只能证明我没搜到，不能证明不存在",
+     "id": "S_DROP"
     },
     {
      "t": "跌幅主要来自大盘而非个股（ANT -12.8% vs 纳指100 -6.3%，相对强弱 -6.6）",
      "on": false,
      "live": true,
      "w": 3,
-     "why": "两个可独立核对的收盘价相减，是短线最强的「这是不是关于这家公司」的判别器"
+     "why": "两个可独立核对的收盘价相减，是短线最强的「这是不是关于这家公司」的判别器",
+     "id": "S_WITH_MKT"
     },
     {
      "t": "处于解禁后 0–3 天窗口（利空出尽）",
      "on": true,
      "live": true,
      "w": 1,
-     "why": "依据只有 SpaceX 一个样本（n=1），当趋势用不住"
+     "why": "依据只有 SpaceX 一个样本（n=1），当趋势用不住",
+     "id": null
     },
     {
      "t": "现价站上当日中位价",
      "on": false,
      "live": true,
      "w": 1,
-     "why": "纯价格位置，没有任何信息含量，只是方向的粗略读数"
+     "why": "纯价格位置，没有任何信息含量，只是方向的粗略读数",
+     "id": "S_ABOVE_MID"
     },
     {
      "t": "加权新闻口径为正（现 +0.17）",
      "on": true,
      "live": true,
      "w": 1,
-     "why": "标题关键词匹配，连句子都没读懂，权重必须低"
+     "why": "标题关键词匹配，连句子都没读懂，权重必须低",
+     "id": null
     }
    ],
    "negative": [
@@ -1335,48 +1340,63 @@
      "on": false,
      "live": true,
      "w": 1,
-     "why": "「涨多了就危险」是经验法则，不是证据"
+     "why": "「涨多了就危险」是经验法则，不是证据",
+     "id": "S_CHASE"
     },
     {
      "t": "显著跑输大盘（相对强弱 -6.6，个股自身问题）",
      "on": true,
      "live": true,
      "w": 3,
-     "why": "超额跌幅无法用大盘解释，必然来自这只股票自身"
+     "why": "超额跌幅无法用大盘解释，必然来自这只股票自身",
+     "id": "S_LAG_MKT"
     },
     {
      "t": "3 天内有解禁",
      "on": false,
      "live": true,
      "w": 2,
-     "why": "合同条款写死的日期和股数，但卖不卖仍取决于持有人"
+     "why": "合同条款写死的日期和股数，但卖不卖仍取决于持有人",
+     "id": null
     },
     {
      "t": "今日出现 Form 4 / 144（内部人在卖）",
      "on": false,
      "live": true,
      "w": 3,
-     "why": "法定申报文件，内部人已经卖了。不是猜测，是记录"
+     "why": "法定申报文件，内部人已经卖了。不是猜测，是记录",
+     "id": null
     },
     {
      "t": "一、二级信源出现基本面负面消息",
      "on": false,
      "live": true,
      "w": 3,
-     "why": "通过了信源分级和基本面关键词双重过滤"
+     "why": "通过了信源分级和基本面关键词双重过滤",
+     "id": null
     },
     {
      "t": "加权新闻口径为负（现 +0.17）",
      "on": false,
      "live": true,
      "w": 1,
-     "why": "同上，关键词启发式"
+     "why": "同上，关键词启发式",
+     "id": null
     }
    ],
    "intraday_pct": -12.85,
    "ndx_pct": -6.26,
    "rel": -6.59,
-   "tnx": 5.052
+   "tnx": 5.052,
+   "live_refs": {
+    "ipo": 83.0,
+    "open": 111.5,
+    "mid": 103.91,
+    "ndx": -6.26,
+    "small": 4.0,
+    "high": 115.1,
+    "bad": false
+   }
   },
   "long": {
    "name": "长线",
@@ -1396,42 +1416,48 @@
      "on": true,
      "live": false,
      "w": 3,
-     "why": "经审计的现金流量表。生意自己产生现金，不靠融资续命"
+     "why": "经审计的现金流量表。生意自己产生现金，不靠融资续命",
+     "id": null
     },
     {
      "t": "经营利润率大幅改善（-205% → -3.8%）",
      "on": true,
      "live": false,
      "w": 3,
-     "why": "经审计，跨五个期间的趋势，不是单点"
+     "why": "经审计，跨五个期间的趋势，不是单点",
+     "id": null
     },
     {
      "t": "账上现金占市值 ≥15%（$232B，占 18%）",
      "on": true,
      "live": false,
      "w": 2,
-     "why": "现金是地板不是引擎——能防止死掉，不能让股价涨"
+     "why": "现金是地板不是引擎——能防止死掉，不能让股价涨",
+     "id": null
     },
     {
      "t": "跌破 $83 发行价",
      "on": false,
      "live": false,
      "w": 2,
-     "why": "机构配售成本线，有参考意义但本质仍是一个任意价格"
+     "why": "机构配售成本线，有参考意义但本质仍是一个任意价格",
+     "id": "L_BELOW_IPO"
     },
     {
      "t": "较上市后高点回撤 ≥25%",
      "on": false,
      "live": false,
      "w": 1,
-     "why": "纯价格位置。高点本身是首日情绪定的，不是价值锚"
+     "why": "纯价格位置。高点本身是首日情绪定的，不是价值锚",
+     "id": "L_DRAWDOWN"
     },
     {
      "t": "EV/Sales < 15×（现 24×）",
      "on": false,
      "live": false,
      "w": 2,
-     "why": "扣现金后的估值，比市销率干净，但 15× 这个门槛是我定的"
+     "why": "扣现金后的估值，比市销率干净，但 15× 这个门槛是我定的",
+     "id": "L_EVS"
     }
    ],
    "negative": [
@@ -1440,37 +1466,49 @@
      "on": true,
      "live": false,
      "w": 3,
-     "why": "招股书里逐笔写明的日期和股数，确定性最高的一条"
+     "why": "招股书里逐笔写明的日期和股数，确定性最高的一条",
+     "id": null
     },
     {
      "t": "经营仍未转正（9M2026 经营亏损 $1.26B，利润率 -3.8%）",
      "on": true,
      "live": false,
      "w": 1,
-     "why": "技术上成立，但 −3.8% 且在快速收敛，趋势已记在买入侧，这里不该重复计重"
+     "why": "技术上成立，但 −3.8% 且在快速收敛，趋势已记在买入侧，这里不该重复计重",
+     "id": null
     },
     {
      "t": "算力与基础设施占营收 57%，高于 50%",
      "on": true,
      "live": false,
      "w": 3,
-     "why": "决定这门生意的利润率天花板。营收增速再高也绕不过这一条"
+     "why": "决定这门生意的利润率天花板。营收增速再高也绕不过这一条",
+     "id": null
     },
     {
      "t": "市销率 29× 高于 30×",
      "on": false,
      "live": false,
      "w": 2,
-     "why": "估值偏贵，但 30× 这个门槛是惯例不是定律"
+     "why": "估值偏贵，但 30× 这个门槛是惯例不是定律",
+     "id": "L_PS"
     },
     {
      "t": "较发行价溢价 ≥25%",
      "on": false,
      "live": false,
      "w": 1,
-     "why": "相对一个任意的承销定价，信息含量最低"
+     "why": "相对一个任意的承销定价，信息含量最低",
+     "id": "L_PREMIUM"
     }
    ],
+   "live_refs": {
+    "ipo": 83.0,
+    "high": 115.1,
+    "shares": 13219642274,
+    "rev_annual": 44322666666.666664,
+    "cash": 232351000000.0
+   },
    "ps": 29.0,
    "pending_shares": 10200000000,
    "op_margin": -3.8,
@@ -1498,35 +1536,40 @@
     "on": true,
     "live": true,
     "w": 2,
-    "why": "价格是事实，但「无消息」只能证明我没搜到，不能证明不存在"
+    "why": "价格是事实，但「无消息」只能证明我没搜到，不能证明不存在",
+    "id": "S_DROP"
    },
    {
     "t": "跌幅主要来自大盘而非个股（ANT -12.8% vs 纳指100 -6.3%，相对强弱 -6.6）",
     "on": false,
     "live": true,
     "w": 3,
-    "why": "两个可独立核对的收盘价相减，是短线最强的「这是不是关于这家公司」的判别器"
+    "why": "两个可独立核对的收盘价相减，是短线最强的「这是不是关于这家公司」的判别器",
+    "id": "S_WITH_MKT"
    },
    {
     "t": "处于解禁后 0–3 天窗口（利空出尽）",
     "on": true,
     "live": true,
     "w": 1,
-    "why": "依据只有 SpaceX 一个样本（n=1），当趋势用不住"
+    "why": "依据只有 SpaceX 一个样本（n=1），当趋势用不住",
+    "id": null
    },
    {
     "t": "现价站上当日中位价",
     "on": false,
     "live": true,
     "w": 1,
-    "why": "纯价格位置，没有任何信息含量，只是方向的粗略读数"
+    "why": "纯价格位置，没有任何信息含量，只是方向的粗略读数",
+    "id": "S_ABOVE_MID"
    },
    {
     "t": "加权新闻口径为正（现 +0.17）",
     "on": true,
     "live": true,
     "w": 1,
-    "why": "标题关键词匹配，连句子都没读懂，权重必须低"
+    "why": "标题关键词匹配，连句子都没读懂，权重必须低",
+    "id": null
    }
   ],
   "negative": [
@@ -1535,48 +1578,63 @@
     "on": false,
     "live": true,
     "w": 1,
-    "why": "「涨多了就危险」是经验法则，不是证据"
+    "why": "「涨多了就危险」是经验法则，不是证据",
+    "id": "S_CHASE"
    },
    {
     "t": "显著跑输大盘（相对强弱 -6.6，个股自身问题）",
     "on": true,
     "live": true,
     "w": 3,
-    "why": "超额跌幅无法用大盘解释，必然来自这只股票自身"
+    "why": "超额跌幅无法用大盘解释，必然来自这只股票自身",
+    "id": "S_LAG_MKT"
    },
    {
     "t": "3 天内有解禁",
     "on": false,
     "live": true,
     "w": 2,
-    "why": "合同条款写死的日期和股数，但卖不卖仍取决于持有人"
+    "why": "合同条款写死的日期和股数，但卖不卖仍取决于持有人",
+    "id": null
    },
    {
     "t": "今日出现 Form 4 / 144（内部人在卖）",
     "on": false,
     "live": true,
     "w": 3,
-    "why": "法定申报文件，内部人已经卖了。不是猜测，是记录"
+    "why": "法定申报文件，内部人已经卖了。不是猜测，是记录",
+    "id": null
    },
    {
     "t": "一、二级信源出现基本面负面消息",
     "on": false,
     "live": true,
     "w": 3,
-    "why": "通过了信源分级和基本面关键词双重过滤"
+    "why": "通过了信源分级和基本面关键词双重过滤",
+    "id": null
    },
    {
     "t": "加权新闻口径为负（现 +0.17）",
     "on": false,
     "live": true,
     "w": 1,
-    "why": "同上，关键词启发式"
+    "why": "同上，关键词启发式",
+    "id": null
    }
   ],
   "intraday_pct": -12.85,
   "ndx_pct": -6.26,
   "rel": -6.59,
-  "tnx": 5.052
+  "tnx": 5.052,
+  "live_refs": {
+   "ipo": 83.0,
+   "open": 111.5,
+   "mid": 103.91,
+   "ndx": -6.26,
+   "small": 4.0,
+   "high": 115.1,
+   "bad": false
+  }
  },
  "hourly": [
   {
