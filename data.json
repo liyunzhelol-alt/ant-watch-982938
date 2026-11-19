@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T16:40:07-05:00",
+ "generated": "2026-11-19T16:43:23-05:00",
  "errors": [],
  "quote": {
   "price": 97.17,
@@ -19,18 +19,18 @@
  },
  "news": [
   {
-   "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
-   "published": "Thu, 19 Nov 2026 21:01:02 GMT",
-   "source": "reuters.com",
+   "title": "Thousands of Anthropic Employees and Investors Are Set to Reap Fortunes - WSJ",
+   "published": "Thu, 19 Nov 2026 21:31:01 GMT",
+   "source": "wsj.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.991,
+    "recency": 0.997,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9906
+    "effective": 0.997
    },
    "tone": {
     "dir": 0,
@@ -40,17 +40,37 @@
   },
   {
    "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
-   "published": "Thu, 19 Nov 2026 20:54:36 GMT",
+   "published": "Thu, 19 Nov 2026 21:10:31 GMT",
    "source": "reuters.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.989,
+    "recency": 0.992,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9891
+    "effective": 0.9921
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+   "published": "Thu, 19 Nov 2026 21:01:02 GMT",
+   "source": "reuters.com",
+   "tier": 1,
+   "weight": {
+    "base": 1.0,
+    "recency": 0.99,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.9899
    },
    "tone": {
     "dir": 0,
@@ -65,12 +85,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.952,
+    "recency": 0.951,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9516
+    "effective": 0.9508
    },
    "tone": {
     "dir": 1,
@@ -87,12 +107,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.995,
+    "recency": 0.994,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5968
+    "effective": 0.5964
    },
    "tone": {
     "dir": 1,
@@ -115,7 +135,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5954
+    "effective": 0.5949
    },
    "tone": {
     "dir": 0,
@@ -135,7 +155,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5546
+    "effective": 0.5542
    },
    "tone": {
     "dir": 0,
@@ -150,12 +170,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.884,
+    "recency": 0.883,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5301
+    "effective": 0.5297
    },
    "tone": {
     "dir": 0,
@@ -170,52 +190,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.898,
+    "recency": 0.897,
     "corroboration": 1.3,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 2,
-    "effective": 0.3503
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "ANT Stock Opens at $111.50 on Nasdaq: How Anthropic's Debut Compares With SpaceX - BeInCrypto",
-   "published": "Thu, 19 Nov 2026 20:42:33 GMT",
-   "source": "beincrypto.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.986,
-    "corroboration": 1.15,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 1,
-    "effective": 0.3403
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "ANT update: Anthropic stock opens higher in Nasdaq debut - Fast Company",
-   "published": "Thu, 19 Nov 2026 17:28:06 GMT",
-   "source": "fastcompany.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.941,
-    "corroboration": 1.15,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 1,
-    "effective": 0.3247
+    "effective": 0.35
    },
    "tone": {
     "dir": 0,
@@ -230,12 +210,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.939,
+    "recency": 0.938,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3239
+    "effective": 0.3237
    },
    "tone": {
     "dir": 0,
@@ -250,12 +230,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.996,
+    "recency": 0.995,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2988
+    "effective": 0.2986
    },
    "tone": {
     "dir": 0,
@@ -274,16 +254,38 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.992,
+    "recency": 0.991,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2976
+    "effective": 0.2974
    },
    "tone": {
     "dir": 0,
     "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic IPO: ANT Stock Opens at $111.50 After Record $81.3 Billion Offering - Eurasia Business News",
+   "published": "Thu, 19 Nov 2026 20:45:34 GMT",
+   "source": "eurasiabusinessnews.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.986,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2959
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "record"
+    ],
     "bear": []
    }
   },
@@ -294,12 +296,32 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.959,
+    "recency": 0.958,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2876
+    "effective": 0.2874
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "ANT update: Anthropic stock opens higher in Nasdaq debut - Fast Company",
+   "published": "Thu, 19 Nov 2026 17:28:06 GMT",
+   "source": "fastcompany.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.94,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2821
    },
    "tone": {
     "dir": 0,
@@ -314,12 +336,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.939,
+    "recency": 0.938,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2816
+    "effective": 0.2814
    },
    "tone": {
     "dir": 0,
@@ -334,12 +356,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.936,
+    "recency": 0.935,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2807
+    "effective": 0.2804
    },
    "tone": {
     "dir": 0,
@@ -354,12 +376,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.923,
+    "recency": 0.922,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2769
+    "effective": 0.2767
    },
    "tone": {
     "dir": 0,
@@ -379,7 +401,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2725
+    "effective": 0.2723
    },
    "tone": {
     "dir": 0,
@@ -394,12 +416,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.907,
+    "recency": 0.906,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2721
+    "effective": 0.2719
    },
    "tone": {
     "dir": 0,
@@ -414,12 +436,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.907,
+    "recency": 0.906,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2721
+    "effective": 0.2719
    },
    "tone": {
     "dir": 0,
@@ -434,12 +456,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.905,
+    "recency": 0.904,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2715
+    "effective": 0.2713
    },
    "tone": {
     "dir": 1,
@@ -461,7 +483,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2704
+    "effective": 0.2702
    },
    "tone": {
     "dir": 1,
@@ -478,12 +500,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.899,
+    "recency": 0.898,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2698
+    "effective": 0.2695
    },
    "tone": {
     "dir": 0,
@@ -503,7 +525,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2692
+    "effective": 0.269
    },
    "tone": {
     "dir": 0,
@@ -518,12 +540,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.895,
+    "recency": 0.894,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2684
+    "effective": 0.2682
    },
    "tone": {
     "dir": 0,
@@ -543,7 +565,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2647
+    "effective": 0.2645
    },
    "tone": {
     "dir": 0,
@@ -558,12 +580,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.853,
+    "recency": 0.852,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2558
+    "effective": 0.2555
    },
    "tone": {
     "dir": 0,
@@ -583,27 +605,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2332
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
-   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
-   "source": "fastcompany.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.731,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2192
+    "effective": 0.233
    },
    "tone": {
     "dir": 0,
@@ -848,6 +850,89 @@
    "shares_out_class_n": 5636538278,
    "google_private_placement_unlocked": 313253007
   },
+  "financials": {
+   "_source": "424B4 'Summary Consolidated Financial Data', audited. USD millions.",
+   "periods": [
+    "FY2023",
+    "FY2024",
+    "FY2025",
+    "9M2025",
+    "9M2026"
+   ],
+   "revenue": [
+    41,
+    386,
+    4585,
+    2545,
+    33242
+   ],
+   "compute_infra": [
+    433,
+    2522,
+    7326,
+    4381,
+    18808
+   ],
+   "personnel": [
+    95,
+    454,
+    1839,
+    1027,
+    4863
+   ],
+   "sales_mktg": [
+    2,
+    43,
+    568,
+    322,
+    5529
+   ],
+   "other_opex": [
+    62,
+    347,
+    1412,
+    539,
+    5302
+   ],
+   "total_opex": [
+    592,
+    3366,
+    12645,
+    7769,
+    34502
+   ],
+   "operating_loss": [
+    -551,
+    -2980,
+    -8060,
+    -5224,
+    -1260
+   ],
+   "net_loss": [
+    -1531,
+    -8309,
+    -41965,
+    -25107,
+    -104039
+   ],
+   "operating_cash_flow": [
+    -1627,
+    -5692,
+    -2637,
+    -2024,
+    6569
+   ],
+   "sbc": [
+    29,
+    192,
+    1200,
+    591,
+    3300
+   ],
+   "cash_and_st_investments": 131845,
+   "cash_pro_forma_as_adjusted": 232351,
+   "note": "The headline net loss is dominated by a non-cash change in fair value of convertible notes and SAFEs (-94,324 in 9M2026) that rose with the private valuation. Those notes convert at IPO, so the line largely disappears going forward. The operating line and the cash flow line are the ones that describe the business."
+  },
   "revenue": [
    {
     "period": "2023",
@@ -1077,7 +1162,7 @@
   ],
   "buy_condition_met": false
  },
- "tone_net": 0.1832,
+ "tone_net": 0.1971,
  "signals": {
   "short": {
    "name": "短线",
@@ -1140,12 +1225,27 @@
   "long": {
    "name": "长线",
    "horizon": "数月",
-   "score": -2,
-   "up": 0,
-   "down": 2,
-   "max": 5,
-   "note": "估值与供给结构。这些条件几个月才会翻面一次，看它们判断短线没有意义。",
+   "score": 0,
+   "up": 3,
+   "down": 3,
+   "max": 6,
+   "note": "基于招股书里经审计的三年财报 + 2026 前九个月，不是占位符。注意：$104B 的净亏损几乎全部是可转债公允价值变动（非现金），IPO 后这些票据转股，该科目基本消失。真正描述生意的是经营利润和经营现金流两行。",
    "positive": [
+    {
+     "t": "经营现金流为正（9M2026 +$6.6B，上年同期 −$2.0B）",
+     "on": true,
+     "live": false
+    },
+    {
+     "t": "经营利润率大幅改善（-205% → -3.8%）",
+     "on": true,
+     "live": false
+    },
+    {
+     "t": "账上现金占市值 ≥15%（$232B，占 18%）",
+     "on": true,
+     "live": false
+    },
     {
      "t": "跌破 $83 发行价",
      "on": false,
@@ -1157,34 +1257,24 @@
      "live": false
     },
     {
-     "t": "已有至少一份上市公司财报（10-Q/10-K）",
-     "on": false,
-     "live": false
-    },
-    {
-     "t": "剩余待解禁 < 流通盘 2 倍（供给冲击大半过去）",
-     "on": false,
-     "live": false
-    },
-    {
-     "t": "市销率 < 20×",
+     "t": "EV/Sales < 15×（现 24×）",
      "on": false,
      "live": false
     }
    ],
    "negative": [
     {
-     "t": "较发行价溢价 ≥25%",
-     "on": false,
-     "live": false
-    },
-    {
-     "t": "尚无任何上市公司财报，估值全是预期",
+     "t": "剩余待解禁 10.2B 股 = 流通盘 10.4 倍",
      "on": true,
      "live": false
     },
     {
-     "t": "剩余待解禁 10.2B 股 = 流通盘 10.4 倍",
+     "t": "经营仍未转正（9M2026 经营亏损 $1.26B，利润率 -3.8%）",
+     "on": true,
+     "live": false
+    },
+    {
+     "t": "算力与基础设施占营收 57%，高于 50%",
      "on": true,
      "live": false
     },
@@ -1192,10 +1282,20 @@
      "t": "市销率 29× 高于 30×",
      "on": false,
      "live": false
+    },
+    {
+     "t": "较发行价溢价 ≥25%",
+     "on": false,
+     "live": false
     }
    ],
    "ps": 29.0,
-   "pending_shares": 10200000000
+   "pending_shares": 10200000000,
+   "op_margin": -3.8,
+   "ocf": 6569,
+   "ev_sales": 23.7,
+   "cash_pct": 18.1,
+   "compute_share": 56.6
   }
  },
  "signal": {
@@ -1262,7 +1362,7 @@
    "price": 97.17,
    "state": "MECHANICAL",
    "score": 2,
-   "tone": 0.183
+   "tone": 0.197
   }
  ],
  "source_records": {},
@@ -1271,7 +1371,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 15
+  "pending_observations": 16
  },
  "next_unlock": {
   "date": "2026-11-19",
