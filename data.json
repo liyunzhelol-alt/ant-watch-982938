@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:10:06-05:00",
+ "generated": "2026-11-20T16:20:07-05:00",
  "errors": [],
  "quote": {
   "price": 88.91,
@@ -11,7 +11,7 @@
   "day_low": 83.05,
   "high_52w": 115.1,
   "low_52w": 83.05,
-  "volume": 394641803,
+  "volume": 395307616,
   "market_time": 1795208402,
   "currency": "USD",
   "regular_close": 88.91,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.959,
+    "recency": 0.957,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.959
+    "effective": 0.9567
    },
    "tone": {
     "dir": -1,
@@ -48,12 +48,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.612,
+    "recency": 0.61,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.6117
+    "effective": 0.6102
    },
    "tone": {
     "dir": 0,
@@ -68,12 +68,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.891,
+    "recency": 0.889,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5347
+    "effective": 0.5334
    },
    "tone": {
     "dir": 1,
@@ -90,12 +90,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.716,
+    "recency": 0.714,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4296
+    "effective": 0.4285
    },
    "tone": {
     "dir": 1,
@@ -112,12 +112,32 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.707,
+    "recency": 0.705,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.424
+    "effective": 0.423
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic’s ANT Stock Ends First Day 17% Above IPO Price - Bitcoin Foundation",
+   "published": "Fri, 20 Nov 2026 09:07:27 GMT",
+   "source": "bitcoinfoundation.org",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.838,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.2892
    },
    "tone": {
     "dir": 0,
@@ -132,12 +152,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.955,
+    "recency": 0.952,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2864
+    "effective": 0.2857
    },
    "tone": {
     "dir": -1,
@@ -154,12 +174,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.946,
+    "recency": 0.944,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2839
+    "effective": 0.2832
    },
    "tone": {
     "dir": 0,
@@ -178,12 +198,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.939,
+    "recency": 0.937,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2817
+    "effective": 0.2811
    },
    "tone": {
     "dir": -1,
@@ -201,12 +221,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.938,
+    "recency": 0.935,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2813
+    "effective": 0.2806
    },
    "tone": {
     "dir": -1,
@@ -223,12 +243,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.937,
+    "recency": 0.934,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.281
+    "effective": 0.2803
    },
    "tone": {
     "dir": 1,
@@ -245,12 +265,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.929,
+    "recency": 0.926,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2786
+    "effective": 0.2779
    },
    "tone": {
     "dir": 0,
@@ -265,12 +285,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.459,
+    "recency": 0.458,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2755
+    "effective": 0.2748
    },
    "tone": {
     "dir": 1,
@@ -288,12 +308,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.917,
+    "recency": 0.915,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2752
+    "effective": 0.2745
    },
    "tone": {
     "dir": -1,
@@ -310,32 +330,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.913,
+    "recency": 0.911,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2739
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic stock dives after rip-roaring IPO - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 14:39:21 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.91,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=2 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2731
+    "effective": 0.2733
    },
    "tone": {
     "dir": 0,
@@ -350,12 +350,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.906,
+    "recency": 0.904,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2718
+    "effective": 0.2712
    },
    "tone": {
     "dir": -1,
@@ -372,12 +372,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.902,
+    "recency": 0.9,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2705
+    "effective": 0.2699
    },
    "tone": {
     "dir": -1,
@@ -394,12 +394,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.901,
+    "recency": 0.899,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2704
+    "effective": 0.2698
    },
    "tone": {
     "dir": 0,
@@ -414,12 +414,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.894,
+    "recency": 0.892,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2681
+    "effective": 0.2675
    },
    "tone": {
     "dir": -1,
@@ -436,12 +436,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.863,
+    "recency": 0.861,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.259
+    "effective": 0.2584
    },
    "tone": {
     "dir": 1,
@@ -458,12 +458,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.848,
+    "recency": 0.846,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2544
+    "effective": 0.2537
    },
    "tone": {
     "dir": -1,
@@ -474,38 +474,18 @@
    }
   },
   {
-   "title": "Anthropic’s ANT Stock Ends First Day 17% Above IPO Price - Bitcoin Foundation",
-   "published": "Fri, 20 Nov 2026 09:07:27 GMT",
-   "source": "bitcoinfoundation.org",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.84,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2521
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic Stock Is Down 13% From Its Opening Price. Is This Dip Worth Buying? - Yahoo Finance",
    "published": "Fri, 20 Nov 2026 08:35:02 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.834,
+    "recency": 0.832,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2501
+    "effective": 0.2495
    },
    "tone": {
     "dir": 0,
@@ -520,12 +500,32 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.797,
+    "recency": 0.795,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.239
+    "effective": 0.2384
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic stock's first trade was worth $12 billion — 34% above its IPO price - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:17:21 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.667,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=3 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.2301
    },
    "tone": {
     "dir": 0,
@@ -540,12 +540,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.757,
+    "recency": 0.755,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2272
+    "effective": 0.2266
    },
    "tone": {
     "dir": -1,
@@ -562,12 +562,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.683,
+    "recency": 0.681,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2049
+    "effective": 0.2044
    },
    "tone": {
     "dir": 0,
@@ -582,12 +582,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.64,
+    "recency": 0.638,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1919
+    "effective": 0.1914
    },
    "tone": {
     "dir": 0,
@@ -602,12 +602,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.628,
+    "recency": 0.627,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=2 样本不足",
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1885
+    "effective": 0.1881
    },
    "tone": {
     "dir": 0,
@@ -622,12 +622,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.52,
+    "recency": 0.519,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1561
+    "effective": 0.1558
    },
    "tone": {
     "dir": 0,
@@ -642,7 +642,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.953,
+    "recency": 0.95,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -711,9 +711,9 @@
    "tier": 2
   },
   {
-   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WLOS",
-   "published": "Fri, 20 Nov 2026 21:08:16 GMT",
-   "source": "wlos.com",
+   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WZTV",
+   "published": "Fri, 20 Nov 2026 21:11:40 GMT",
+   "source": "fox17.com",
    "tier": 3
   },
   {
@@ -721,12 +721,6 @@
    "published": "Fri, 20 Nov 2026 18:00:00 GMT",
    "source": "washingtonpost.com",
    "tier": 3
-  },
-  {
-   "title": "Trump administration moves to block China from indirect access to American AI technology - AP News",
-   "published": "Tue, 17 Nov 2026 07:49:00 GMT",
-   "source": "apnews.com",
-   "tier": 1
   },
   {
    "title": "US Congress releases list of Chinese firms seeking Nvidia chips - South China Morning Post",
@@ -762,6 +756,12 @@
    "title": "BIS Issues Interim Final Rule on Remote Access to Supercomputing Capabilities - Wiley Rein",
    "published": "Thu, 19 Nov 2026 18:35:41 GMT",
    "source": "wiley.law",
+   "tier": 3
+  },
+  {
+   "title": "What’s next for AI regulation once Democrats control Congress? - AZ Family",
+   "published": "Thu, 19 Nov 2026 01:55:00 GMT",
+   "source": "azfamily.com",
    "tier": 3
   }
  ],
@@ -1298,7 +1298,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.1763,
+ "tone_net": -0.1764,
  "signals": {
   "short": {
    "name": "短线",
@@ -1730,12 +1730,12 @@
  ],
  "source_records": {
   "finance.yahoo.com": {
-   "n": 2,
-   "hits": 2
+   "n": 3,
+   "hits": 3
   },
   "reuters.com": {
-   "n": 2,
-   "hits": 2
+   "n": 3,
+   "hits": 3
   },
   "cbsnews.com": {
    "n": 1,
@@ -1748,6 +1748,10 @@
   "bloomberg.com": {
    "n": 1,
    "hits": 1
+  },
+  "beincrypto.com": {
+   "n": 1,
+   "hits": 1
   }
  },
  "weight_method": {
@@ -1755,7 +1759,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 35
+  "pending_observations": 32
  },
  "next_unlock": {
   "date": "2026-12-15",
