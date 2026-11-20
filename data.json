@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:30:06-05:00",
+ "generated": "2026-11-20T16:40:06-05:00",
  "errors": [],
  "quote": {
   "price": 88.91,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.954,
+    "recency": 0.952,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9544
+    "effective": 0.9521
    },
    "tone": {
     "dir": -1,
@@ -42,46 +42,46 @@
    }
   },
   {
-   "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion - Reuters",
-   "published": "Fri, 20 Nov 2026 04:45:13 GMT",
-   "source": "reuters.com",
-   "tier": 1,
-   "weight": {
-    "base": 1.0,
-    "recency": 0.785,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=3 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.7852
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "raise",
-     "record"
-    ],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
    "published": "Thu, 19 Nov 2026 11:08:00 GMT",
    "source": "reuters.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.609,
+    "recency": 0.607,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.6088
+    "effective": 0.6073
    },
    "tone": {
     "dir": 0,
     "bull": [],
     "bear": []
+   }
+  },
+  {
+   "title": "Anthropic stock falls 14% in first full day of trading amid AI sell-off - CNBC",
+   "published": "Fri, 20 Nov 2026 09:06:36 GMT",
+   "source": "cnbc.com",
+   "tier": 2,
+   "weight": {
+    "base": 0.6,
+    "recency": 0.834,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.5756
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "fall",
+     "sell-off"
+    ]
    }
   },
   {
@@ -91,12 +91,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.887,
+    "recency": 0.885,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5321
+    "effective": 0.5308
    },
    "tone": {
     "dir": 1,
@@ -113,12 +113,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.712,
+    "recency": 0.711,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4275
+    "effective": 0.4265
    },
    "tone": {
     "dir": 1,
@@ -129,18 +129,41 @@
    }
   },
   {
+   "title": "Anthropic Stock Falls About 9% on First Full Trading Day as AI Stocks Slide - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 16:49:16 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.932,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=4 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.3217
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "fall",
+     "slide"
+    ]
+   }
+  },
+  {
    "title": "Anthropic’s ANT Stock Ends First Day 17% Above IPO Price - Bitcoin Foundation",
    "published": "Fri, 20 Nov 2026 09:07:27 GMT",
    "source": "bitcoinfoundation.org",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.836,
+    "recency": 0.834,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.2885
+    "effective": 0.2878
    },
    "tone": {
     "dir": 0,
@@ -155,12 +178,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.95,
+    "recency": 0.948,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2851
+    "effective": 0.2844
    },
    "tone": {
     "dir": -1,
@@ -171,65 +194,18 @@
    }
   },
   {
-   "title": "Anthropic Stock Falls Sharply After Record IPO. Why AI Anxiety Is Rising. - Investor's Business Daily",
-   "published": "Fri, 20 Nov 2026 17:21:00 GMT",
-   "source": "investors.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.942,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2825
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [
-     "record"
-    ],
-    "bear": [
-     "fall"
-    ]
-   }
-  },
-  {
-   "title": "Anthropic Stock Falls About 9% on First Full Trading Day as AI Stocks Slide - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 16:49:16 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.935,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=3 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2804
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "fall",
-     "slide"
-    ]
-   }
-  },
-  {
    "title": "Why Anthropic Stock Is Falling Today - Yahoo Finance",
    "published": "Fri, 20 Nov 2026 16:42:01 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.933,
+    "recency": 0.931,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2799
+    "effective": 0.2792
    },
    "tone": {
     "dir": -1,
@@ -246,12 +222,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.932,
+    "recency": 0.93,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2796
+    "effective": 0.2789
    },
    "tone": {
     "dir": 1,
@@ -268,12 +244,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.924,
+    "recency": 0.922,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2773
+    "effective": 0.2766
    },
    "tone": {
     "dir": 0,
@@ -288,12 +264,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.457,
+    "recency": 0.456,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2742
+    "effective": 0.2735
    },
    "tone": {
     "dir": 1,
@@ -311,12 +287,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.913,
+    "recency": 0.911,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2739
+    "effective": 0.2732
    },
    "tone": {
     "dir": -1,
@@ -333,12 +309,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.909,
+    "recency": 0.907,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2726
+    "effective": 0.272
    },
    "tone": {
     "dir": 0,
@@ -353,12 +329,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.902,
+    "recency": 0.9,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2705
+    "effective": 0.2699
    },
    "tone": {
     "dir": -1,
@@ -375,12 +351,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.897,
+    "recency": 0.895,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2692
+    "effective": 0.2686
    },
    "tone": {
     "dir": -1,
@@ -397,12 +373,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.897,
+    "recency": 0.895,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2691
+    "effective": 0.2685
    },
    "tone": {
     "dir": 0,
@@ -417,12 +393,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.889,
+    "recency": 0.887,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2668
+    "effective": 0.2662
    },
    "tone": {
     "dir": -1,
@@ -433,18 +409,38 @@
    }
   },
   {
+   "title": "Is ANT stock a buy or sell? - investingLive",
+   "published": "Fri, 20 Nov 2026 12:45:20 GMT",
+   "source": "investinglive.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.879,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2638
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
    "title": "Anthropic's IPO winners and losers, from Ashton Kutcher to Sam Bankman-Fried - Yahoo Finance",
    "published": "Fri, 20 Nov 2026 11:00:00 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.859,
+    "recency": 0.857,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2578
+    "effective": 0.2572
    },
    "tone": {
     "dir": 1,
@@ -461,12 +457,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.844,
+    "recency": 0.842,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2531
+    "effective": 0.2525
    },
    "tone": {
     "dir": -1,
@@ -483,12 +479,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.83,
+    "recency": 0.828,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2489
+    "effective": 0.2483
    },
    "tone": {
     "dir": 0,
@@ -503,12 +499,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.793,
+    "recency": 0.791,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2379
+    "effective": 0.2373
    },
    "tone": {
     "dir": 0,
@@ -523,12 +519,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.665,
+    "recency": 0.664,
     "corroboration": 1.15,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 1,
-    "effective": 0.2296
+    "effective": 0.229
    },
    "tone": {
     "dir": 0,
@@ -543,12 +539,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.754,
+    "recency": 0.752,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2261
+    "effective": 0.2256
    },
    "tone": {
     "dir": -1,
@@ -565,12 +561,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.68,
+    "recency": 0.678,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2039
+    "effective": 0.2034
    },
    "tone": {
     "dir": 0,
@@ -585,12 +581,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.637,
+    "recency": 0.635,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.191
+    "effective": 0.1905
    },
    "tone": {
     "dir": 0,
@@ -605,12 +601,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.625,
+    "recency": 0.624,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=3 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1876
+    "effective": 0.1872
    },
    "tone": {
     "dir": 0,
@@ -625,12 +621,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.518,
+    "recency": 0.517,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1554
+    "effective": 0.155
    },
    "tone": {
     "dir": 0,
@@ -645,7 +641,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.948,
+    "recency": 0.946,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -709,15 +705,27 @@
   },
   {
    "title": "Rahm Emanuel on U.S. AI chip export controls and details of his economic plan - CNBC",
-   "published": "Fri, 20 Nov 2026 14:09:45 GMT",
+   "published": "Fri, 20 Nov 2026 13:54:00 GMT",
    "source": "cnbc.com",
    "tier": 2
   },
   {
-   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - NBC 15 WPMI",
-   "published": "Fri, 20 Nov 2026 21:09:15 GMT",
-   "source": "mynbc15.com",
+   "title": "Congress files detail AMD requests to export AI chips to China, says Hunterbrook - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 21:10:58 GMT",
+   "source": "finance.yahoo.com",
    "tier": 3
+  },
+  {
+   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WZTV",
+   "published": "Fri, 20 Nov 2026 21:11:40 GMT",
+   "source": "fox17.com",
+   "tier": 3
+  },
+  {
+   "title": "China’s AI Firms Are Addicted to Nvidia Chips. Now They Are Facing Withdrawal. - WSJ",
+   "published": "Fri, 20 Nov 2026 03:01:03 GMT",
+   "source": "wsj.com",
+   "tier": 1
   },
   {
    "title": "Democrats aim to intensify the focus on Nvidia in new Congress - The Washington Post",
@@ -753,18 +761,6 @@
    "title": "Nscale ByteDance AI Compute Deal Draws Scrutiny Under US Chip Export Controls - CASRAI",
    "published": "Fri, 20 Nov 2026 18:12:28 GMT",
    "source": "casrai.org",
-   "tier": 3
-  },
-  {
-   "title": "The New 16nm Divide: How U.S. Export Controls Are Redrawing the Global Semiconductor Manufacturing Map - semivision",
-   "published": "Fri, 20 Nov 2026 08:46:24 GMT",
-   "source": "tspasemiconductor.substack.com",
-   "tier": 3
-  },
-  {
-   "title": "BIS Issues Interim Final Rule on Remote Access to Supercomputing Capabilities - Wiley Rein",
-   "published": "Thu, 19 Nov 2026 18:35:41 GMT",
-   "source": "wiley.law",
    "tier": 3
   }
  ],
@@ -1301,19 +1297,19 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.0857,
+ "tone_net": -0.2403,
  "signals": {
   "short": {
    "name": "短线",
    "horizon": "数日内",
    "score": 0,
-   "net": 1,
+   "net": 0,
    "cap": 13,
    "up": 4,
-   "down": 3,
+   "down": 4,
    "up_n": 3,
-   "down_n": 1,
-   "raw": 2,
+   "down_n": 2,
+   "raw": 1,
    "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
@@ -1349,7 +1345,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.09）",
+     "t": "加权新闻口径为正（现 -0.24）",
      "on": false,
      "live": true,
      "w": 1,
@@ -1399,8 +1395,8 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.09）",
-     "on": false,
+     "t": "加权新闻口径为负（现 -0.24）",
+     "on": true,
      "live": true,
      "w": 1,
      "why": "同上，关键词启发式",
@@ -1545,13 +1541,13 @@
   "name": "短线",
   "horizon": "数日内",
   "score": 0,
-  "net": 1,
+  "net": 0,
   "cap": 13,
   "up": 4,
-  "down": 3,
+  "down": 4,
   "up_n": 3,
-  "down_n": 1,
-  "raw": 2,
+  "down_n": 2,
+  "raw": 1,
   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
@@ -1587,7 +1583,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.09）",
+    "t": "加权新闻口径为正（现 -0.24）",
     "on": false,
     "live": true,
     "w": 1,
@@ -1637,8 +1633,8 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.09）",
-    "on": false,
+    "t": "加权新闻口径为负（现 -0.24）",
+    "on": true,
     "live": true,
     "w": 1,
     "why": "同上，关键词启发式",
@@ -1728,13 +1724,13 @@
    "price": 88.91,
    "state": "MECHANICAL",
    "score": 0,
-   "tone": -0.086
+   "tone": -0.24
   }
  ],
  "source_records": {
   "finance.yahoo.com": {
-   "n": 3,
-   "hits": 3
+   "n": 4,
+   "hits": 4
   },
   "reuters.com": {
    "n": 3,
@@ -1763,6 +1759,10 @@
   "forbes.com": {
    "n": 1,
    "hits": 1
+  },
+  "investors.com": {
+   "n": 1,
+   "hits": 1
   }
  },
  "weight_method": {
@@ -1770,7 +1770,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 29
+  "pending_observations": 27
  },
  "next_unlock": {
   "date": "2026-12-15",
