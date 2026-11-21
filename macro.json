@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T04:55:38-05:00",
+ "generated": "2026-11-21T04:58:08-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7700,13 +7700,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 57891.54,
-   "pct_1d": -1.54,
-   "pct_5d": -10.74,
-   "pct_20d": -26.02,
+   "price": 57965.88,
+   "pct_1d": -1.42,
+   "pct_5d": -10.62,
+   "pct_20d": -25.92,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 33.15,
-   "ma20": 69985.57,
+   "drawdown_6mo": 33.07,
+   "ma20": 69989.29,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55631.574,
@@ -8081,7 +8081,7 @@
     ],
     [
      "2026-11-21",
-     74.66
+     74.76
     ]
    ],
    "label": "比特币",
@@ -8537,12 +8537,6 @@
    "source": "bloomberg.com"
   },
   {
-   "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency - WSJ",
-   "published": "Fri, 20 Nov 2026 17:41:25 GMT",
-   "tier": 2,
-   "source": "wsj.com"
-  },
-  {
    "title": "Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters",
    "published": "Thu, 19 Nov 2026 23:43:00 GMT",
    "tier": 2,
@@ -8579,6 +8573,12 @@
    "source": "reuters.com"
   },
   {
+   "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency - WSJ",
+   "published": "Fri, 20 Nov 2026 17:41:25 GMT",
+   "tier": 2,
+   "source": "wsj.com"
+  },
+  {
    "title": "Without a recession, this is a correction not a bear market, says Ed Yardeni - CNBC",
    "published": "Fri, 20 Nov 2026 19:48:00 GMT",
    "tier": 2,
@@ -8603,10 +8603,165 @@
    "source": "barrons.com"
   },
   {
-   "title": "The Federal Reserve Is Expected to Raise Interest Rates Next Month. By How Much Is an Open Question. - Barron's",
-   "published": "Fri, 20 Nov 2026 22:39:00 GMT",
+   "title": "The Fed is too busy fighting inflation to rescue the stock market - MarketWatch",
+   "published": "Fri, 20 Nov 2026 19:53:00 GMT",
    "tier": 3,
-   "source": "barrons.com"
+   "source": "marketwatch.com"
+  }
+ ],
+ "charts": [
+  {
+   "id": "credit",
+   "title": "信用利差 vs 危机线",
+   "sub": "这张图是整个判断的地基：现在离「危机」有多远，一眼可见",
+   "unit": "%",
+   "ymin": 2,
+   "ymax": 9,
+   "lines": [
+    {
+     "series": "BAMLH0A0HYM2",
+     "label": "HY OAS",
+     "color": "accent"
+    }
+   ],
+   "marks": [
+    {
+     "at": 5.0,
+     "label": "阶段2 信用传染",
+     "color": "warn"
+    },
+    {
+     "at": 6.5,
+     "label": "阶段3 第二档买入",
+     "color": "warn"
+    },
+    {
+     "at": 8.0,
+     "label": "阶段4 系统性",
+     "color": "down"
+    }
+   ],
+   "caption": "静态历史参照（不在图内，超出纵轴）：2008-12 峰值约 21.8%，2020-03 约 10.9%，2011-10 欧债约 8.6%。FRED 图表 CSV 只提供 3 年窗口，所以线本身只画到 3 年。"
+  },
+  {
+   "id": "labor",
+   "title": "初请失业金四周均值 vs 就业破裂线",
+   "sub": "衰退的第一手证据。信用会骗人，裁员不会",
+   "unit": "人",
+   "ymin": 150000,
+   "ymax": 300000,
+   "lines": [
+    {
+     "series": "IC4WSA",
+     "label": "四周均值",
+     "color": "accent"
+    }
+   ],
+   "marks": [
+    {
+     "at": 260000,
+     "label": "阶段3 门槛",
+     "color": "down"
+    }
+   ],
+   "caption": "参照：2020-04 峰值约 500 万（远超纵轴），2009-04 约 65 万。现在是全史 2% 分位。"
+  },
+  {
+   "id": "duration",
+   "title": "30 年美债收益率 vs 分批线",
+   "sub": "你自己的计划画在价格上：什么位置加，什么位置认错",
+   "unit": "%",
+   "ymin": 3.8,
+   "ymax": 6.5,
+   "lines": [
+    {
+     "series": "DGS30",
+     "label": "30Y",
+     "color": "accent"
+    }
+   ],
+   "marks": [
+    {
+     "at": 4.25,
+     "label": "止盈 减半",
+     "color": "up"
+    },
+    {
+     "at": 5.3,
+     "label": "T1",
+     "color": "dim"
+    },
+    {
+     "at": 5.75,
+     "label": "T2",
+     "color": "dim"
+    },
+    {
+     "at": 6.1,
+     "label": "T3",
+     "color": "dim"
+    },
+    {
+     "at": 6.25,
+     "label": "证伪线",
+     "color": "down"
+    }
+   ],
+   "caption": "证伪需要两个条件同时成立：30Y ≥ 6.25% 且 10 年通胀预期 ≥ 2.75%。单看利率上行不算证伪。"
+  },
+  {
+   "id": "inflation",
+   "title": "通胀预期 vs 实际利率",
+   "sub": "本轮最大的错价：联储按通胀加息，债市却在定价增长崩塌",
+   "unit": "%",
+   "lines": [
+    {
+     "series": "T10YIE",
+     "label": "10年通胀预期",
+     "color": "warn"
+    },
+    {
+     "series": "DFII10",
+     "label": "10年实际利率",
+     "color": "accent"
+    }
+   ],
+   "caption": "两条线张口越大，限制性越强。通胀预期走低而实际利率走高 = 市场认为联储在对着一个不存在的通胀收紧。"
+  },
+  {
+   "id": "cross",
+   "title": "近 6 个月跨资产（基准 = 100）",
+   "sub": "「股金币一起跌」的实际形状——以及谁没跌",
+   "lines": [
+    {
+     "quote": "^GSPC",
+     "label": "标普500",
+     "color": "accent"
+    },
+    {
+     "quote": "GLD",
+     "label": "黄金",
+     "color": "gold"
+    },
+    {
+     "quote": "BTC-USD",
+     "label": "比特币",
+     "color": "warn"
+    },
+    {
+     "quote": "TLT",
+     "label": "20+年美债",
+     "color": "up"
+    }
+   ],
+   "marks": [
+    {
+     "at": 100,
+     "label": "起点",
+     "color": "dim"
+    }
+   ],
+   "caption": "同跌 = 追保换现金的强制抛售特征，不是信用事件。注意长债这条线的方向。"
   }
  ],
  "derived": {
