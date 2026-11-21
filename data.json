@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T16:50:07-05:00",
+ "generated": "2026-11-21T05:47:30-05:00",
  "errors": [],
  "quote": {
   "price": 88.91,
@@ -11,7 +11,7 @@
   "day_low": 83.05,
   "high_52w": 115.1,
   "low_52w": 83.05,
-  "volume": 395307616,
+  "volume": 399629474,
   "market_time": 1795208402,
   "currency": "USD",
   "regular_close": 88.91,
@@ -20,63 +20,18 @@
  },
  "news": [
   {
-   "title": "Anthropic's post-debut stumble delivers reality check for AI trade - Reuters",
-   "published": "Fri, 20 Nov 2026 18:16:04 GMT",
+   "title": "Wall Street ends sharply lower as Anthropic's debut fails to revive AI fervor - Reuters",
+   "published": "Sat, 21 Nov 2026 04:32:28 GMT",
    "source": "reuters.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.95,
+    "recency": 0.914,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9498
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "tumbl"
-    ]
-   }
-  },
-  {
-   "title": "Anthropic valued at $1.5 trillion as IPO raises record $81 billion - Reuters",
-   "published": "Fri, 20 Nov 2026 04:45:13 GMT",
-   "source": "reuters.com",
-   "tier": 1,
-   "weight": {
-    "base": 1.0,
-    "recency": 0.781,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=3 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.7814
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "raise",
-     "record"
-    ],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
-   "published": "Thu, 19 Nov 2026 11:08:00 GMT",
-   "source": "reuters.com",
-   "tier": 1,
-   "weight": {
-    "base": 1.0,
-    "recency": 0.606,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=3 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.6058
+    "effective": 0.9137
    },
    "tone": {
     "dir": 0,
@@ -85,91 +40,240 @@
    }
   },
   {
-   "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment - CNBC",
-   "published": "Fri, 20 Nov 2026 13:11:10 GMT",
-   "source": "cnbc.com",
-   "tier": 2,
+   "title": "Instant view: Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI - Reuters",
+   "published": "Fri, 20 Nov 2026 21:30:13 GMT",
+   "source": "reuters.com",
+   "tier": 1,
    "weight": {
-    "base": 0.6,
-    "recency": 0.883,
+    "base": 1.0,
+    "recency": 0.825,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=3 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.8254
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "plunge"
+    ]
+   }
+  },
+  {
+   "title": "Anthropic shares slide as tech stocks tumble - Financial Times",
+   "published": "Fri, 20 Nov 2026 18:03:21 GMT",
+   "source": "ft.com",
+   "tier": 1,
+   "weight": {
+    "base": 1.0,
+    "recency": 0.785,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5295
+    "effective": 0.7853
    },
    "tone": {
-    "dir": 1,
-    "bull": [
-     "raise"
-    ],
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "slide",
+     "tumbl"
+    ]
+   }
+  },
+  {
+   "title": "Anthropic's IPO bank closed position meant to stabilize stock, removing source of support - Reuters",
+   "published": "Fri, 20 Nov 2026 17:10:35 GMT",
+   "source": "reuters.com",
+   "tier": 1,
+   "weight": {
+    "base": 1.0,
+    "recency": 0.775,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=3 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.7754
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
     "bear": []
    }
   },
   {
-   "title": "Anthropic stock falls 14% in first full day of trading amid AI sell-off - CNBC",
+   "title": "Why Anthropic's blockbuster IPO couldn't escape the market correction - CNBC",
+   "published": "Fri, 20 Nov 2026 20:57:30 GMT",
+   "source": "cnbc.com",
+   "tier": 2,
+   "weight": {
+    "base": 0.6,
+    "recency": 0.819,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.4913
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "As Anthropic shares tank, investors scramble to hedge. It could be very expensive - CNBC",
+   "published": "Fri, 20 Nov 2026 14:44:57 GMT",
+   "source": "cnbc.com",
+   "tier": 2,
+   "weight": {
+    "base": 0.6,
+    "recency": 0.749,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.4492
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic falls nearly 9% in first full day of trading as tech stocks get shellacked - CNBC",
    "published": "Fri, 20 Nov 2026 09:06:36 GMT",
    "source": "cnbc.com",
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.832,
+    "recency": 0.69,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4993
+    "effective": 0.4141
    },
    "tone": {
     "dir": -1,
     "bull": [],
     "bear": [
-     "fall",
-     "sell-off"
+     "fall"
     ]
    }
   },
   {
-   "title": "Anthropic IPO Live Updates: Company Value Surges in Stock Market Debut - The New York Times",
-   "published": "Thu, 19 Nov 2026 22:01:44 GMT",
-   "source": "nytimes.com",
+   "title": "Cathie Wood Made a Big Bet on Anthropic (ANT) Stock - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 20:37:08 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.815,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=4 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.2811
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic IPO live: Anthropic stock drops after first day of trading - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 19:00:31 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.796,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=4 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.2747
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "drop"
+    ]
+   }
+  },
+  {
+   "title": "Anthropic IPO raises record $81.3 billion on strong AI demand - NPR",
+   "published": "Wed, 18 Nov 2026 23:54:56 GMT",
+   "source": "npr.org",
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.709,
+    "recency": 0.427,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4254
+    "effective": 0.2564
    },
    "tone": {
     "dir": 1,
     "bull": [
-     "surge"
+     "demand",
+     "raise",
+     "record",
+     "strong"
     ],
     "bear": []
    }
   },
   {
-   "title": "Anthropic ANT Stock Takes a Nose Dive, Crashing Near Its Listing Price as AI Bubble Fears Grow - Startup Fortune",
-   "published": "Fri, 20 Nov 2026 17:57:53 GMT",
-   "source": "startupfortune.com",
+   "title": "Anthropic stock drops 8% after rip-roaring IPO - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 21:44:33 GMT",
+   "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.946,
+    "recency": 0.828,
     "corroboration": 1.0,
     "track": 1.0,
-    "track_note": "n=0 样本不足",
+    "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2837
+    "effective": 0.2485
    },
    "tone": {
     "dir": -1,
     "bull": [],
     "bear": [
-     "crash"
+     "drop"
+    ]
+   }
+  },
+  {
+   "title": "Anthropic Stock Came Within 5 Cents of Its $83 IPO Price on Day 2, Then Bounced 6% to Close at $88.30. Facebook Closed Its Day 2 10% Below Its IPO Price - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 21:17:10 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.823,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=4 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2468
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "below"
     ]
    }
   },
@@ -180,12 +284,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.937,
+    "recency": 0.777,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2812
+    "effective": 0.2332
    },
    "tone": {
     "dir": 0,
@@ -204,12 +308,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.929,
+    "recency": 0.77,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2786
+    "effective": 0.231
    },
    "tone": {
     "dir": -1,
@@ -226,12 +330,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.928,
+    "recency": 0.769,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2783
+    "effective": 0.2308
    },
    "tone": {
     "dir": 1,
@@ -248,97 +352,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.92,
+    "recency": 0.763,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2759
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX - CNBC",
-   "published": "Wed, 18 Nov 2026 15:15:54 GMT",
-   "source": "cnbc.com",
-   "tier": 2,
-   "weight": {
-    "base": 0.6,
-    "recency": 0.455,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2728
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "raise",
-     "record"
-    ],
-    "bear": []
-   }
-  },
-  {
-   "title": "Chip stocks lead tech lower, Anthropic stock drops: AlphaCheck - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 15:11:20 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.908,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2725
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "drop"
-    ]
-   }
-  },
-  {
-   "title": "Cathie Wood Sold Nvidia and Bought $78 Million of Anthropic at IPO - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 14:52:42 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.904,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2713
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic stock dives after rip-roaring IPO - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 14:39:21 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.902,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2705
+    "effective": 0.2289
    },
    "tone": {
     "dir": 0,
@@ -353,12 +372,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.897,
+    "recency": 0.744,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2692
+    "effective": 0.2233
    },
    "tone": {
     "dir": -1,
@@ -369,45 +388,48 @@
    }
   },
   {
-   "title": "Anthropic IPO live: Anthropic stock drops after first day of trading - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 14:00:15 GMT",
+   "title": "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about where the stock goes next. - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 13:54:22 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.893,
+    "recency": 0.74,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2679
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "drop"
-    ]
-   }
-  },
-  {
-   "title": "Cathie Wood Loaded Up On Anthropic’s Stock During IPO - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 13:59:00 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.893,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2678
+    "effective": 0.2219
    },
    "tone": {
     "dir": 0,
     "bull": [],
     "bear": []
+   }
+  },
+  {
+   "title": "Anthropic stock is already falling today: Why AI giants are seeing a painful sell-off after record IPO - Fast Company",
+   "published": "Fri, 20 Nov 2026 13:31:09 GMT",
+   "source": "fastcompany.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.735,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.2206
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [
+     "record"
+    ],
+    "bear": [
+     "fall",
+     "sell-off"
+    ]
    }
   },
   {
@@ -417,12 +439,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.885,
+    "recency": 0.734,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2655
+    "effective": 0.2202
    },
    "tone": {
     "dir": -1,
@@ -430,70 +452,6 @@
     "bear": [
      "fall"
     ]
-   }
-  },
-  {
-   "title": "Anthropic's IPO winners and losers, from Ashton Kutcher to Sam Bankman-Fried - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 11:00:00 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.855,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2565
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "win"
-    ],
-    "bear": []
-   }
-  },
-  {
-   "title": "US Stock Futures Fall as Anthropic Shares Retreat and AI Concerns Weigh on Global Markets: Dow Jones, S&P, Nasdaq, Wall Street - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 09:44:20 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.84,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2519
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "fall"
-    ]
-   }
-  },
-  {
-   "title": "Anthropic’s ANT Stock Ends First Day 17% Above IPO Price - Bitcoin Foundation",
-   "published": "Fri, 20 Nov 2026 09:07:27 GMT",
-   "source": "bitcoinfoundation.org",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.832,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2497
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
    }
   },
   {
@@ -503,12 +461,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.826,
+    "recency": 0.685,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2477
+    "effective": 0.2055
    },
    "tone": {
     "dir": 0,
@@ -517,18 +475,18 @@
    }
   },
   {
-   "title": "Anthropic (ANT) is Rocketing to the Moon — Is it Too Late to Ride the Boom? - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 05:26:00 GMT",
-   "source": "finance.yahoo.com",
+   "title": "Anthropic valued at $1.76 trillion after first day of trading - CNN",
+   "published": "Thu, 19 Nov 2026 22:36:00 GMT",
+   "source": "cnn.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.789,
-    "corroboration": 1.0,
+    "recency": 0.593,
+    "corroboration": 1.15,
     "track": 1.0,
-    "track_note": "n=4 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2367
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.2046
    },
    "tone": {
     "dir": 0,
@@ -537,25 +495,23 @@
    }
   },
   {
-   "title": "Anthropic Stock Slips After-Hours as Blockbuster IPO Does Little for AI Names: OpenAI-Backer SoftBank Crashes in Nikkei Meltdown - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 01:55:00 GMT",
+   "title": "How High Can ANT Stock Go? Wall Street Debut Sparks Valuation Debate – One Analyst Sees Amazon-Google Scale Opportunity In Anthropic - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 02:23:00 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.75,
+    "recency": 0.626,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.225
+    "effective": 0.1879
    },
    "tone": {
-    "dir": -1,
+    "dir": 0,
     "bull": [],
-    "bear": [
-     "crash"
-    ]
+    "bear": []
    }
   },
   {
@@ -565,12 +521,32 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.676,
+    "recency": 0.561,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2029
+    "effective": 0.1683
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic stock's first trade was worth $12 billion — 34% above its IPO price - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:17:21 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.549,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=4 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.1648
    },
    "tone": {
     "dir": 0,
@@ -585,12 +561,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.634,
+    "recency": 0.525,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1901
+    "effective": 0.1576
    },
    "tone": {
     "dir": 0,
@@ -605,12 +581,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.622,
+    "recency": 0.516,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1867
+    "effective": 0.1549
    },
    "tone": {
     "dir": 0,
@@ -619,18 +595,18 @@
    }
   },
   {
-   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
-   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
-   "source": "fastcompany.com",
-   "tier": 3,
+   "title": "Cathie Wood Made a Big Bet on Anthropic (ANT) Stock - Barchart.com",
+   "published": "Fri, 20 Nov 2026 20:37:08 GMT",
+   "source": "barchart.com",
+   "tier": 4,
    "weight": {
-    "base": 0.3,
-    "recency": 0.515,
-    "corroboration": 1.0,
+    "base": 0.0,
+    "recency": 0.815,
+    "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.1546
+    "corroborated_by": 1,
+    "effective": 0.0
    },
    "tone": {
     "dir": 0,
@@ -639,13 +615,35 @@
    }
   },
   {
-   "title": "Anthropic - ANT - Stock Price & News - The Motley Fool",
-   "published": "Fri, 20 Nov 2026 17:48:58 GMT",
+   "title": "Anthropic Jumped 17% in Its Debut. Here’s Why I’m Waiting to Buy ANT Stock. - The Motley Fool",
+   "published": "Fri, 20 Nov 2026 14:01:02 GMT",
    "source": "fool.com",
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.944,
+    "recency": 0.741,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.0
+   },
+   "tone": {
+    "dir": 1,
+    "bull": [
+     "jump"
+    ],
+    "bear": []
+   }
+  },
+  {
+   "title": "What Will Anthropic’s Price Be in 3 Months? History Offers an Answer That’s Strikingly Clear. - The Motley Fool",
+   "published": "Sat, 21 Nov 2026 09:02:02 GMT",
+   "source": "fool.com",
+   "tier": 4,
+   "weight": {
+    "base": 0.0,
+    "recency": 0.975,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -684,15 +682,27 @@
  ],
  "policy": [
   {
+   "title": "BIS Issues Export Controls on Remote Access Chips & Rescinds AI Diffusion Rule - Thompson Hine",
+   "published": "Fri, 20 Nov 2026 18:20:42 GMT",
+   "source": "thompsonhinesmartrade.com",
+   "tier": 3
+  },
+  {
+   "title": "US lawmakers push for tougher AI chip rules amid China export crackdown - Al Jazeera",
+   "published": "Fri, 20 Nov 2026 22:31:12 GMT",
+   "source": "aljazeera.com",
+   "tier": 2
+  },
+  {
    "title": "Why Congress Should Tighten AI Chip Export Controls After Nvidia’s Scandal - The National Interest",
    "published": "Fri, 20 Nov 2026 16:43:06 GMT",
    "source": "nationalinterest.org",
    "tier": 3
   },
   {
-   "title": "BIS Issues Export Controls on Remote Access Chips & Rescinds AI Diffusion Rule - Thompson Hine",
-   "published": "Fri, 20 Nov 2026 18:11:15 GMT",
-   "source": "thompsonhinesmartrade.com",
+   "title": "‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers - Skadden, Arps, Slate, Meagher & Flom",
+   "published": "Wed, 18 Nov 2026 23:28:20 GMT",
+   "source": "skadden.com",
    "tier": 3
   },
   {
@@ -714,33 +724,33 @@
    "tier": 2
   },
   {
-   "title": "Congress files detail AMD requests to export AI chips to China, says Hunterbrook - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 21:10:58 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3
+   "title": "Trump administration moves to block China from indirect access to American AI technology - AP News",
+   "published": "Tue, 17 Nov 2026 07:49:00 GMT",
+   "source": "apnews.com",
+   "tier": 1
   },
   {
-   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WZTV",
-   "published": "Fri, 20 Nov 2026 21:11:40 GMT",
-   "source": "fox17.com",
-   "tier": 3
-  },
-  {
-   "title": "Democrats aim to intensify the focus on Nvidia in new Congress - The Washington Post",
-   "published": "Fri, 20 Nov 2026 18:00:00 GMT",
-   "source": "washingtonpost.com",
-   "tier": 3
-  },
-  {
-   "title": "US Congress releases list of Chinese firms seeking Nvidia chips - South China Morning Post",
-   "published": "Thu, 19 Nov 2026 23:46:10 GMT",
+   "title": "US tightens AI chip export curbs to close China’s overseas data centre loophole - South China Morning Post",
+   "published": "Mon, 16 Nov 2026 15:46:42 GMT",
    "source": "scmp.com",
    "tier": 3
   },
   {
-   "title": "Chip supply chain warns of broader disruption from new US export controls - Nikkei Asia",
-   "published": "Fri, 20 Nov 2026 05:10:00 GMT",
-   "source": "asia.nikkei.com",
+   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - KFXL",
+   "published": "Sat, 21 Nov 2026 05:05:36 GMT",
+   "source": "foxnebraska.com",
+   "tier": 3
+  },
+  {
+   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WCIV",
+   "published": "Fri, 20 Nov 2026 21:12:23 GMT",
+   "source": "abcnews4.com",
+   "tier": 3
+  },
+  {
+   "title": "The Next Push on U.S. Chip Export Controls - Kharon",
+   "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+   "source": "kharon.com",
    "tier": 3
   },
   {
@@ -750,21 +760,9 @@
    "tier": 3
   },
   {
-   "title": "Nscale ByteDance AI Compute Deal Draws Scrutiny Under US Chip Export Controls - CASRAI",
-   "published": "Fri, 20 Nov 2026 18:12:28 GMT",
-   "source": "casrai.org",
-   "tier": 3
-  },
-  {
-   "title": "The New 16nm Divide: How U.S. Export Controls Are Redrawing the Global Semiconductor Manufacturing Map - semivision",
-   "published": "Fri, 20 Nov 2026 08:46:24 GMT",
-   "source": "tspasemiconductor.substack.com",
-   "tier": 3
-  },
-  {
-   "title": "BIS Issues Interim Final Rule on Remote Access to Supercomputing Capabilities - Wiley Rein",
-   "published": "Thu, 19 Nov 2026 18:35:41 GMT",
-   "source": "wiley.law",
+   "title": "What’s next for AI regulation once Democrats control Congress? - AZ Family",
+   "published": "Thu, 19 Nov 2026 01:55:00 GMT",
+   "source": "azfamily.com",
    "tier": 3
   }
  ],
@@ -970,6 +968,1290 @@
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/anthropicpbc-sx1ax1.htm"
   }
  ],
+ "bars": {
+  "5m": {
+   "points": [
+    [
+     "2026-11-19T09:35-05:00",
+     83.0
+    ],
+    [
+     "2026-11-19T11:45-05:00",
+     111.68
+    ],
+    [
+     "2026-11-19T11:50-05:00",
+     111.51
+    ],
+    [
+     "2026-11-19T11:55-05:00",
+     105.03
+    ],
+    [
+     "2026-11-19T12:00-05:00",
+     101.22
+    ],
+    [
+     "2026-11-19T12:05-05:00",
+     102.36
+    ],
+    [
+     "2026-11-19T12:10-05:00",
+     99.3855
+    ],
+    [
+     "2026-11-19T12:15-05:00",
+     96.09
+    ],
+    [
+     "2026-11-19T12:20-05:00",
+     100.923
+    ],
+    [
+     "2026-11-19T12:25-05:00",
+     100.8619
+    ],
+    [
+     "2026-11-19T12:30-05:00",
+     101.48
+    ],
+    [
+     "2026-11-19T12:35-05:00",
+     98.8812
+    ],
+    [
+     "2026-11-19T12:40-05:00",
+     97.3772
+    ],
+    [
+     "2026-11-19T12:45-05:00",
+     99.07
+    ],
+    [
+     "2026-11-19T12:50-05:00",
+     98.7799
+    ],
+    [
+     "2026-11-19T12:55-05:00",
+     96.69
+    ],
+    [
+     "2026-11-19T13:00-05:00",
+     95.845
+    ],
+    [
+     "2026-11-19T13:05-05:00",
+     95.5483
+    ],
+    [
+     "2026-11-19T13:10-05:00",
+     94.0448
+    ],
+    [
+     "2026-11-19T13:15-05:00",
+     94.065
+    ],
+    [
+     "2026-11-19T13:20-05:00",
+     95.18
+    ],
+    [
+     "2026-11-19T13:25-05:00",
+     96.835
+    ],
+    [
+     "2026-11-19T13:30-05:00",
+     97.54
+    ],
+    [
+     "2026-11-19T13:35-05:00",
+     97.0252
+    ],
+    [
+     "2026-11-19T13:40-05:00",
+     96.6
+    ],
+    [
+     "2026-11-19T13:45-05:00",
+     95.85
+    ],
+    [
+     "2026-11-19T13:50-05:00",
+     95.36
+    ],
+    [
+     "2026-11-19T13:55-05:00",
+     95.75
+    ],
+    [
+     "2026-11-19T14:00-05:00",
+     94.4999
+    ],
+    [
+     "2026-11-19T14:05-05:00",
+     94.39
+    ],
+    [
+     "2026-11-19T14:10-05:00",
+     95.066
+    ],
+    [
+     "2026-11-19T14:15-05:00",
+     94.675
+    ],
+    [
+     "2026-11-19T14:20-05:00",
+     96.35
+    ],
+    [
+     "2026-11-19T14:25-05:00",
+     96.79
+    ],
+    [
+     "2026-11-19T14:30-05:00",
+     96.8828
+    ],
+    [
+     "2026-11-19T14:35-05:00",
+     97.64
+    ],
+    [
+     "2026-11-19T14:40-05:00",
+     98.645
+    ],
+    [
+     "2026-11-19T14:45-05:00",
+     99.04
+    ],
+    [
+     "2026-11-19T14:50-05:00",
+     98.15
+    ],
+    [
+     "2026-11-19T14:55-05:00",
+     96.34
+    ],
+    [
+     "2026-11-19T15:00-05:00",
+     95.75
+    ],
+    [
+     "2026-11-19T15:05-05:00",
+     95.5031
+    ],
+    [
+     "2026-11-19T15:10-05:00",
+     96.25
+    ],
+    [
+     "2026-11-19T15:15-05:00",
+     95.43
+    ],
+    [
+     "2026-11-19T15:20-05:00",
+     95.025
+    ],
+    [
+     "2026-11-19T15:25-05:00",
+     95.0917
+    ],
+    [
+     "2026-11-19T15:30-05:00",
+     95.418
+    ],
+    [
+     "2026-11-19T15:35-05:00",
+     95.16
+    ],
+    [
+     "2026-11-19T15:40-05:00",
+     95.26
+    ],
+    [
+     "2026-11-19T15:45-05:00",
+     97.18
+    ],
+    [
+     "2026-11-19T15:50-05:00",
+     96.56
+    ],
+    [
+     "2026-11-19T15:55-05:00",
+     96.91
+    ],
+    [
+     "2026-11-19T16:00-05:00",
+     95.8
+    ],
+    [
+     "2026-11-19T16:05-05:00",
+     95.9
+    ],
+    [
+     "2026-11-19T16:10-05:00",
+     95.98
+    ],
+    [
+     "2026-11-19T16:15-05:00",
+     94.6
+    ],
+    [
+     "2026-11-19T16:20-05:00",
+     95.59
+    ],
+    [
+     "2026-11-19T16:25-05:00",
+     95.9997
+    ],
+    [
+     "2026-11-19T16:30-05:00",
+     94.7967
+    ],
+    [
+     "2026-11-19T16:35-05:00",
+     93.63
+    ],
+    [
+     "2026-11-19T16:40-05:00",
+     97.17
+    ],
+    [
+     "2026-11-19T16:45-05:00",
+     94.4127
+    ],
+    [
+     "2026-11-19T16:50-05:00",
+     94.6903
+    ],
+    [
+     "2026-11-19T16:55-05:00",
+     94.86
+    ],
+    [
+     "2026-11-19T17:00-05:00",
+     95.32
+    ],
+    [
+     "2026-11-19T17:05-05:00",
+     95.4
+    ],
+    [
+     "2026-11-19T17:10-05:00",
+     95.12
+    ],
+    [
+     "2026-11-19T17:15-05:00",
+     95.51
+    ],
+    [
+     "2026-11-19T17:20-05:00",
+     96.28
+    ],
+    [
+     "2026-11-19T17:25-05:00",
+     95.9647
+    ],
+    [
+     "2026-11-19T17:30-05:00",
+     96.29
+    ],
+    [
+     "2026-11-19T17:35-05:00",
+     96.4203
+    ],
+    [
+     "2026-11-19T17:40-05:00",
+     96.54
+    ],
+    [
+     "2026-11-19T17:45-05:00",
+     96.55
+    ],
+    [
+     "2026-11-19T17:50-05:00",
+     96.1
+    ],
+    [
+     "2026-11-19T17:55-05:00",
+     96.01
+    ],
+    [
+     "2026-11-19T18:00-05:00",
+     95.0002
+    ],
+    [
+     "2026-11-19T18:05-05:00",
+     94.952
+    ],
+    [
+     "2026-11-19T18:10-05:00",
+     95.18
+    ],
+    [
+     "2026-11-19T18:15-05:00",
+     95.66
+    ],
+    [
+     "2026-11-19T18:20-05:00",
+     95.05
+    ],
+    [
+     "2026-11-19T18:25-05:00",
+     94.9
+    ],
+    [
+     "2026-11-19T18:30-05:00",
+     94.3988
+    ],
+    [
+     "2026-11-19T18:35-05:00",
+     93.81
+    ],
+    [
+     "2026-11-19T18:40-05:00",
+     94.7
+    ],
+    [
+     "2026-11-19T18:45-05:00",
+     94.5317
+    ],
+    [
+     "2026-11-19T18:50-05:00",
+     94.0
+    ],
+    [
+     "2026-11-19T18:55-05:00",
+     93.9816
+    ],
+    [
+     "2026-11-20T04:00-05:00",
+     91.25
+    ],
+    [
+     "2026-11-20T04:05-05:00",
+     91.5
+    ],
+    [
+     "2026-11-20T04:10-05:00",
+     91.03
+    ],
+    [
+     "2026-11-20T04:15-05:00",
+     91.01
+    ],
+    [
+     "2026-11-20T04:20-05:00",
+     91.55
+    ],
+    [
+     "2026-11-20T04:25-05:00",
+     91.31
+    ],
+    [
+     "2026-11-20T04:30-05:00",
+     91.98
+    ],
+    [
+     "2026-11-20T04:35-05:00",
+     91.59
+    ],
+    [
+     "2026-11-20T04:40-05:00",
+     91.49
+    ],
+    [
+     "2026-11-20T04:45-05:00",
+     91.0
+    ],
+    [
+     "2026-11-20T04:50-05:00",
+     90.42
+    ],
+    [
+     "2026-11-20T04:55-05:00",
+     90.75
+    ],
+    [
+     "2026-11-20T05:00-05:00",
+     90.99
+    ],
+    [
+     "2026-11-20T05:05-05:00",
+     90.84
+    ],
+    [
+     "2026-11-20T05:10-05:00",
+     90.97
+    ],
+    [
+     "2026-11-20T05:15-05:00",
+     91.05
+    ],
+    [
+     "2026-11-20T05:20-05:00",
+     91.28
+    ],
+    [
+     "2026-11-20T05:25-05:00",
+     91.3
+    ],
+    [
+     "2026-11-20T05:30-05:00",
+     91.59
+    ],
+    [
+     "2026-11-20T05:35-05:00",
+     91.5443
+    ],
+    [
+     "2026-11-20T05:40-05:00",
+     91.3
+    ],
+    [
+     "2026-11-20T05:45-05:00",
+     91.0
+    ],
+    [
+     "2026-11-20T05:50-05:00",
+     90.87
+    ],
+    [
+     "2026-11-20T05:55-05:00",
+     90.95
+    ],
+    [
+     "2026-11-20T06:00-05:00",
+     90.93
+    ],
+    [
+     "2026-11-20T06:05-05:00",
+     91.0273
+    ],
+    [
+     "2026-11-20T06:10-05:00",
+     90.9711
+    ],
+    [
+     "2026-11-20T06:15-05:00",
+     90.9
+    ],
+    [
+     "2026-11-20T06:20-05:00",
+     90.8392
+    ],
+    [
+     "2026-11-20T06:25-05:00",
+     90.67
+    ],
+    [
+     "2026-11-20T06:30-05:00",
+     90.17
+    ],
+    [
+     "2026-11-20T06:35-05:00",
+     89.9103
+    ],
+    [
+     "2026-11-20T06:40-05:00",
+     90.39
+    ],
+    [
+     "2026-11-20T06:45-05:00",
+     89.92
+    ],
+    [
+     "2026-11-20T06:50-05:00",
+     90.22
+    ],
+    [
+     "2026-11-20T06:55-05:00",
+     90.07
+    ],
+    [
+     "2026-11-20T07:00-05:00",
+     89.2
+    ],
+    [
+     "2026-11-20T07:05-05:00",
+     89.01
+    ],
+    [
+     "2026-11-20T07:10-05:00",
+     88.81
+    ],
+    [
+     "2026-11-20T07:15-05:00",
+     87.9876
+    ],
+    [
+     "2026-11-20T07:20-05:00",
+     88.05
+    ],
+    [
+     "2026-11-20T07:25-05:00",
+     88.0
+    ],
+    [
+     "2026-11-20T07:30-05:00",
+     88.12
+    ],
+    [
+     "2026-11-20T07:35-05:00",
+     87.33
+    ],
+    [
+     "2026-11-20T07:40-05:00",
+     87.98
+    ],
+    [
+     "2026-11-20T07:45-05:00",
+     88.69
+    ],
+    [
+     "2026-11-20T07:50-05:00",
+     88.23
+    ],
+    [
+     "2026-11-20T07:55-05:00",
+     87.45
+    ],
+    [
+     "2026-11-20T08:00-05:00",
+     88.28
+    ],
+    [
+     "2026-11-20T08:05-05:00",
+     88.4
+    ],
+    [
+     "2026-11-20T08:10-05:00",
+     87.95
+    ],
+    [
+     "2026-11-20T08:15-05:00",
+     87.3
+    ],
+    [
+     "2026-11-20T08:20-05:00",
+     86.8
+    ],
+    [
+     "2026-11-20T08:25-05:00",
+     85.95
+    ],
+    [
+     "2026-11-20T08:30-05:00",
+     84.63
+    ],
+    [
+     "2026-11-20T08:35-05:00",
+     83.96
+    ],
+    [
+     "2026-11-20T08:40-05:00",
+     84.44
+    ],
+    [
+     "2026-11-20T08:45-05:00",
+     85.52
+    ],
+    [
+     "2026-11-20T08:50-05:00",
+     85.88
+    ],
+    [
+     "2026-11-20T08:55-05:00",
+     87.0
+    ],
+    [
+     "2026-11-20T09:00-05:00",
+     87.96
+    ],
+    [
+     "2026-11-20T09:05-05:00",
+     88.59
+    ],
+    [
+     "2026-11-20T09:10-05:00",
+     88.4853
+    ],
+    [
+     "2026-11-20T09:15-05:00",
+     88.1009
+    ],
+    [
+     "2026-11-20T09:20-05:00",
+     88.85
+    ],
+    [
+     "2026-11-20T09:25-05:00",
+     89.85
+    ],
+    [
+     "2026-11-20T09:30-05:00",
+     87.6228
+    ],
+    [
+     "2026-11-20T09:35-05:00",
+     88.99
+    ],
+    [
+     "2026-11-20T09:40-05:00",
+     89.36
+    ],
+    [
+     "2026-11-20T09:45-05:00",
+     91.87
+    ],
+    [
+     "2026-11-20T09:50-05:00",
+     91.89
+    ],
+    [
+     "2026-11-20T09:55-05:00",
+     92.0999
+    ],
+    [
+     "2026-11-20T10:00-05:00",
+     91.61
+    ],
+    [
+     "2026-11-20T10:05-05:00",
+     90.42
+    ],
+    [
+     "2026-11-20T10:10-05:00",
+     87.67
+    ],
+    [
+     "2026-11-20T10:15-05:00",
+     86.1135
+    ],
+    [
+     "2026-11-20T10:20-05:00",
+     86.29
+    ],
+    [
+     "2026-11-20T10:25-05:00",
+     86.945
+    ],
+    [
+     "2026-11-20T10:30-05:00",
+     86.77
+    ],
+    [
+     "2026-11-20T10:35-05:00",
+     86.06
+    ],
+    [
+     "2026-11-20T10:40-05:00",
+     87.33
+    ],
+    [
+     "2026-11-20T10:45-05:00",
+     86.305
+    ],
+    [
+     "2026-11-20T10:50-05:00",
+     86.48
+    ],
+    [
+     "2026-11-20T10:55-05:00",
+     87.1193
+    ],
+    [
+     "2026-11-20T11:00-05:00",
+     86.43
+    ],
+    [
+     "2026-11-20T11:05-05:00",
+     87.61
+    ],
+    [
+     "2026-11-20T11:10-05:00",
+     88.105
+    ],
+    [
+     "2026-11-20T11:15-05:00",
+     86.85
+    ],
+    [
+     "2026-11-20T11:20-05:00",
+     87.145
+    ],
+    [
+     "2026-11-20T11:25-05:00",
+     87.74
+    ],
+    [
+     "2026-11-20T11:30-05:00",
+     87.32
+    ],
+    [
+     "2026-11-20T11:35-05:00",
+     87.1196
+    ],
+    [
+     "2026-11-20T11:40-05:00",
+     86.315
+    ],
+    [
+     "2026-11-20T11:45-05:00",
+     86.4969
+    ],
+    [
+     "2026-11-20T11:50-05:00",
+     86.0817
+    ],
+    [
+     "2026-11-20T11:55-05:00",
+     86.465
+    ],
+    [
+     "2026-11-20T12:00-05:00",
+     85.0001
+    ],
+    [
+     "2026-11-20T12:05-05:00",
+     85.12
+    ],
+    [
+     "2026-11-20T12:10-05:00",
+     84.5501
+    ],
+    [
+     "2026-11-20T12:15-05:00",
+     84.18
+    ],
+    [
+     "2026-11-20T12:20-05:00",
+     84.98
+    ],
+    [
+     "2026-11-20T12:25-05:00",
+     84.3788
+    ],
+    [
+     "2026-11-20T12:30-05:00",
+     84.635
+    ],
+    [
+     "2026-11-20T12:35-05:00",
+     84.015
+    ],
+    [
+     "2026-11-20T12:40-05:00",
+     83.2633
+    ],
+    [
+     "2026-11-20T12:45-05:00",
+     83.71
+    ],
+    [
+     "2026-11-20T12:50-05:00",
+     83.65
+    ],
+    [
+     "2026-11-20T12:55-05:00",
+     84.865
+    ],
+    [
+     "2026-11-20T13:00-05:00",
+     84.78
+    ],
+    [
+     "2026-11-20T13:05-05:00",
+     85.14
+    ],
+    [
+     "2026-11-20T13:10-05:00",
+     84.7676
+    ],
+    [
+     "2026-11-20T13:15-05:00",
+     85.365
+    ],
+    [
+     "2026-11-20T13:20-05:00",
+     85.43
+    ],
+    [
+     "2026-11-20T13:25-05:00",
+     85.228
+    ],
+    [
+     "2026-11-20T13:30-05:00",
+     86.41
+    ],
+    [
+     "2026-11-20T13:35-05:00",
+     86.475
+    ],
+    [
+     "2026-11-20T13:40-05:00",
+     86.675
+    ],
+    [
+     "2026-11-20T13:45-05:00",
+     86.85
+    ],
+    [
+     "2026-11-20T13:50-05:00",
+     87.295
+    ],
+    [
+     "2026-11-20T13:55-05:00",
+     87.185
+    ],
+    [
+     "2026-11-20T14:00-05:00",
+     86.625
+    ],
+    [
+     "2026-11-20T14:05-05:00",
+     87.483
+    ],
+    [
+     "2026-11-20T14:10-05:00",
+     87.38
+    ],
+    [
+     "2026-11-20T14:15-05:00",
+     87.261
+    ],
+    [
+     "2026-11-20T14:20-05:00",
+     87.515
+    ],
+    [
+     "2026-11-20T14:25-05:00",
+     87.915
+    ],
+    [
+     "2026-11-20T14:30-05:00",
+     86.74
+    ],
+    [
+     "2026-11-20T14:35-05:00",
+     87.736
+    ],
+    [
+     "2026-11-20T14:40-05:00",
+     87.615
+    ],
+    [
+     "2026-11-20T14:45-05:00",
+     87.6928
+    ],
+    [
+     "2026-11-20T14:50-05:00",
+     87.3549
+    ],
+    [
+     "2026-11-20T14:55-05:00",
+     86.64
+    ],
+    [
+     "2026-11-20T15:00-05:00",
+     86.75
+    ],
+    [
+     "2026-11-20T15:05-05:00",
+     86.9212
+    ],
+    [
+     "2026-11-20T15:10-05:00",
+     86.387
+    ],
+    [
+     "2026-11-20T15:15-05:00",
+     87.74
+    ],
+    [
+     "2026-11-20T15:20-05:00",
+     87.54
+    ],
+    [
+     "2026-11-20T15:25-05:00",
+     87.36
+    ],
+    [
+     "2026-11-20T15:30-05:00",
+     85.83
+    ],
+    [
+     "2026-11-20T15:35-05:00",
+     86.761
+    ],
+    [
+     "2026-11-20T15:40-05:00",
+     86.33
+    ],
+    [
+     "2026-11-20T15:45-05:00",
+     86.8992
+    ],
+    [
+     "2026-11-20T15:50-05:00",
+     87.67
+    ],
+    [
+     "2026-11-20T15:55-05:00",
+     88.445
+    ],
+    [
+     "2026-11-20T16:00-05:00",
+     88.01
+    ],
+    [
+     "2026-11-20T16:05-05:00",
+     87.9683
+    ],
+    [
+     "2026-11-20T16:10-05:00",
+     88.35
+    ],
+    [
+     "2026-11-20T16:15-05:00",
+     88.01
+    ],
+    [
+     "2026-11-20T16:20-05:00",
+     88.3
+    ],
+    [
+     "2026-11-20T16:25-05:00",
+     88.3093
+    ],
+    [
+     "2026-11-20T16:30-05:00",
+     88.03
+    ],
+    [
+     "2026-11-20T16:35-05:00",
+     88.42
+    ],
+    [
+     "2026-11-20T16:40-05:00",
+     88.41
+    ],
+    [
+     "2026-11-20T16:45-05:00",
+     88.46
+    ],
+    [
+     "2026-11-20T16:50-05:00",
+     88.25
+    ],
+    [
+     "2026-11-20T16:55-05:00",
+     87.95
+    ],
+    [
+     "2026-11-20T17:00-05:00",
+     87.73
+    ],
+    [
+     "2026-11-20T17:05-05:00",
+     87.73
+    ],
+    [
+     "2026-11-20T17:10-05:00",
+     88.2496
+    ],
+    [
+     "2026-11-20T17:15-05:00",
+     88.35
+    ],
+    [
+     "2026-11-20T17:20-05:00",
+     88.4
+    ],
+    [
+     "2026-11-20T17:25-05:00",
+     88.81
+    ],
+    [
+     "2026-11-20T17:30-05:00",
+     89.0001
+    ],
+    [
+     "2026-11-20T17:35-05:00",
+     89.05
+    ],
+    [
+     "2026-11-20T17:40-05:00",
+     88.9991
+    ],
+    [
+     "2026-11-20T17:45-05:00",
+     88.98
+    ],
+    [
+     "2026-11-20T17:50-05:00",
+     88.9334
+    ],
+    [
+     "2026-11-20T17:55-05:00",
+     88.9849
+    ],
+    [
+     "2026-11-20T18:00-05:00",
+     88.99
+    ],
+    [
+     "2026-11-20T18:05-05:00",
+     88.9438
+    ],
+    [
+     "2026-11-20T18:10-05:00",
+     88.98
+    ],
+    [
+     "2026-11-20T18:15-05:00",
+     88.9792
+    ],
+    [
+     "2026-11-20T18:20-05:00",
+     88.99
+    ],
+    [
+     "2026-11-20T18:25-05:00",
+     88.9898
+    ],
+    [
+     "2026-11-20T18:30-05:00",
+     88.9
+    ],
+    [
+     "2026-11-20T18:35-05:00",
+     88.8
+    ],
+    [
+     "2026-11-20T18:40-05:00",
+     88.65
+    ],
+    [
+     "2026-11-20T18:45-05:00",
+     88.8
+    ],
+    [
+     "2026-11-20T18:50-05:00",
+     88.8345
+    ],
+    [
+     "2026-11-20T18:55-05:00",
+     88.82
+    ],
+    [
+     "2026-11-20T19:00-05:00",
+     88.77
+    ],
+    [
+     "2026-11-20T19:05-05:00",
+     88.77
+    ],
+    [
+     "2026-11-20T19:10-05:00",
+     88.7546
+    ],
+    [
+     "2026-11-20T19:15-05:00",
+     88.7546
+    ],
+    [
+     "2026-11-20T19:20-05:00",
+     88.72
+    ],
+    [
+     "2026-11-20T19:25-05:00",
+     88.7194
+    ],
+    [
+     "2026-11-20T19:30-05:00",
+     88.99
+    ],
+    [
+     "2026-11-20T19:35-05:00",
+     88.9
+    ],
+    [
+     "2026-11-20T19:40-05:00",
+     88.8431
+    ],
+    [
+     "2026-11-20T19:45-05:00",
+     88.69
+    ],
+    [
+     "2026-11-20T19:50-05:00",
+     87.97
+    ],
+    [
+     "2026-11-20T19:55-05:00",
+     87.7902
+    ],
+    [
+     "2026-11-20T19:59-05:00",
+     87.7902
+    ]
+   ],
+   "total": 281,
+   "persisted": true
+  },
+  "1h": {
+   "points": [
+    [
+     "2026-11-19T09:30-05:00",
+     83.0
+    ],
+    [
+     "2026-11-19T11:30-05:00",
+     100.8619
+    ],
+    [
+     "2026-11-19T12:30-05:00",
+     96.835
+    ],
+    [
+     "2026-11-19T13:30-05:00",
+     96.79
+    ],
+    [
+     "2026-11-19T14:30-05:00",
+     95.0917
+    ],
+    [
+     "2026-11-19T15:30-05:00",
+     96.91
+    ],
+    [
+     "2026-11-19T16:00-05:00",
+     94.86
+    ],
+    [
+     "2026-11-19T17:00-05:00",
+     96.01
+    ],
+    [
+     "2026-11-19T18:00-05:00",
+     93.9816
+    ],
+    [
+     "2026-11-20T04:00-05:00",
+     91.31
+    ],
+    [
+     "2026-11-20T05:00-05:00",
+     91.3
+    ],
+    [
+     "2026-11-20T06:00-05:00",
+     90.67
+    ],
+    [
+     "2026-11-20T07:00-05:00",
+     88.0
+    ],
+    [
+     "2026-11-20T08:00-05:00",
+     85.95
+    ],
+    [
+     "2026-11-20T09:00-05:00",
+     89.85
+    ],
+    [
+     "2026-11-20T09:30-05:00",
+     86.945
+    ],
+    [
+     "2026-11-20T10:30-05:00",
+     87.74
+    ],
+    [
+     "2026-11-20T11:30-05:00",
+     84.3788
+    ],
+    [
+     "2026-11-20T12:30-05:00",
+     85.228
+    ],
+    [
+     "2026-11-20T13:30-05:00",
+     87.915
+    ],
+    [
+     "2026-11-20T14:30-05:00",
+     87.36
+    ],
+    [
+     "2026-11-20T15:30-05:00",
+     88.445
+    ],
+    [
+     "2026-11-20T16:00-05:00",
+     87.95
+    ],
+    [
+     "2026-11-20T17:00-05:00",
+     88.9849
+    ],
+    [
+     "2026-11-20T18:00-05:00",
+     88.82
+    ],
+    [
+     "2026-11-20T19:00-05:00",
+     87.7902
+    ],
+    [
+     "2026-11-20T19:59-05:00",
+     87.7902
+    ]
+   ],
+   "total": 27,
+   "persisted": true
+  },
+  "1d": {
+   "points": [
+    [
+     "2026-11-19T09:30-05:00",
+     97.17
+    ],
+    [
+     "2026-11-20T09:30-05:00",
+     88.91
+    ]
+   ],
+   "total": 2,
+   "persisted": true
+  },
+  "1wk": {
+   "points": [
+    [
+     "2026-11-16T00:00-05:00",
+     88.91
+    ],
+    [
+     "2026-11-20T16:00-05:00",
+     88.91
+    ]
+   ],
+   "total": 2,
+   "persisted": false
+  },
+  "1mo": {
+   "points": [
+    [
+     "2026-11-20T16:00-05:00",
+     88.91
+    ]
+   ],
+   "total": 1,
+   "persisted": false
+  }
+ },
  "calendar": {
   "_source": "SEC EDGAR 424B4 filed 2026-11-19, Anthropic PBC CIK 0002130357, section 'Shares Eligible for Future Sale'. Prospectus dated 2026-11-18.",
   "_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm",
@@ -1250,7 +2532,7 @@
  },
  "alerts": [
   {
-   "level": "info",
+   "level": "high",
    "code": "BIG_DOWN_MECHANICAL",
    "message": "大跌 -20.26% 至 $88.91",
    "action": "一二级信源无基本面消息 → 判定为机械性抛压（解禁/流动性）。这是你分批计划里可以提前执行下一批的条件。"
@@ -1264,7 +2546,7 @@
   {
    "level": "info",
    "code": "UNLOCK_POST",
-   "message": "解禁后第 1 天（2026-11-19 释放 315M）",
+   "message": "解禁后第 2 天（2026-11-19 释放 315M）",
    "action": "利空出尽窗口。"
   }
  ],
@@ -1290,7 +2572,7 @@
    ],
    [
     "第 2 批 · 静默期结束后",
-    "12/13，还有 23 天",
+    "12/13，还有 22 天",
     "pending"
    ],
    [
@@ -1301,19 +2583,19 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.1068,
+ "tone_net": -0.3552,
  "signals": {
   "short": {
    "name": "短线",
    "horizon": "数日内",
    "score": 0,
-   "net": 1,
+   "net": 0,
    "cap": 13,
    "up": 4,
-   "down": 3,
+   "down": 4,
    "up_n": 3,
-   "down_n": 1,
-   "raw": 2,
+   "down_n": 2,
+   "raw": 1,
    "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
@@ -1349,7 +2631,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.11）",
+     "t": "加权新闻口径为正（现 -0.36）",
      "on": false,
      "live": true,
      "w": 1,
@@ -1399,8 +2681,8 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.11）",
-     "on": false,
+     "t": "加权新闻口径为负（现 -0.36）",
+     "on": true,
      "live": true,
      "w": 1,
      "why": "同上，关键词启发式",
@@ -1545,13 +2827,13 @@
   "name": "短线",
   "horizon": "数日内",
   "score": 0,
-  "net": 1,
+  "net": 0,
   "cap": 13,
   "up": 4,
-  "down": 3,
+  "down": 4,
   "up_n": 3,
-  "down_n": 1,
-  "raw": 2,
+  "down_n": 2,
+  "raw": 1,
   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
@@ -1587,7 +2869,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.11）",
+    "t": "加权新闻口径为正（现 -0.36）",
     "on": false,
     "live": true,
     "w": 1,
@@ -1637,8 +2919,8 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.11）",
-    "on": false,
+    "t": "加权新闻口径为负（现 -0.36）",
+    "on": true,
     "live": true,
     "w": 1,
     "why": "同上，关键词启发式",
@@ -1729,6 +3011,13 @@
    "state": "MECHANICAL",
    "score": 0,
    "tone": -0.107
+  },
+  {
+   "h": "2026-11-21 05:00",
+   "price": 88.91,
+   "state": "MECHANICAL",
+   "score": 0,
+   "tone": -0.355
   }
  ],
  "source_records": {
@@ -1757,8 +3046,8 @@
    "hits": 1
   },
   "wsj.com": {
-   "n": 2,
-   "hits": 2
+   "n": 3,
+   "hits": 3
   },
   "forbes.com": {
    "n": 1,
@@ -1778,7 +3067,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 25
+  "pending_observations": 24
  },
  "next_unlock": {
   "date": "2026-12-15",
@@ -1786,6 +3075,6 @@
   "anchor": "fixed",
   "who": "27th day after prospectus",
   "note": "174m Class A + 129m Class N",
-  "days_away": 25
+  "days_away": 24
  }
 }
