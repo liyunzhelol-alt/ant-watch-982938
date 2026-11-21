@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T05:47:30-05:00",
+ "generated": "2026-11-21T05:49:22-05:00",
  "errors": [],
  "quote": {
   "price": 88.91,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.914,
+    "recency": 0.913,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.9137
+    "effective": 0.9133
    },
    "tone": {
     "dir": 0,
@@ -51,7 +51,7 @@
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.8254
+    "effective": 0.825
    },
    "tone": {
     "dir": -1,
@@ -73,7 +73,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.7853
+    "effective": 0.7849
    },
    "tone": {
     "dir": -1,
@@ -96,7 +96,7 @@
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.7754
+    "effective": 0.775
    },
    "tone": {
     "dir": 0,
@@ -116,7 +116,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4913
+    "effective": 0.4911
    },
    "tone": {
     "dir": 0,
@@ -131,12 +131,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.749,
+    "recency": 0.748,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4492
+    "effective": 0.449
    },
    "tone": {
     "dir": 0,
@@ -156,7 +156,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4141
+    "effective": 0.4139
    },
    "tone": {
     "dir": -1,
@@ -178,7 +178,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 1,
-    "effective": 0.2811
+    "effective": 0.281
    },
    "tone": {
     "dir": 0,
@@ -198,7 +198,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 1,
-    "effective": 0.2747
+    "effective": 0.2746
    },
    "tone": {
     "dir": -1,
@@ -220,7 +220,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2564
+    "effective": 0.2563
    },
    "tone": {
     "dir": 1,
@@ -245,7 +245,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2485
+    "effective": 0.2484
    },
    "tone": {
     "dir": -1,
@@ -262,12 +262,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.823,
+    "recency": 0.822,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2468
+    "effective": 0.2467
    },
    "tone": {
     "dir": -1,
@@ -289,7 +289,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2332
+    "effective": 0.2331
    },
    "tone": {
     "dir": 0,
@@ -313,7 +313,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.231
+    "effective": 0.2309
    },
    "tone": {
     "dir": -1,
@@ -335,7 +335,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2308
+    "effective": 0.2307
    },
    "tone": {
     "dir": 1,
@@ -357,7 +357,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2289
+    "effective": 0.2288
    },
    "tone": {
     "dir": 0,
@@ -377,7 +377,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2233
+    "effective": 0.2232
    },
    "tone": {
     "dir": -1,
@@ -394,12 +394,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.74,
+    "recency": 0.739,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2219
+    "effective": 0.2218
    },
    "tone": {
     "dir": 0,
@@ -444,7 +444,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2202
+    "effective": 0.2201
    },
    "tone": {
     "dir": -1,
@@ -466,7 +466,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2055
+    "effective": 0.2054
    },
    "tone": {
     "dir": 0,
@@ -486,7 +486,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.2046
+    "effective": 0.2045
    },
    "tone": {
     "dir": 0,
@@ -506,7 +506,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1879
+    "effective": 0.1878
    },
    "tone": {
     "dir": 0,
@@ -526,7 +526,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1683
+    "effective": 0.1682
    },
    "tone": {
     "dir": 0,
@@ -546,7 +546,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1648
+    "effective": 0.1647
    },
    "tone": {
     "dir": 0,
@@ -586,7 +586,7 @@
     "track": 1.0,
     "track_note": "n=4 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1549
+    "effective": 0.1548
    },
    "tone": {
     "dir": 0,
@@ -621,7 +621,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.741,
+    "recency": 0.74,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -643,7 +643,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.975,
+    "recency": 0.974,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -2532,7 +2532,7 @@
  },
  "alerts": [
   {
-   "level": "high",
+   "level": "info",
    "code": "BIG_DOWN_MECHANICAL",
    "message": "大跌 -20.26% 至 $88.91",
    "action": "一二级信源无基本面消息 → 判定为机械性抛压（解禁/流动性）。这是你分批计划里可以提前执行下一批的条件。"
@@ -2583,7 +2583,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.3552,
+ "tone_net": -0.3553,
  "signals": {
   "short": {
    "name": "短线",

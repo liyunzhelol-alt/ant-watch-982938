@@ -44,7 +44,16 @@
   .conn.ws i{background:var(--up);animation:p 1.6s infinite}
   .conn.rest i{background:var(--warn)}
   .conn.off i{background:var(--down)}
-  .spark{width:100%;height:190px;margin:18px 0 4px;display:block}
+  .spark{width:100%;height:190px;margin:4px 0 2px;display:block}
+  .periods{display:flex;gap:5px;margin:16px 0 0;flex-wrap:wrap}
+  .periods button{appearance:none;background:#161b22;border:1px solid var(--line);color:var(--dim);
+    font:600 11.5px/1 inherit;padding:6px 10px;border-radius:7px;cursor:pointer;
+    display:flex;align-items:center;gap:4px}
+  .periods button.on{background:#132236;border-color:var(--accent);color:var(--fg)}
+  .periods button:disabled{opacity:.3;cursor:not-allowed}
+  .periods button s{text-decoration:none;font-size:9.5px;color:var(--flat);font-weight:400}
+  .sparkmeta{font-size:10.5px;color:var(--flat);text-align:right;margin-bottom:6px;
+    font-variant-numeric:tabular-nums}
   /* trade tape */
   .tape{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}
   .tape h5{margin:0 0 8px;font:600 10px/1 ui-monospace,Menlo,monospace;
@@ -334,7 +343,9 @@
     <span class="px" id="px">—</span>
     <div class="pxrow"><span class="pill" id="pill1">—</span><span class="pill" id="pill2">—</span></div>
     <div class="pillsub" id="pillsub"></div>
+    <div class="periods" id="periods"></div>
     <svg class="spark" id="spark" viewBox="0 0 1000 190" preserveAspectRatio="none"></svg>
+    <div class="sparkmeta" id="sparkmeta"></div>
     <div class="grid" id="stats"></div>
     <div class="tape">
       <h5>逐笔成交 LIVE TAPE</h5>
@@ -529,6 +540,7 @@ function renderSignals(d){
 
 function render(d){
   lastData=d;
+  renderPeriods(); drawSpark();   // bars arrive with data.json, not from the socket
   const cal=d.calendar,q=d.quote,r=d.read,sg=d.signal;
   lastGen=new Date(d.generated).getTime(); tick();
   if(liveActive&&lastPx) repriceSignals(lastPx);
@@ -798,7 +810,7 @@ function paintPrice(p,size,ts){
         <span class="tv">${t.size.toLocaleString()} 股</span></div>`).join("");
   }
   ticks.push(p); if(ticks.length>300) ticks.shift();
-  drawSpark();
+  if(sparkMode==="live") drawSpark();   // bar views don't move on every print
   repriceSignals(p);
 }
 
@@ -858,28 +870,76 @@ function repriceSignals(px){
   if(changed||true) renderSignals(lastData);
 }
 
+/* ---- price chart: live ticks, or server-recorded bars by period ---- */
+const PERIODS=[["live","实时"],["5m","5分"],["1h","1时"],["1d","1日"],["1wk","1周"],["1mo","1月"]];
+let sparkMode=null;
+
+function barsFor(k){
+  const b=(lastData&&lastData.bars&&lastData.bars[k])||null;
+  return b&&b.points&&b.points.length>1 ? b : null;
+}
+/* longest period that actually has enough bars to be worth looking at.
+   ANT listed 2026-11-19, so 1d/1wk/1mo only become useful as history accrues. */
+function bestMode(){
+  for(const k of ["1mo","1wk","1d","1h","5m"]) {
+    const b=barsFor(k); if(b&&b.points.length>=10) return k;
+  }
+  return barsFor("5m")?"5m":"live";
+}
+function setSpark(m){
+  sparkMode=m; try{localStorage.setItem("antSpark",m);}catch(e){}
+  renderPeriods(); drawSpark();
+}
+function renderPeriods(){
+  const el=document.getElementById("periods"); if(!el) return;
+  el.innerHTML=PERIODS.map(([k,lb])=>{
+    const b=k==="live"?null:barsFor(k);
+    const n=k==="live"?ticks.length:(b?b.total:0);
+    const dead=k!=="live"&&!b;
+    return `<button class="${k===sparkMode?"on":""}" ${dead?"disabled":""}
+      onclick="setSpark('${k}')" title="${n} 根">${lb}${n?`<s>${n}</s>`:""}</button>`;}).join("");
+}
+
 function drawSpark(){
   const s=document.getElementById("spark");
-  if(ticks.length<2){s.innerHTML="";return;}
+  if(sparkMode===null) sparkMode=(()=>{ try{const v=localStorage.getItem("antSpark");
+    if(v&&(v==="live"||barsFor(v))) return v;}catch(e){} return bestMode(); })();
+
+  let vals, labels=null, meta="";
+  if(sparkMode==="live"){ vals=ticks.slice(); meta=`${ticks.length} 笔 · 本次打开页面以来`; }
+  else {
+    const b=barsFor(sparkMode);
+    if(!b){ setSpark(bestMode()); return; }
+    vals=b.points.map(p=>p[1]); labels=b.points.map(p=>p[0]);
+    const lb=(PERIODS.find(p=>p[0]===sparkMode)||[])[1];
+    meta=`${b.total} 根 ${lb}线 · ${b.persisted?"服务器留存":"实时拉取"} · ${labels[0].slice(0,16).replace("T"," ")} 起`;
+  }
+  const mEl=document.getElementById("sparkmeta");
+  if(vals.length<2){
+    s.innerHTML="";
+    if(mEl) mEl.textContent = sparkMode==="live" ? "等待成交…" : meta+"（数据点不足）";
+    return;
+  }
   const W=1000,H=190,PAD=16;
-  const lo=Math.min(...ticks), hi=Math.max(...ticks), rng=(hi-lo)||1;
-  const x=i=>(i/(ticks.length-1)*W).toFixed(1);
+  const lo=Math.min(...vals), hi=Math.max(...vals), rng=(hi-lo)||1;
+  const x=i=>(i/(vals.length-1)*W).toFixed(1);
   const y=v=>(H-PAD-(v-lo)/rng*(H-PAD*2)).toFixed(1);
-  const line=ticks.map((v,i)=>`${x(i)},${y(v)}`).join(" ");
-  const rising=ticks[ticks.length-1]>=ticks[0];
-  const col=rising?"#3fb950":"#f85149";
-  const area=`0,${H} ${line} ${W},${H}`;
+  const line=vals.map((v,i)=>`${x(i)},${y(v)}`).join(" ");
+  const chg=(vals[vals.length-1]/vals[0]-1)*100;
+  const col=chg>=0?"#3fb950":"#f85149";
   s.innerHTML=
     `<defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1">
        <stop offset="0" stop-color="${col}" stop-opacity=".22"/>
        <stop offset="1" stop-color="${col}" stop-opacity="0"/></linearGradient></defs>
-     <polygon points="${area}" fill="url(#g)"/>
+     <polygon points="0,${H} ${line} ${W},${H}" fill="url(#g)"/>
      <polyline points="${line}" fill="none" stroke="${col}" stroke-width="2.2"
        stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
-     <circle cx="${x(ticks.length-1)}" cy="${y(ticks[ticks.length-1])}" r="4" fill="${col}"/>
+     <circle cx="${x(vals.length-1)}" cy="${y(vals[vals.length-1])}" r="4" fill="${col}"/>
      <text x="8" y="16" fill="#8b949e" font-size="12">$${hi.toFixed(2)}</text>
      <text x="8" y="${H-4}" fill="#8b949e" font-size="12">$${lo.toFixed(2)}</text>
-     <text x="${W-8}" y="16" fill="#8b949e" font-size="12" text-anchor="end">${ticks.length} 笔</text>`;
+     <text x="${W-8}" y="16" fill="${col}" font-size="13" text-anchor="end"
+       font-weight="600">${chg>=0?"+":""}${chg.toFixed(2)}%</text>`;
+  if(mEl) mEl.textContent=meta;
 }
 
 function restTick(){
