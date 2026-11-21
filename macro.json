@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T05:08:54-05:00",
+ "generated": "2026-11-21T05:32:02-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7700,13 +7700,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 57903.76,
-   "pct_1d": -1.52,
-   "pct_5d": -10.72,
-   "pct_20d": -26.0,
+   "price": 57899.27,
+   "pct_1d": -1.53,
+   "pct_5d": -10.73,
+   "pct_20d": -26.01,
    "high_6mo": 86602.9140625,
    "drawdown_6mo": 33.14,
-   "ma20": 69986.18,
+   "ma20": 69985.96,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55631.574,
@@ -8081,7 +8081,7 @@
     ],
     [
      "2026-11-21",
-     74.68
+     74.67
     ]
    ],
    "label": "比特币",
@@ -8537,6 +8537,12 @@
    "source": "bloomberg.com"
   },
   {
+   "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency - WSJ",
+   "published": "Fri, 20 Nov 2026 18:23:00 GMT",
+   "tier": 2,
+   "source": "wsj.com"
+  },
+  {
    "title": "Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters",
    "published": "Thu, 19 Nov 2026 23:43:00 GMT",
    "tier": 2,
@@ -8571,12 +8577,6 @@
    "published": "Thu, 19 Nov 2026 17:06:57 GMT",
    "tier": 2,
    "source": "reuters.com"
-  },
-  {
-   "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency - WSJ",
-   "published": "Fri, 20 Nov 2026 17:41:25 GMT",
-   "tier": 2,
-   "source": "wsj.com"
   },
   {
    "title": "Without a recession, this is a correction not a bear market, says Ed Yardeni - CNBC",
@@ -8865,9 +8865,10 @@
     "manual": true,
     "note": "这一项是主观判断，不是计算结果，页面上会单独标出来。它不进 max 项，所以不会靠我的看法把头条数字抬上去。每 14 天必须复核一次，过期会报警。",
     "why": [
-     "联储在股权回撤中加息（12 月 95%+），等于危机时期的政策托底被推迟或抬高了行权价",
-     "政治周期施压央行独立性：如果这条线断了，结果不是衰退而是通胀，正好命中长久期论点的证伪条件",
-     "关税/出口管制属于隔夜可变的外生冲击，本盘所有数据源都是滞后 1 天到 1 周的，看不见",
+     "主席是 Kevin Warsh（2026-05-22 就任，参院 54-45），特朗普提名他本是为了降息，结果他开启了 21 世纪第四轮加息周期。12 月加息已被定价 95%+，等于危机时期的政策托底被推迟、行权价被抬高",
+     "**已修正**：早先假设「政治施压央行→通胀→长久期证伪」。事实相反——政治干预装进来的是更鹰的人。通胀预期 2.15% 处 52 周低位正是这种可信鹰派的结果。证伪风险因此下调，但没有消失：若特朗普对 Warsh 也转向施压（他已对 Powell 启动刑事调查），尾部会重新打开",
+     "中美关税休战 11 月延长两个月（中方暂停额外 24%、保留 10% 全面关税），**2027 年 1 月到期**；$600 亿关税削减协议在谈，特朗普与习近平在深圳 APEC 第三次会晤。谈成是利好，谈崩是隔夜外生冲击",
+     "关税/出口管制可隔夜改变，而本盘所有数据源滞后 1 天到 1 周——政策冲击在盘面上是隐形的，直到已经发生",
      "AI 资本开支与少数几家公司的治理高度绑定（11/11 黄仁勋辞任），单点人事风险被低估"
     ],
     "updated": "2026-11-21",
