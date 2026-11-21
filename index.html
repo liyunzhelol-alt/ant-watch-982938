@@ -244,6 +244,58 @@
   .pb dt{color:var(--dim);font-size:11px;margin-top:5px}
   .pb dd{margin:0}
 
+  /* scenario */
+  .pathcard{background:linear-gradient(180deg,#141a22,#11151c);border:1px solid var(--line);
+    border-radius:12px;padding:15px;margin:2px 0 12px}
+  .pathcard .tag2{font-size:10px;letter-spacing:.1em;color:var(--dim);background:#1a2029;
+    padding:2px 7px;border-radius:5px}
+  .pathcard h3{margin:8px 0 3px;font-size:17px;font-weight:600}
+  .pathcard .ol{color:var(--dim);font-size:12.5px;line-height:1.6}
+  .pbar{display:flex;gap:3px;margin:13px 0 7px;height:26px}
+  .pbar div{border-radius:4px;display:flex;align-items:center;justify-content:center;
+    font-size:10.5px;font-weight:600;color:#0d1117;overflow:hidden;white-space:nowrap}
+  .pbar div.dimmed{opacity:.38}
+  .plist{font-size:11.5px;color:var(--dim);line-height:1.8}
+  .plist b{color:var(--fg)}
+  .drift{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;padding-top:11px;
+    border-top:1px solid var(--line)}
+  .drift div{font-size:11.5px;color:var(--dim)}
+  .drift b{display:block;font-size:19px;color:var(--fg);font-variant-numeric:tabular-nums;
+    font-weight:650;margin-top:1px}
+
+  .tl{position:relative;padding-left:26px}
+  .tl::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:var(--line)}
+  .ev{position:relative;margin-bottom:9px}
+  .ev::before{content:"";position:absolute;left:-23px;top:15px;width:11px;height:11px;
+    border-radius:50%;background:var(--bg);border:2px solid var(--line)}
+  .ev.past::before{background:var(--flat);border-color:var(--flat)}
+  .ev.today::before{background:var(--accent);border-color:var(--accent);
+    box-shadow:0 0 0 4px rgba(88,166,255,.2)}
+  .ev.w3::before{border-color:var(--warn)}
+  .ev.today.w3::before{border-color:var(--accent)}
+  .evc{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:11px 13px}
+  .ev.today .evc{border-color:var(--accent);background:#101722}
+  .ev.past .evc{opacity:.6}
+  .evh{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+  .ts{font-size:11px;color:var(--accent);font-variant-numeric:tabular-nums;
+    background:#132236;padding:1.5px 7px;border-radius:5px;letter-spacing:.02em}
+  .ev.past .ts{background:#1a2029;color:var(--dim)}
+  .evt{font-size:14px;font-weight:600}
+  .evk{font-size:10px;padding:1px 6px;border-radius:4px;background:#1a2029;color:var(--dim)}
+  .evk.w3{background:#2a2110;color:var(--warn)}
+  .cd{margin-left:auto;font-size:11px;color:var(--flat);font-variant-numeric:tabular-nums}
+  .evb{font-size:12.5px;line-height:1.7;color:var(--fg)}
+  .evi{font-size:11.5px;color:var(--dim);margin-top:5px;line-height:1.6}
+  .br{margin-top:8px;border-top:1px solid #1b212a;padding-top:7px}
+  .br div{font-size:11.5px;line-height:1.7;display:flex;gap:7px}
+  .br .pid{flex:none;font-size:9.5px;font-weight:700;width:16px;height:16px;border-radius:4px;
+    display:flex;align-items:center;justify-content:center;margin-top:3px;color:#0d1117}
+  .probe{margin-top:7px;font-size:11.5px;color:var(--dim);background:#11161d;
+    border-radius:6px;padding:6px 9px;font-variant-numeric:tabular-nums}
+  .probe b{color:var(--fg)}
+  .rslv{margin-top:6px;font-size:12px;border-left:3px solid var(--up);background:#101a12;
+    padding:7px 10px;border-radius:0 6px 6px 0}
+
   /* charts */
   .ch{background:var(--panel);border:1px solid var(--line);border-radius:10px;
     padding:13px 14px 11px;margin-bottom:10px}
@@ -269,6 +321,7 @@
   <div class="tabs">
     <button id="tb-ant" class="on" onclick="showPane('ant')">ANT</button>
     <button id="tb-macro" onclick="showPane('macro')">宏观体制<span class="bdg" id="mbdg">—</span></button>
+    <button id="tb-scen" onclick="showPane('scen')">推演<span class="bdg" id="sbdg">—</span></button>
   </div>
 
 <div id="pane-ant">
@@ -386,6 +439,21 @@
 
   <div class="note" style="margin-top:24px" id="m-foot"></div>
 </div><!-- /pane-macro -->
+
+<div id="pane-scen" hidden>
+  <div id="s-head"></div>
+
+  <h2>基线轨迹 vs 实际 <span style="text-transform:none;letter-spacing:0">— 虚线是推演，圆点是真实读数</span></h2>
+  <div id="s-track"></div>
+
+  <h2>事件时间轴 <span style="text-transform:none;letter-spacing:0">— 日期一到自动判定，不靠记忆</span></h2>
+  <div id="s-time"></div>
+
+  <h2>预先写下的盲区 <span style="text-transform:none;letter-spacing:0">— 这套盘看不见的东西</span></h2>
+  <div class="card" id="s-blind"></div>
+
+  <div class="note" style="margin-top:24px" id="s-foot"></div>
+</div><!-- /pane-scen -->
 
   <div class="err" id="err"></div>
 </div>
@@ -853,10 +921,10 @@ setTimeout(()=>{ if(!ticks.length) startRest(); },20000);
 const mel = id => document.getElementById(id);
 
 function showPane(which){
-  mel("pane-ant").hidden    = which !== "ant";
-  mel("pane-macro").hidden  = which !== "macro";
-  mel("tb-ant").classList.toggle("on", which === "ant");
-  mel("tb-macro").classList.toggle("on", which === "macro");
+  ["ant","macro","scen"].forEach(k=>{
+    mel("pane-"+k).hidden = which !== k;
+    mel("tb-"+(k==="scen"?"scen":k)).classList.toggle("on", which === k);
+  });
   try{ localStorage.setItem("antTab", which); }catch(e){}
 }
 
@@ -1071,6 +1139,95 @@ fetch("macro.json?t="+Date.now()).then(r=>r.json()).then(d=>{
       <div class="s" style="color:var(--flat);font-size:11px">${x.source} · ${x.published.slice(5,16)}</div>
     </div>`).join("") : "无";
 
+  /* ---------------- 推演 pane ---------------- */
+  const SC = d.scenario;
+  if(SC){
+    const base = SC.paths.find(p=>p.id===SC.baseline) || SC.paths[0];
+    const pending = SC.events.filter(e=>e.status!=="past").length;
+    const sb = mel("sbdg");
+    sb.textContent = "路线 "+base.id;
+    sb.classList.toggle("hot", (SC.drift||0) >= 1);
+
+    mel("s-head").innerHTML = `<div class="pathcard">
+      <span class="tag2">基线路径 ${base.id} · 概率 ${base.prob}%</span>
+      <h3>${base.label}</h3>
+      <div class="ol">${base.one_line}<br>终点：${base.ends_at}</div>
+      <div class="pbar">${SC.paths.map(p=>`<div class="${p.id===base.id?"":"dimmed"}"
+        style="flex:${p.prob};background:${MCOL[p.color]||MCOL.dim}"
+        title="${p.label} ${p.prob}%">${p.prob>=10?p.id+" "+p.prob+"%":p.id}</div>`).join("")}</div>
+      <div class="plist">${SC.paths.filter(p=>p.id!==base.id).map(p=>
+        `<b>${p.id} ${p.prob}%</b> ${p.label} — ${p.ends_at}`).join("<br>")}</div>
+      <div class="drift">
+        <div>实际指数<b>${d.index.value.toFixed(1)}</b></div>
+        <div>基线同期<b>${SC.baseline_now!==null?SC.baseline_now.toFixed(1):"—"}</b></div>
+        <div>偏离<b style="color:${(SC.drift||0)>0?MCOL.down:(SC.drift||0)<0?MCOL.up:"var(--fg)"}">
+          ${SC.drift===null?"—":(SC.drift>0?"+":"")+SC.drift.toFixed(1)}</b></div>
+        <div>未发生事件<b>${pending}</b></div>
+      </div></div>`;
+
+    /* baseline (dashed) vs actual (dots), same axes */
+    (function(){
+      const W=640,H=200,L=34,R=18,T=12,B=30;
+      const pts=SC.baseline_track, act=SC.actual_track;
+      const all=pts.map(p=>p[0]).concat(act.map(a=>a[0])).sort();
+      const a0=Date.parse(all[0]), a1=Date.parse(all[all.length-1]);
+      const tx=ds=>L+(Date.parse(ds)-a0)/((a1-a0)||1)*(W-L-R);
+      const ty=v=>T+(10-v)/10*(H-T-B);
+      let g="";
+      for(let v=0;v<=10;v+=2){ const y=ty(v);
+        g+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" stroke="#222933"/>`
+          +`<text x="${L-6}" y="${y+3.5}" fill="#5a6474" font-size="10" text-anchor="end">${v}</text>`; }
+      [[4,"传染",MCOL.warn],[6,"衰退",MCOL.warn],[8,"系统性",MCOL.down]].forEach(([v,lb,c])=>{
+        g+=`<line x1="${L}" x2="${W-R}" y1="${ty(v)}" y2="${ty(v)}" stroke="${c}"
+             stroke-dasharray="3 3" opacity=".5"/>`; });
+      g+=`<polyline fill="none" stroke="${MCOL.warn}" stroke-width="1.8" stroke-dasharray="5 4"
+           points="${pts.map(p=>tx(p[0]).toFixed(1)+","+ty(p[1]).toFixed(1)).join(" ")}"/>`;
+      pts.forEach(p=>{ g+=`<circle cx="${tx(p[0]).toFixed(1)}" cy="${ty(p[1]).toFixed(1)}" r="2.5"
+          fill="${MCOL.warn}" opacity=".8"><title>${p[0]} 基线 ${p[1]} — ${p[2]}</title></circle>`; });
+      if(act.length>1) g+=`<polyline fill="none" stroke="${MCOL.accent}" stroke-width="2.2"
+           points="${act.map(p=>tx(p[0]).toFixed(1)+","+ty(p[1]).toFixed(1)).join(" ")}"/>`;
+      act.forEach(p=>{ g+=`<circle cx="${tx(p[0]).toFixed(1)}" cy="${ty(p[1]).toFixed(1)}" r="4"
+          fill="${MCOL.accent}"><title>${p[0]} 实际 ${p[1]}</title></circle>`; });
+      pts.forEach((p,i)=>{ if(i%2) return;
+        g+=`<text x="${tx(p[0]).toFixed(1)}" y="${H-8}" fill="#5a6474" font-size="9.5"
+             text-anchor="middle">${p[0].slice(2,7)}</text>`; });
+      mel("s-track").innerHTML=`<div class="ch">
+        <div class="leg2"><span><i style="background:${MCOL.warn}"></i>基线推演（路线 ${base.id}）</span>
+          <span><i style="background:${MCOL.accent}"></i>实际危机指数</span></div>
+        <svg viewBox="0 0 ${W} ${H}">${g}</svg>
+        <div class="ccap">实际点每个工作日 18:00 ET 追加一个。蓝线持续跑在橙虚线上方 = 事情比推演更快；
+          跑在下方 = 路线 B（慢撒气）概率上升。偏离本身就是信号。</div></div>`;
+    })();
+
+    const PC = {}; SC.paths.forEach(p=>PC[p.id]=MCOL[p.color]||MCOL.dim);
+    mel("s-time").innerHTML = `<div class="tl">` + SC.events.map(e=>{
+      const cd = e.status==="past" ? "已过 "+(-e.days_away)+" 天"
+               : e.status==="today" ? "今天" : (e.days_away+" 天后");
+      return `<div class="ev ${e.status} ${e.weight>=3?"w3":""}"><div class="evc">
+        <div class="evh"><span class="ts">${e.when}${e.time?" · "+e.time:""}</span>
+          <span class="evt">${e.title}</span>
+          <span class="evk ${e.weight>=3?"w3":""}">${e.kind}${e.weight>=3?" · 关键":""}</span>
+          <span class="cd">${cd}</span></div>
+        <div class="evb">${e.baseline}</div>
+        ${e.impact?`<div class="evi">→ ${e.impact}</div>`:""}
+        ${e.probe_value!==undefined&&e.probe_value!==null?`<div class="probe">
+          当前读数 · ${e.probe.label}：<b>${mnum(e.probe_value, e.probe_value>1000?0:2)}</b>
+          ${e.probe_date?"（"+e.probe_date+"）":""}</div>`:""}
+        ${e.resolved?`<div class="rslv">判定：${e.resolved.text}（实测 ${mnum(e.resolved.value,2)}）</div>`:""}
+        ${(e.branches&&e.branches.length)?`<div class="br">${e.branches.map(b=>
+          `<div><span class="pid" style="background:${PC[b.path]||MCOL.dim}">${b.path}</span>
+           <span>若${b.if} → ${b.then}</span></div>`).join("")}</div>`:""}
+      </div></div>`;}).join("") + `</div>`;
+
+    mel("s-blind").innerHTML = `<ul style="margin:0;padding-left:17px;font-size:12.5px;
+      line-height:1.75;color:var(--dim)">${SC.blind_spots.map(b=>`<li>${b}</li>`).join("")}</ul>`;
+    mel("s-foot").innerHTML = `推演与所有预期文字写定于 <code>scenario.json</code>（${SC.created}），
+      事后不改；改动记在该文件的 change_log。事件状态按日期自动翻转，带 probe 的节点在日期过后
+      从实时数据读出实测值并匹配预先写好的判定区间。概率是我的主观估计，不是计算结果。
+      日历已核实：2026-12-09 FOMC（含点阵图）、2026-12-04 非农、2026-12-10 CPI、
+      2027 年 FOMC 为 1/26-27、3/16-17、4/27-28、6/8-9、7/27-28、9/14-15、10/26-27、12/7-8。`;
+  }
+
   mel("m-foot").innerHTML = `宏观数据：FRED 图表 CSV（信用利差 / 初请 / 收益率 / 通胀预期 / 金融状况，无需 API key）、
     Yahoo chart API、Google News RSS。阈值与行动文本写定于 <code>macro-watch/config.json</code>（${d.config_created}），
     修改必须记 change_log。此页不预测价格，只报事实和触发预写规则。
@@ -1078,9 +1235,11 @@ fetch("macro.json?t="+Date.now()).then(r=>r.json()).then(d=>{
     ${d.errors.length?"取数失败："+d.errors.join("；"):"本次取数无失败。"}`;
 }).catch(e=>{ mel("m-stage").innerHTML = "macro.json 加载失败：" + e; });
 
-/* #macro in the URL wins, otherwise fall back to the last tab you were on */
-if(location.hash === "#macro"){ showPane("macro"); }
-else { try{ if(localStorage.getItem("antTab")==="macro") showPane("macro"); }catch(e){} }
+/* a #tab in the URL wins, otherwise fall back to the last tab you were on */
+const HASHTAB = {"#macro":"macro", "#scen":"scen", "#scenario":"scen", "#ant":"ant"};
+if(HASHTAB[location.hash]){ showPane(HASHTAB[location.hash]); }
+else { try{ const t=localStorage.getItem("antTab");
+  if(t==="macro"||t==="scen") showPane(t); }catch(e){} }
 </script>
 </body>
 </html>
