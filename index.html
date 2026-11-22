@@ -354,6 +354,48 @@
   .fold summary::before{content:"▸ ";color:var(--flat)}
   .fold[open] summary::before{content:"▾ "}
 
+  /* one-page overview */
+  .lights{background:linear-gradient(180deg,#141a22,#11151c);border:1px solid var(--line);
+    border-radius:12px;padding:15px;margin:2px 0 12px}
+  .lights .big{font-size:21px;font-weight:650;line-height:1.35;letter-spacing:-.2px;margin-bottom:10px}
+  .lights .big em{font-style:normal;color:var(--accent)}
+  .lt{display:grid;grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:7px;margin-top:6px}
+  .lt div{background:#11161d;border-radius:8px;padding:8px 10px;font-size:11.5px;color:var(--dim)}
+  .lt b{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--fg);margin-top:2px;
+    font-variant-numeric:tabular-nums}
+  .lt i{width:9px;height:9px;border-radius:50%;flex:none}
+  .qa2{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px;
+    margin-bottom:8px}
+  .qa2 .q{font-size:12px;color:var(--dim);margin-bottom:4px}
+  .qa2 .q::before{content:"“ ";color:var(--flat)} .qa2 .q::after{content:" ”";color:var(--flat)}
+  .qa2 .a{font-size:15px;font-weight:650;line-height:1.45;margin-bottom:7px}
+  .qa2 .ev{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:7px}
+  .qa2 .ev span{font-size:11.5px;background:#11161d;border-radius:6px;padding:3px 8px;
+    font-variant-numeric:tabular-nums;color:var(--dim)}
+  .qa2 .ev span b{color:var(--fg);margin-left:3px}
+  .qa2 .flip{font-size:11.5px;color:var(--flat);border-top:1px solid #1b212a;padding-top:6px}
+  .qa2 .flip b{color:var(--warn);font-weight:600}
+  .qa2.open{border-style:dashed;border-color:var(--warn)}
+  .vo{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:stretch}
+  .vo .side{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 13px}
+  .vo h4{margin:0 0 6px;font-size:12px;color:var(--dim);letter-spacing:.06em}
+  .vo .say2{font-size:14px;font-weight:650;line-height:1.45;margin-bottom:8px}
+  .vo .n2{font-size:11.5px;color:var(--dim);line-height:1.7;font-variant-numeric:tabular-nums}
+  .vo .n2 b{color:var(--fg)}
+  .vo .vs{display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--flat);
+    writing-mode:vertical-rl;letter-spacing:.2em}
+  .vo .so{grid-column:1/-1;font-size:12.5px;color:var(--fg);background:#101722;border-left:3px solid var(--accent);
+    border-radius:0 8px 8px 0;padding:9px 12px;line-height:1.6}
+  @media (max-width:560px){ .vo{grid-template-columns:1fr} .vo .vs{writing-mode:horizontal-tb;padding:2px} }
+  .nx{display:flex;gap:10px;align-items:center;background:var(--panel);border:1px solid var(--line);
+    border-radius:10px;padding:10px 13px;margin-bottom:7px;font-size:12.5px}
+  .nx .dd{flex:none;width:60px;text-align:center}
+  .nx .dd b{display:block;font-size:19px;font-variant-numeric:tabular-nums;line-height:1.1}
+  .nx .dd span{font-size:10px;color:var(--flat)}
+  .nx .tt{line-height:1.5} .nx .tt i{display:block;font-style:normal;color:var(--dim);font-size:11.5px}
+  .wr li{font-size:12.5px;line-height:1.65;color:var(--dim);margin-bottom:5px}
+  .wr li b{color:var(--fg)}
+
   /* charts */
   .ch{background:var(--panel);border:1px solid var(--line);border-radius:10px;
     padding:13px 14px 11px;margin-bottom:10px}
@@ -380,6 +422,7 @@
     <button id="tb-ant" class="on" onclick="showPane('ant')">ANT</button>
     <button id="tb-macro" onclick="showPane('macro')">宏观体制<span class="bdg" id="mbdg">—</span></button>
     <button id="tb-scen" onclick="showPane('scen')">推演<span class="bdg" id="sbdg">—</span></button>
+    <button id="tb-one" onclick="showPane('one')">一页看懂<span class="bdg" id="obdg">—</span></button>
   </div>
 
 <div id="pane-ant">
@@ -525,6 +568,27 @@
 
   <div class="note" style="margin-top:24px" id="s-foot"></div>
 </div><!-- /pane-scen -->
+
+<div id="pane-one" hidden>
+  <div id="o-lights"></div>
+
+  <h2>你一直在问的 <span style="text-transform:none;letter-spacing:0">— 每个问题一个答案、一个证据、一个会推翻它的条件</span></h2>
+  <div id="o-qa"></div>
+
+  <h2>两个声音 <span style="text-transform:none;letter-spacing:0">— 这是本轮最大的错价，所有仓位都建立在这上面</span></h2>
+  <div id="o-voices"></div>
+
+  <h2>现在的仓位 <span style="text-transform:none;letter-spacing:0">— 以及下一次会动它的条件</span></h2>
+  <div id="o-pos"></div>
+
+  <h2>接下来最先改变答案的事</h2>
+  <div id="o-next"></div>
+
+  <h2>我可能错在哪</h2>
+  <div class="card" id="o-wrong"></div>
+
+  <div class="note" style="margin-top:24px" id="o-foot"></div>
+</div><!-- /pane-one -->
 
   <div class="err" id="err"></div>
 </div>
@@ -1041,9 +1105,9 @@ setTimeout(()=>{ if(!ticks.length) startRest(); },20000);
 const mel = id => document.getElementById(id);
 
 function showPane(which){
-  ["ant","macro","scen"].forEach(k=>{
+  ["ant","macro","scen","one"].forEach(k=>{
     mel("pane-"+k).hidden = which !== k;
-    mel("tb-"+(k==="scen"?"scen":k)).classList.toggle("on", which === k);
+    mel("tb-"+k).classList.toggle("on", which === k);
   });
   try{ localStorage.setItem("antTab", which); }catch(e){}
 }
@@ -1397,6 +1461,102 @@ fetch("macro.json?t="+Date.now()).then(r=>r.json()).then(d=>{
       2027 年 FOMC 为 1/26-27、3/16-17、4/27-28、6/8-9、7/27-28、9/14-15、10/26-27、12/7-8。`;
   }
 
+  /* ---------------- 一页看懂 ---------------- */
+  (function(){
+    const v = id => (S[id]||{}).value, dt = id => (S[id]||{}).date, pc = id => (S[id]||{}).pctile_full;
+    const hy=v("BAMLH0A0HYM2"), ig=v("BAMLC0A0CM"), c4=v("IC4WSA"), nf=v("NFCI"),
+          y30=v("DGS30"), rr=v("DFII10"), ie=v("T10YIE"), cv=v("T10Y2Y"),
+          vix=(Q["^VIX"]||{}).price, th=d.index;
+    const comp = id => (th.components.find(c=>c.id===id)||{}).score;
+    const lamp = s => s===undefined||s===null ? "#2d3542" : s<3 ? MCOL.up : s<6 ? MCOL.warn : MCOL.down;
+    const f1 = (x,n=2) => x===undefined||x===null ? "—" : Number(x).toLocaleString("en-US",{maximumFractionDigits:n});
+    const t2 = (d.campaign.tranches.find(t=>t.id==="T2")||{}).distance_bp;
+    const cur = d.playbooks[curBand] || d.playbooks[1];
+    const fo = (d.forecast&&!d.forecast.error) ? d.forecast : null;
+
+    mel("obdg").textContent = th.value.toFixed(1);
+    mel("o-lights").innerHTML = `<div class="lights">
+      <div class="big">恐慌已经发生，<em>损害还没发生</em>。危机指数 ${th.value.toFixed(1)}/10 —— ${th.band.label}。</div>
+      <div class="lt">
+        <div>市场应激<b><i style="background:${lamp(comp("market"))}"></i>${f1(comp("market"))} · VIX ${f1(vix,1)}</b></div>
+        <div>信用<b><i style="background:${lamp(comp("credit"))}"></i>${f1(comp("credit"))} · HY ${f1(hy)}%</b></div>
+        <div>就业<b><i style="background:${lamp(comp("labor"))}"></i>${f1(comp("labor"))} · ${f1(c4,0)}</b></div>
+        <div>金融条件<b><i style="background:${lamp(comp("conditions"))}"></i>${f1(comp("conditions"))} · NFCI ${f1(nf,2)}</b></div>
+        <div>融资管道<b><i style="background:${lamp(comp("funding"))}"></i>${f1(comp("funding"))} · ${f1((d.derived.sofr_iorb_bp||{}).value,0)}bp</b></div>
+        <div>政策·主观<b><i style="background:${lamp(comp("policy"))}"></i>${f1(comp("policy"),1)}</b></div>
+      </div>
+      <div class="s" style="color:var(--flat);font-size:11px;margin-top:9px">只有一盏灯是黄的，而且是最吵、最不可靠的那盏。其它四盏硬数据全绿。这一行就是今天整个盘面的结论。</div>
+    </div>`;
+
+    const qa = (q,a,ev,flip,open) => `<div class="qa2 ${open?"open":""}"><div class="q">${q}</div>
+      <div class="a">${a}</div>${ev?`<div class="ev">${ev.map(([k,x])=>`<span>${k}<b>${x}</b></span>`).join("")}</div>`:""}
+      <div class="flip">${open?"":"会推翻它的条件："}${flip}</div></div>`;
+    mel("o-qa").innerHTML = [
+      qa("金融危机是不是不远了？",
+         `不是。股/金/币一起跌是追保换现金，不是信用事件。离「传染」还隔着 ${f1(5.0-hy)} 个百分点的 HY 利差。`,
+         [["HY 利差",f1(hy)+"%"],["IG 利差",f1(ig)+"%"],["初请四周",f1(c4,0)+"（全史 "+f1(pc("IC4WSA"),0)+"% 分位）"],["NFCI",f1(nf,2)]],
+         `<b>HY ≥ 5.0%</b>、或 <b>IG ≥ 1.30%</b>、或 <b>NFCI 转正</b>。三者任一，答案就变。`),
+      qa("这里面怎么赚钱？",
+         `只有一个位置的赔率是算错的：30 年美债。联储按通胀加息，债市却把通胀预期打到一年新低——两者不可能都对，而没被定价的是衰退那一边。其余都是等。`,
+         [["30Y",f1(y30)+"%"],["10Y 实际利率",f1(rr)+"%"],["10Y 通胀预期",f1(ie)+"%（52 周低）"],["曲线 10-2",f1(cv)+"%"]],
+         `<b>通胀预期 ≥ 2.75% 且 30Y ≥ 6.25%</b> 同时成立 = 这是通胀体制不是增长体制，减仓不补。另一条非通胀路径：联储主动卖长债（F09）。`),
+      qa("那我现在该做什么？",
+         `按当前档位：${Object.entries(cur.alloc).filter(([k,x])=>x>0).map(([k,x])=>k+" "+x+"%").join(" / ")}。T1 已执行，其它什么都不做。没触发就是没动作。`,
+         [["离 T2 还差",(t2===undefined?"—":t2+" bp")],["黄金入场",`VIX ≤ 25 连续 3 日（现 ${f1(vix,1)}）`],["高收益债",`HY ≥ 5.0%（现 ${f1(hy)}）`]],
+         `<b>30Y ≥ 5.75%</b> → 加 T2；<b>指数上穿 4.0</b> → 进下一档配置。页面「宏观体制」tab 有全部五档。`),
+      qa("我会不会被主流误导？",
+         `主流现在的错误是把波动率当成信用。看分项：市场应激 ${f1(comp("market"))} 分，信用只有 ${f1(comp("credit"))} 分，就业 ${f1(comp("labor"))} 分。恐慌是真的，损害还没发生。`,
+         [["市场应激分",f1(comp("market"))],["信用分",f1(comp("credit"))],["差距",f1(comp("market")-comp("credit"))]],
+         `当<b>信用分追上市场应激分</b>，主流就对了，那时候要反过来听它的。`),
+      qa("政治和人为因素怎么进来？",
+         `不改变危机的概率，改变你的交易对不对。三条通道：Warsh（鹰派）+ 缩表讨论 → 30Y 的非通胀上行；中美休战 1/10 到期；国会 1/3 换手后立法通道关闭、行政令和外交成为主要工具。`,
+         [["政策项（主观）",f1(comp("policy"),1)+"/10"],["休战到期","2027-01-10"],["新国会","2027-01-03"],["缩表上会","2027 年初"]],
+         `<b>F09 命中</b>（联储主动卖长债）或 <b>特朗普对 Warsh 翻脸</b>——前者抬长端，后者打开通胀尾部。都写进了推演 tab。`),
+      qa("接下来会怎样？",
+         fo ? `最可能的是路线 A（硬着陆，${(d.scenario.paths.find(p=>p.id==="A")||{}).prob}%），但路线 B（慢撒气，${(d.scenario.paths.find(p=>p.id==="B")||{}).prob}%）几乎一样大。真正的分水岭不是 12/9 的联储，是 1 月底云厂商的 2027 资本开支指引。`
+            : `见推演 tab。`,
+         fo ? [["待判定",fo.scorecard.open],["已判定",fo.scorecard.resolved],["命中率",fo.scorecard.hit_rate===null?"—":Math.round(fo.scorecard.hit_rate*100)+"%"],["Brier",fo.scorecard.brier===null?"—":fo.scorecard.brier]] : null,
+         `实际指数<b>持续低于基线轨迹</b> → B 的概率上升；<b>IG 利差在就业还好时先动</b> → 那是路线 D，比 A 快得多。`),
+      qa("钱在哪、能买什么？",
+         `还没回答。加币还是人民币？加拿大券商、国内账户，还是美元账户？这个决定了上面每一条动作里哪些你根本执行不了。`,
+         null,
+         `国内账户买不了 TLT；加拿大券商买不了 A 股；结汇每年 5 万美元额度；TFSA 里长债利息免税，非注册账户按全额边际税率。<b>答完这个，具体标的和下单结构就能落。</b>`, true),
+    ].join("");
+
+    mel("o-voices").innerHTML = `<div class="vo">
+      <div class="side"><h4>联储在说</h4><div class="say2">「通胀方向不对，继续加。」</div>
+        <div class="n2">12/9 加息概率 <b>95%+</b><br>政策利率 3.75-4.00 → <b>4.00-4.25</b><br>通胀高于目标 <b>65 个月</b><br>主席 Warsh：取消前瞻指引、筹备缩表</div></div>
+      <div class="vs">对撞</div>
+      <div class="side"><h4>债市在说</h4><div class="say2">「增长要崩，不是通胀。」</div>
+        <div class="n2">10Y 通胀预期 <b>${f1(ie)}%</b>（52 周低）<br>10Y 实际利率 <b>${f1(rr)}%</b>（1 年 z +${f1((S["DFII10"]||{}).z_1y,1)}）<br>30Y <b>${f1(y30)}%</b><br>曲线 10Y−2Y <b>${f1(cv)}%</b></div></div>
+      <div class="so">两边不可能都对。市场已经把「加息」定价满了，没定价的是「加息之后的衰退」。便宜的永远是没被定价的那一边——所以是长债，不是股票，不是黄金。</div>
+    </div>`;
+
+    const AC = {"现金/短久期":MCOL.dim,"长久期":MCOL.accent,"黄金":MCOL.gold,"股票(新增)":MCOL.up,"高收益债":MCOL.warn};
+    const ks = Object.keys(cur.alloc).filter(k=>cur.alloc[k]>0);
+    mel("o-pos").innerHTML = `<div class="pb on" style="opacity:1">
+      <h4>${cur.label}</h4>
+      <div class="alloc">${ks.map(k=>`<div style="width:${cur.alloc[k]}%;background:${AC[k]}">${cur.alloc[k]>=12?cur.alloc[k]+"%":""}</div>`).join("")}</div>
+      <div class="ak">${ks.map(k=>`<span><i style="background:${AC[k]}"></i>${k} ${cur.alloc[k]}%</span>`).join("")}</div>
+      <dl><dt>下一次会动它的条件</dt><dd>${cur.action}</dd></dl></div>`;
+
+    const nx = fo ? fo.open.slice(0,4) : [];
+    mel("o-next").innerHTML = nx.length ? nx.map(f=>`<div class="nx">
+        <div class="dd"><b>${f.days_left<=0?"今":f.days_left}</b><span>${f.days_left<=0?"天":"天后 · "+f.resolve_by.slice(5)}</span></div>
+        <div class="tt">${f.claim}<i>${f.id} · p=${Math.round(f.prob*100)}% · 若发生 → ${f.domain==="联储"?"直接动 30Y":f.domain==="地缘"?"看油价与通胀预期":f.domain==="社会"?"喂路线 A":"看推演 tab 的分叉"}</i></div>
+      </div>`).join("") : `<div class="card" style="color:var(--dim)">见推演 tab。</div>`;
+
+    mel("o-wrong").innerHTML = `<ul class="wr" style="margin:0;padding-left:16px">
+      <li><b>节奏，不是方向。</b>劳动力在全史 2% 分位，从收紧到裁员历史上要 12-18 个月。所有阶段跃迁可能比我写的慢一倍——太早打光弹药比看错更致命。</li>
+      <li><b>看不见的那一块。</b>私募信贷不每天盯市，应激反应是限制赎回不是跌价。路线 D 的前兆在这套盘上可能完全不显形，替代观察是 IG 利差（${f1(ig)}%）在就业还好时先动。</li>
+      <li><b>数据滞后于政策。</b>关税、出口管制、对伊打击都是隔夜可变的，我的数据源滞后 1 天到 1 周。</li>
+      <li><b>已经错过的。</b>${fo?fo.self_calibration.length:0} 条自我判错记在推演 tab 顶部——Warsh 那条是整条传导链反了。判错的记录比判对的更值钱。</li>
+    </ul>`;
+
+    mel("o-foot").innerHTML = `这一页的每个数字都从 macro.json 实时取，每个工作日 18:00 ET 自动刷新；只有问题的措辞和「会推翻它的条件」是写死的。
+      生成 ${d.generated.replace("T"," ").slice(0,16)} ET。`;
+  })();
+
   mel("m-foot").innerHTML = `宏观数据：FRED 图表 CSV（信用利差 / 初请 / 收益率 / 通胀预期 / 金融状况，无需 API key）、
     Yahoo chart API、Google News RSS。阈值与行动文本写定于 <code>macro-watch/config.json</code>（${d.config_created}），
     修改必须记 change_log。此页不预测价格，只报事实和触发预写规则。
@@ -1405,10 +1565,10 @@ fetch("macro.json?t="+Date.now()).then(r=>r.json()).then(d=>{
 }).catch(e=>{ mel("m-stage").innerHTML = "macro.json 加载失败：" + e; });
 
 /* a #tab in the URL wins, otherwise fall back to the last tab you were on */
-const HASHTAB = {"#macro":"macro", "#scen":"scen", "#scenario":"scen", "#ant":"ant"};
+const HASHTAB = {"#macro":"macro", "#scen":"scen", "#scenario":"scen", "#ant":"ant", "#one":"one"};
 if(HASHTAB[location.hash]){ showPane(HASHTAB[location.hash]); }
 else { try{ const t=localStorage.getItem("antTab");
-  if(t==="macro"||t==="scen") showPane(t); }catch(e){} }
+  if(t==="macro"||t==="scen"||t==="one") showPane(t); }catch(e){} }
 </script>
 </body>
 </html>
