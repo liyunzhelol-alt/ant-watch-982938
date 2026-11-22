@@ -324,6 +324,8 @@
     padding-top:2px}
   .an .dm{flex:none;font-size:10px;padding:1px 5px;border-radius:4px;background:#1a2029;
     color:var(--dim);height:fit-content;margin-top:2px}
+  .an > div:last-child{flex:1;min-width:0}          /* let long text shrink instead of overflowing */
+  .an .aw,.an .c,.fc .cl,.fc .wy,.fc .wt,.selfc div{overflow-wrap:anywhere}
   .an .aw{line-height:1.55}   /* not .w - that's the global progress bar */
   .an .c{color:var(--dim);font-size:11.5px;margin-top:2px;line-height:1.5}
   .an .fd{color:var(--flat);font-size:10.5px;margin-top:2px}
