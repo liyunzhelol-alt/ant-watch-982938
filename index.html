@@ -305,6 +305,53 @@
   .rslv{margin-top:6px;font-size:12px;border-left:3px solid var(--up);background:#101a12;
     padding:7px 10px;border-radius:0 6px 6px 0}
 
+  /* forecast log */
+  .fsc{background:linear-gradient(180deg,#141a22,#11151c);border:1px solid var(--line);
+    border-radius:12px;padding:14px 15px 12px;margin:2px 0 12px}
+  .fsc .row2{display:flex;gap:14px;flex-wrap:wrap}
+  .fsc .row2 div{font-size:11px;color:var(--dim)}
+  .fsc .row2 b{display:block;font-size:22px;color:var(--fg);font-variant-numeric:tabular-nums;
+    font-weight:650;margin-top:1px;letter-spacing:-.3px}
+  .fsc .how{font-size:11px;color:var(--flat);margin-top:9px;line-height:1.55}
+  .selfc{margin-top:10px;border-top:1px solid var(--line);padding-top:8px}
+  .selfc div{font-size:11.5px;line-height:1.6;color:var(--dim);margin-bottom:5px;padding-left:9px;
+    border-left:2px solid var(--line)}
+  .selfc div.miss{border-color:var(--down)} .selfc div.partial{border-color:var(--warn)}
+  .selfc b{color:var(--fg)}
+  .an{display:flex;gap:10px;padding:8px 0;border-bottom:1px solid #1b212a;font-size:12.5px}
+  .an:last-child{border-bottom:0}
+  .an .d{flex:none;width:52px;font-size:11px;color:var(--accent);font-variant-numeric:tabular-nums;
+    padding-top:2px}
+  .an .dm{flex:none;font-size:10px;padding:1px 5px;border-radius:4px;background:#1a2029;
+    color:var(--dim);height:fit-content;margin-top:2px}
+  .an .w{line-height:1.55}
+  .an .c{color:var(--dim);font-size:11.5px;margin-top:2px;line-height:1.5}
+  .an .fd{color:var(--flat);font-size:10.5px;margin-top:2px}
+  .fc{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 13px;
+    margin-bottom:7px}
+  .fc.overdue{border-color:var(--warn)}
+  .fc .h{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+  .fc .id{font-size:10.5px;color:var(--flat);font-variant-numeric:tabular-nums}
+  .fc .cd{font-size:11px;color:var(--accent);background:#132236;padding:1.5px 7px;border-radius:5px;
+    font-variant-numeric:tabular-nums}
+  .fc.overdue .cd{color:var(--warn);background:#2a2110}
+  .fc .pb2{margin-left:auto;display:flex;align-items:center;gap:6px;font-size:11px;color:var(--dim);
+    font-variant-numeric:tabular-nums}
+  .fc .pb2 i{width:54px;height:5px;background:#1b212a;border-radius:3px;overflow:hidden;display:block}
+  .fc .pb2 i b{display:block;height:100%;background:var(--accent)}
+  .fc .cl{font-size:13px;font-weight:600;line-height:1.5}
+  .fc .wy{font-size:11.5px;color:var(--dim);margin-top:4px;line-height:1.55}
+  .fc .wt{font-size:11px;color:var(--flat);margin-top:3px}
+  .fc.hit{border-left:3px solid var(--up)} .fc.miss{border-left:3px solid var(--down)}
+  .fc.partial{border-left:3px solid var(--warn)}
+  .fc .vd{font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:1px 6px;border-radius:4px}
+  .fc.hit .vd{background:#12261a;color:var(--up)} .fc.miss .vd{background:#2a1416;color:var(--down)}
+  .fc.partial .vd{background:#2a2110;color:var(--warn)}
+  .fold{border:1px dashed var(--line);border-radius:10px;padding:4px 13px 10px}
+  .fold summary{cursor:pointer;color:var(--dim);font-size:12px;padding:8px 0;list-style:none}
+  .fold summary::before{content:"▸ ";color:var(--flat)}
+  .fold[open] summary::before{content:"▾ "}
+
   /* charts */
   .ch{background:var(--panel);border:1px solid var(--line);border-radius:10px;
     padding:13px 14px 11px;margin-bottom:10px}
@@ -452,16 +499,27 @@
 </div><!-- /pane-macro -->
 
 <div id="pane-scen" hidden>
-  <div id="s-head"></div>
+  <div id="f-score"></div>
 
-  <h2>基线轨迹 vs 实际 <span style="text-transform:none;letter-spacing:0">— 虚线是推演，圆点是真实读数</span></h2>
-  <div id="s-track"></div>
+  <h2>最近发生了什么 <span style="text-transform:none;letter-spacing:0">— 校准锚点，每条标注它改变了哪个预测</span></h2>
+  <div id="f-anchors"></div>
 
-  <h2>事件时间轴 <span style="text-transform:none;letter-spacing:0">— 日期一到自动判定，不靠记忆</span></h2>
-  <div id="s-time"></div>
+  <h2>接下来 2-8 周 <span style="text-transform:none;letter-spacing:0">— 具体、有日期、可被证伪</span></h2>
+  <div id="f-open"></div>
 
-  <h2>预先写下的盲区 <span style="text-transform:none;letter-spacing:0">— 这套盘看不见的东西</span></h2>
-  <div class="card" id="s-blind"></div>
+  <h2>已判定 <span style="text-transform:none;letter-spacing:0">— 对了就对了，错了就错了</span></h2>
+  <div id="f-resolved"></div>
+
+  <details class="fold" style="margin-top:26px">
+    <summary>长线骨架（路线 A-E、基线轨迹、硬日历）— 背景参考，不是主体</summary>
+    <div id="s-head"></div>
+    <h2>基线轨迹 vs 实际</h2>
+    <div id="s-track"></div>
+    <h2>硬日历</h2>
+    <div id="s-time"></div>
+    <h2>预先写下的盲区</h2>
+    <div class="card" id="s-blind"></div>
+  </details>
 
   <div class="note" style="margin-top:24px" id="s-foot"></div>
 </div><!-- /pane-scen -->
@@ -1199,13 +1257,62 @@ fetch("macro.json?t="+Date.now()).then(r=>r.json()).then(d=>{
       <div class="s" style="color:var(--flat);font-size:11px">${x.source} · ${x.published.slice(5,16)}</div>
     </div>`).join("") : "无";
 
-  /* ---------------- 推演 pane ---------------- */
+  /* ---------------- 推演 pane: rolling forecast log ---------------- */
+  const FC = d.forecast;
+  if(FC && !FC.error){
+    const s = FC.scorecard;
+    const DCOL = {"政治":"#bc8cff","政策":"#58a6ff","地缘":"#f85149","联储":"#d29922",
+                  "经济":"#3fb950","社会":"#e3b341","市场":"#8b949e","产业":"#6b7686"};
+    const dm = x => `<span class="dm" style="color:${DCOL[x]||"var(--dim)"}">${x}</span>`;
+    mel("f-score").innerHTML = `<div class="fsc">
+      <div class="row2">
+        <div>待判定<b>${s.open}</b></div>
+        <div>已判定<b>${s.resolved}</b></div>
+        <div>命中率<b>${s.hit_rate===null?"—":Math.round(s.hit_rate*100)+"%"}</b></div>
+        <div>Brier<b>${s.brier===null?"—":s.brier.toFixed(3)}</b></div>
+        ${s.overdue?`<div style="color:var(--warn)">过期待判<b style="color:var(--warn)">${s.overdue}</b></div>`:""}
+      </div>
+      <div class="how">只做 2-8 周、有日期、能被证伪的预测。到期由自动任务查证并打 hit / miss，概率不事后改。
+        Brier 越低越准（0 = 全对且概率给足；0.25 = 全部 50% 的抛硬币水平）。
+        ${FC.horizon_note}</div>
+      ${FC.self_calibration.length?`<div class="selfc">${FC.self_calibration.map(c=>
+        `<div class="${c.verdict}"><b>${c.on} · ${c.verdict.toUpperCase()}</b> ${c.what}<br>
+         <span style="color:var(--flat)">教训：${c.lesson}</span></div>`).join("")}</div>`:""}
+    </div>`;
+
+    mel("f-anchors").innerHTML = `<div class="card">${FC.anchors.map(a=>`<div class="an">
+      <span class="d">${a.on.slice(5)}</span>${dm(a.domain)}
+      <div><div class="w">${a.what}</div><div class="c">→ ${a.changed}</div>
+      ${a.feeds&&a.feeds.length?`<div class="fd">喂给 ${a.feeds.join(" · ")}</div>`:""}</div></div>`).join("")}</div>`;
+
+    const fcard = f => {
+      const cd = f.status!=="open" ? `<span class="vd">${f.status}</span>`
+        : f.overdue ? `<span class="cd">过期 ${-f.days_left} 天，待判</span>`
+        : `<span class="cd">${f.days_left===0?"今天":f.days_left+" 天后"} · ${f.resolve_by.slice(5)}</span>`;
+      return `<div class="fc ${f.status}${f.overdue?" overdue":""}">
+        <div class="h"><span class="id">${f.id}</span>${dm(f.domain)}${cd}
+          <span class="pb2">p=${Math.round(f.prob*100)}%<i><b style="width:${f.prob*100}%"></b></i></span></div>
+        <div class="cl">${f.claim}</div>
+        <div class="wy">${f.why}</div>
+        ${f.watch?`<div class="wt">看什么：${f.watch}</div>`:""}
+        ${f.note?`<div class="wy" style="color:var(--fg);margin-top:6px">判定依据（${f.resolved_on}）：${f.note}</div>`:""}
+      </div>`;};
+    mel("f-open").innerHTML = FC.open.length ? FC.open.map(fcard).join("")
+      : `<div class="card" style="color:var(--dim)">没有未判定的预测。</div>`;
+    mel("f-resolved").innerHTML = FC.resolved.length ? FC.resolved.map(fcard).join("")
+      : `<div class="card" style="color:var(--dim);font-size:12.5px">还没有到期的。第一条是 12/9 的 FOMC（F08 / F08b）。</div>`;
+    mel("sbdg").textContent = `${s.open} 待判`;
+  } else if(FC && FC.error){
+    mel("f-score").innerHTML = `<div class="card">forecasts 加载失败：${FC.error}</div>`;
+  }
+
+  /* ---------------- long-line skeleton (folded) ---------------- */
   const SC = d.scenario;
   if(SC){
     const base = SC.paths.find(p=>p.id===SC.baseline) || SC.paths[0];
     const pending = SC.events.filter(e=>e.status!=="past").length;
     const sb = mel("sbdg");
-    sb.textContent = "路线 "+base.id;
+    if(!FC || FC.error) sb.textContent = "路线 "+base.id;
     sb.classList.toggle("hot", (SC.drift||0) >= 1);
 
     mel("s-head").innerHTML = `<div class="pathcard">
