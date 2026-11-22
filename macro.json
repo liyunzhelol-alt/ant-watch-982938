@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T06:12:26-05:00",
+ "generated": "2026-11-22T18:02:45-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7700,16 +7700,16 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 60914.93,
-   "pct_1d": 1.37,
-   "pct_5d": -6.13,
-   "pct_20d": -20.56,
+   "price": 61114.67,
+   "pct_1d": 1.7,
+   "pct_5d": -5.82,
+   "pct_20d": -20.3,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 29.66,
-   "ma20": 69307.58,
+   "drawdown_6mo": 29.43,
+   "ma20": 69317.57,
    "above_ma20": false,
    "high_52w": 97860.6,
-   "low_52w": 57708.7,
+   "low_52w": 55149.566,
    "spark": [
     [
      "2026-05-22",
@@ -8081,7 +8081,7 @@
     ],
     [
      "2026-11-22",
-     80.69
+     80.96
     ]
    ],
    "label": "比特币",
@@ -8433,12 +8433,12 @@
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
    "price": 103.84,
-   "pct_1d": -0.06,
-   "pct_5d": 0.42,
-   "pct_20d": 1.99,
+   "pct_1d": 0.03,
+   "pct_5d": 0.28,
+   "pct_20d": 1.84,
    "high_6mo": 103.9000015258789,
    "drawdown_6mo": 0.06,
-   "ma20": 102.57,
+   "ma20": 102.66,
    "above_ma20": true,
    "high_52w": 103.97,
    "low_52w": 95.55,
@@ -8449,12 +8449,12 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.434,
-   "pct_1d": -0.02,
-   "pct_5d": 0.5,
-   "pct_20d": 2.34,
+   "price": 1.4339,
+   "pct_1d": -0.03,
+   "pct_5d": 0.49,
+   "pct_20d": 2.33,
    "high_6mo": 1.4343500137329102,
-   "drawdown_6mo": 0.02,
+   "drawdown_6mo": 0.03,
    "ma20": 1.41,
    "above_ma20": true,
    "high_52w": 1.4357,
@@ -8508,9 +8508,15 @@
   },
   {
    "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season - Bloomberg.com",
-   "published": "Sun, 22 Nov 2026 08:23:46 GMT",
+   "published": "Sun, 22 Nov 2026 16:46:04 GMT",
    "tier": 2,
    "source": "bloomberg.com"
+  },
+  {
+   "title": "Inflation, economic growth and the mood of US consumers in focus this week - AP News",
+   "published": "Sun, 22 Nov 2026 16:08:00 GMT",
+   "tier": 2,
+   "source": "apnews.com"
   },
   {
    "title": "Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters",
@@ -8519,14 +8525,26 @@
    "source": "reuters.com"
   },
   {
-   "title": "Exclusive | Cost Pressures Already in Pipeline to Fuel Higher Inflation - WSJ",
-   "published": "Sat, 21 Nov 2026 21:32:18 GMT",
-   "tier": 2,
-   "source": "wsj.com"
-  },
-  {
    "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show - CNBC",
    "published": "Wed, 18 Nov 2026 19:00:50 GMT",
+   "tier": 2,
+   "source": "cnbc.com"
+  },
+  {
+   "title": "Private Credit’s $100 Billion Saudi Prize Is Proving Hard to Win - Bloomberg.com",
+   "published": "Sun, 22 Nov 2026 11:30:26 GMT",
+   "tier": 2,
+   "source": "bloomberg.com"
+  },
+  {
+   "title": "Fed's Cook says rate hikes needed to lower high inflation - Reuters",
+   "published": "Fri, 20 Nov 2026 17:19:43 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices - CNBC",
+   "published": "Thu, 19 Nov 2026 23:36:10 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
@@ -8537,58 +8555,34 @@
    "source": "apnews.com"
   },
   {
-   "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists - Reuters",
-   "published": "Thu, 19 Nov 2026 18:53:15 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
    "title": "Swiss Inflation Has Been Accelerating, SNB Vice President Tells Le Matin Dimanche - Bloomberg.com",
    "published": "Sun, 22 Nov 2026 08:00:00 GMT",
    "tier": 2,
    "source": "bloomberg.com"
   },
   {
-   "title": "Japan Consumer Inflation Reinforces Rate-Hike Expectations - WSJ",
-   "published": "Sat, 21 Nov 2026 20:40:44 GMT",
+   "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquidity - Bloomberg.com",
+   "published": "Sun, 22 Nov 2026 12:25:17 GMT",
    "tier": 2,
-   "source": "wsj.com"
+   "source": "bloomberg.com"
   },
   {
-   "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices - CNBC",
-   "published": "Thu, 19 Nov 2026 23:36:10 GMT",
+   "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat - Bloomberg.com",
+   "published": "Sun, 22 Nov 2026 20:00:00 GMT",
    "tier": 2,
-   "source": "cnbc.com"
+   "source": "bloomberg.com"
   },
   {
-   "title": "Fed's Cook says rate hikes needed to lower high inflation - Reuters",
-   "published": "Fri, 20 Nov 2026 17:19:43 GMT",
-   "tier": 2,
-   "source": "reuters.com"
+   "title": "Inflation, Best Buy, Zoom, Dell, Deere, and More to Watch This Week - Barron's",
+   "published": "Sun, 22 Nov 2026 17:00:46 GMT",
+   "tier": 3,
+   "source": "barrons.com"
   },
   {
-   "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike - CNBC",
-   "published": "Wed, 18 Nov 2026 12:20:11 GMT",
-   "tier": 2,
-   "source": "cnbc.com"
-  },
-  {
-   "title": "U.S. Jobless Claims Unexpectedly Move Higher - WSJ",
-   "published": "Thu, 19 Nov 2026 13:56:00 GMT",
-   "tier": 2,
-   "source": "wsj.com"
-  },
-  {
-   "title": "US weekly jobless claims edge up, but labor market remains resilient - Reuters",
-   "published": "Thu, 19 Nov 2026 17:06:57 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "Grabbing Inflation Protection Now Is a No-Brainer - WSJ",
-   "published": "Fri, 20 Nov 2026 11:16:00 GMT",
-   "tier": 2,
-   "source": "wsj.com"
+   "title": "10-Year TIPS Pay 2.77% Above Inflation. Here’s How Dividend Stocks Compare - Yahoo Finance",
+   "published": "Sun, 22 Nov 2026 15:07:12 GMT",
+   "tier": 3,
+   "source": "finance.yahoo.com"
   },
   {
    "title": "Copper Prices Are Falling. Memo to the Fed: Inflation Could Be Next. - Barron's",
@@ -8597,14 +8591,20 @@
    "source": "barrons.com"
   },
   {
-   "title": "Peter Schiff Warns Fed’s Inflation Fight Means ‘Greater Financial Crisis' Than 2008 - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 21:30:05 GMT",
+   "title": "5 Investments That Have Been Beating Inflation - Yahoo Finance",
+   "published": "Sun, 22 Nov 2026 17:00:41 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
-   "title": "3 Software Stocks to Watch Before PCE Inflation Data Moves Rate Sensitive Growth - Yahoo Finance",
-   "published": "Sun, 22 Nov 2026 07:08:00 GMT",
+   "title": "‘Inflation affects all of us’: Kevin O'Leary went shopping for Walmart paper towel bargains. How are you fighting back? - Yahoo Finance",
+   "published": "Sun, 22 Nov 2026 12:20:00 GMT",
+   "tier": 3,
+   "source": "finance.yahoo.com"
+  },
+  {
+   "title": "Peter Schiff Warns Fed’s Inflation Fight Means ‘Greater Financial Crisis' Than 2008 - Yahoo Finance",
+   "published": "Fri, 20 Nov 2026 21:30:05 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   }
@@ -9663,7 +9663,7 @@
   "created": "2026-11-22",
   "horizon_note": "只做 2-8 周。更长的骨架（路线 A-E）留在页面底部，不再是主体。",
   "scorecard": {
-   "open": 17,
+   "open": 19,
    "resolved": 0,
    "hits": 0,
    "misses": 0,
@@ -9674,6 +9674,18 @@
   },
   "anchors": [
    {
+    "on": "2026-11-22",
+    "domain": "地缘",
+    "what": "霍尔木兹海峡两艘超级油轮触雷起火；特朗普对Fox News称若谈判持续失败会在'新年后'对伊朗发起新一轮打击,称伊朗谈判代表是'职业踢踏舞者'，美方对伊朗港口的海军封锁持续、预计摩擦将延续",
+    "changed": "把F05定义的'打击窗口'从12/15前，往后推到特朗普自己说的'新年后'；水雷升级是封锁之外的新变量，直接喂F06(协议)和F11(油价)",
+    "feeds": [
+     "F05",
+     "F06",
+     "F11"
+    ],
+    "added": "2026-11-22"
+   },
+   {
     "on": "2026-11-21",
     "domain": "地缘",
     "what": "美以在权衡对伊朗新一轮打击，下令后 2-4 天可发起；特朗普称伊朗不想要他能接受的协议",
@@ -9683,6 +9695,16 @@
      "F06",
      "F11"
     ]
+   },
+   {
+    "on": "2026-11-20",
+    "domain": "政策",
+    "what": "特朗普向国会推动.5万亿预算协调案，含；多名共和党参议员公开警告这会打乱12/11拨款期限前达成协议的进程，可能导致停摆",
+    "changed": "F01(CR不停摆超3天)的风险源多了一条：这次风险是总统主动制造的,不是民主党发起的",
+    "feeds": [
+     "F01"
+    ],
+    "added": "2026-11-22"
    },
    {
     "on": "2026-11-20",
@@ -9813,6 +9835,19 @@
     "overdue": false
    },
    {
+    "id": "F17",
+    "domain": "政策",
+    "made_on": "2026-11-22",
+    "resolve_by": "2026-12-13",
+    "prob": 0.65,
+    "claim": "12/11拨款到期后最终通过的拨款文本（或新的短期CR）中,不包含特朗普要求的350亿美元国防预算追加项",
+    "why": "多名共和党参议员已公开警告该追加项会拖累CR谈判；跛脚鸭多数党更可能选择干净的短期CR以避免停摆，把追加项留给后续单独的协调案。",
+    "watch": "国会记录/最终拨款法案文本；追加项以任何形式（哪怕打折）写入最终文本都判miss。",
+    "status": "open",
+    "days_left": 21,
+    "overdue": false
+   },
+   {
     "id": "F05",
     "domain": "地缘",
     "made_on": "2026-11-22",
@@ -9938,6 +9973,19 @@
     "claim": "新国会就职两周内（1/17 前）众院民主党正式提出收回关税权的法案",
     "why": "中期选举后公开承诺的「前 100 小时」清单里有这条。",
     "watch": "法案编号出现即判 hit。",
+    "status": "open",
+    "days_left": 56,
+    "overdue": false
+   },
+   {
+    "id": "F18",
+    "domain": "地缘",
+    "made_on": "2026-11-22",
+    "resolve_by": "2027-01-17",
+    "prob": 0.4,
+    "claim": "2027-01-17前,美国或以色列对伊朗发起特朗普所称'新年后'的规模性打击（不含水雷/零星交火事件，须为有组织军事行动）",
+    "why": "11/22特朗普公开说谈判若持续失败,新年后会打；但他此前多次放话又推迟，且该窗口与F05(12/15前)部分重叠，不宜给太高概率。",
+    "watch": "与F05判定标准一致：Brent单日+8%，或白宫/国防部正式确认军事行动。",
     "status": "open",
     "days_left": 56,
     "overdue": false
