@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T18:00:11-05:00",
+ "generated": "2026-11-23T18:05:15-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7692,13 +7692,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 61152.65,
-   "pct_1d": -0.02,
-   "pct_5d": -2.91,
-   "pct_20d": -20.94,
+   "price": 61366.18,
+   "pct_1d": 0.33,
+   "pct_5d": -2.57,
+   "pct_20d": -20.66,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 29.39,
-   "ma20": 68510.31,
+   "drawdown_6mo": 29.14,
+   "ma20": 68520.98,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55149.566,
@@ -8073,7 +8073,7 @@
     ],
     [
      "2026-11-23",
-     79.76
+     80.04
     ]
    ],
    "label": "比特币",
@@ -8424,11 +8424,11 @@
   },
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
-   "price": 104.337,
-   "pct_1d": 0.51,
+   "price": 104.334,
+   "pct_1d": 0.5,
    "pct_5d": 0.76,
    "pct_20d": 2.33,
-   "high_6mo": 104.33699798583984,
+   "high_6mo": 104.33399963378906,
    "drawdown_6mo": -0.0,
    "ma20": 102.69,
    "above_ma20": true,
@@ -8441,12 +8441,12 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.4362,
-   "pct_1d": 0.13,
-   "pct_5d": 0.65,
-   "pct_20d": 2.49,
-   "high_6mo": 1.4361900091171265,
-   "drawdown_6mo": -0.0,
+   "price": 1.4364,
+   "pct_1d": 0.14,
+   "pct_5d": 0.67,
+   "pct_20d": 2.51,
+   "high_6mo": 1.43641996383667,
+   "drawdown_6mo": 0.0,
    "ma20": 1.41,
    "above_ma20": true,
    "high_52w": 1.4368,
@@ -8553,12 +8553,6 @@
    "source": "bloomberg.com"
   },
   {
-   "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show - CNBC",
-   "published": "Wed, 18 Nov 2026 19:00:50 GMT",
-   "tier": 2,
-   "source": "cnbc.com"
-  },
-  {
    "title": "Inflation-Linked Bonds Face Extinction in Canada as Prices Spike - Bloomberg.com",
    "published": "Mon, 23 Nov 2026 12:00:00 GMT",
    "tier": 2,
@@ -8597,6 +8591,12 @@
   {
    "title": "Billionaire Bill Ackman sounds the alarm on Wall Street's next big risk - Yahoo Finance",
    "published": "Mon, 23 Nov 2026 09:54:04 GMT",
+   "tier": 3,
+   "source": "finance.yahoo.com"
+  },
+  {
+   "title": "If a Recession Hits in 2027, This Is the Dividend Stock I Want to Own - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 18:20:02 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   }
@@ -8861,7 +8861,7 @@
      "**已修正**：早先假设「政治施压央行→通胀→长久期证伪」。事实相反——政治干预装进来的是更鹰的人。通胀预期 2.15% 处 52 周低位正是这种可信鹰派的结果。证伪风险因此下调，但没有消失：若特朗普对 Warsh 也转向施压（他已对 Powell 启动刑事调查），尾部会重新打开",
      "中美关税休战 11 月延长两个月（中方暂停额外 24%、保留 10% 全面关税），**2027 年 1 月到期**；$600 亿关税削减协议在谈，特朗普与习近平在深圳 APEC 第三次会晤。谈成是利好，谈崩是隔夜外生冲击",
      "关税/出口管制可隔夜改变，而本盘所有数据源滞后 1 天到 1 周——政策冲击在盘面上是隐形的，直到已经发生",
-     "AI 资本开支与少数几家公司的治理高度绑定（11/11 黄仁勋辞任），单点人事风险被低估"
+     "AI 资本开支与少数几家公司的治理高度绑定：黄仁勋 11/12 辞任、11/23 在「美国政府高层意见」和特朗普通话之后被董事会一致复任，NVDA 单日 +31%。单点人事风险没有消失，只是从「辞任」变成了「谁能让他回来」——这家公司的治理现在明确带政治变量"
     ],
     "updated": "2026-11-21",
     "age_days": 2,
@@ -9131,7 +9131,7 @@
  },
  "alerts": [
   {
-   "level": "high",
+   "level": "info",
    "code": "HY_VELOCITY",
    "message": "HY 利差 5 日走阔 +0.53pp 至 3.76%",
    "action": "速度比绝对值更能提前。核对是否只有 CCC 在动（机械）还是 IG 也在动（传染）。"
@@ -9681,6 +9681,17 @@
    "overdue": 0
   },
   "anchors": [
+   {
+    "on": "2026-11-23",
+    "domain": "产业",
+    "what": "黄仁勋辞任 11 天后被董事会一致投票复任 Nvidia CEO（11/12 辞任，Colette Kress 代理）。8-K 写明董事会就其「坦诚度」开过多轮会议，并「收到美国政府高层的意见」后认定无国家安全风险；特朗普在复任前一晚与他通话。NVDA 当日收涨逾 31%",
+    "changed": "两件事：①AI 资本开支链条的单点人事风险从「辞任」翻成「政府介入后复任」——治理现在明确是政治性的；②单日 +31% 把 AI 板块的恐慌定价一次性抹掉一大块，市场应激分项要重算。F12/F13（capex 削减、AI 裁员）的概率都该下调",
+    "feeds": [
+     "F12",
+     "F13"
+    ],
+    "added": "2026-11-23"
+   },
    {
     "on": "2026-11-22",
     "domain": "地缘",
