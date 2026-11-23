@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T16:10:05-05:00",
+ "generated": "2026-11-23T16:20:05-05:00",
  "errors": [],
  "quote": {
   "price": 87.64,
@@ -11,7 +11,7 @@
   "day_low": 84.65,
   "high_52w": 115.1,
   "low_52w": 83.05,
-  "volume": 252571038,
+  "volume": 253005331,
   "market_time": 1795467601,
   "currency": "USD",
   "regular_close": 87.64,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.906,
+    "recency": 0.904,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.906
+    "effective": 0.9038
    },
    "tone": {
     "dir": 0,
@@ -46,12 +46,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.983,
+    "recency": 0.98,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5897
+    "effective": 0.5883
    },
    "tone": {
     "dir": 1,
@@ -68,12 +68,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.334,
+    "recency": 0.333,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.4005
+    "effective": 0.3995
    },
    "tone": {
     "dir": 0,
@@ -88,12 +88,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.953,
+    "recency": 0.951,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3431
+    "effective": 0.3423
    },
    "tone": {
     "dir": 1,
@@ -110,12 +110,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.944,
+    "recency": 0.942,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3399
+    "effective": 0.3391
    },
    "tone": {
     "dir": 0,
@@ -130,12 +130,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.28,
+    "recency": 0.279,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.3357
+    "effective": 0.3349
    },
    "tone": {
     "dir": 0,
@@ -150,12 +150,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.895,
+    "recency": 0.893,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3222
+    "effective": 0.3214
    },
    "tone": {
     "dir": 1,
@@ -172,12 +172,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.889,
+    "recency": 0.887,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3199
+    "effective": 0.3192
    },
    "tone": {
     "dir": 0,
@@ -196,12 +196,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.87,
+    "recency": 0.868,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3131
+    "effective": 0.3123
    },
    "tone": {
     "dir": 0,
@@ -216,12 +216,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.858,
+    "recency": 0.856,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.309
+    "effective": 0.3082
    },
    "tone": {
     "dir": 0,
@@ -236,12 +236,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.806,
+    "recency": 0.804,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2902
+    "effective": 0.2895
    },
    "tone": {
     "dir": 0,
@@ -256,12 +256,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.911,
+    "recency": 0.909,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2733
+    "effective": 0.2727
    },
    "tone": {
     "dir": -1,
@@ -281,12 +281,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.91,
+    "recency": 0.908,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.273
+    "effective": 0.2724
    },
    "tone": {
     "dir": -1,
@@ -303,12 +303,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.7,
+    "recency": 0.698,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2521
+    "effective": 0.2514
    },
    "tone": {
     "dir": -1,
@@ -325,12 +325,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.685,
+    "recency": 0.684,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2468
+    "effective": 0.2462
    },
    "tone": {
     "dir": 0,
@@ -345,12 +345,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.611,
+    "recency": 0.609,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2198
+    "effective": 0.2193
    },
    "tone": {
     "dir": 0,
@@ -365,12 +365,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.297,
+    "recency": 0.296,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1782
+    "effective": 0.1778
    },
    "tone": {
     "dir": -1,
@@ -387,12 +387,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.261,
+    "recency": 0.26,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1564
+    "effective": 0.156
    },
    "tone": {
     "dir": 0,
@@ -412,7 +412,7 @@
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1283
+    "effective": 0.128
    },
    "tone": {
     "dir": -1,
@@ -429,12 +429,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.343,
+    "recency": 0.342,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1234
+    "effective": 0.1231
    },
    "tone": {
     "dir": -1,
@@ -451,12 +451,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.328,
+    "recency": 0.327,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.1132
+    "effective": 0.1129
    },
    "tone": {
     "dir": 0,
@@ -471,12 +471,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.357,
+    "recency": 0.356,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.107
+    "effective": 0.1067
    },
    "tone": {
     "dir": 0,
@@ -491,12 +491,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.237,
+    "recency": 0.236,
     "corroboration": 1.15,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 1,
-    "effective": 0.098
+    "effective": 0.0977
    },
    "tone": {
     "dir": 0,
@@ -511,12 +511,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.317,
+    "recency": 0.316,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.095
+    "effective": 0.0947
    },
    "tone": {
     "dir": -1,
@@ -541,7 +541,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0552
+    "effective": 0.0551
    },
    "tone": {
     "dir": 0,
@@ -556,7 +556,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.351,
+    "recency": 0.35,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -576,7 +576,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.983,
+    "recency": 0.98,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -596,7 +596,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.937,
+    "recency": 0.935,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -618,7 +618,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.95,
+    "recency": 0.947,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -638,7 +638,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.931,
+    "recency": 0.929,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -697,8 +697,26 @@
    "tier": 3
   },
   {
+   "title": "BIS Issues Export Controls on Remote Access Chips & Rescinds AI Diffusion Rule - Thompson Hine",
+   "published": "Fri, 20 Nov 2026 18:20:42 GMT",
+   "source": "thompsonhinesmartrade.com",
+   "tier": 3
+  },
+  {
+   "title": "‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers - Skadden, Arps, Slate, Meagher & Flom",
+   "published": "Wed, 18 Nov 2026 23:28:20 GMT",
+   "source": "skadden.com",
+   "tier": 3
+  },
+  {
+   "title": "BREAKING: Congress Releases AMD China Export License Data - Hunterbrook",
+   "published": "Fri, 20 Nov 2026 04:24:00 GMT",
+   "source": "hntrbrk.com",
+   "tier": 3
+  },
+  {
    "title": "Why Congress Should Tighten AI Chip Export Controls After Nvidia’s Scandal - The National Interest",
-   "published": "Fri, 20 Nov 2026 16:43:06 GMT",
+   "published": "Fri, 20 Nov 2026 17:26:58 GMT",
    "source": "nationalinterest.org",
    "tier": 3
   },
@@ -706,6 +724,12 @@
    "title": "Export Controls Are Easy to Implement, Harder to Enforce - The Dispatch",
    "published": "Mon, 23 Nov 2026 06:05:17 GMT",
    "source": "thedispatch.com",
+   "tier": 3
+  },
+  {
+   "title": "US Congress releases list of Chinese firms seeking Nvidia chips - South China Morning Post",
+   "published": "Thu, 19 Nov 2026 23:46:10 GMT",
+   "source": "scmp.com",
    "tier": 3
   },
   {
@@ -721,45 +745,21 @@
    "tier": 3
   },
   {
-   "title": "Alleged China Access to Export Controlled Chips Fuels Securities Suit Against Alibaba - The D&O Diary",
-   "published": "Sun, 22 Nov 2026 16:08:35 GMT",
-   "source": "dandodiary.com",
+   "title": "The Next Push on U.S. Chip Export Controls - Kharon",
+   "published": "Wed, 18 Nov 2026 08:00:00 GMT",
+   "source": "kharon.com",
+   "tier": 3
+  },
+  {
+   "title": "What’s next for AI regulation once Democrats control Congress? - AZ Family",
+   "published": "Thu, 19 Nov 2026 01:55:00 GMT",
+   "source": "azfamily.com",
    "tier": 3
   },
   {
    "title": "Senate Republican: Lutnick needs to answer ‘hard questions’ over Nvidia - The Hill",
    "published": "Mon, 23 Nov 2026 14:24:00 GMT",
    "source": "thehill.com",
-   "tier": 3
-  },
-  {
-   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WBFF",
-   "published": "Fri, 20 Nov 2026 21:12:23 GMT",
-   "source": "foxbaltimore.com",
-   "tier": 3
-  },
-  {
-   "title": "China’s Proposed Tech and Biopharma Export Controls: Three Takeaways - WSJ",
-   "published": "Mon, 23 Nov 2026 09:00:00 GMT",
-   "source": "wsj.com",
-   "tier": 1
-  },
-  {
-   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - KFXL",
-   "published": "Fri, 20 Nov 2026 23:20:54 GMT",
-   "source": "foxnebraska.com",
-   "tier": 3
-  },
-  {
-   "title": "Apple supplier TSMC cuts off China chip orders amid tighter export controls - AppleInsider",
-   "published": "Fri, 20 Nov 2026 17:47:00 GMT",
-   "source": "appleinsider.com",
-   "tier": 3
-  },
-  {
-   "title": "China proposes new export controls on artificial intelligence, biopharma, and photovoltaic technologies - White & Case LLP",
-   "published": "Mon, 26 Oct 2026 07:00:00 GMT",
-   "source": "whitecase.com",
    "tier": 3
   }
  ],
@@ -2846,10 +2846,22 @@
     ],
     [
      "2026-11-23T16:10-05:00",
+     87.4104
+    ],
+    [
+     "2026-11-23T16:10-05:00",
      87.8
+    ],
+    [
+     "2026-11-23T16:15-05:00",
+     87.2108
+    ],
+    [
+     "2026-11-23T16:20-05:00",
+     87.1815
     ]
    ],
-   "total": 470,
+   "total": 473,
    "persisted": true
   },
   "1h": {
@@ -3184,14 +3196,18 @@
     ],
     [
      "2026-11-23T16:00-05:00",
-     87.94
+     87.2108
     ],
     [
      "2026-11-23T16:10-05:00",
      87.8
+    ],
+    [
+     "2026-11-23T16:20-05:00",
+     87.1815
     ]
    ],
-   "total": 84,
+   "total": 85,
    "persisted": true
   },
   "1d": {
