@@ -1,8 +1,6 @@
 {
- "generated": "2026-11-23T09:10:11-05:00",
- "errors": [
-  "policy: HTTP Error 429: Too Many Requests"
- ],
+ "generated": "2026-11-23T09:20:06-05:00",
+ "errors": [],
  "quote": {
   "price": 88.91,
   "prev_close": 111.5,
@@ -28,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.369,
+    "recency": 0.368,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.4431
+    "effective": 0.442
    },
    "tone": {
     "dir": 0,
@@ -48,12 +46,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.374,
+    "recency": 0.373,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.374
+    "effective": 0.3731
    },
    "tone": {
     "dir": -1,
@@ -71,38 +69,16 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.31,
+    "recency": 0.309,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.3714
+    "effective": 0.3705
    },
    "tone": {
     "dir": 0,
     "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Stock market today: Nvidia stock surges as Jensen Huang gets reinstated as CEO - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 14:06:37 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.999,
-    "corroboration": 1.0,
-    "track": 1.2,
-    "track_note": "10/12",
-    "corroborated_by": 0,
-    "effective": 0.3597
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "surge"
-    ],
     "bear": []
    }
   },
@@ -113,12 +89,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.97,
+    "recency": 0.968,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3492
+    "effective": 0.3484
    },
    "tone": {
     "dir": 0,
@@ -137,12 +113,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.892,
+    "recency": 0.89,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.321
+    "effective": 0.3202
    },
    "tone": {
     "dir": 0,
@@ -157,12 +133,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.84,
+    "recency": 0.838,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3026
+    "effective": 0.3018
    },
    "tone": {
     "dir": 0,
@@ -177,12 +153,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.988,
+    "recency": 0.986,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2964
+    "effective": 0.2957
    },
    "tone": {
     "dir": 0,
@@ -197,12 +173,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.775,
+    "recency": 0.773,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2789
+    "effective": 0.2782
    },
    "tone": {
     "dir": -1,
@@ -219,12 +195,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.758,
+    "recency": 0.757,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.273
+    "effective": 0.2723
    },
    "tone": {
     "dir": 0,
@@ -239,12 +215,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.909,
+    "recency": 0.906,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2726
+    "effective": 0.2719
    },
    "tone": {
     "dir": 0,
@@ -259,12 +235,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.585,
+    "recency": 0.583,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2105
+    "effective": 0.21
    },
    "tone": {
     "dir": 0,
@@ -279,12 +255,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.329,
+    "recency": 0.328,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1972
+    "effective": 0.1967
    },
    "tone": {
     "dir": -1,
@@ -295,18 +271,38 @@
    }
   },
   {
+   "title": "What just happened to tech stocks? - Yahoo Finance",
+   "published": "Sat, 21 Nov 2026 16:23:54 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.515,
+    "corroboration": 1.0,
+    "track": 1.2,
+    "track_note": "10/12",
+    "corroborated_by": 0,
+    "effective": 0.1854
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
    "title": "AI stocks lose their shine as Anthropic debuts | CNN Business - CNN",
    "published": "Sat, 21 Nov 2026 17:13:00 GMT",
    "source": "cnn.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.522,
+    "recency": 0.521,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1567
+    "effective": 0.1564
    },
    "tone": {
     "dir": 0,
@@ -321,12 +317,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.402,
+    "recency": 0.401,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1446
+    "effective": 0.1442
    },
    "tone": {
     "dir": -1,
@@ -343,12 +339,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.394,
+    "recency": 0.393,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.142
+    "effective": 0.1416
    },
    "tone": {
     "dir": -1,
@@ -365,12 +361,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.379,
+    "recency": 0.378,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1365
+    "effective": 0.1362
    },
    "tone": {
     "dir": -1,
@@ -387,12 +383,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.363,
+    "recency": 0.362,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.1252
+    "effective": 0.1249
    },
    "tone": {
     "dir": 0,
@@ -412,7 +408,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1183
+    "effective": 0.1181
    },
    "tone": {
     "dir": 0,
@@ -427,12 +423,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.262,
+    "recency": 0.261,
     "corroboration": 1.15,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 1,
-    "effective": 0.1084
+    "effective": 0.1081
    },
    "tone": {
     "dir": 0,
@@ -447,12 +443,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.18,
+    "recency": 0.179,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1078
+    "effective": 0.1075
    },
    "tone": {
     "dir": 1,
@@ -475,7 +471,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1063
+    "effective": 0.1061
    },
    "tone": {
     "dir": -1,
@@ -492,12 +488,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.279,
+    "recency": 0.278,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0836
+    "effective": 0.0834
    },
    "tone": {
     "dir": 0,
@@ -512,12 +508,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.204,
+    "recency": 0.203,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0611
+    "effective": 0.0609
    },
    "tone": {
     "dir": 0,
@@ -532,12 +528,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.139,
+    "recency": 0.138,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.0499
+    "effective": 0.0498
    },
    "tone": {
     "dir": 0,
@@ -552,7 +548,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.698,
+    "recency": 0.697,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -572,7 +568,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.388,
+    "recency": 0.387,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -592,7 +588,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.958,
+    "recency": 0.955,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -612,7 +608,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.772,
+    "recency": 0.77,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -634,7 +630,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.945,
+    "recency": 0.943,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -667,11 +663,96 @@
    "symbol": "^TNX",
    "label": "美债 10 年期收益率",
    "kind": "rates",
-   "price": 4.91,
-   "pct": -3.78
+   "price": 4.974,
+   "pct": -2.53
   }
  ],
- "policy": [],
+ "policy": [
+  {
+   "title": "US lawmakers push for tougher AI chip rules amid China export crackdown - Al Jazeera",
+   "published": "Fri, 20 Nov 2026 22:31:12 GMT",
+   "source": "aljazeera.com",
+   "tier": 2
+  },
+  {
+   "title": "BIS Issues Export Controls on Remote Access Chips & Rescinds AI Diffusion Rule - Thompson Hine",
+   "published": "Fri, 20 Nov 2026 18:20:42 GMT",
+   "source": "thompsonhinesmartrade.com",
+   "tier": 3
+  },
+  {
+   "title": "Export Controls Are Easy to Implement, Harder to Enforce - The Dispatch",
+   "published": "Mon, 23 Nov 2026 06:05:17 GMT",
+   "source": "thedispatch.com",
+   "tier": 3
+  },
+  {
+   "title": "BREAKING: Congress Releases AMD China Export License Data - Hunterbrook",
+   "published": "Fri, 20 Nov 2026 04:24:00 GMT",
+   "source": "hntrbrk.com",
+   "tier": 3
+  },
+  {
+   "title": "Why Congress Should Tighten AI Chip Export Controls After Nvidia’s Scandal - The National Interest",
+   "published": "Fri, 20 Nov 2026 16:43:06 GMT",
+   "source": "nationalinterest.org",
+   "tier": 3
+  },
+  {
+   "title": "US Congress releases list of Chinese firms seeking Nvidia chips - South China Morning Post",
+   "published": "Thu, 19 Nov 2026 23:46:10 GMT",
+   "source": "scmp.com",
+   "tier": 3
+  },
+  {
+   "title": "China accessed advanced US AI chips, prompting new export controls - Crypto Briefing",
+   "published": "Sun, 22 Nov 2026 17:53:23 GMT",
+   "source": "cryptobriefing.com",
+   "tier": 3
+  },
+  {
+   "title": "U.S. Government Establishes Export Controls to Address China AI “Remote Access” Concerns - JD Supra",
+   "published": "Fri, 20 Nov 2026 18:56:31 GMT",
+   "source": "jdsupra.com",
+   "tier": 3
+  },
+  {
+   "title": "Alleged China Access to Export Controlled Chips Fuels Securities Suit Against Alibaba - The D&O Diary",
+   "published": "Sun, 22 Nov 2026 16:08:35 GMT",
+   "source": "dandodiary.com",
+   "tier": 3
+  },
+  {
+   "title": "Bessent says no further restrictions are needed for Nvidia chip exports to China - PBS",
+   "published": "Sat, 21 Nov 2026 16:28:20 GMT",
+   "source": "pbs.org",
+   "tier": 3
+  },
+  {
+   "title": "What’s next for AI regulation once Democrats control Congress? - AZ Family",
+   "published": "Thu, 19 Nov 2026 01:55:00 GMT",
+   "source": "azfamily.com",
+   "tier": 3
+  },
+  {
+   "title": "China’s Proposed Tech and Biopharma Export Controls: Three Takeaways - WSJ",
+   "published": "Mon, 23 Nov 2026 09:00:00 GMT",
+   "source": "wsj.com",
+   "tier": 1
+  },
+  {
+   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WBFF",
+   "published": "Fri, 20 Nov 2026 21:12:23 GMT",
+   "source": "foxbaltimore.com",
+   "tier": 3
+  },
+  {
+   "title": "Rahm Emanuel on U.S. AI chip export controls and details of his economic plan - CNBC",
+   "published": "Fri, 20 Nov 2026 13:54:00 GMT",
+   "source": "cnbc.com",
+   "tier": 2
+  }
+ ],
  "filings": [
   {
    "form": "424B4",
@@ -2255,10 +2336,22 @@
     ],
     [
      "2026-11-23T09:10-05:00",
+     93.68
+    ],
+    [
+     "2026-11-23T09:10-05:00",
      92.87
+    ],
+    [
+     "2026-11-23T09:15-05:00",
+     93.39
+    ],
+    [
+     "2026-11-23T09:20-05:00",
+     93.74
     ]
    ],
-   "total": 345,
+   "total": 348,
    "persisted": true
   },
   "1h": {
@@ -2393,7 +2486,7 @@
     ],
     [
      "2026-11-23T09:00-05:00",
-     92.93
+     93.39
     ],
     [
      "2026-11-23T09:00-05:00",
@@ -2402,9 +2495,13 @@
     [
      "2026-11-23T09:10-05:00",
      92.87
+    ],
+    [
+     "2026-11-23T09:20-05:00",
+     93.74
     ]
    ],
-   "total": 35,
+   "total": 36,
    "persisted": true
   },
   "1d": {
@@ -2767,7 +2864,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.1692,
+ "tone_net": -0.2438,
  "signals": {
   "short": {
    "name": "短线",
@@ -2815,7 +2912,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.17）",
+     "t": "加权新闻口径为正（现 -0.24）",
      "on": false,
      "live": true,
      "w": 1,
@@ -2865,7 +2962,7 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.17）",
+     "t": "加权新闻口径为负（现 -0.24）",
      "on": true,
      "live": true,
      "w": 1,
@@ -2876,7 +2973,7 @@
    "intraday_pct": -20.26,
    "ndx_pct": -10.43,
    "rel": -9.83,
-   "tnx": 4.91,
+   "tnx": 4.974,
    "live_refs": {
     "ipo": 83.0,
     "open": 111.5,
@@ -3053,7 +3150,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.17）",
+    "t": "加权新闻口径为正（现 -0.24）",
     "on": false,
     "live": true,
     "w": 1,
@@ -3103,7 +3200,7 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.17）",
+    "t": "加权新闻口径为负（现 -0.24）",
     "on": true,
     "live": true,
     "w": 1,
@@ -3114,7 +3211,7 @@
   "intraday_pct": -20.26,
   "ndx_pct": -10.43,
   "rel": -9.83,
-  "tnx": 4.91,
+  "tnx": 4.974,
   "live_refs": {
    "ipo": 83.0,
    "open": 111.5,
@@ -3208,7 +3305,7 @@
    "price": 88.91,
    "state": "MECHANICAL",
    "score": 0,
-   "tone": -0.169
+   "tone": -0.244
   }
  ],
  "source_records": {
