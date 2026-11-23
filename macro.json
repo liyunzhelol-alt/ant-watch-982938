@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T18:05:15-05:00",
+ "generated": "2026-11-23T18:12:56-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7692,13 +7692,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 61366.18,
-   "pct_1d": 0.33,
-   "pct_5d": -2.57,
-   "pct_20d": -20.66,
+   "price": 61304.22,
+   "pct_1d": 0.23,
+   "pct_5d": -2.67,
+   "pct_20d": -20.74,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 29.14,
-   "ma20": 68520.98,
+   "drawdown_6mo": 29.21,
+   "ma20": 68517.89,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55149.566,
@@ -8073,7 +8073,7 @@
     ],
     [
      "2026-11-23",
-     80.04
+     79.96
     ]
    ],
    "label": "比特币",
@@ -8082,12 +8082,12 @@
   },
   "HG=F": {
    "symbol": "HG=F",
-   "price": 5.612,
-   "pct_1d": 2.46,
-   "pct_5d": -6.43,
-   "pct_20d": -13.77,
+   "price": 5.628,
+   "pct_1d": 2.76,
+   "pct_5d": -6.16,
+   "pct_20d": -13.52,
    "high_6mo": 6.803500175476074,
-   "drawdown_6mo": 17.51,
+   "drawdown_6mo": 17.28,
    "ma20": 6.18,
    "above_ma20": false,
    "high_52w": 6.83,
@@ -8099,12 +8099,12 @@
   },
   "CL=F": {
    "symbol": "CL=F",
-   "price": 80.25,
-   "pct_1d": -4.44,
-   "pct_5d": -6.38,
-   "pct_20d": -21.14,
+   "price": 80.28,
+   "pct_1d": -4.41,
+   "pct_5d": -6.35,
+   "pct_20d": -21.11,
    "high_6mo": 105.83000183105469,
-   "drawdown_6mo": 24.17,
+   "drawdown_6mo": 24.14,
    "ma20": 90.5,
    "above_ma20": false,
    "high_52w": 119.48,
@@ -8424,13 +8424,13 @@
   },
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
-   "price": 104.334,
-   "pct_1d": 0.5,
-   "pct_5d": 0.76,
-   "pct_20d": 2.33,
-   "high_6mo": 104.33399963378906,
+   "price": 104.306,
+   "pct_1d": 0.48,
+   "pct_5d": 0.73,
+   "pct_20d": 2.3,
+   "high_6mo": 104.30599975585938,
    "drawdown_6mo": -0.0,
-   "ma20": 102.69,
+   "ma20": 102.68,
    "above_ma20": true,
    "high_52w": 104.53,
    "low_52w": 95.55,
@@ -8441,15 +8441,15 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.4364,
-   "pct_1d": 0.14,
-   "pct_5d": 0.67,
-   "pct_20d": 2.51,
-   "high_6mo": 1.43641996383667,
-   "drawdown_6mo": 0.0,
+   "price": 1.4369,
+   "pct_1d": 0.18,
+   "pct_5d": 0.7,
+   "pct_20d": 2.54,
+   "high_6mo": 1.4368799924850464,
+   "drawdown_6mo": -0.0,
    "ma20": 1.41,
    "above_ma20": true,
-   "high_52w": 1.4368,
+   "high_52w": 1.4369,
    "low_52w": 1.3484,
    "spark": null,
    "label": "USD/CAD",
@@ -8493,110 +8493,110 @@
  },
  "news": [
   {
-   "title": "Federal Reserve announces College Fed Challenge winners - Federal Reserve (.gov)",
-   "published": "Fri, 20 Nov 2026 21:16:36 GMT",
-   "tier": 1,
-   "source": "federalreserve.gov"
-  },
-  {
-   "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation - CNBC",
-   "published": "Mon, 23 Nov 2026 21:00:01 GMT",
+   "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO - CNBC",
+   "published": "Mon, 23 Nov 2026 15:08:28 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
   {
-   "title": "Fed has 'work to do' to lower inflation, Williams says - Reuters",
-   "published": "Mon, 23 Nov 2026 21:06:23 GMT",
+   "title": "Huang returns as Nvidia CEO after Trump intervention in abrupt board reversal - Reuters",
+   "published": "Mon, 23 Nov 2026 20:31:08 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
   {
-   "title": "Fed’s Williams Says Officials Must Act ‘Over Time’ On Inflation - Bloomberg.com",
-   "published": "Mon, 23 Nov 2026 21:00:00 GMT",
-   "tier": 2,
-   "source": "bloomberg.com"
-  },
-  {
-   "title": "Brazil cuts 2027 GDP forecast, raises inflation outlook but remains more upbeat than market - Reuters",
-   "published": "Mon, 23 Nov 2026 18:07:44 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "BOE’s Pill Says Action Needed to Maintain Inflation Credibility - Bloomberg.com",
-   "published": "Mon, 23 Nov 2026 15:15:01 GMT",
-   "tier": 2,
-   "source": "bloomberg.com"
-  },
-  {
-   "title": "Gold rises as bargain hunters step in after steep weekly drop - Reuters",
-   "published": "Mon, 23 Nov 2026 05:49:00 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "Gold Futures Rebound as Nvidia News Lifts Markets - WSJ",
-   "published": "Mon, 23 Nov 2026 20:10:00 GMT",
+   "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO - WSJ",
+   "published": "Mon, 23 Nov 2026 21:40:47 GMT",
    "tier": 2,
    "source": "wsj.com"
   },
   {
-   "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquidity - Bloomberg.com",
-   "published": "Mon, 23 Nov 2026 08:24:36 GMT",
+   "title": "Nvidia board reinstates Jensen Huang as CEO just days after rejecting his offer to return - AP News",
+   "published": "Mon, 23 Nov 2026 21:40:00 GMT",
    "tier": 2,
-   "source": "bloomberg.com"
+   "source": "apnews.com"
   },
   {
-   "title": "Brazil Analysts Lift 2027 Key Rate and Inflation Forecasts Again - Bloomberg.com",
-   "published": "Mon, 23 Nov 2026 13:37:25 GMT",
-   "tier": 2,
-   "source": "bloomberg.com"
-  },
-  {
-   "title": "Inflation-Linked Bonds Face Extinction in Canada as Prices Spike - Bloomberg.com",
-   "published": "Mon, 23 Nov 2026 12:00:00 GMT",
-   "tier": 2,
-   "source": "bloomberg.com"
-  },
-  {
-   "title": "Treasury counselor David Zervos: I'm very skeptical that inflation is running amok - CNBC",
-   "published": "Mon, 23 Nov 2026 13:47:01 GMT",
+   "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31% - CNBC",
+   "published": "Mon, 23 Nov 2026 13:59:23 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
   {
-   "title": "Holiday spending in Europe to increase despite inflation: Mastercard Economics Institute - CNBC",
-   "published": "Mon, 23 Nov 2026 10:01:46 GMT",
+   "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO - Reuters",
+   "published": "Mon, 23 Nov 2026 22:30:50 GMT",
    "tier": 2,
-   "source": "cnbc.com"
+   "source": "reuters.com"
   },
   {
-   "title": "Fed's Warsh faces inflation vs. market-driven rate dilemma: Here's what to know - CNBC",
-   "published": "Mon, 23 Nov 2026 12:42:00 GMT",
+   "title": "Nvidia Board Reinstates Jensen Huang as CEO - WSJ",
+   "published": "Mon, 23 Nov 2026 21:31:01 GMT",
    "tier": 2,
-   "source": "cnbc.com"
+   "source": "wsj.com"
   },
   {
-   "title": "Fed's Williams: Fed must be forward-looking to bring inflation down - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 21:25:31 GMT",
+   "title": "Political and corporate leaders react to Huang's return as Nvidia CEO - Reuters",
+   "published": "Mon, 23 Nov 2026 20:52:01 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "Trump says he assured Nvidia that Jensen Huang posed no national security threat - Reuters",
+   "published": "Mon, 23 Nov 2026 18:14:17 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "Nvidia Board Reinstated CEO Without Consulting Management - Bloomberg.com",
+   "published": "Mon, 23 Nov 2026 19:13:25 GMT",
+   "tier": 2,
+   "source": "bloomberg.com"
+  },
+  {
+   "title": "Trump Praises Nvidia’s Decision to Reinstate Huang as CEO - Bloomberg.com",
+   "published": "Mon, 23 Nov 2026 19:18:12 GMT",
+   "tier": 2,
+   "source": "bloomberg.com"
+  },
+  {
+   "title": "Nvidia Rehires Huang in Stunning Reversal After Trump Push - Bloomberg.com",
+   "published": "Mon, 23 Nov 2026 21:20:52 GMT",
+   "tier": 2,
+   "source": "bloomberg.com"
+  },
+  {
+   "title": "Jensen Huang returns. But Nvidia will never be the same - The Economist",
+   "published": "Mon, 23 Nov 2026 16:30:30 GMT",
+   "tier": 2,
+   "source": "economist.com"
+  },
+  {
+   "title": "Jensen Huang Is Back at Nvidia. The Stock Is Surging, but the Problems Remain. - Barron's",
+   "published": "Mon, 23 Nov 2026 21:13:00 GMT",
+   "tier": 3,
+   "source": "barrons.com"
+  },
+  {
+   "title": "Nvidia soars 31% as board reinstates Jensen Huang as CEO, chip stocks jump - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 21:14:26 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
-   "title": "The U.S. may enter a recession if the Fed raises rates, hedge-fund manager Bill Ackman says - MarketWatch",
-   "published": "Mon, 23 Nov 2026 10:57:00 GMT",
-   "tier": 3,
-   "source": "marketwatch.com"
-  },
-  {
-   "title": "Billionaire Bill Ackman sounds the alarm on Wall Street's next big risk - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 09:54:04 GMT",
+   "title": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 21:33:32 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
-   "title": "If a Recession Hits in 2027, This Is the Dividend Stock I Want to Own - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 18:20:02 GMT",
+   "title": "Nvidia stock soars as Trump makes U-turn on Jensen Huang, cheers Huang's return as CEO - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 14:22:39 GMT",
+   "tier": 3,
+   "source": "finance.yahoo.com"
+  },
+  {
+   "title": "5 things to consider as Nvidia restores Jensen Huang as the company's leader - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 15:33:43 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   }
@@ -10076,6 +10076,12 @@
     "what": "把中美关税休战「再延期」当作基线写进时间轴。11/20 深圳峰会无协议、无延期宣布。",
     "verdict": "partial",
     "lesson": "把「双方都不想升级」等同于「会主动延期」。无宣布也是一种结果。概率已从隐含 ~75% 下调到 55%。"
+   },
+   {
+    "on": "2026-11-23",
+    "what": "黄仁勋 11/23 在政府介入后复任 Nvidia CEO、NVDA +31%——盘面没抓到，是用户提醒的。原因：ant-watch 新闻源整天被 429 限流；macro 的新闻关键词没有公司治理/AI 产业词；工作日没有突发事件机制。",
+    "verdict": "miss",
+    "lesson": "用户 11/21 就说政治与人为因素会进来，我把它写成了「主观分项」却没给它一条实时的抓取通道。已加 eventwatch.py + 每 2 小时的哨兵任务；RSS 加缓存与 429 回退。以后这类事要先于用户出现在盘面上。"
    }
   ]
  }
