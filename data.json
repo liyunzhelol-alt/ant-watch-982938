@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T16:40:04-05:00",
+ "generated": "2026-11-23T16:50:04-05:00",
  "errors": [],
  "quote": {
   "price": 87.64,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.899,
+    "recency": 0.897,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.8995
+    "effective": 0.8973
    },
    "tone": {
     "dir": 0,
@@ -46,12 +46,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.976,
+    "recency": 0.973,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5854
+    "effective": 0.584
    },
    "tone": {
     "dir": 1,
@@ -73,57 +73,12 @@
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.3976
+    "effective": 0.3967
    },
    "tone": {
     "dir": 0,
     "bull": [],
     "bear": []
-   }
-  },
-  {
-   "title": "Anthropic Is Worth $1.2 Trillion. Is It a Better Buy Than Nvidia? - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 10:35:02 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.852,
-    "corroboration": 1.15,
-    "track": 1.2,
-    "track_note": "10/12",
-    "corroborated_by": 1,
-    "effective": 0.3528
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic Stock Slips, Misses Out On AI Rally Following Jensen Huang's Nvidia Comeback - Investor's Business Daily",
-   "published": "Mon, 23 Nov 2026 17:28:00 GMT",
-   "source": "investors.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.941,
-    "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "6/7",
-    "corroborated_by": 0,
-    "effective": 0.3428
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "rally",
-     "win"
-    ],
-    "bear": [
-     "miss"
-    ]
    }
   },
   {
@@ -133,12 +88,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.946,
+    "recency": 0.944,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3406
+    "effective": 0.3398
    },
    "tone": {
     "dir": 1,
@@ -155,12 +110,32 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.937,
+    "recency": 0.935,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3375
+    "effective": 0.3367
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
+   "published": "Fri, 20 Nov 2026 04:57:37 GMT",
+   "source": "reuters.com",
+   "tier": 1,
+   "weight": {
+    "base": 1.0,
+    "recency": 0.277,
+    "corroboration": 1.0,
+    "track": 1.2,
+    "track_note": "5/6",
+    "corroborated_by": 0,
+    "effective": 0.3325
    },
    "tone": {
     "dir": 0,
@@ -175,12 +150,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.889,
+    "recency": 0.886,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3199
+    "effective": 0.3191
    },
    "tone": {
     "dir": 1,
@@ -197,12 +172,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.882,
+    "recency": 0.88,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3176
+    "effective": 0.3169
    },
    "tone": {
     "dir": 0,
@@ -221,12 +196,32 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.863,
+    "recency": 0.861,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3108
+    "effective": 0.3101
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic Is Worth $1.2 Trillion. Is It a Better Buy Than Nvidia? - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 10:35:02 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.85,
+    "corroboration": 1.0,
+    "track": 1.2,
+    "track_note": "10/12",
+    "corroborated_by": 0,
+    "effective": 0.306
    },
    "tone": {
     "dir": 0,
@@ -241,32 +236,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.8,
+    "recency": 0.798,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2881
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Why is Anthropic stock lagging the broader market today? - TradingView",
-   "published": "Mon, 23 Nov 2026 17:56:56 GMT",
-   "source": "tradingview.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.948,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.2843
+    "effective": 0.2874
    },
    "tone": {
     "dir": 0,
@@ -281,12 +256,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.905,
+    "recency": 0.902,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2714
+    "effective": 0.2707
    },
    "tone": {
     "dir": -1,
@@ -306,12 +281,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.904,
+    "recency": 0.901,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2711
+    "effective": 0.2704
    },
    "tone": {
     "dir": -1,
@@ -322,40 +297,18 @@
    }
   },
   {
-   "title": "When Can Anthropic Insiders Sell? What the Post-IPO Lockup Period Means for Shareholders. - Yahoo Finance",
-   "published": "Sun, 22 Nov 2026 20:29:02 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.695,
-    "corroboration": 1.0,
-    "track": 1.2,
-    "track_note": "10/12",
-    "corroborated_by": 0,
-    "effective": 0.2502
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "lockup"
-    ]
-   }
-  },
-  {
    "title": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters - Yahoo Finance",
    "published": "Sun, 22 Nov 2026 19:00:51 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.681,
+    "recency": 0.679,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.245
+    "effective": 0.2444
    },
    "tone": {
     "dir": 0,
@@ -370,12 +323,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.606,
+    "recency": 0.605,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2182
+    "effective": 0.2177
    },
    "tone": {
     "dir": 0,
@@ -390,12 +343,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.295,
+    "recency": 0.294,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1769
+    "effective": 0.1765
    },
    "tone": {
     "dir": -1,
@@ -412,12 +365,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.259,
+    "recency": 0.258,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1553
+    "effective": 0.1549
    },
    "tone": {
     "dir": 0,
@@ -432,12 +385,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.354,
+    "recency": 0.353,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1274
+    "effective": 0.1271
    },
    "tone": {
     "dir": -1,
@@ -449,17 +402,17 @@
   },
   {
    "title": "Anthropic IPO live: Anthropic stock drops after first day of trading - Yahoo Finance",
-   "published": "Fri, 20 Nov 2026 14:00:15 GMT",
+   "published": "Fri, 20 Nov 2026 19:00:31 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.317,
+    "recency": 0.339,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1139
+    "effective": 0.1222
    },
    "tone": {
     "dir": -1,
@@ -476,12 +429,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.326,
+    "recency": 0.325,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.1124
+    "effective": 0.1121
    },
    "tone": {
     "dir": 0,
@@ -490,17 +443,102 @@
    }
   },
   {
-   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
-   "published": "Mon, 23 Nov 2026 14:30:00 GMT",
-   "source": "fool.com",
+   "title": "ANT Stock Quote Price and Forecast - CNN",
+   "published": "Fri, 20 Nov 2026 21:45:10 GMT",
+   "source": "cnn.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.353,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.1059
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - Yahoo Finance",
+   "published": "Thu, 19 Nov 2026 17:22:02 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.234,
+    "corroboration": 1.15,
+    "track": 1.2,
+    "track_note": "10/12",
+    "corroborated_by": 1,
+    "effective": 0.097
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic stock is already falling today: Why AI giants are seeing a painful sell-off after record IPO - Fast Company",
+   "published": "Fri, 20 Nov 2026 13:31:09 GMT",
+   "source": "fastcompany.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.314,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=1 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.0941
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [
+     "record"
+    ],
+    "bear": [
+     "fall",
+     "sell-off"
+    ]
+   }
+  },
+  {
+   "title": "ANT stock update: Anthropic share price, stock trading time, and more for Claude maker’s much-hyped IPO - Fast Company",
+   "published": "Wed, 18 Nov 2026 23:56:51 GMT",
+   "source": "fastcompany.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.182,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=1 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.0547
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Cathie Wood Made a Big Bet on Anthropic (ANT) Stock - Barchart.com",
+   "published": "Fri, 20 Nov 2026 20:37:08 GMT",
+   "source": "barchart.com",
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.902,
-    "corroboration": 1.15,
+    "recency": 0.347,
+    "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
-    "corroborated_by": 1,
+    "corroborated_by": 0,
     "effective": 0.0
    },
    "tone": {
@@ -516,7 +554,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.913,
+    "recency": 0.911,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -536,7 +574,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.975,
+    "recency": 0.973,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -556,7 +594,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.93,
+    "recency": 0.928,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -578,7 +616,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.943,
+    "recency": 0.94,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -598,7 +636,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.925,
+    "recency": 0.923,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -611,46 +649,6 @@
     "bear": [
      "risk"
     ]
-   }
-  },
-  {
-   "title": "$1,000 in Anthropic Stock or Ethereum: Which Could Be Worth More in 5 Years? - 24/7 Wall St.",
-   "published": "Mon, 23 Nov 2026 20:22:00 GMT",
-   "source": "247wallst.com",
-   "tier": 4,
-   "weight": {
-    "base": 0.0,
-    "recency": 0.981,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.0
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic Is Worth $1.2 Trillion. Is It a Better Buy Than Nvidia? - The Motley Fool",
-   "published": "Mon, 23 Nov 2026 10:15:02 GMT",
-   "source": "fool.com",
-   "tier": 4,
-   "weight": {
-    "base": 0.0,
-    "recency": 0.848,
-    "corroboration": 1.15,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 1,
-    "effective": 0.0
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
    }
   }
  ],
@@ -685,12 +683,6 @@
    "tier": 3
   },
   {
-   "title": "China proposes expanded export controls on AI, biomedicine and solar PV technologies - Herbert Smith Freehills Kramer",
-   "published": "Mon, 23 Nov 2026 17:03:45 GMT",
-   "source": "hsfkramer.com",
-   "tier": 3
-  },
-  {
    "title": "Could the Jensen Huang Scandal Help China’s AI Industry? - The Diplomat – Asia-Pacific Current Affairs Magazine",
    "published": "Mon, 23 Nov 2026 16:09:29 GMT",
    "source": "thediplomat.com",
@@ -709,9 +701,15 @@
    "tier": 3
   },
   {
-   "title": "Export Controls Are Easy to Implement, Harder to Enforce - The Dispatch",
-   "published": "Mon, 23 Nov 2026 06:05:17 GMT",
-   "source": "thedispatch.com",
+   "title": "China proposes expanded export controls on AI, biomedicine and solar PV technologies - Herbert Smith Freehills Kramer",
+   "published": "Mon, 23 Nov 2026 17:03:45 GMT",
+   "source": "hsfkramer.com",
+   "tier": 3
+  },
+  {
+   "title": "Bessent says no further restrictions are needed for Nvidia chip exports to China - PBS",
+   "published": "Sat, 21 Nov 2026 16:28:20 GMT",
+   "source": "pbs.org",
    "tier": 3
   },
   {
@@ -721,9 +719,15 @@
    "tier": 3
   },
   {
-   "title": "Bessent says no further restrictions are needed for Nvidia chip exports to China - PBS",
-   "published": "Sat, 21 Nov 2026 16:28:20 GMT",
-   "source": "pbs.org",
+   "title": "Export Controls Are Easy to Implement, Harder to Enforce - The Dispatch",
+   "published": "Mon, 23 Nov 2026 06:05:17 GMT",
+   "source": "thedispatch.com",
+   "tier": 3
+  },
+  {
+   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WBFF",
+   "published": "Fri, 20 Nov 2026 21:12:23 GMT",
+   "source": "foxbaltimore.com",
    "tier": 3
   },
   {
@@ -739,16 +743,10 @@
    "tier": 3
   },
   {
-   "title": "AI industry braces for tougher oversight under incoming Democratic Congress - WBFF",
-   "published": "Fri, 20 Nov 2026 21:12:23 GMT",
-   "source": "foxbaltimore.com",
+   "title": "China proposes new export controls on artificial intelligence, biopharma, and photovoltaic technologies - White & Case LLP",
+   "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+   "source": "whitecase.com",
    "tier": 3
-  },
-  {
-   "title": "China’s Proposed Tech and Biopharma Export Controls: Three Takeaways - WSJ",
-   "published": "Mon, 23 Nov 2026 09:00:00 GMT",
-   "source": "wsj.com",
-   "tier": 1
   },
   {
    "title": "AI industry braces for tougher oversight under incoming Democratic Congress - KFXL",
@@ -757,10 +755,10 @@
    "tier": 3
   },
   {
-   "title": "China Enforces Interim Registration on 40 AI, Solar and Biotech Export-Control Technologies - CASRAI",
-   "published": "Sat, 21 Nov 2026 19:12:13 GMT",
-   "source": "casrai.org",
-   "tier": 3
+   "title": "China’s Proposed Tech and Biopharma Export Controls: Three Takeaways - WSJ",
+   "published": "Mon, 23 Nov 2026 09:00:00 GMT",
+   "source": "wsj.com",
+   "tier": 1
   }
  ],
  "filings": [
@@ -2882,10 +2880,18 @@
     ],
     [
      "2026-11-23T16:40-05:00",
-     87.59
+     87.49
+    ],
+    [
+     "2026-11-23T16:45-05:00",
+     87.33
+    ],
+    [
+     "2026-11-23T16:49-05:00",
+     87.34
     ]
    ],
-   "total": 479,
+   "total": 481,
    "persisted": true
   },
   "1h": {
@@ -3220,7 +3226,7 @@
     ],
     [
      "2026-11-23T16:00-05:00",
-     87.6623
+     87.33
     ],
     [
      "2026-11-23T16:10-05:00",
@@ -3237,9 +3243,13 @@
     [
      "2026-11-23T16:40-05:00",
      87.59
+    ],
+    [
+     "2026-11-23T16:49-05:00",
+     87.34
     ]
    ],
-   "total": 87,
+   "total": 88,
    "persisted": true
   },
   "1d": {
@@ -3610,7 +3620,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": 0.0562,
+ "tone_net": 0.0281,
  "signals": {
   "short": {
    "name": "短线",
@@ -3658,7 +3668,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 +0.06）",
+     "t": "加权新闻口径为正（现 +0.03）",
      "on": false,
      "live": true,
      "w": 1,
@@ -3708,7 +3718,7 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 +0.06）",
+     "t": "加权新闻口径为负（现 +0.03）",
      "on": false,
      "live": true,
      "w": 1,
@@ -3896,7 +3906,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 +0.06）",
+    "t": "加权新闻口径为正（现 +0.03）",
     "on": false,
     "live": true,
     "w": 1,
@@ -3946,7 +3956,7 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 +0.06）",
+    "t": "加权新闻口径为负（现 +0.03）",
     "on": false,
     "live": true,
     "w": 1,
@@ -4065,7 +4075,7 @@
    "price": 87.64,
    "state": "MECHANICAL",
    "score": 0,
-   "tone": 0.056
+   "tone": 0.028
   }
  ],
  "source_records": {
