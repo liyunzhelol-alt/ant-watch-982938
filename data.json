@@ -1,44 +1,42 @@
 {
- "generated": "2026-11-23T16:00:05-05:00",
+ "generated": "2026-11-23T16:10:05-05:00",
  "errors": [],
  "quote": {
-  "price": 87.625,
+  "price": 87.64,
   "prev_close": 111.5,
-  "pct_vs_prev": -21.41,
-  "pct_vs_ipo": 5.57,
-  "pct_vs_day1_open": -21.41,
+  "pct_vs_prev": -21.4,
+  "pct_vs_ipo": 5.59,
+  "pct_vs_day1_open": -21.4,
   "day_high": 94.24,
   "day_low": 84.65,
   "high_52w": 115.1,
   "low_52w": 83.05,
-  "volume": 248925755,
-  "market_time": 1795467584,
+  "volume": 252571038,
+  "market_time": 1795467601,
   "currency": "USD",
-  "regular_close": 87.625,
+  "regular_close": 87.64,
   "extended": false,
   "day_open": null
  },
  "news": [
   {
-   "title": "Options on Anthropic shares start trading in brisk volume - Reuters",
-   "published": "Mon, 23 Nov 2026 17:32:41 GMT",
-   "source": "reuters.com",
+   "title": "Anthropic Committed to Spend $900 Billion. Wall Street Expects Its Debt to Be Junk. - WSJ",
+   "published": "Mon, 23 Nov 2026 14:20:00 GMT",
+   "source": "wsj.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.951,
+    "recency": 0.906,
     "corroboration": 1.0,
-    "track": 1.2,
-    "track_note": "5/6",
+    "track": 1.0,
+    "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 1.1416
+    "effective": 0.906
    },
    "tone": {
-    "dir": -1,
+    "dir": 0,
     "bull": [],
-    "bear": [
-     "risk"
-    ]
+    "bear": []
    }
   },
   {
@@ -48,12 +46,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.985,
+    "recency": 0.983,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5911
+    "effective": 0.5897
    },
    "tone": {
     "dir": 1,
@@ -70,32 +68,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.335,
+    "recency": 0.334,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.4015
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Anthropic Stock Is Off to a Shaky Start. Here's What Could Happen Next. - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 11:30:02 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.872,
-    "corroboration": 1.15,
-    "track": 1.2,
-    "track_note": "10/12",
-    "corroborated_by": 1,
-    "effective": 0.3609
+    "effective": 0.4005
    },
    "tone": {
     "dir": 0,
@@ -110,12 +88,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.955,
+    "recency": 0.953,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3439
+    "effective": 0.3431
    },
    "tone": {
     "dir": 1,
@@ -132,12 +110,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.947,
+    "recency": 0.944,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3407
+    "effective": 0.3399
    },
    "tone": {
     "dir": 0,
@@ -157,7 +135,7 @@
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.3365
+    "effective": 0.3357
    },
    "tone": {
     "dir": 0,
@@ -172,12 +150,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.897,
+    "recency": 0.895,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.323
+    "effective": 0.3222
    },
    "tone": {
     "dir": 1,
@@ -194,12 +172,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.891,
+    "recency": 0.889,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3207
+    "effective": 0.3199
    },
    "tone": {
     "dir": 0,
@@ -212,18 +190,38 @@
    }
   },
   {
+   "title": "Anthropic Stock Is Off to a Shaky Start. Here's What Could Happen Next. - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 11:30:02 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.87,
+    "corroboration": 1.0,
+    "track": 1.2,
+    "track_note": "10/12",
+    "corroborated_by": 0,
+    "effective": 0.3131
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
    "title": "Anthropic Is Worth $1.2 Trillion. Is It a Better Buy Than Nvidia? - Yahoo Finance",
    "published": "Mon, 23 Nov 2026 10:35:02 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.86,
+    "recency": 0.858,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.3097
+    "effective": 0.309
    },
    "tone": {
     "dir": 0,
@@ -238,12 +236,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.808,
+    "recency": 0.806,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2909
+    "effective": 0.2902
    },
    "tone": {
     "dir": 0,
@@ -258,12 +256,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.913,
+    "recency": 0.911,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.274
+    "effective": 0.2733
    },
    "tone": {
     "dir": -1,
@@ -283,12 +281,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.912,
+    "recency": 0.91,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2737
+    "effective": 0.273
    },
    "tone": {
     "dir": -1,
@@ -299,18 +297,40 @@
    }
   },
   {
+   "title": "When Can Anthropic Insiders Sell? What the Post-IPO Lockup Period Means for Shareholders. - Yahoo Finance",
+   "published": "Sun, 22 Nov 2026 20:29:02 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.7,
+    "corroboration": 1.0,
+    "track": 1.2,
+    "track_note": "10/12",
+    "corroborated_by": 0,
+    "effective": 0.2521
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "lockup"
+    ]
+   }
+  },
+  {
    "title": "Stocks are 'on fire sale' as Anthropic IPO fails to calm AI trade jitters - Yahoo Finance",
    "published": "Sun, 22 Nov 2026 19:00:51 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.687,
+    "recency": 0.685,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2474
+    "effective": 0.2468
    },
    "tone": {
     "dir": 0,
@@ -325,12 +345,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.612,
+    "recency": 0.611,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.2203
+    "effective": 0.2198
    },
    "tone": {
     "dir": 0,
@@ -345,12 +365,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.298,
+    "recency": 0.297,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1787
+    "effective": 0.1782
    },
    "tone": {
     "dir": -1,
@@ -372,7 +392,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1568
+    "effective": 0.1564
    },
    "tone": {
     "dir": 0,
@@ -387,12 +407,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.357,
+    "recency": 0.356,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1286
+    "effective": 0.1283
    },
    "tone": {
     "dir": -1,
@@ -409,12 +429,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.344,
+    "recency": 0.343,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 0,
-    "effective": 0.1237
+    "effective": 0.1234
    },
    "tone": {
     "dir": -1,
@@ -431,12 +451,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.329,
+    "recency": 0.328,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.1135
+    "effective": 0.1132
    },
    "tone": {
     "dir": 0,
@@ -456,7 +476,7 @@
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1072
+    "effective": 0.107
    },
    "tone": {
     "dir": 0,
@@ -476,7 +496,7 @@
     "track": 1.2,
     "track_note": "10/12",
     "corroborated_by": 1,
-    "effective": 0.0982
+    "effective": 0.098
    },
    "tone": {
     "dir": 0,
@@ -496,7 +516,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0952
+    "effective": 0.095
    },
    "tone": {
     "dir": -1,
@@ -521,7 +541,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0553
+    "effective": 0.0552
    },
    "tone": {
     "dir": 0,
@@ -536,7 +556,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.352,
+    "recency": 0.351,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -556,7 +576,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.985,
+    "recency": 0.983,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -576,7 +596,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.939,
+    "recency": 0.937,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -598,7 +618,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.952,
+    "recency": 0.95,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -618,7 +638,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.934,
+    "recency": 0.931,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -632,26 +652,6 @@
      "risk"
     ]
    }
-  },
-  {
-   "title": "Anthropic Stock Is Off to a Shaky Start. Here's What Could Happen Next. - The Motley Fool",
-   "published": "Mon, 23 Nov 2026 11:10:02 GMT",
-   "source": "fool.com",
-   "tier": 4,
-   "weight": {
-    "base": 0.0,
-    "recency": 0.868,
-    "corroboration": 1.15,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 1,
-    "effective": 0.0
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
   }
  ],
  "macro": [
@@ -659,15 +659,15 @@
    "symbol": "^NDX",
    "label": "纳斯达克 100",
    "kind": "sector",
-   "price": 26739.143,
-   "pct": -1.68
+   "price": 26746.096,
+   "pct": -1.66
   },
   {
    "symbol": "NVDA",
    "label": "英伟达（AI 同业）",
    "kind": "peer",
-   "price": 164.79,
-   "pct": 5.54
+   "price": 165.05,
+   "pct": 5.71
   },
   {
    "symbol": "^TNX",
@@ -2834,10 +2834,22 @@
     ],
     [
      "2026-11-23T15:55-05:00",
-     87.61
+     87.42
+    ],
+    [
+     "2026-11-23T16:00-05:00",
+     87.7947
+    ],
+    [
+     "2026-11-23T16:05-05:00",
+     87.94
+    ],
+    [
+     "2026-11-23T16:10-05:00",
+     87.8
     ]
    ],
-   "total": 467,
+   "total": 470,
    "persisted": true
   },
   "1h": {
@@ -3156,7 +3168,7 @@
     ],
     [
      "2026-11-23T15:30-05:00",
-     87.61
+     87.42
     ],
     [
      "2026-11-23T15:30-05:00",
@@ -3169,9 +3181,17 @@
     [
      "2026-11-23T15:50-05:00",
      85.77
+    ],
+    [
+     "2026-11-23T16:00-05:00",
+     87.94
+    ],
+    [
+     "2026-11-23T16:10-05:00",
+     87.8
     ]
    ],
-   "total": 82,
+   "total": 84,
    "persisted": true
   },
   "1d": {
@@ -3186,7 +3206,7 @@
     ],
     [
      "2026-11-23T09:30-05:00",
-     87.625
+     87.64
     ]
    ],
    "total": 3,
@@ -3200,7 +3220,7 @@
     ],
     [
      "2026-11-23T00:00-05:00",
-     87.625
+     87.64
     ]
    ],
    "total": 2,
@@ -3209,8 +3229,8 @@
   "1mo": {
    "points": [
     [
-     "2026-11-23T15:59-05:00",
-     87.625
+     "2026-11-23T16:00-05:00",
+     87.64
     ]
    ],
    "total": 1,
@@ -3499,13 +3519,13 @@
   {
    "level": "info",
    "code": "BIG_DOWN_MECHANICAL",
-   "message": "大跌 -21.41% 至 $87.625",
+   "message": "大跌 -21.4% 至 $87.64",
    "action": "一二级信源无基本面消息 → 判定为机械性抛压（解禁/流动性）。这是你分批计划里可以提前执行下一批的条件。"
   },
   {
    "level": "info",
    "code": "BELOW_DAY1_OPEN",
-   "message": "低于首日开盘 $111.5（现 $87.625）",
+   "message": "低于首日开盘 $111.5（现 $87.64）",
    "action": "首日买家已浮亏。参考 SpaceX：这个状态持续了数月。"
   }
  ],
@@ -3513,7 +3533,7 @@
   "state": "MECHANICAL",
   "headline": "高位回落，暂无基本面坏消息",
   "evidence": [
-   "现价 $87.62：较发行价 $83 +5.6%，较首日开盘 $111.50 -21.4%",
+   "现价 $87.64：较发行价 $83 +5.6%，较首日开盘 $111.50 -21.4%",
    "较上市后最高 $115.10 回撤 23.9%",
    "一、二级信源基本面消息：无",
    "已解禁 315M 股，为 IPO 流通盘 980M 的 32%"
@@ -3542,7 +3562,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.1401,
+ "tone_net": -0.0101,
  "signals": {
   "short": {
    "name": "短线",
@@ -3558,7 +3578,7 @@
    "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
-     "t": "日内跌幅 ≥4% 且无基本面消息（现 -21.41%，自当日开盘）",
+     "t": "日内跌幅 ≥4% 且无基本面消息（现 -21.40%，自当日开盘）",
      "on": true,
      "live": true,
      "w": 2,
@@ -3590,7 +3610,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.14）",
+     "t": "加权新闻口径为正（现 -0.01）",
      "on": false,
      "live": true,
      "w": 1,
@@ -3600,7 +3620,7 @@
    ],
    "negative": [
     {
-     "t": "日内涨幅 ≥4%（现 -21.41%，短线追高）",
+     "t": "日内涨幅 ≥4%（现 -21.40%，短线追高）",
      "on": false,
      "live": true,
      "w": 1,
@@ -3640,7 +3660,7 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.14）",
+     "t": "加权新闻口径为负（现 -0.01）",
      "on": false,
      "live": true,
      "w": 1,
@@ -3648,15 +3668,15 @@
      "id": null
     }
    ],
-   "intraday_pct": -21.41,
-   "ndx_pct": -1.68,
-   "rel": -19.73,
+   "intraday_pct": -21.4,
+   "ndx_pct": -1.66,
+   "rel": -19.74,
    "tnx": 4.918,
    "live_refs": {
     "ipo": 83.0,
     "open": 111.5,
     "mid": 89.445,
-    "ndx": -1.68,
+    "ndx": -1.66,
     "small": 4.0,
     "high": 115.1,
     "bad": false
@@ -3796,7 +3816,7 @@
   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
-    "t": "日内跌幅 ≥4% 且无基本面消息（现 -21.41%，自当日开盘）",
+    "t": "日内跌幅 ≥4% 且无基本面消息（现 -21.40%，自当日开盘）",
     "on": true,
     "live": true,
     "w": 2,
@@ -3828,7 +3848,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.14）",
+    "t": "加权新闻口径为正（现 -0.01）",
     "on": false,
     "live": true,
     "w": 1,
@@ -3838,7 +3858,7 @@
   ],
   "negative": [
    {
-    "t": "日内涨幅 ≥4%（现 -21.41%，短线追高）",
+    "t": "日内涨幅 ≥4%（现 -21.40%，短线追高）",
     "on": false,
     "live": true,
     "w": 1,
@@ -3878,7 +3898,7 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.14）",
+    "t": "加权新闻口径为负（现 -0.01）",
     "on": false,
     "live": true,
     "w": 1,
@@ -3886,15 +3906,15 @@
     "id": null
    }
   ],
-  "intraday_pct": -21.41,
-  "ndx_pct": -1.68,
-  "rel": -19.73,
+  "intraday_pct": -21.4,
+  "ndx_pct": -1.66,
+  "rel": -19.74,
   "tnx": 4.918,
   "live_refs": {
    "ipo": 83.0,
    "open": 111.5,
    "mid": 89.445,
-   "ndx": -1.68,
+   "ndx": -1.66,
    "small": 4.0,
    "high": 115.1,
    "bad": false
@@ -3994,10 +4014,10 @@
   },
   {
    "h": "2026-11-23 16:00",
-   "price": 87.625,
+   "price": 87.64,
    "state": "MECHANICAL",
    "score": 0,
-   "tone": -0.14
+   "tone": -0.01
   }
  ],
  "source_records": {
