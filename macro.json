@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T18:03:18-05:00",
+ "generated": "2026-11-22T23:07:55-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7700,388 +7700,384 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 61105.54,
-   "pct_1d": 1.68,
-   "pct_5d": -5.84,
-   "pct_20d": -20.31,
+   "price": 61156.15,
+   "pct_1d": 1.77,
+   "pct_5d": -5.76,
+   "pct_20d": -20.24,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 29.44,
-   "ma20": 69317.11,
+   "drawdown_6mo": 29.38,
+   "ma20": 69319.64,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55149.566,
    "spark": [
     [
-     "2026-05-22",
+     "2026-05-23",
      100.0
     ],
     [
-     "2026-05-24",
-     101.98
+     "2026-05-25",
+     100.79
     ],
     [
-     "2026-05-26",
-     100.45
+     "2026-05-27",
+     96.96
     ],
     [
-     "2026-05-28",
-     97.41
+     "2026-05-29",
+     95.69
     ],
     [
-     "2026-05-30",
-     97.7
+     "2026-05-31",
+     95.97
     ],
     [
-     "2026-06-01",
-     94.48
+     "2026-06-02",
+     87.0
     ],
     [
-     "2026-06-03",
-     84.8
-    ],
-    [
-     "2026-06-05",
-     80.7
-    ],
-    [
-     "2026-06-07",
-     83.77
-    ],
-    [
-     "2026-06-09",
-     81.66
-    ],
-    [
-     "2026-06-11",
-     84.2
-    ],
-    [
-     "2026-06-13",
-     85.34
-    ],
-    [
-     "2026-06-15",
-     87.81
-    ],
-    [
-     "2026-06-17",
-     85.34
-    ],
-    [
-     "2026-06-19",
-     84.17
-    ],
-    [
-     "2026-06-21",
-     83.77
-    ],
-    [
-     "2026-06-23",
-     83.02
-    ],
-    [
-     "2026-06-25",
-     79.11
-    ],
-    [
-     "2026-06-27",
-     79.4
-    ],
-    [
-     "2026-06-29",
-     79.67
-    ],
-    [
-     "2026-07-01",
-     79.49
-    ],
-    [
-     "2026-07-03",
-     82.85
-    ],
-    [
-     "2026-07-05",
-     84.18
-    ],
-    [
-     "2026-07-07",
-     83.85
-    ],
-    [
-     "2026-07-09",
-     83.71
-    ],
-    [
-     "2026-07-11",
-     84.52
-    ],
-    [
-     "2026-07-13",
-     82.45
-    ],
-    [
-     "2026-07-15",
-     85.73
-    ],
-    [
-     "2026-07-17",
-     84.65
-    ],
-    [
-     "2026-07-19",
-     85.7
-    ],
-    [
-     "2026-07-21",
-     88.1
-    ],
-    [
-     "2026-07-23",
-     86.17
-    ],
-    [
-     "2026-07-25",
-     85.19
-    ],
-    [
-     "2026-07-27",
-     84.42
-    ],
-    [
-     "2026-07-29",
-     84.66
-    ],
-    [
-     "2026-07-31",
+     "2026-06-04",
      83.21
     ],
     [
-     "2026-08-02",
-     84.1
+     "2026-06-06",
+     79.39
     ],
     [
-     "2026-08-04",
-     84.86
+     "2026-06-08",
+     82.28
     ],
     [
-     "2026-08-06",
-     85.13
+     "2026-06-10",
+     80.14
     ],
     [
-     "2026-08-08",
-     85.98
+     "2026-06-12",
+     82.88
     ],
     [
-     "2026-08-10",
-     84.66
+     "2026-06-14",
+     85.7
     ],
     [
-     "2026-08-12",
-     83.99
+     "2026-06-16",
+     85.56
     ],
     [
-     "2026-08-14",
-     83.42
+     "2026-06-18",
+     82.03
     ],
     [
-     "2026-08-16",
-     83.22
+     "2026-06-20",
+     83.78
     ],
     [
-     "2026-08-18",
-     85.68
+     "2026-06-22",
+     83.41
     ],
     [
-     "2026-08-20",
-     96.75
+     "2026-06-24",
+     79.55
     ],
     [
-     "2026-08-22",
-     102.11
+     "2026-06-26",
+     78.28
     ],
     [
-     "2026-08-24",
-     104.61
+     "2026-06-28",
+     77.64
     ],
     [
-     "2026-08-26",
-     104.69
+     "2026-06-30",
+     76.37
     ],
     [
-     "2026-08-28",
-     103.1
+     "2026-07-02",
+     80.19
     ],
     [
-     "2026-08-30",
-     102.89
+     "2026-07-04",
+     82.28
     ],
     [
-     "2026-09-01",
-     102.54
+     "2026-07-06",
+     83.46
     ],
     [
-     "2026-09-03",
-     107.66
+     "2026-07-08",
+     81.2
     ],
     [
-     "2026-09-05",
-     105.74
+     "2026-07-10",
+     83.64
     ],
     [
-     "2026-09-07",
-     104.81
+     "2026-07-12",
+     83.16
     ],
     [
-     "2026-09-09",
-     103.67
+     "2026-07-14",
+     84.72
     ],
     [
-     "2026-09-11",
-     102.23
+     "2026-07-16",
+     83.2
     ],
     [
-     "2026-09-13",
-     101.79
+     "2026-07-18",
+     84.51
     ],
     [
-     "2026-09-15",
-     100.16
+     "2026-07-20",
+     85.08
     ],
     [
-     "2026-09-17",
-     101.21
+     "2026-07-22",
+     86.21
     ],
     [
-     "2026-09-19",
-     107.61
+     "2026-07-24",
+     83.6
     ],
     [
-     "2026-09-21",
-     114.72
+     "2026-07-26",
+     85.22
     ],
     [
-     "2026-09-23",
-     111.78
+     "2026-07-28",
+     83.3
     ],
     [
-     "2026-09-25",
-     111.32
+     "2026-07-30",
+     84.42
     ],
     [
-     "2026-09-27",
-     111.88
+     "2026-08-01",
+     81.86
     ],
     [
-     "2026-09-29",
-     110.78
+     "2026-08-03",
+     82.77
     ],
     [
-     "2026-10-01",
-     112.41
+     "2026-08-05",
+     84.25
     ],
     [
-     "2026-10-03",
-     112.29
+     "2026-08-07",
+     84.62
     ],
     [
-     "2026-10-05",
-     113.64
+     "2026-08-09",
+     84.57
     ],
     [
-     "2026-10-07",
-     110.32
+     "2026-08-11",
+     82.89
     ],
     [
-     "2026-10-09",
-     109.35
+     "2026-08-13",
+     82.69
     ],
     [
-     "2026-10-11",
-     110.85
+     "2026-08-15",
+     82.2
     ],
     [
-     "2026-10-13",
-     110.08
+     "2026-08-17",
+     84.13
     ],
     [
-     "2026-10-15",
-     108.81
+     "2026-08-19",
+     90.34
     ],
     [
-     "2026-10-17",
-     107.81
+     "2026-08-21",
+     102.17
     ],
     [
-     "2026-10-19",
-     108.43
+     "2026-08-23",
+     101.41
     ],
     [
-     "2026-10-21",
-     111.29
+     "2026-08-25",
+     102.47
     ],
     [
-     "2026-10-23",
-     107.4
+     "2026-08-27",
+     104.67
     ],
     [
-     "2026-10-25",
-     106.01
+     "2026-08-29",
+     102.05
     ],
     [
-     "2026-10-27",
-     107.04
+     "2026-08-31",
+     102.45
     ],
     [
-     "2026-10-29",
-     103.03
+     "2026-09-02",
+     100.82
     ],
     [
-     "2026-10-31",
-     102.58
+     "2026-09-04",
+     103.91
     ],
     [
-     "2026-11-02",
-     101.58
+     "2026-09-06",
+     104.8
     ],
     [
-     "2026-11-04",
-     106.51
+     "2026-09-08",
+     102.3
     ],
     [
-     "2026-11-06",
-     100.34
+     "2026-09-10",
+     99.86
     ],
     [
-     "2026-11-08",
-     98.8
+     "2026-09-12",
+     100.78
     ],
     [
-     "2026-11-10",
-     97.66
+     "2026-09-14",
+     101.94
     ],
     [
-     "2026-11-12",
-     94.51
+     "2026-09-16",
+     99.32
     ],
     [
-     "2026-11-14",
-     84.95
+     "2026-09-18",
+     105.51
     ],
     [
-     "2026-11-16",
-     85.92
+     "2026-09-20",
+     105.83
     ],
     [
-     "2026-11-18",
-     83.44
+     "2026-09-22",
+     112.39
     ],
     [
-     "2026-11-20",
-     77.89
+     "2026-09-24",
+     110.05
     ],
     [
-     "2026-11-22",
-     80.95
+     "2026-09-26",
+     110.09
+    ],
+    [
+     "2026-09-28",
+     108.91
+    ],
+    [
+     "2026-09-30",
+     108.97
+    ],
+    [
+     "2026-10-02",
+     110.2
+    ],
+    [
+     "2026-10-04",
+     112.79
+    ],
+    [
+     "2026-10-06",
+     111.59
+    ],
+    [
+     "2026-10-08",
+     106.53
+    ],
+    [
+     "2026-10-10",
+     108.14
+    ],
+    [
+     "2026-10-12",
+     106.64
+    ],
+    [
+     "2026-10-14",
+     106.38
+    ],
+    [
+     "2026-10-16",
+     106.3
+    ],
+    [
+     "2026-10-18",
+     106.97
+    ],
+    [
+     "2026-10-20",
+     108.17
+    ],
+    [
+     "2026-10-22",
+     106.05
+    ],
+    [
+     "2026-10-24",
+     105.37
+    ],
+    [
+     "2026-10-26",
+     104.35
+    ],
+    [
+     "2026-10-28",
+     105.99
+    ],
+    [
+     "2026-10-30",
+     100.68
+    ],
+    [
+     "2026-11-01",
+     102.05
+    ],
+    [
+     "2026-11-03",
+     100.88
+    ],
+    [
+     "2026-11-05",
+     99.05
+    ],
+    [
+     "2026-11-07",
+     98.79
+    ],
+    [
+     "2026-11-09",
+     98.11
+    ],
+    [
+     "2026-11-11",
+     96.47
+    ],
+    [
+     "2026-11-13",
+     89.01
+    ],
+    [
+     "2026-11-15",
+     85.17
+    ],
+    [
+     "2026-11-17",
+     84.64
+    ],
+    [
+     "2026-11-19",
+     80.73
+    ],
+    [
+     "2026-11-21",
+     78.38
     ]
    ],
    "label": "比特币",
@@ -8090,13 +8086,13 @@
   },
   "HG=F": {
    "symbol": "HG=F",
-   "price": 5.485,
-   "pct_1d": -2.49,
-   "pct_5d": -9.78,
-   "pct_20d": -15.3,
+   "price": 5.529,
+   "pct_1d": 0.95,
+   "pct_5d": -7.81,
+   "pct_20d": -15.04,
    "high_6mo": 6.803500175476074,
-   "drawdown_6mo": 19.38,
-   "ma20": 6.22,
+   "drawdown_6mo": 18.73,
+   "ma20": 6.17,
    "above_ma20": false,
    "high_52w": 6.83,
    "low_52w": 4.957,
@@ -8107,13 +8103,13 @@
   },
   "CL=F": {
    "symbol": "CL=F",
-   "price": 83.41,
-   "pct_1d": 0.24,
-   "pct_5d": -5.82,
-   "pct_20d": -19.23,
+   "price": 83.27,
+   "pct_1d": -0.85,
+   "pct_5d": -2.86,
+   "pct_20d": -18.17,
    "high_6mo": 105.83000183105469,
-   "drawdown_6mo": 21.18,
-   "ma20": 91.55,
+   "drawdown_6mo": 21.32,
+   "ma20": 90.65,
    "above_ma20": false,
    "high_52w": 119.48,
    "low_52w": 54.98,
@@ -8432,12 +8428,12 @@
   },
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
-   "price": 103.84,
-   "pct_1d": 0.03,
-   "pct_5d": 0.28,
-   "pct_20d": 1.84,
+   "price": 103.767,
+   "pct_1d": -0.04,
+   "pct_5d": 0.21,
+   "pct_20d": 1.77,
    "high_6mo": 103.9000015258789,
-   "drawdown_6mo": 0.06,
+   "drawdown_6mo": 0.13,
    "ma20": 102.66,
    "above_ma20": true,
    "high_52w": 103.97,
@@ -8449,12 +8445,12 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.4339,
-   "pct_1d": -0.03,
-   "pct_5d": 0.49,
-   "pct_20d": 2.33,
+   "price": 1.4334,
+   "pct_1d": -0.07,
+   "pct_5d": 0.46,
+   "pct_20d": 2.29,
    "high_6mo": 1.4343500137329102,
-   "drawdown_6mo": 0.03,
+   "drawdown_6mo": 0.07,
    "ma20": 1.41,
    "above_ma20": true,
    "high_52w": 1.4357,
@@ -8507,20 +8503,14 @@
    "source": "federalreserve.gov"
   },
   {
-   "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season - Bloomberg.com",
-   "published": "Sun, 22 Nov 2026 16:46:04 GMT",
+   "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquidity - Bloomberg.com",
+   "published": "Mon, 23 Nov 2026 02:42:00 GMT",
    "tier": 2,
    "source": "bloomberg.com"
   },
   {
-   "title": "Inflation, economic growth and the mood of US consumers in focus this week - AP News",
-   "published": "Sun, 22 Nov 2026 16:08:00 GMT",
-   "tier": 2,
-   "source": "apnews.com"
-  },
-  {
-   "title": "Japan's core inflation accelerates in October, cementing rate hike expectations - Reuters",
-   "published": "Thu, 19 Nov 2026 23:43:00 GMT",
+   "title": "SNB closely watching for second-round inflation effects, vice chairman tells paper - Reuters",
+   "published": "Sun, 22 Nov 2026 08:25:43 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
@@ -8531,10 +8521,16 @@
    "source": "cnbc.com"
   },
   {
-   "title": "Private Credit’s $100 Billion Saudi Prize Is Proving Hard to Win - Bloomberg.com",
-   "published": "Sun, 22 Nov 2026 11:30:26 GMT",
+   "title": "Inflation, economic growth and the mood of US consumers in focus this week - AP News",
+   "published": "Sun, 22 Nov 2026 16:08:00 GMT",
    "tier": 2,
-   "source": "bloomberg.com"
+   "source": "apnews.com"
+  },
+  {
+   "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency - WSJ",
+   "published": "Fri, 20 Nov 2026 18:23:00 GMT",
+   "tier": 2,
+   "source": "wsj.com"
   },
   {
    "title": "Fed's Cook says rate hikes needed to lower high inflation - Reuters",
@@ -8543,10 +8539,22 @@
    "source": "reuters.com"
   },
   {
+   "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season - Bloomberg.com",
+   "published": "Sun, 22 Nov 2026 16:46:04 GMT",
+   "tier": 2,
+   "source": "bloomberg.com"
+  },
+  {
    "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices - CNBC",
    "published": "Thu, 19 Nov 2026 23:36:10 GMT",
    "tier": 2,
    "source": "cnbc.com"
+  },
+  {
+   "title": "Private Credit’s $100 Billion Saudi Prize Is Proving Hard to Win - Bloomberg.com",
+   "published": "Sun, 22 Nov 2026 11:30:26 GMT",
+   "tier": 2,
+   "source": "bloomberg.com"
   },
   {
    "title": "Fed minutes: Higher interest rates needed in December as inflation worries mount - AP News",
@@ -8561,26 +8569,14 @@
    "source": "bloomberg.com"
   },
   {
-   "title": "China Lowers Margin Requirement to 80% to Boost Stock Liquidity - Bloomberg.com",
-   "published": "Sun, 22 Nov 2026 12:25:17 GMT",
-   "tier": 2,
-   "source": "bloomberg.com"
-  },
-  {
-   "title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat - Bloomberg.com",
-   "published": "Sun, 22 Nov 2026 20:00:00 GMT",
-   "tier": 2,
-   "source": "bloomberg.com"
-  },
-  {
    "title": "Inflation, Best Buy, Zoom, Dell, Deere, and More to Watch This Week - Barron's",
-   "published": "Sun, 22 Nov 2026 17:00:46 GMT",
+   "published": "Sun, 22 Nov 2026 19:00:00 GMT",
    "tier": 3,
    "source": "barrons.com"
   },
   {
-   "title": "10-Year TIPS Pay 2.77% Above Inflation. Here’s How Dividend Stocks Compare - Yahoo Finance",
-   "published": "Sun, 22 Nov 2026 15:07:12 GMT",
+   "title": "AI Investment Adding to Inflation: Jain - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 00:43:00 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
@@ -8591,20 +8587,20 @@
    "source": "barrons.com"
   },
   {
-   "title": "5 Investments That Have Been Beating Inflation - Yahoo Finance",
-   "published": "Sun, 22 Nov 2026 17:00:41 GMT",
-   "tier": 3,
-   "source": "finance.yahoo.com"
-  },
-  {
-   "title": "‘Inflation affects all of us’: Kevin O'Leary went shopping for Walmart paper towel bargains. How are you fighting back? - Yahoo Finance",
-   "published": "Sun, 22 Nov 2026 12:20:00 GMT",
+   "title": "10-Year TIPS Pay 2.77% Above Inflation. Here’s How Dividend Stocks Compare - Yahoo Finance",
+   "published": "Sun, 22 Nov 2026 15:07:12 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
    "title": "Peter Schiff Warns Fed’s Inflation Fight Means ‘Greater Financial Crisis' Than 2008 - Yahoo Finance",
    "published": "Fri, 20 Nov 2026 21:30:05 GMT",
+   "tier": 3,
+   "source": "finance.yahoo.com"
+  },
+  {
+   "title": "5 Investments That Have Been Beating Inflation - Yahoo Finance",
+   "published": "Sun, 22 Nov 2026 17:00:41 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   }
@@ -9699,12 +9695,13 @@
    {
     "on": "2026-11-20",
     "domain": "政策",
-    "what": "特朗普向国会推动.5万亿预算协调案，含；多名共和党参议员公开警告这会打乱12/11拨款期限前达成协议的进程，可能导致停摆",
+    "what": "特朗普向国会推动 1.5 万亿美元预算协调案，含 350 亿美元国防追加；多名共和党参议员公开警告这会打乱 12/11 拨款期限前达成协议的进程，可能导致停摆",
     "changed": "F01(CR不停摆超3天)的风险源多了一条：这次风险是总统主动制造的,不是民主党发起的",
     "feeds": [
      "F01"
     ],
-    "added": "2026-11-22"
+    "added": "2026-11-22",
+    "fixed": "2026-11-22 修复：原文的美元金额被 shell 的 $ 展开吃掉"
    },
    {
     "on": "2026-11-20",
