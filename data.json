@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T09:10:05-05:00",
+ "generated": "2026-11-24T09:20:05-05:00",
  "errors": [],
  "quote": {
   "price": 87.64,
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.975,
+    "recency": 0.973,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 1,
-    "effective": 1.1217
+    "effective": 1.119
    },
    "tone": {
     "dir": -1,
@@ -48,12 +48,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.783,
+    "recency": 0.781,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.7827
+    "effective": 0.7809
    },
    "tone": {
     "dir": 0,
@@ -72,12 +72,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.769,
+    "recency": 0.767,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.5305
+    "effective": 0.5292
    },
    "tone": {
     "dir": 1,
@@ -94,12 +94,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.966,
+    "recency": 0.963,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.3518
+    "effective": 0.3526
    },
    "tone": {
     "dir": 0,
@@ -118,12 +118,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.964,
+    "recency": 0.962,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3326
+    "effective": 0.3318
    },
    "tone": {
     "dir": -1,
@@ -140,12 +140,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.741,
+    "recency": 0.74,
     "corroboration": 1.15,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 1,
-    "effective": 0.3106
+    "effective": 0.3113
    },
    "tone": {
     "dir": 0,
@@ -164,12 +164,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.988,
+    "recency": 0.985,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2963
+    "effective": 0.2956
    },
    "tone": {
     "dir": 0,
@@ -188,12 +188,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.771,
+    "recency": 0.77,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.281
+    "effective": 0.2817
    },
    "tone": {
     "dir": 1,
@@ -210,12 +210,32 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.765,
+    "recency": 0.763,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.2787
+    "effective": 0.2794
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Wall Street's SpaceX sequel: Anthropic gets leveraged ETFs and options, and the original didn't end well - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 17:11:44 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.737,
+    "corroboration": 1.0,
+    "track": 1.22,
+    "track_note": "13/15",
+    "corroborated_by": 0,
+    "effective": 0.2697
    },
    "tone": {
     "dir": 0,
@@ -230,12 +250,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.742,
+    "recency": 0.74,
     "corroboration": 1.0,
     "track": 1.214,
     "track_note": "6/7",
     "corroborated_by": 0,
-    "effective": 0.2702
+    "effective": 0.2695
    },
    "tone": {
     "dir": 1,
@@ -249,38 +269,18 @@
    }
   },
   {
-   "title": "Wall Street's SpaceX sequel: Anthropic gets leveraged ETFs and options, and the original didn't end well - Yahoo Finance",
-   "published": "Mon, 23 Nov 2026 17:11:44 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.739,
-    "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
-    "corroborated_by": 0,
-    "effective": 0.2691
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic's blockbuster debut tests Wall Street's faith in AI boom - Reuters",
    "published": "Fri, 20 Nov 2026 04:57:37 GMT",
    "source": "reuters.com",
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.219,
+    "recency": 0.218,
     "corroboration": 1.0,
     "track": 1.2,
     "track_note": "5/6",
     "corroborated_by": 0,
-    "effective": 0.2626
+    "effective": 0.262
    },
    "tone": {
     "dir": 0,
@@ -295,12 +295,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.7,
+    "recency": 0.698,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.2551
+    "effective": 0.2556
    },
    "tone": {
     "dir": 1,
@@ -317,12 +317,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.686,
+    "recency": 0.684,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.2499
+    "effective": 0.2505
    },
    "tone": {
     "dir": 0,
@@ -341,12 +341,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.712,
+    "recency": 0.71,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.2456
+    "effective": 0.2451
    },
    "tone": {
     "dir": -1,
@@ -363,12 +363,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.631,
+    "recency": 0.629,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.2297
+    "effective": 0.2302
    },
    "tone": {
     "dir": 0,
@@ -383,12 +383,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.712,
+    "recency": 0.71,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2135
+    "effective": 0.213
    },
    "tone": {
     "dir": 0,
@@ -403,12 +403,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.699,
+    "recency": 0.697,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2096
+    "effective": 0.2091
    },
    "tone": {
     "dir": 0,
@@ -428,7 +428,7 @@
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1394
+    "effective": 0.1391
    },
    "tone": {
     "dir": -1,
@@ -445,12 +445,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.332,
+    "recency": 0.331,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.1208
+    "effective": 0.1211
    },
    "tone": {
     "dir": 0,
@@ -467,10 +467,10 @@
     "base": 0.3,
     "recency": 0.259,
     "corroboration": 1.15,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 1,
-    "effective": 0.1086
+    "effective": 0.1089
    },
    "tone": {
     "dir": -1,
@@ -487,12 +487,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.279,
+    "recency": 0.278,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.1016
+    "effective": 0.1018
    },
    "tone": {
     "dir": -1,
@@ -509,12 +509,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.279,
+    "recency": 0.278,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.1016
+    "effective": 0.1018
    },
    "tone": {
     "dir": 1,
@@ -533,10 +533,10 @@
     "base": 0.3,
     "recency": 0.249,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.0909
+    "effective": 0.0911
    },
    "tone": {
     "dir": -1,
@@ -553,12 +553,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.257,
+    "recency": 0.256,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.0886
+    "effective": 0.0883
    },
    "tone": {
     "dir": 0,
@@ -573,12 +573,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.251,
+    "recency": 0.25,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0752
+    "effective": 0.075
    },
    "tone": {
     "dir": -1,
@@ -595,12 +595,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.248,
+    "recency": 0.247,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0743
+    "effective": 0.0741
    },
    "tone": {
     "dir": -1,
@@ -620,12 +620,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.189,
+    "recency": 0.188,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.0688
+    "effective": 0.069
    },
    "tone": {
     "dir": 0,
@@ -640,12 +640,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.174,
+    "recency": 0.173,
     "corroboration": 1.0,
-    "track": 1.214,
-    "track_note": "12/14",
+    "track": 1.22,
+    "track_note": "13/15",
     "corroborated_by": 0,
-    "effective": 0.0633
+    "effective": 0.0635
    },
    "tone": {
     "dir": 0,
@@ -660,7 +660,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.71,
+    "recency": 0.709,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -693,8 +693,8 @@
    "symbol": "^TNX",
    "label": "美债 10 年期收益率",
    "kind": "rates",
-   "price": 4.886,
-   "pct": -3.55
+   "price": 4.892,
+   "pct": -3.43
   }
  ],
  "policy": [
@@ -3318,14 +3318,26 @@
     ],
     [
      "2026-11-24T09:05-05:00",
-     83.4
+     83.46
     ],
     [
      "2026-11-24T09:09-05:00",
      83.46
+    ],
+    [
+     "2026-11-24T09:10-05:00",
+     83.3
+    ],
+    [
+     "2026-11-24T09:15-05:00",
+     83.25
+    ],
+    [
+     "2026-11-24T09:20-05:00",
+     83.2
     ]
    ],
-   "total": 584,
+   "total": 587,
    "persisted": true
   },
   "1h": {
@@ -3720,7 +3732,7 @@
     ],
     [
      "2026-11-24T09:00-05:00",
-     83.4
+     83.25
     ],
     [
      "2026-11-24T09:00-05:00",
@@ -3729,9 +3741,13 @@
     [
      "2026-11-24T09:09-05:00",
      83.46
+    ],
+    [
+     "2026-11-24T09:20-05:00",
+     83.2
     ]
    ],
-   "total": 100,
+   "total": 101,
    "persisted": true
   },
   "1d": {
@@ -4102,7 +4118,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.1132,
+ "tone_net": -0.1128,
  "signals": {
   "short": {
    "name": "短线",
@@ -4211,7 +4227,7 @@
    "intraday_pct": -21.4,
    "ndx_pct": -1.66,
    "rel": -19.74,
-   "tnx": 4.886,
+   "tnx": 4.892,
    "live_refs": {
     "ipo": 83.0,
     "open": 111.5,
@@ -4449,7 +4465,7 @@
   "intraday_pct": -21.4,
   "ndx_pct": -1.66,
   "rel": -19.74,
-  "tnx": 4.886,
+  "tnx": 4.892,
   "live_refs": {
    "ipo": 83.0,
    "open": 111.5,
@@ -4562,8 +4578,8 @@
  ],
  "source_records": {
   "finance.yahoo.com": {
-   "n": 14,
-   "hits": 12
+   "n": 15,
+   "hits": 13
   },
   "reuters.com": {
    "n": 6,
@@ -4635,7 +4651,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 12
+  "pending_observations": 11
  },
  "next_unlock": {
   "date": "2026-12-15",
