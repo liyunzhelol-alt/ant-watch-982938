@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:07:04-05:00",
+ "generated": "2026-11-25T18:00:13-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -3825,17 +3825,17 @@
    "group": "rates",
    "key": true,
    "dir": "neutral",
-   "value": 5.29,
-   "date": "2026-11-23",
-   "n": 12438,
-   "pctile_full": 48.4,
-   "pctile_1y": 83.1,
-   "z_1y": 1.0,
+   "value": 5.3,
+   "date": "2026-11-24",
+   "n": 12439,
+   "pctile_full": 48.6,
+   "pctile_1y": 83.6,
+   "z_1y": 1.04,
    "min_1y": 4.64,
    "max_1y": 5.67,
-   "chg_1": -0.02,
-   "chg_5": -0.17,
-   "chg_20": -0.04,
+   "chg_1": 0.01,
+   "chg_5": -0.16,
+   "chg_20": -0.01,
    "hist_min": 0.99,
    "hist_max": 15.21,
    "spark": [
@@ -4588,8 +4588,8 @@
      5.4
     ],
     [
-     "2026-11-23",
-     5.29
+     "2026-11-24",
+     5.3
     ]
    ]
   },
@@ -4600,17 +4600,17 @@
    "group": "rates",
    "key": true,
    "dir": "neutral",
-   "value": 4.92,
-   "date": "2026-11-23",
-   "n": 16208,
-   "pctile_full": 45.5,
-   "pctile_1y": 82.3,
-   "z_1y": 1.17,
+   "value": 4.91,
+   "date": "2026-11-24",
+   "n": 16209,
+   "pctile_full": 45.4,
+   "pctile_1y": 81.6,
+   "z_1y": 1.14,
    "min_1y": 3.97,
    "max_1y": 5.31,
-   "chg_1": 0.0,
-   "chg_5": -0.2,
-   "chg_20": -0.08,
+   "chg_1": -0.01,
+   "chg_5": -0.19,
+   "chg_20": -0.09,
    "hist_min": 0.52,
    "hist_max": 15.84,
    "spark": [
@@ -5363,8 +5363,8 @@
      5.04
     ],
     [
-     "2026-11-23",
-     4.92
+     "2026-11-24",
+     4.91
     ]
    ]
   },
@@ -5376,16 +5376,16 @@
    "key": false,
    "dir": "neutral",
    "value": 4.63,
-   "date": "2026-11-23",
-   "n": 12616,
+   "date": "2026-11-24",
+   "n": 12617,
    "pctile_full": 50.2,
-   "pctile_1y": 84.3,
-   "z_1y": 1.33,
+   "pctile_1y": 84.4,
+   "z_1y": 1.32,
    "min_1y": 3.38,
    "max_1y": 4.92,
    "chg_1": 0.0,
-   "chg_5": -0.2,
-   "chg_20": -0.06,
+   "chg_5": -0.17,
+   "chg_20": -0.05,
    "hist_min": 0.09,
    "hist_max": 16.95,
    "spark": null
@@ -5397,17 +5397,17 @@
    "group": "rates",
    "key": false,
    "dir": "neutral",
-   "value": 0.28,
-   "date": "2026-11-24",
-   "n": 12617,
-   "pctile_full": 29.6,
-   "pctile_1y": 6.0,
-   "z_1y": -1.55,
+   "value": 0.24,
+   "date": "2026-11-25",
+   "n": 12618,
+   "pctile_full": 27.5,
+   "pctile_1y": 1.2,
+   "z_1y": -1.84,
    "min_1y": 0.2,
    "max_1y": 0.74,
-   "chg_1": -0.01,
-   "chg_5": -0.02,
-   "chg_20": -0.04,
+   "chg_1": -0.04,
+   "chg_5": -0.03,
+   "chg_20": -0.05,
    "hist_min": -2.41,
    "hist_max": 2.91,
    "spark": null
@@ -5420,16 +5420,16 @@
    "key": true,
    "dir": "neutral",
    "value": 2.12,
-   "date": "2026-11-24",
-   "n": 5978,
+   "date": "2026-11-25",
+   "n": 5979,
    "pctile_full": 39.3,
-   "pctile_1y": 0.4,
-   "z_1y": -2.71,
+   "pctile_1y": 0.8,
+   "z_1y": -2.67,
    "min_1y": 2.12,
    "max_1y": 2.5,
-   "chg_1": -0.01,
-   "chg_5": -0.09,
-   "chg_20": -0.22,
+   "chg_1": 0.0,
+   "chg_5": -0.07,
+   "chg_20": -0.23,
    "hist_min": 0.04,
    "hist_max": 3.02,
    "spark": [
@@ -6182,7 +6182,7 @@
      2.16
     ],
     [
-     "2026-11-24",
+     "2026-11-25",
      2.12
     ]
    ]
@@ -6194,17 +6194,17 @@
    "group": "inflation",
    "key": false,
    "dir": "neutral",
-   "value": 2.13,
-   "date": "2026-11-24",
-   "n": 5978,
-   "pctile_full": 29.0,
-   "pctile_1y": 15.2,
-   "z_1y": -1.27,
+   "value": 2.11,
+   "date": "2026-11-25",
+   "n": 5979,
+   "pctile_full": 26.9,
+   "pctile_1y": 6.0,
+   "z_1y": -1.53,
    "min_1y": 2.05,
    "max_1y": 2.36,
-   "chg_1": 0.02,
-   "chg_5": -0.03,
-   "chg_20": -0.08,
+   "chg_1": -0.02,
+   "chg_5": -0.04,
+   "chg_20": -0.14,
    "hist_min": 0.43,
    "hist_max": 3.05,
    "spark": null
@@ -6217,15 +6217,15 @@
    "key": true,
    "dir": "neutral",
    "value": 2.79,
-   "date": "2026-11-23",
-   "n": 5977,
+   "date": "2026-11-24",
+   "n": 5978,
    "pctile_full": 99.2,
    "pctile_1y": 91.6,
-   "z_1y": 1.69,
+   "z_1y": 1.68,
    "min_1y": 1.72,
    "max_1y": 2.95,
-   "chg_1": 0.02,
-   "chg_5": -0.13,
+   "chg_1": 0.0,
+   "chg_5": -0.1,
    "chg_20": 0.13,
    "hist_min": -1.19,
    "hist_max": 3.15,
@@ -6979,7 +6979,7 @@
      2.88
     ],
     [
-     "2026-11-23",
+     "2026-11-24",
      2.79
     ]
    ]
@@ -7014,11 +7014,11 @@
    "key": false,
    "dir": "neutral",
    "value": 3.9,
-   "date": "2026-11-25",
-   "n": 1946,
-   "pctile_full": 46.0,
+   "date": "2026-11-27",
+   "n": 1948,
+   "pctile_full": 46.1,
    "pctile_1y": 100.0,
-   "z_1y": 1.8,
+   "z_1y": 1.78,
    "min_1y": 3.65,
    "max_1y": 3.9,
    "chg_1": 0.0,
@@ -7076,13 +7076,13 @@
  "quotes": {
   "^VIX": {
    "symbol": "^VIX",
-   "price": 27.94,
-   "pct_1d": 5.99,
-   "pct_5d": 13.76,
-   "pct_20d": 65.23,
+   "price": 28.29,
+   "pct_1d": 7.32,
+   "pct_5d": 15.19,
+   "pct_20d": 67.3,
    "high_6mo": 35.88999938964844,
-   "drawdown_6mo": 22.15,
-   "ma20": 23.1,
+   "drawdown_6mo": 21.18,
+   "ma20": 23.12,
    "above_ma20": true,
    "high_52w": 40.03,
    "low_52w": 13.38,
@@ -7093,7 +7093,7 @@
   },
   "^MOVE": {
    "symbol": "^MOVE",
-   "price": 97.5367,
+   "price": 97.5371,
    "pct_1d": -1.32,
    "pct_5d": -0.62,
    "pct_20d": -0.34,
@@ -7405,13 +7405,13 @@
   },
   "^RUT": {
    "symbol": "^RUT",
-   "price": 2705.104,
-   "pct_1d": 0.75,
-   "pct_5d": -0.34,
-   "pct_20d": -4.43,
+   "price": 2704.061,
+   "pct_1d": 0.71,
+   "pct_5d": -0.38,
+   "pct_20d": -4.47,
    "high_6mo": 3068.419921875,
-   "drawdown_6mo": 11.84,
-   "ma20": 2759.2,
+   "drawdown_6mo": 11.87,
+   "ma20": 2759.15,
    "above_ma20": false,
    "high_52w": 3069.71,
    "low_52w": 2404.99,
@@ -7422,12 +7422,12 @@
   },
   "GLD": {
    "symbol": "GLD",
-   "price": 327.51,
-   "pct_1d": 0.63,
-   "pct_5d": -4.01,
-   "pct_20d": -12.32,
+   "price": 327.45,
+   "pct_1d": 0.61,
+   "pct_5d": -4.03,
+   "pct_20d": -12.33,
    "high_6mo": 428.07000732421875,
-   "drawdown_6mo": 23.49,
+   "drawdown_6mo": 23.51,
    "ma20": 354.04,
    "above_ma20": false,
    "high_52w": 509.7,
@@ -7691,7 +7691,7 @@
     ],
     [
      "2026-11-25",
-     79.11
+     79.09
     ]
    ],
    "label": "黄金 GLD",
@@ -7700,13 +7700,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 60303.51,
-   "pct_1d": 0.93,
-   "pct_5d": 2.56,
-   "pct_20d": -20.59,
+   "price": 59979.27,
+   "pct_1d": 0.39,
+   "pct_5d": 2.01,
+   "pct_20d": -21.02,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 30.37,
-   "ma20": 66698.42,
+   "drawdown_6mo": 30.74,
+   "ma20": 66682.21,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55149.566,
@@ -8081,7 +8081,7 @@
     ],
     [
      "2026-11-25",
-     78.03
+     77.61
     ]
    ],
    "label": "比特币",
@@ -8090,12 +8090,12 @@
   },
   "HG=F": {
    "symbol": "HG=F",
-   "price": 5.489,
-   "pct_1d": 2.36,
-   "pct_5d": -3.01,
-   "pct_20d": -17.35,
+   "price": 5.4815,
+   "pct_1d": 2.22,
+   "pct_5d": -3.15,
+   "pct_20d": -17.47,
    "high_6mo": 6.803500175476074,
-   "drawdown_6mo": 19.32,
+   "drawdown_6mo": 19.43,
    "ma20": 6.06,
    "above_ma20": false,
    "high_52w": 6.83,
@@ -8107,12 +8107,12 @@
   },
   "CL=F": {
    "symbol": "CL=F",
-   "price": 84.06,
-   "pct_1d": 2.45,
-   "pct_5d": 0.96,
-   "pct_20d": -18.21,
+   "price": 84.15,
+   "pct_1d": 2.56,
+   "pct_5d": 1.07,
+   "pct_20d": -18.13,
    "high_6mo": 105.83000183105469,
-   "drawdown_6mo": 20.57,
+   "drawdown_6mo": 20.49,
    "ma20": 88.67,
    "above_ma20": false,
    "high_52w": 119.48,
@@ -8124,12 +8124,12 @@
   },
   "HYG": {
    "symbol": "HYG",
-   "price": 76.525,
+   "price": 76.52,
    "pct_1d": 0.12,
-   "pct_5d": -0.16,
-   "pct_20d": -1.37,
+   "pct_5d": -0.17,
+   "pct_20d": -1.38,
    "high_6mo": 80.30999755859375,
-   "drawdown_6mo": 4.71,
+   "drawdown_6mo": 4.72,
    "ma20": 76.96,
    "above_ma20": false,
    "high_52w": 81.24,
@@ -8141,12 +8141,12 @@
   },
   "LQD": {
    "symbol": "LQD",
-   "price": 104.305,
-   "pct_1d": 0.5,
-   "pct_5d": 1.12,
-   "pct_20d": 0.23,
+   "price": 104.29,
+   "pct_1d": 0.48,
+   "pct_5d": 1.11,
+   "pct_20d": 0.21,
    "high_6mo": 109.69999694824219,
-   "drawdown_6mo": 4.92,
+   "drawdown_6mo": 4.93,
    "ma20": 103.77,
    "above_ma20": true,
    "high_52w": 112.06,
@@ -8436,13 +8436,13 @@
   },
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
-   "price": 103.688,
-   "pct_1d": -0.12,
-   "pct_5d": -0.17,
+   "price": 103.691,
+   "pct_1d": -0.11,
+   "pct_5d": -0.16,
    "pct_20d": 1.47,
    "high_6mo": 104.31999969482422,
-   "drawdown_6mo": 0.61,
-   "ma20": 102.83,
+   "drawdown_6mo": 0.6,
+   "ma20": 102.84,
    "above_ma20": true,
    "high_52w": 104.53,
    "low_52w": 95.55,
@@ -8453,12 +8453,12 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.4214,
-   "pct_1d": -1.05,
-   "pct_5d": -0.6,
-   "pct_20d": 1.17,
+   "price": 1.4212,
+   "pct_1d": -1.07,
+   "pct_5d": -0.61,
+   "pct_20d": 1.15,
    "high_6mo": 1.4365299940109253,
-   "drawdown_6mo": 1.05,
+   "drawdown_6mo": 1.07,
    "ma20": 1.42,
    "above_ma20": true,
    "high_52w": 1.4374,
@@ -8505,26 +8505,26 @@
  },
  "news": [
   {
-   "title": "US economy roars ahead in third quarter, inflation remains high in October - Reuters",
-   "published": "Wed, 25 Nov 2026 18:50:40 GMT",
+   "title": "Fed policymakers at odds over causes of high inflation - Reuters",
+   "published": "Wed, 25 Nov 2026 20:50:24 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price - CNBC",
+   "published": "Wed, 25 Nov 2026 17:10:17 GMT",
+   "tier": 2,
+   "source": "cnbc.com"
+  },
+  {
+   "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch - Reuters",
+   "published": "Wed, 25 Nov 2026 22:32:45 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
   {
    "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC - CNBC",
    "published": "Wed, 25 Nov 2026 17:28:24 GMT",
-   "tier": 2,
-   "source": "cnbc.com"
-  },
-  {
-   "title": "Nvidia agrees to settle 2018 US investor class action for $290 million - Reuters",
-   "published": "Wed, 25 Nov 2026 17:36:16 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank - CNBC",
-   "published": "Wed, 25 Nov 2026 13:31:45 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
@@ -8541,20 +8541,26 @@
    "source": "reuters.com"
   },
   {
+   "title": "Trump unveils new tariffs over excess industrial capacity, undeterred by midterms defeat - Reuters",
+   "published": "Wed, 25 Nov 2026 22:47:39 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
    "title": "US to cap India tariff at 17% if trade deal is reached, USTR says - Reuters",
    "published": "Wed, 25 Nov 2026 18:26:10 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
   {
-   "title": "How the Trump administration determined Jensen Huang is not a national security threat - Reuters",
-   "published": "Wed, 25 Nov 2026 19:56:16 GMT",
+   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank - CNBC",
+   "published": "Wed, 25 Nov 2026 13:31:45 GMT",
    "tier": 2,
-   "source": "reuters.com"
+   "source": "cnbc.com"
   },
   {
-   "title": "Trump unveils new tariffs over excess industrial capacity, undeterred by midterms defeat - Reuters",
-   "published": "Wed, 25 Nov 2026 18:55:31 GMT",
+   "title": "Fed survey shows continued economic growth, sticky inflation in recent weeks - Reuters",
+   "published": "Wed, 25 Nov 2026 20:42:46 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
@@ -8565,10 +8571,10 @@
    "source": "cnbc.com"
   },
   {
-   "title": "Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
-   "published": "Wed, 25 Nov 2026 19:19:43 GMT",
+   "title": "Nvidia was right to bring back Jensen Huang, writes Sarah Guo - The Economist",
+   "published": "Wed, 25 Nov 2026 10:32:00 GMT",
    "tier": 2,
-   "source": "reuters.com"
+   "source": "economist.com"
   },
   {
    "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount? - CNBC",
@@ -8577,20 +8583,20 @@
    "source": "cnbc.com"
   },
   {
-   "title": "Nvidia Stock Keeps Falling. It’s Obvious Jensen Was Not the Only Problem. - Barron's",
-   "published": "Wed, 25 Nov 2026 17:50:00 GMT",
-   "tier": 3,
-   "source": "barrons.com"
+   "title": "Liesman: Why Greenspan could bet on productivity — and Warsh needs to hike - CNBC",
+   "published": "Wed, 25 Nov 2026 21:55:45 GMT",
+   "tier": 2,
+   "source": "cnbc.com"
   },
   {
-   "title": "Nvidia stock stumbles again after Jensen Huang's spectacular comeback rally - Yahoo Finance",
-   "published": "Wed, 25 Nov 2026 13:52:46 GMT",
+   "title": "Nvidia, AMD, and Micron stocks trim steep losses amid jittery AI trade - Yahoo Finance",
+   "published": "Wed, 25 Nov 2026 21:18:06 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
-   "title": "Nvidia, AMD, and Micron stocks sink as investors flee AI trade - Yahoo Finance",
-   "published": "Wed, 25 Nov 2026 14:41:55 GMT",
+   "title": "Nvidia stock stumbles again after Jensen Huang's spectacular comeback rally - Yahoo Finance",
+   "published": "Wed, 25 Nov 2026 13:52:46 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
@@ -8605,12 +8611,6 @@
    "published": "Wed, 25 Nov 2026 09:42:35 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
-  },
-  {
-   "title": "Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
-   "published": "Wed, 25 Nov 2026 17:31:00 GMT",
-   "tier": 3,
-   "source": "marketwatch.com"
   }
  ],
  "charts": [
@@ -8788,7 +8788,7 @@
    "note": "银行间融资压力的直接读数。持续 >15bp 才算紧。"
   },
   "real_10y_implied": {
-   "value": 2.8,
+   "value": 2.79,
    "label": "10 年隐含实际利率",
    "unit": "%",
    "note": "名义减通胀预期。>2% 属限制性，压增长。"
@@ -8851,8 +8851,8 @@
  },
  "index": {
   "value": 2.9,
-  "mean": 2.45,
-  "max_hard": 3.49,
+  "mean": 2.46,
+  "max_hard": 3.57,
   "band": {
    "from": 2.0,
    "to": 4.0,
@@ -8884,14 +8884,14 @@
     "id": "market",
     "label": "市场应激",
     "weight": 0.15,
-    "score": 3.49,
+    "score": 3.57,
     "manual": false,
     "note": "反应最快、噪音也最大。单独高位只说明在去杠杆，不说明有危机。",
     "inputs": [
      {
       "label": "VIX",
-      "value": 27.94,
-      "score": 3.4850000000000003
+      "value": 28.29,
+      "score": 3.5725
      },
      {
       "label": "标普回撤",
@@ -8972,7 +8972,7 @@
    }
   ],
   "driver": "信用",
-  "formula": "0.6×加权平均(2.45) + 0.4×硬数据最大分项(3.49)",
+  "formula": "0.6×加权平均(2.46) + 0.4×硬数据最大分项(3.57)",
   "bands": [
    {
     "from": 0.0,
@@ -9097,8 +9097,8 @@
     "trigger": "30Y >= 5.30",
     "level": 5.3,
     "note": "基础档。已在区间内。",
-    "armed": false,
-    "distance_bp": 1
+    "armed": true,
+    "distance_bp": 0
    },
    {
     "id": "T2",
@@ -9106,7 +9106,7 @@
     "level": 5.75,
     "note": "加第二档。利率更高只是让同一笔赌注更便宜。",
     "armed": false,
-    "distance_bp": 46
+    "distance_bp": 45
    },
    {
     "id": "T3",
@@ -9114,7 +9114,7 @@
     "level": 6.1,
     "note": "最后一档。此后不再加。",
     "armed": false,
-    "distance_bp": 81
+    "distance_bp": 80
    }
   ],
   "never": [
@@ -9138,7 +9138,7 @@
    "test": "VIX <= 25 连续 3 个交易日",
    "note": "黄金这轮跌是追保强制抛售，不是逻辑破了。但强制抛售会持续到最后一个杠杆账户被清完 - 等去杠杆停了再进，不猜底。",
    "armed": false,
-   "vix": 27.94
+   "vix": 28.29
   }
  },
  "alerts": [],
@@ -9199,8 +9199,8 @@
    "ig": 0.98,
    "claims4w": 196000.0,
    "nfci": -0.444,
-   "dgs30": 5.29,
-   "vix": 27.94,
+   "dgs30": 5.3,
+   "vix": 28.29,
    "spx_dd": 8.14
   }
  ],
@@ -9391,8 +9391,8 @@
     ],
     "days_away": 14,
     "status": "future",
-    "probe_value": 5.29,
-    "probe_date": "2026-11-23"
+    "probe_value": 5.3,
+    "probe_date": "2026-11-24"
    },
    {
     "id": "cpi-oct",
@@ -9443,7 +9443,7 @@
     "days_away": 15,
     "status": "future",
     "probe_value": 2.12,
-    "probe_date": "2026-11-24"
+    "probe_date": "2026-11-25"
    },
    {
     "id": "pce-nov",
@@ -9463,7 +9463,7 @@
     "days_away": 28,
     "status": "future",
     "probe_value": 2.79,
-    "probe_date": "2026-11-23"
+    "probe_date": "2026-11-24"
    },
    {
     "id": "tariff-expiry",
@@ -9511,8 +9511,8 @@
     "branches": [],
     "days_away": 63,
     "status": "future",
-    "probe_value": 5.29,
-    "probe_date": "2026-11-23"
+    "probe_value": 5.3,
+    "probe_date": "2026-11-24"
    },
    {
     "id": "capex-guide",
@@ -9567,8 +9567,8 @@
     "branches": [],
     "days_away": 112,
     "status": "future",
-    "probe_value": 5.29,
-    "probe_date": "2026-11-23"
+    "probe_value": 5.3,
+    "probe_date": "2026-11-24"
    },
    {
     "id": "credit-window",
@@ -9667,8 +9667,8 @@
     "branches": [],
     "days_away": 294,
     "status": "future",
-    "probe_value": 5.29,
-    "probe_date": "2026-11-23"
+    "probe_value": 5.3,
+    "probe_date": "2026-11-24"
    }
   ],
   "blind_spots": [
