@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:10:04-05:00",
+ "generated": "2026-11-25T16:20:06-05:00",
  "errors": [],
  "quote": {
   "price": 82.79,
@@ -11,7 +11,7 @@
   "day_low": 73.85,
   "high_52w": 115.1,
   "low_52w": 73.85,
-  "volume": 286434870,
+  "volume": 291723224,
   "market_time": 1795640402,
   "currency": "USD",
   "regular_close": 82.79,
@@ -26,12 +26,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.724,
+    "recency": 0.723,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4346
+    "effective": 0.4336
    },
    "tone": {
     "dir": 0,
@@ -46,12 +46,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.678,
+    "recency": 0.677,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4069
+    "effective": 0.4059
    },
    "tone": {
     "dir": -1,
@@ -69,12 +69,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.643,
+    "recency": 0.641,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.3856
+    "effective": 0.3847
    },
    "tone": {
     "dir": -1,
@@ -91,12 +91,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.925,
+    "recency": 0.923,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "8/9",
     "corroborated_by": 0,
-    "effective": 0.3424
+    "effective": 0.3416
    },
    "tone": {
     "dir": 0,
@@ -115,12 +115,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.787,
+    "recency": 0.785,
     "corroboration": 1.15,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 1,
-    "effective": 0.3358
+    "effective": 0.335
    },
    "tone": {
     "dir": 0,
@@ -135,12 +135,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.9,
+    "recency": 0.898,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.334
+    "effective": 0.3331
    },
    "tone": {
     "dir": -1,
@@ -158,12 +158,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.897,
+    "recency": 0.895,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.3329
+    "effective": 0.3321
    },
    "tone": {
     "dir": 0,
@@ -182,12 +182,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.884,
+    "recency": 0.882,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.3281
+    "effective": 0.3273
    },
    "tone": {
     "dir": 0,
@@ -202,12 +202,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.846,
+    "recency": 0.844,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.3141
+    "effective": 0.3133
    },
    "tone": {
     "dir": 1,
@@ -224,12 +224,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.628,
+    "recency": 0.627,
     "corroboration": 1.15,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 1,
-    "effective": 0.268
+    "effective": 0.2674
    },
    "tone": {
     "dir": 0,
@@ -244,12 +244,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.715,
+    "recency": 0.713,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.2652
+    "effective": 0.2646
    },
    "tone": {
     "dir": 1,
@@ -266,12 +266,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.712,
+    "recency": 0.71,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.2641
+    "effective": 0.2634
    },
    "tone": {
     "dir": 0,
@@ -286,12 +286,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.852,
+    "recency": 0.85,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2556
+    "effective": 0.255
    },
    "tone": {
     "dir": -1,
@@ -308,12 +308,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.682,
+    "recency": 0.68,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.2529
+    "effective": 0.2523
    },
    "tone": {
     "dir": -1,
@@ -330,12 +330,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.662,
+    "recency": 0.66,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.2456
+    "effective": 0.245
    },
    "tone": {
     "dir": -1,
@@ -355,12 +355,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.646,
+    "recency": 0.645,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "8/9",
     "corroborated_by": 0,
-    "effective": 0.2392
+    "effective": 0.2386
    },
    "tone": {
     "dir": -1,
@@ -380,12 +380,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.624,
+    "recency": 0.622,
     "corroboration": 1.0,
     "track": 1.237,
     "track_note": "17/19",
     "corroborated_by": 0,
-    "effective": 0.2314
+    "effective": 0.2308
    },
    "tone": {
     "dir": -1,
@@ -403,12 +403,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.708,
+    "recency": 0.707,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2125
+    "effective": 0.212
    },
    "tone": {
     "dir": -1,
@@ -426,12 +426,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.654,
+    "recency": 0.652,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1961
+    "effective": 0.1956
    },
    "tone": {
     "dir": -1,
@@ -451,12 +451,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.455,
+    "recency": 0.454,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1364
+    "effective": 0.1361
    },
    "tone": {
     "dir": 0,
@@ -471,7 +471,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.892,
+    "recency": 0.89,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -493,7 +493,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.628,
+    "recency": 0.626,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -513,7 +513,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.783,
+    "recency": 0.781,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -533,7 +533,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.947,
+    "recency": 0.944,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -555,7 +555,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.984,
+    "recency": 0.982,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -578,7 +578,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.834,
+    "recency": 0.832,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -598,7 +598,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.454,
+    "recency": 0.453,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -618,7 +618,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.747,
+    "recency": 0.746,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -640,7 +640,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.991,
+    "recency": 0.989,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -660,7 +660,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.981,
+    "recency": 0.978,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -786,6 +786,14 @@
   }
  ],
  "filings": [
+  {
+   "form": "8-K",
+   "date": "2026-11-25",
+   "meaning": "重大事件公告",
+   "dir": 0,
+   "level": "high",
+   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026075973/ant-20261119.htm"
+  },
   {
    "form": "4",
    "date": "2026-11-23",
@@ -977,14 +985,6 @@
    "dir": 0,
    "level": "info",
    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm"
-  },
-  {
-   "form": "FWP",
-   "date": "2026-11-12",
-   "meaning": "自由书面招股材料",
-   "dir": 0,
-   "level": "info",
-   "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072953/anthropicpbc-fwpauswrapcap.htm"
   }
  ],
  "bars": {
@@ -4776,10 +4776,22 @@
     ],
     [
      "2026-11-25T16:10-05:00",
+     82.54
+    ],
+    [
+     "2026-11-25T16:10-05:00",
      82.07
+    ],
+    [
+     "2026-11-25T16:15-05:00",
+     82.53
+    ],
+    [
+     "2026-11-25T16:20-05:00",
+     82.52
     ]
    ],
-   "total": 947,
+   "total": 950,
    "persisted": true
   },
   "1h": {
@@ -5626,14 +5638,18 @@
     ],
     [
      "2026-11-25T16:00-05:00",
-     82.21
+     82.53
     ],
     [
      "2026-11-25T16:10-05:00",
      82.0746
+    ],
+    [
+     "2026-11-25T16:20-05:00",
+     82.52
     ]
    ],
-   "total": 212,
+   "total": 213,
    "persisted": true
   },
   "1d": {
@@ -5987,6 +6003,12 @@
    "code": "DRAWDOWN",
    "message": "较上市后高点回撤 28.1%",
    "action": "SpaceX 对照：33 天内回撤 42% 并跌破发行价。"
+  },
+  {
+   "level": "high",
+   "code": "SEC_8-K",
+   "message": "SEC 收到 8-K — 重大事件公告",
+   "action": "一手文件，优先于任何二手解读。"
   }
  ],
  "read": {
@@ -6022,7 +6044,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.3772,
+ "tone_net": -0.3771,
  "signals": {
   "short": {
    "name": "短线",
