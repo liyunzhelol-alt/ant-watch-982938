@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T10:08:02-05:00",
+ "generated": "2026-11-25T16:07:04-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -10,17 +10,17 @@
    "group": "credit",
    "key": true,
    "dir": "up_is_stress",
-   "value": 3.63,
-   "date": "2026-11-23",
-   "n": 784,
-   "pctile_full": 94.6,
+   "value": 3.72,
+   "date": "2026-11-24",
+   "n": 785,
+   "pctile_full": 95.7,
    "pctile_1y": 99.6,
-   "z_1y": 3.15,
+   "z_1y": 3.45,
    "min_1y": 2.6,
    "max_1y": 3.76,
-   "chg_1": -0.13,
+   "chg_1": 0.09,
    "chg_5": 0.29,
-   "chg_20": 0.33,
+   "chg_20": 0.54,
    "hist_min": 2.59,
    "hist_max": 4.61,
    "spark": [
@@ -809,8 +809,8 @@
      3.47
     ],
     [
-     "2026-11-23",
-     3.63
+     "2026-11-24",
+     3.72
     ]
    ]
   },
@@ -821,19 +821,19 @@
    "group": "credit",
    "key": false,
    "dir": "up_is_stress",
-   "value": 13.87,
-   "date": "2026-11-23",
-   "n": 784,
-   "pctile_full": 99.9,
-   "pctile_1y": 99.6,
-   "z_1y": 2.75,
+   "value": 14.05,
+   "date": "2026-11-24",
+   "n": 785,
+   "pctile_full": 100.0,
+   "pctile_1y": 100.0,
+   "z_1y": 2.83,
    "min_1y": 8.38,
-   "max_1y": 14.02,
-   "chg_1": -0.15,
-   "chg_5": 0.77,
-   "chg_20": 0.42,
+   "max_1y": 14.05,
+   "chg_1": 0.18,
+   "chg_5": 0.76,
+   "chg_20": 0.84,
    "hist_min": 6.9,
-   "hist_max": 14.02,
+   "hist_max": 14.05,
    "spark": [
     [
      "2023-11-27",
@@ -1620,8 +1620,8 @@
      13.53
     ],
     [
-     "2026-11-23",
-     13.87
+     "2026-11-24",
+     14.05
     ]
    ]
   },
@@ -1632,17 +1632,17 @@
    "group": "credit",
    "key": true,
    "dir": "up_is_stress",
-   "value": 0.97,
-   "date": "2026-11-23",
-   "n": 783,
-   "pctile_full": 85.1,
-   "pctile_1y": 99.6,
-   "z_1y": 3.04,
+   "value": 0.98,
+   "date": "2026-11-24",
+   "n": 784,
+   "pctile_full": 86.7,
+   "pctile_1y": 100.0,
+   "z_1y": 3.16,
    "min_1y": 0.73,
    "max_1y": 0.98,
-   "chg_1": -0.01,
-   "chg_5": 0.07,
-   "chg_20": 0.07,
+   "chg_1": 0.01,
+   "chg_5": 0.06,
+   "chg_20": 0.1,
    "hist_min": 0.73,
    "hist_max": 1.21,
    "spark": [
@@ -2431,8 +2431,8 @@
      0.94
     ],
     [
-     "2026-11-23",
-     0.97
+     "2026-11-24",
+     0.98
     ]
    ]
   },
@@ -2443,17 +2443,17 @@
    "group": "credit",
    "key": false,
    "dir": "up_is_stress",
-   "value": 1.2,
-   "date": "2026-11-23",
-   "n": 784,
-   "pctile_full": 84.4,
-   "pctile_1y": 99.6,
-   "z_1y": 2.93,
+   "value": 1.22,
+   "date": "2026-11-24",
+   "n": 785,
+   "pctile_full": 86.8,
+   "pctile_1y": 100.0,
+   "z_1y": 3.17,
    "min_1y": 0.92,
    "max_1y": 1.22,
-   "chg_1": -0.02,
-   "chg_5": 0.08,
-   "chg_20": 0.08,
+   "chg_1": 0.02,
+   "chg_5": 0.07,
+   "chg_20": 0.13,
    "hist_min": 0.92,
    "hist_max": 1.49,
    "spark": null
@@ -3803,19 +3803,19 @@
    "group": "stress",
    "key": true,
    "dir": "up_is_stress",
-   "value": -0.8655,
-   "date": "2026-11-13",
-   "n": 1716,
-   "pctile_full": 4.8,
-   "pctile_1y": 5.9,
-   "z_1y": -1.31,
-   "min_1y": -0.9464,
-   "max_1y": -0.1768,
-   "chg_1": -0.3754,
-   "chg_5": -0.1459,
-   "chg_20": -0.2261,
-   "hist_min": -1.1257,
-   "hist_max": 9.6767,
+   "value": -0.0697,
+   "date": "2026-11-20",
+   "n": 1717,
+   "pctile_full": 61.2,
+   "pctile_1y": 100.0,
+   "z_1y": 2.8,
+   "min_1y": -0.9465,
+   "max_1y": -0.0697,
+   "chg_1": 0.7961,
+   "chg_5": 0.5626,
+   "chg_20": 0.6507,
+   "hist_min": -1.126,
+   "hist_max": 9.6783,
    "spark": null
   },
   "DGS30": {
@@ -7035,17 +7035,17 @@
    "group": "funding",
    "key": false,
    "dir": "down_is_stress",
-   "value": 0.301,
-   "date": "2026-11-24",
-   "n": 3374,
+   "value": 0.3,
+   "date": "2026-11-25",
+   "n": 3375,
    "pctile_full": 8.4,
-   "pctile_1y": 16.9,
-   "z_1y": -0.34,
+   "pctile_1y": 16.8,
+   "z_1y": -0.33,
    "min_1y": 0.03,
    "max_1y": 105.993,
-   "chg_1": -0.049,
-   "chg_5": -0.05,
-   "chg_20": 0.101,
+   "chg_1": -0.001,
+   "chg_5": -0.031,
+   "chg_20": 0.074,
    "hist_min": 0.0,
    "hist_max": 2553.716,
    "spark": null
@@ -7076,13 +7076,13 @@
  "quotes": {
   "^VIX": {
    "symbol": "^VIX",
-   "price": 33.9,
-   "pct_1d": 28.6,
-   "pct_5d": 38.03,
-   "pct_20d": 100.47,
+   "price": 27.94,
+   "pct_1d": 5.99,
+   "pct_5d": 13.76,
+   "pct_20d": 65.23,
    "high_6mo": 35.88999938964844,
-   "drawdown_6mo": 5.54,
-   "ma20": 23.4,
+   "drawdown_6mo": 22.15,
+   "ma20": 23.1,
    "above_ma20": true,
    "high_52w": 40.03,
    "low_52w": 13.38,
@@ -7093,13 +7093,13 @@
   },
   "^MOVE": {
    "symbol": "^MOVE",
-   "price": 99.7007,
-   "pct_1d": 0.87,
-   "pct_5d": 1.58,
-   "pct_20d": 1.87,
+   "price": 97.5367,
+   "pct_1d": -1.32,
+   "pct_5d": -0.62,
+   "pct_20d": -0.34,
    "high_6mo": 113.5999984741211,
-   "drawdown_6mo": 12.24,
-   "ma20": 97.6,
+   "drawdown_6mo": 14.14,
+   "ma20": 97.49,
    "above_ma20": true,
    "high_52w": 115.02,
    "low_52w": 55.77,
@@ -7110,13 +7110,13 @@
   },
   "^GSPC": {
    "symbol": "^GSPC",
-   "price": 7056.78,
-   "pct_1d": -2.0,
-   "pct_5d": -3.64,
-   "pct_20d": -8.87,
+   "price": 7182.78,
+   "pct_1d": -0.25,
+   "pct_5d": -1.92,
+   "pct_20d": -7.25,
    "high_6mo": 7818.93017578125,
-   "drawdown_6mo": 9.75,
-   "ma20": 7416.82,
+   "drawdown_6mo": 8.14,
+   "ma20": 7423.12,
    "above_ma20": false,
    "high_52w": 7844.52,
    "low_52w": 6316.91,
@@ -7379,7 +7379,7 @@
     ],
     [
      "2026-11-25",
-     93.85
+     95.53
     ]
    ],
    "label": "标普 500",
@@ -7388,13 +7388,13 @@
   },
   "^NDX": {
    "symbol": "^NDX",
-   "price": 25380.945,
-   "pct_1d": -3.18,
-   "pct_5d": -6.4,
-   "pct_20d": -14.87,
+   "price": 26046.896,
+   "pct_1d": -0.64,
+   "pct_5d": -3.94,
+   "pct_20d": -12.63,
    "high_6mo": 31224.470703125,
-   "drawdown_6mo": 18.71,
-   "ma20": 27373.62,
+   "drawdown_6mo": 16.58,
+   "ma20": 27406.92,
    "above_ma20": false,
    "high_52w": 31361.37,
    "low_52w": 22841.42,
@@ -7405,13 +7405,13 @@
   },
   "^RUT": {
    "symbol": "^RUT",
-   "price": 2627.441,
-   "pct_1d": -2.14,
-   "pct_5d": -3.2,
-   "pct_20d": -7.17,
+   "price": 2705.104,
+   "pct_1d": 0.75,
+   "pct_5d": -0.34,
+   "pct_20d": -4.43,
    "high_6mo": 3068.419921875,
-   "drawdown_6mo": 14.37,
-   "ma20": 2755.32,
+   "drawdown_6mo": 11.84,
+   "ma20": 2759.2,
    "above_ma20": false,
    "high_52w": 3069.71,
    "low_52w": 2404.99,
@@ -7422,16 +7422,16 @@
   },
   "GLD": {
    "symbol": "GLD",
-   "price": 317.94,
-   "pct_1d": -2.31,
-   "pct_5d": -6.81,
-   "pct_20d": -14.88,
+   "price": 327.51,
+   "pct_1d": 0.63,
+   "pct_5d": -4.01,
+   "pct_20d": -12.32,
    "high_6mo": 428.07000732421875,
-   "drawdown_6mo": 25.73,
-   "ma20": 353.56,
+   "drawdown_6mo": 23.49,
+   "ma20": 354.04,
    "above_ma20": false,
    "high_52w": 509.7,
-   "low_52w": 316.494,
+   "low_52w": 313.96,
    "spark": [
     [
      "2026-05-26",
@@ -7691,7 +7691,7 @@
     ],
     [
      "2026-11-25",
-     76.8
+     79.11
     ]
    ],
    "label": "黄金 GLD",
@@ -7700,13 +7700,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 57992.58,
-   "pct_1d": -2.94,
-   "pct_5d": -1.37,
-   "pct_20d": -23.64,
+   "price": 60303.51,
+   "pct_1d": 0.93,
+   "pct_5d": 2.56,
+   "pct_20d": -20.59,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 33.04,
-   "ma20": 66582.87,
+   "drawdown_6mo": 30.37,
+   "ma20": 66698.42,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55149.566,
@@ -8081,7 +8081,7 @@
     ],
     [
      "2026-11-25",
-     75.04
+     78.03
     ]
    ],
    "label": "比特币",
@@ -8090,13 +8090,13 @@
   },
   "HG=F": {
    "symbol": "HG=F",
-   "price": 5.335,
-   "pct_1d": -0.51,
-   "pct_5d": -5.73,
-   "pct_20d": -19.67,
+   "price": 5.489,
+   "pct_1d": 2.36,
+   "pct_5d": -3.01,
+   "pct_20d": -17.35,
    "high_6mo": 6.803500175476074,
-   "drawdown_6mo": 21.58,
-   "ma20": 6.05,
+   "drawdown_6mo": 19.32,
+   "ma20": 6.06,
    "above_ma20": false,
    "high_52w": 6.83,
    "low_52w": 5.016,
@@ -8107,13 +8107,13 @@
   },
   "CL=F": {
    "symbol": "CL=F",
-   "price": 83.2,
-   "pct_1d": 1.4,
-   "pct_5d": -0.07,
-   "pct_20d": -19.05,
+   "price": 84.06,
+   "pct_1d": 2.45,
+   "pct_5d": 0.96,
+   "pct_20d": -18.21,
    "high_6mo": 105.83000183105469,
-   "drawdown_6mo": 21.38,
-   "ma20": 88.62,
+   "drawdown_6mo": 20.57,
+   "ma20": 88.67,
    "above_ma20": false,
    "high_52w": 119.48,
    "low_52w": 54.98,
@@ -8124,16 +8124,16 @@
   },
   "HYG": {
    "symbol": "HYG",
-   "price": 76.235,
-   "pct_1d": -0.26,
-   "pct_5d": -0.54,
-   "pct_20d": -1.75,
+   "price": 76.525,
+   "pct_1d": 0.12,
+   "pct_5d": -0.16,
+   "pct_20d": -1.37,
    "high_6mo": 80.30999755859375,
-   "drawdown_6mo": 5.07,
-   "ma20": 76.95,
+   "drawdown_6mo": 4.71,
+   "ma20": 76.96,
    "above_ma20": false,
    "high_52w": 81.24,
-   "low_52w": 76.16,
+   "low_52w": 76.14,
    "spark": null,
    "label": "高收益债 ETF HYG",
    "group": "credit",
@@ -8141,12 +8141,12 @@
   },
   "LQD": {
    "symbol": "LQD",
-   "price": 104.255,
-   "pct_1d": 0.45,
-   "pct_5d": 1.07,
-   "pct_20d": 0.18,
+   "price": 104.305,
+   "pct_1d": 0.5,
+   "pct_5d": 1.12,
+   "pct_20d": 0.23,
    "high_6mo": 109.69999694824219,
-   "drawdown_6mo": 4.96,
+   "drawdown_6mo": 4.92,
    "ma20": 103.77,
    "above_ma20": true,
    "high_52w": 112.06,
@@ -8158,13 +8158,13 @@
   },
   "TLT": {
    "symbol": "TLT",
-   "price": 82.41,
-   "pct_1d": 1.13,
-   "pct_5d": 2.73,
-   "pct_20d": 1.75,
+   "price": 82.24,
+   "pct_1d": 0.92,
+   "pct_5d": 2.52,
+   "pct_20d": 1.54,
    "high_6mo": 87.44999694824219,
-   "drawdown_6mo": 5.76,
-   "ma20": 81.06,
+   "drawdown_6mo": 5.96,
+   "ma20": 81.05,
    "above_ma20": true,
    "high_52w": 90.86,
    "low_52w": 76.43,
@@ -8427,7 +8427,7 @@
     ],
     [
      "2026-11-25",
-     96.84
+     96.64
     ]
    ],
    "label": "20+ 年美债 TLT",
@@ -8436,13 +8436,13 @@
   },
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
-   "price": 103.973,
-   "pct_1d": 0.16,
-   "pct_5d": 0.11,
-   "pct_20d": 1.74,
+   "price": 103.688,
+   "pct_1d": -0.12,
+   "pct_5d": -0.17,
+   "pct_20d": 1.47,
    "high_6mo": 104.31999969482422,
-   "drawdown_6mo": 0.33,
-   "ma20": 102.85,
+   "drawdown_6mo": 0.61,
+   "ma20": 102.83,
    "above_ma20": true,
    "high_52w": 104.53,
    "low_52w": 95.55,
@@ -8453,12 +8453,12 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.4225,
-   "pct_1d": -0.98,
-   "pct_5d": -0.52,
-   "pct_20d": 1.24,
+   "price": 1.4214,
+   "pct_1d": -1.05,
+   "pct_5d": -0.6,
+   "pct_20d": 1.17,
    "high_6mo": 1.4365299940109253,
-   "drawdown_6mo": 0.98,
+   "drawdown_6mo": 1.05,
    "ma20": 1.42,
    "above_ma20": true,
    "high_52w": 1.4374,
@@ -8470,12 +8470,12 @@
   },
   "XLU": {
    "symbol": "XLU",
-   "price": 43.515,
-   "pct_1d": 0.26,
-   "pct_5d": -0.08,
-   "pct_20d": 2.41,
+   "price": 43.61,
+   "pct_1d": 0.48,
+   "pct_5d": 0.14,
+   "pct_20d": 2.64,
    "high_6mo": 46.290000915527344,
-   "drawdown_6mo": 5.99,
+   "drawdown_6mo": 5.79,
    "ma20": 43.5,
    "above_ma20": true,
    "high_52w": 47.8,
@@ -8487,13 +8487,13 @@
   },
   "XLY": {
    "symbol": "XLY",
-   "price": 115.045,
-   "pct_1d": -2.27,
-   "pct_5d": -3.49,
-   "pct_20d": -0.25,
+   "price": 117.49,
+   "pct_1d": -0.2,
+   "pct_5d": -1.43,
+   "pct_20d": 1.87,
    "high_6mo": 122.33000183105469,
-   "drawdown_6mo": 5.96,
-   "ma20": 118.03,
+   "drawdown_6mo": 3.96,
+   "ma20": 118.15,
    "above_ma20": false,
    "high_52w": 125.01,
    "low_52w": 105.19,
@@ -8505,86 +8505,86 @@
  },
  "news": [
   {
-   "title": "The Frantic White House Push to Get Jensen Huang Back - WSJ",
-   "published": "Wed, 25 Nov 2026 15:03:38 GMT",
-   "tier": 2,
-   "source": "wsj.com"
-  },
-  {
-   "title": "US inflation rises further in October - Reuters",
-   "published": "Wed, 25 Nov 2026 13:53:02 GMT",
+   "title": "US economy roars ahead in third quarter, inflation remains high in October - Reuters",
+   "published": "Wed, 25 Nov 2026 18:50:40 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
   {
-   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, likely sealing rate hike - CNBC",
+   "title": "Nvidia sellers seek new buyers as U.S. curbs China AI chip access, sources tell CNBC - CNBC",
+   "published": "Wed, 25 Nov 2026 17:28:24 GMT",
+   "tier": 2,
+   "source": "cnbc.com"
+  },
+  {
+   "title": "Nvidia agrees to settle 2018 US investor class action for $290 million - Reuters",
+   "published": "Wed, 25 Nov 2026 17:36:16 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "Fed’s preferred inflation gauge accelerated to 3.8% in October, raising the 2027 stakes for the central bank - CNBC",
    "published": "Wed, 25 Nov 2026 13:31:45 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
   {
-   "title": "Fed policymakers at odds over causes of high inflation - Reuters",
-   "published": "Wed, 25 Nov 2026 11:02:09 GMT",
+   "title": "S&P Global places Nvidia rating on 'CreditWatch Negative' on rising management and governance risks - Reuters",
+   "published": "Wed, 25 Nov 2026 19:12:45 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
   {
-   "title": "Treasury and European Government Bond Yields Fall Ahead of PCE Inflation Data - WSJ",
-   "published": "Wed, 25 Nov 2026 09:43:00 GMT",
+   "title": "Jensen Huang's return to Nvidia fuels Washington fight over China's chip access - Reuters",
+   "published": "Wed, 25 Nov 2026 18:32:52 GMT",
    "tier": 2,
-   "source": "wsj.com"
+   "source": "reuters.com"
   },
   {
-   "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO - CNBC",
-   "published": "Mon, 23 Nov 2026 15:08:28 GMT",
+   "title": "US to cap India tariff at 17% if trade deal is reached, USTR says - Reuters",
+   "published": "Wed, 25 Nov 2026 18:26:10 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "How the Trump administration determined Jensen Huang is not a national security threat - Reuters",
+   "published": "Wed, 25 Nov 2026 19:56:16 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "Trump unveils new tariffs over excess industrial capacity, undeterred by midterms defeat - Reuters",
+   "published": "Wed, 25 Nov 2026 18:55:31 GMT",
+   "tier": 2,
+   "source": "reuters.com"
+  },
+  {
+   "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze - CNBC",
+   "published": "Wed, 25 Nov 2026 06:29:46 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
   {
-   "title": "Iran says it is prepared to withstand US blockade, seeks to curb price rises - Reuters",
-   "published": "Wed, 25 Nov 2026 08:29:22 GMT",
+   "title": "Fed survey shows continued growth and sticky inflation in recent weeks - Reuters",
+   "published": "Wed, 25 Nov 2026 19:19:43 GMT",
    "tier": 2,
    "source": "reuters.com"
   },
   {
-   "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals - CNBC",
-   "published": "Wed, 25 Nov 2026 12:26:41 GMT",
-   "tier": 2,
-   "source": "cnbc.com"
-  },
-  {
-   "title": "Global risk-off mood lifts dollar ahead of inflation data - Reuters",
-   "published": "Wed, 25 Nov 2026 01:19:00 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips - CNBC",
-   "published": "Wed, 25 Nov 2026 00:57:00 GMT",
-   "tier": 2,
-   "source": "cnbc.com"
-  },
-  {
-   "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington - Reuters",
-   "published": "Tue, 24 Nov 2026 22:29:00 GMT",
-   "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan - CNBC",
-   "published": "Tue, 24 Nov 2026 19:24:36 GMT",
+   "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount? - CNBC",
+   "published": "Wed, 25 Nov 2026 18:02:45 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
   {
    "title": "Nvidia Stock Keeps Falling. It’s Obvious Jensen Was Not the Only Problem. - Barron's",
-   "published": "Wed, 25 Nov 2026 10:53:00 GMT",
+   "published": "Wed, 25 Nov 2026 17:50:00 GMT",
    "tier": 3,
    "source": "barrons.com"
   },
   {
-   "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia - Yahoo Finance",
-   "published": "Wed, 25 Nov 2026 09:42:35 GMT",
+   "title": "Nvidia stock stumbles again after Jensen Huang's spectacular comeback rally - Yahoo Finance",
+   "published": "Wed, 25 Nov 2026 13:52:46 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
@@ -8595,20 +8595,20 @@
    "source": "finance.yahoo.com"
   },
   {
-   "title": "Nvidia stock stumbles again after Jensen Huang's spectacular comeback rally - Yahoo Finance",
-   "published": "Wed, 25 Nov 2026 09:47:41 GMT",
+   "title": "Michael Burry Loads Up on 3 Chinese Stocks; Sticks to Nvidia Bearish Bet - Yahoo Finance",
+   "published": "Wed, 25 Nov 2026 19:13:45 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
-   "title": "Nvidia Stock Looks Like a Screaming Buy Below $160. Here's Why. - Yahoo Finance",
-   "published": "Wed, 25 Nov 2026 12:50:02 GMT",
+   "title": "Why Trump wanted Jensen Huang back at the helm of Nvidia - Yahoo Finance",
+   "published": "Wed, 25 Nov 2026 09:42:35 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   },
   {
-   "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates. - MarketWatch",
-   "published": "Wed, 25 Nov 2026 13:34:00 GMT",
+   "title": "Inflation gets worse. Now the Fed has no choice but to raise U.S. interest rates. - MarketWatch",
+   "published": "Wed, 25 Nov 2026 17:31:00 GMT",
    "tier": 3,
    "source": "marketwatch.com"
   }
@@ -8770,13 +8770,13 @@
  ],
  "derived": {
   "ccc_minus_hy": {
-   "value": 10.24,
+   "value": 10.33,
    "label": "CCC 减 HY 离散度",
    "unit": "%",
    "note": "只有最差借款人在疼时这个数会先走阔。广泛传染时反而收窄。"
   },
   "hy_minus_ig": {
-   "value": 2.66,
+   "value": 2.74,
    "label": "HY 减 IG",
    "unit": "%",
    "note": "信用风险是否从垃圾级向投资级扩散。"
@@ -8794,13 +8794,13 @@
    "note": "名义减通胀预期。>2% 属限制性，压增长。"
   },
   "spx_drawdown": {
-   "value": 9.75,
+   "value": 8.14,
    "label": "标普距半年高点回撤",
    "unit": "%",
    "note": "回撤本身不是信用事件，别混为一谈。"
   },
   "defensive_rotation": {
-   "value": 2.66,
+   "value": 0.77,
    "label": "防御轮动 (XLU−XLY, 20日)",
    "unit": "pp",
    "note": "正值 = 资金在往防御资产躲。"
@@ -8813,7 +8813,7 @@
   "action": "这是估值/仓位事件，不是信用事件。可以建长久期第一档。不要抄股票底，不要碰 CCC/高收益债。",
   "test": "HY OAS 3.5-5.0，CCC 利差走阔，claims4w < 250k，NFCI 仍 < 0",
   "why": [
-   "HY 3.63% 已离开平静区，但 claims 196,000、NFCI -0.444 仍未配合"
+   "HY 3.72% 已离开平静区，但 claims 196,000、NFCI -0.444 仍未配合"
   ],
   "next": {
    "stage": 2,
@@ -8850,9 +8850,9 @@
   "changed_from": null
  },
  "index": {
-  "value": 3.3,
-  "mean": 2.34,
-  "max_hard": 4.78,
+  "value": 2.9,
+  "mean": 2.45,
+  "max_hard": 3.49,
   "band": {
    "from": 2.0,
    "to": 4.0,
@@ -8884,19 +8884,39 @@
     "id": "market",
     "label": "市场应激",
     "weight": 0.15,
-    "score": 4.78,
+    "score": 3.49,
     "manual": false,
     "note": "反应最快、噪音也最大。单独高位只说明在去杠杆，不说明有危机。",
     "inputs": [
      {
       "label": "VIX",
-      "value": 33.9,
-      "score": 4.779999999999999
+      "value": 27.94,
+      "score": 3.4850000000000003
      },
      {
       "label": "标普回撤",
-      "value": 9.75,
-      "score": 1.9
+      "value": 8.14,
+      "score": 1.2560000000000002
+     }
+    ]
+   },
+   {
+    "id": "conditions",
+    "label": "金融条件",
+    "weight": 0.15,
+    "score": 2.77,
+    "manual": false,
+    "note": "联储自己用的综合口径。转正之前，任何「流动性枯竭」的说法都没有证据。",
+    "inputs": [
+     {
+      "label": "NFCI",
+      "value": -0.444,
+      "score": 1.0399999999999998
+     },
+     {
+      "label": "STLFSI4",
+      "value": -0.0697,
+      "score": 2.767666666666667
      }
     ]
    },
@@ -8904,19 +8924,19 @@
     "id": "credit",
     "label": "信用",
     "weight": 0.3,
-    "score": 2.17,
+    "score": 2.29,
     "manual": false,
     "note": "危机的主干道。取 HY 与 IG 两个评分的较大值——风险爬进投资级比垃圾级走阔更严重。",
     "inputs": [
      {
       "label": "HY OAS",
-      "value": 3.63,
-      "score": 2.1733333333333333
+      "value": 3.72,
+      "score": 2.2933333333333334
      },
      {
       "label": "IG OAS",
-      "value": 0.97,
-      "score": 1.6999999999999997
+      "value": 0.98,
+      "score": 1.7999999999999998
      }
     ]
    },
@@ -8936,26 +8956,6 @@
     ]
    },
    {
-    "id": "conditions",
-    "label": "金融条件",
-    "weight": 0.15,
-    "score": 1.04,
-    "manual": false,
-    "note": "联储自己用的综合口径。转正之前，任何「流动性枯竭」的说法都没有证据。",
-    "inputs": [
-     {
-      "label": "NFCI",
-      "value": -0.444,
-      "score": 1.0399999999999998
-     },
-     {
-      "label": "STLFSI4",
-      "value": -0.8655,
-      "score": 0.3842857142857142
-     }
-    ]
-   },
-   {
     "id": "labor",
     "label": "就业",
     "weight": 0.2,
@@ -8971,8 +8971,8 @@
     ]
    }
   ],
-  "driver": "市场应激",
-  "formula": "0.6×加权平均(2.34) + 0.4×硬数据最大分项(4.78)",
+  "driver": "信用",
+  "formula": "0.6×加权平均(2.45) + 0.4×硬数据最大分项(3.49)",
   "bands": [
    {
     "from": 0.0,
@@ -9138,7 +9138,7 @@
    "test": "VIX <= 25 连续 3 个交易日",
    "note": "黄金这轮跌是追保强制抛售，不是逻辑破了。但强制抛售会持续到最后一个杠杆账户被清完 - 等去杠杆停了再进，不猜底。",
    "armed": false,
-   "vix": 33.9
+   "vix": 27.94
   }
  },
  "alerts": [],
@@ -9194,14 +9194,14 @@
   {
    "date": "2026-11-25",
    "stage": 1,
-   "index": 3.3,
-   "hy": 3.63,
-   "ig": 0.97,
+   "index": 2.9,
+   "hy": 3.72,
+   "ig": 0.98,
    "claims4w": 196000.0,
    "nfci": -0.444,
    "dgs30": 5.29,
-   "vix": 33.9,
-   "spx_dd": 9.75
+   "vix": 27.94,
+   "spx_dd": 8.14
   }
  ],
  "scenario": {
@@ -9547,7 +9547,7 @@
     ],
     "days_away": 64,
     "status": "future",
-    "probe_value": 10.24,
+    "probe_value": 10.33,
     "probe_date": "2026-11-25"
    },
    {
@@ -9607,8 +9607,8 @@
     "branches": [],
     "days_away": 156,
     "status": "future",
-    "probe_value": 3.63,
-    "probe_date": "2026-11-23"
+    "probe_value": 3.72,
+    "probe_date": "2026-11-24"
    },
    {
     "id": "labor-break",
@@ -9697,11 +9697,11 @@
    ],
    [
     "2026-11-25",
-    3.3
+    2.9
    ]
   ],
   "baseline_now": 3.4,
-  "drift": -0.1,
+  "drift": -0.5,
   "generated_for": "2026-11-25"
  },
  "forecast": {
@@ -9718,6 +9718,17 @@
    "overdue": 0
   },
   "anchors": [
+   {
+    "on": "2026-11-25",
+    "domain": "贸易",
+    "what": "特朗普政府以产能过剩补贴工厂为由宣布新一轮关税：对华加征20%，并上调对欧盟日本韩国台湾等十余个主要贸易伙伴的进口税率，中期选举失利后仍强推",
+    "changed": "提升F02（众院民主党提收回关税权法案）的概率；叠加AI估值担忧，当日美股普跌",
+    "feeds": [
+     "F01",
+     "F02"
+    ],
+    "added": "2026-11-25"
+   },
    {
     "on": "2026-11-25",
     "domain": "贸易",
@@ -9853,16 +9864,6 @@
     "changed": "休战到 2027-01-10。",
     "feeds": [
      "F07"
-    ]
-   },
-   {
-    "on": "2026-11-03",
-    "domain": "社会",
-    "what": "10 个州 41 项数据中心地方公投，40 项通过限制或禁令；出口民调 76% 反对本地建数据中心；Amazon 俄亥俄 $170 亿项目存疑，Amazon 工程师公开支持西雅图暂停令",
-    "changed": "AI capex 的约束第一次从资本市场转到选票。这是本轮最被低估的社会现象。",
-    "feeds": [
-     "F04",
-     "F12"
     ]
    }
   ],
