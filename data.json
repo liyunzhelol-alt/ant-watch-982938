@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-25T11:10:06-05:00",
+ "generated": "2026-11-25T11:20:06-05:00",
  "errors": [],
  "quote": {
-  "price": 78.725,
+  "price": 79.62,
   "prev_close": 111.5,
-  "pct_vs_prev": -29.39,
-  "pct_vs_ipo": -5.15,
-  "pct_vs_day1_open": -29.39,
+  "pct_vs_prev": -28.59,
+  "pct_vs_ipo": -4.07,
+  "pct_vs_day1_open": -28.59,
   "day_high": 80.94,
   "day_low": 73.85,
   "high_52w": 115.1,
   "low_52w": 73.85,
-  "volume": 89050681,
-  "market_time": 1795623006,
+  "volume": 93325248,
+  "market_time": 1795623605,
   "currency": "USD",
-  "regular_close": 78.725,
+  "regular_close": 79.62,
   "extended": false,
   "day_open": null
  },
@@ -26,12 +26,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.756,
+    "recency": 0.754,
     "corroboration": 1.0,
     "track": 1.225,
     "track_note": "7/8",
     "corroborated_by": 0,
-    "effective": 0.9261
+    "effective": 0.9239
    },
    "tone": {
     "dir": -1,
@@ -49,12 +49,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.76,
+    "recency": 0.758,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.76
+    "effective": 0.7582
    },
    "tone": {
     "dir": -1,
@@ -72,12 +72,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.789,
+    "recency": 0.787,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4731
+    "effective": 0.472
    },
    "tone": {
     "dir": 0,
@@ -92,12 +92,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.74,
+    "recency": 0.738,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4438
+    "effective": 0.4427
    },
    "tone": {
     "dir": -1,
@@ -115,12 +115,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.729,
+    "recency": 0.727,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4374
+    "effective": 0.4363
    },
    "tone": {
     "dir": -1,
@@ -138,12 +138,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.691,
+    "recency": 0.689,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4145
+    "effective": 0.4135
    },
    "tone": {
     "dir": -1,
@@ -160,12 +160,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.846,
+    "recency": 0.844,
     "corroboration": 1.15,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 1,
-    "effective": 0.3599
+    "effective": 0.3591
    },
    "tone": {
     "dir": 0,
@@ -180,12 +180,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.967,
+    "recency": 0.965,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 0,
-    "effective": 0.3579
+    "effective": 0.3571
    },
    "tone": {
     "dir": -1,
@@ -203,12 +203,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.964,
+    "recency": 0.962,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 0,
-    "effective": 0.3568
+    "effective": 0.3559
    },
    "tone": {
     "dir": 0,
@@ -227,12 +227,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.807,
+    "recency": 0.805,
     "corroboration": 1.15,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 1,
-    "effective": 0.3434
+    "effective": 0.3426
    },
    "tone": {
     "dir": -1,
@@ -249,12 +249,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.91,
+    "recency": 0.908,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 0,
-    "effective": 0.3366
+    "effective": 0.3358
    },
    "tone": {
     "dir": 1,
@@ -271,12 +271,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.768,
+    "recency": 0.766,
     "corroboration": 1.15,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 1,
-    "effective": 0.3269
+    "effective": 0.3261
    },
    "tone": {
     "dir": 1,
@@ -293,12 +293,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.765,
+    "recency": 0.763,
     "corroboration": 1.15,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 1,
-    "effective": 0.3255
+    "effective": 0.3247
    },
    "tone": {
     "dir": 0,
@@ -313,12 +313,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.917,
+    "recency": 0.915,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.3164
+    "effective": 0.3157
    },
    "tone": {
     "dir": 0,
@@ -333,12 +333,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.733,
+    "recency": 0.731,
     "corroboration": 1.15,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 1,
-    "effective": 0.3117
+    "effective": 0.311
    },
    "tone": {
     "dir": -1,
@@ -355,12 +355,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.711,
+    "recency": 0.71,
     "corroboration": 1.15,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 1,
-    "effective": 0.3027
+    "effective": 0.3019
    },
    "tone": {
     "dir": -1,
@@ -380,12 +380,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.916,
+    "recency": 0.914,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2748
+    "effective": 0.2741
    },
    "tone": {
     "dir": -1,
@@ -402,12 +402,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.695,
+    "recency": 0.693,
     "corroboration": 1.0,
     "track": 1.225,
     "track_note": "7/8",
     "corroborated_by": 0,
-    "effective": 0.2553
+    "effective": 0.2547
    },
    "tone": {
     "dir": -1,
@@ -427,12 +427,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.761,
+    "recency": 0.76,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2284
+    "effective": 0.2279
    },
    "tone": {
     "dir": -1,
@@ -450,12 +450,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.73,
+    "recency": 0.729,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=1 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2191
+    "effective": 0.2186
    },
    "tone": {
     "dir": 0,
@@ -474,12 +474,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.703,
+    "recency": 0.701,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2108
+    "effective": 0.2103
    },
    "tone": {
     "dir": -1,
@@ -499,12 +499,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.528,
+    "recency": 0.527,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "16/18",
     "corroborated_by": 0,
-    "effective": 0.1955
+    "effective": 0.195
    },
    "tone": {
     "dir": 0,
@@ -523,7 +523,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.959,
+    "recency": 0.956,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -545,7 +545,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.897,
+    "recency": 0.895,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -565,7 +565,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.803,
+    "recency": 0.801,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -587,7 +587,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.761,
+    "recency": 0.759,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -607,7 +607,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.729,
+    "recency": 0.727,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -629,7 +629,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.723,
+    "recency": 0.722,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -651,7 +651,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.928,
+    "recency": 0.926,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -671,7 +671,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.842,
+    "recency": 0.84,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -690,22 +690,22 @@
    "symbol": "^NDX",
    "label": "纳斯达克 100",
    "kind": "sector",
-   "price": 25026.85,
-   "pct": -7.71
+   "price": 25036.004,
+   "pct": -7.67
   },
   {
    "symbol": "NVDA",
    "label": "英伟达（AI 同业）",
    "kind": "peer",
-   "price": 141.912,
-   "pct": -5.99
+   "price": 141.47,
+   "pct": -6.29
   },
   {
    "symbol": "^TNX",
    "label": "美债 10 年期收益率",
    "kind": "rates",
-   "price": 4.807,
-   "pct": -4.85
+   "price": 4.805,
+   "pct": -4.89
   }
  ],
  "policy": [
@@ -4429,10 +4429,22 @@
     ],
     [
      "2026-11-25T11:10-05:00",
+     79.26
+    ],
+    [
+     "2026-11-25T11:10-05:00",
      78.715
+    ],
+    [
+     "2026-11-25T11:15-05:00",
+     79.715
+    ],
+    [
+     "2026-11-25T11:20-05:00",
+     79.665
     ]
    ],
-   "total": 858,
+   "total": 861,
    "persisted": true
   },
   "1h": {
@@ -5123,7 +5135,7 @@
     ],
     [
      "2026-11-25T10:30-05:00",
-     78.95
+     79.715
     ],
     [
      "2026-11-25T10:30-05:00",
@@ -5144,9 +5156,13 @@
     [
      "2026-11-25T11:10-05:00",
      78.715
+    ],
+    [
+     "2026-11-25T11:20-05:00",
+     79.665
     ]
    ],
-   "total": 177,
+   "total": 178,
    "persisted": true
   },
   "1d": {
@@ -5169,7 +5185,7 @@
     ],
     [
      "2026-11-25T09:30-05:00",
-     78.715
+     79.665
     ]
    ],
    "total": 5,
@@ -5186,8 +5202,8 @@
      81.91
     ],
     [
-     "2026-11-25T11:10-05:00",
-     78.65
+     "2026-11-25T11:20-05:00",
+     79.665
     ]
    ],
    "total": 3,
@@ -5196,8 +5212,8 @@
   "1mo": {
    "points": [
     [
-     "2026-11-25T11:10-05:00",
-     78.711
+     "2026-11-25T11:20-05:00",
+     79.665
     ]
    ],
    "total": 1,
@@ -5486,19 +5502,19 @@
   {
    "level": "info",
    "code": "BIG_DOWN_MECHANICAL",
-   "message": "大跌 -29.39% 至 $78.725",
+   "message": "大跌 -28.59% 至 $79.62",
    "action": "一二级信源无基本面消息 → 判定为机械性抛压（解禁/流动性）。这是你分批计划里可以提前执行下一批的条件。"
   },
   {
    "level": "info",
    "code": "BELOW_IPO",
-   "message": "跌破发行价 $83.0（现 $78.725）",
+   "message": "跌破发行价 $83.0（现 $79.62）",
    "action": "你的成本会低于机构配售价。这是预先约定的买入观察条件。"
   },
   {
    "level": "info",
    "code": "DRAWDOWN",
-   "message": "较上市后高点回撤 31.6%",
+   "message": "较上市后高点回撤 30.8%",
    "action": "SpaceX 对照：33 天内回撤 42% 并跌破发行价。"
   }
  ],
@@ -5506,8 +5522,8 @@
   "state": "BELOW_IPO",
   "headline": "跌破发行价",
   "evidence": [
-   "现价 $78.72：较发行价 $83 -5.2%，较首日开盘 $111.50 -29.4%",
-   "较上市后最高 $115.10 回撤 31.6%",
+   "现价 $79.62：较发行价 $83 -4.1%，较首日开盘 $111.50 -28.6%",
+   "较上市后最高 $115.10 回撤 30.8%",
    "一、二级信源基本面消息：无",
    "已解禁 315M 股，为 IPO 流通盘 980M 的 32%"
   ],
@@ -5551,7 +5567,7 @@
    "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
-     "t": "日内跌幅 ≥4% 且无基本面消息（现 -29.39%，自当日开盘）",
+     "t": "日内跌幅 ≥4% 且无基本面消息（现 -28.59%，自当日开盘）",
      "on": true,
      "live": true,
      "w": 2,
@@ -5559,7 +5575,7 @@
      "id": "S_DROP"
     },
     {
-     "t": "跌幅主要来自大盘而非个股（ANT -29.4% vs 纳指100 -7.7%，相对强弱 -21.7）",
+     "t": "跌幅主要来自大盘而非个股（ANT -28.6% vs 纳指100 -7.7%，相对强弱 -20.9）",
      "on": false,
      "live": true,
      "w": 3,
@@ -5593,7 +5609,7 @@
    ],
    "negative": [
     {
-     "t": "日内涨幅 ≥4%（现 -29.39%，短线追高）",
+     "t": "日内涨幅 ≥4%（现 -28.59%，短线追高）",
      "on": false,
      "live": true,
      "w": 1,
@@ -5601,7 +5617,7 @@
      "id": "S_CHASE"
     },
     {
-     "t": "显著跑输大盘（相对强弱 -21.7，个股自身问题）",
+     "t": "显著跑输大盘（相对强弱 -20.9，个股自身问题）",
      "on": true,
      "live": true,
      "w": 3,
@@ -5641,15 +5657,15 @@
      "id": null
     }
    ],
-   "intraday_pct": -29.39,
-   "ndx_pct": -7.71,
-   "rel": -21.68,
-   "tnx": 4.807,
+   "intraday_pct": -28.59,
+   "ndx_pct": -7.67,
+   "rel": -20.92,
+   "tnx": 4.805,
    "live_refs": {
     "ipo": 83.0,
     "open": 111.5,
     "mid": 77.395,
-    "ndx": -7.71,
+    "ndx": -7.67,
     "small": 4.0,
     "high": 115.1,
     "bad": false
@@ -5709,7 +5725,7 @@
      "id": "L_DRAWDOWN"
     },
     {
-     "t": "EV/Sales < 15×（现 18×）",
+     "t": "EV/Sales < 15×（现 19×）",
      "on": false,
      "live": false,
      "w": 2,
@@ -5766,12 +5782,12 @@
     "rev_annual": 44322666666.666664,
     "cash": 232351000000.0
    },
-   "ps": 23.5,
+   "ps": 23.8,
    "pending_shares": 10200000000,
    "op_margin": -3.8,
    "ocf": 6569,
-   "ev_sales": 18.2,
-   "cash_pct": 22.3,
+   "ev_sales": 18.5,
+   "cash_pct": 22.1,
    "compute_share": 56.6
   }
  },
@@ -5789,7 +5805,7 @@
   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
-    "t": "日内跌幅 ≥4% 且无基本面消息（现 -29.39%，自当日开盘）",
+    "t": "日内跌幅 ≥4% 且无基本面消息（现 -28.59%，自当日开盘）",
     "on": true,
     "live": true,
     "w": 2,
@@ -5797,7 +5813,7 @@
     "id": "S_DROP"
    },
    {
-    "t": "跌幅主要来自大盘而非个股（ANT -29.4% vs 纳指100 -7.7%，相对强弱 -21.7）",
+    "t": "跌幅主要来自大盘而非个股（ANT -28.6% vs 纳指100 -7.7%，相对强弱 -20.9）",
     "on": false,
     "live": true,
     "w": 3,
@@ -5831,7 +5847,7 @@
   ],
   "negative": [
    {
-    "t": "日内涨幅 ≥4%（现 -29.39%，短线追高）",
+    "t": "日内涨幅 ≥4%（现 -28.59%，短线追高）",
     "on": false,
     "live": true,
     "w": 1,
@@ -5839,7 +5855,7 @@
     "id": "S_CHASE"
    },
    {
-    "t": "显著跑输大盘（相对强弱 -21.7，个股自身问题）",
+    "t": "显著跑输大盘（相对强弱 -20.9，个股自身问题）",
     "on": true,
     "live": true,
     "w": 3,
@@ -5879,15 +5895,15 @@
     "id": null
    }
   ],
-  "intraday_pct": -29.39,
-  "ndx_pct": -7.71,
-  "rel": -21.68,
-  "tnx": 4.807,
+  "intraday_pct": -28.59,
+  "ndx_pct": -7.67,
+  "rel": -20.92,
+  "tnx": 4.805,
   "live_refs": {
    "ipo": 83.0,
    "open": 111.5,
    "mid": 77.395,
-   "ndx": -7.71,
+   "ndx": -7.67,
    "small": 4.0,
    "high": 115.1,
    "bad": false
@@ -5987,7 +6003,7 @@
   },
   {
    "h": "2026-11-25 11:00",
-   "price": 78.725,
+   "price": 79.62,
    "state": "BELOW_IPO",
    "score": 0,
    "tone": -0.563
