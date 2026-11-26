@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T09:30:05-05:00",
+ "generated": "2026-11-26T09:40:05-05:00",
  "errors": [],
  "quote": {
   "price": 82.79,
@@ -26,12 +26,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.724,
+    "recency": 0.722,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4341
+    "effective": 0.4331
    },
    "tone": {
     "dir": 0,
@@ -46,12 +46,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.956,
+    "recency": 0.954,
     "corroboration": 1.15,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.41
+    "effective": 0.4099
    },
    "tone": {
     "dir": 1,
@@ -68,12 +68,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.929,
-    "corroboration": 1.15,
-    "track": 1.243,
-    "track_note": "19/21",
-    "corroborated_by": 1,
-    "effective": 0.3983
+    "recency": 0.927,
+    "corroboration": 1.0,
+    "track": 1.245,
+    "track_note": "20/22",
+    "corroborated_by": 0,
+    "effective": 0.3462
    },
    "tone": {
     "dir": 1,
@@ -90,12 +90,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.8,
+    "recency": 0.798,
     "corroboration": 1.15,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.343
+    "effective": 0.3429
    },
    "tone": {
     "dir": 0,
@@ -110,38 +110,16 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.562,
+    "recency": 0.56,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.3371
+    "effective": 0.3363
    },
    "tone": {
     "dir": 0,
     "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "ANT Stock Gains Overnight: US Exchange-Traded Funds’ Anthropic Holdings Swell To Over $2B - TradingView",
-   "published": "Thu, 26 Nov 2026 09:23:24 GMT",
-   "source": "tradingview.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.929,
-    "corroboration": 1.15,
-    "track": 1.0,
-    "track_note": "n=2 样本不足",
-    "corroborated_by": 1,
-    "effective": 0.3204
-   },
-   "tone": {
-    "dir": 1,
-    "bull": [
-     "gain"
-    ],
     "bear": []
    }
   },
@@ -152,12 +130,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.528,
+    "recency": 0.527,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.3168
+    "effective": 0.316
    },
    "tone": {
     "dir": -1,
@@ -175,12 +153,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.5,
+    "recency": 0.499,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.3002
+    "effective": 0.2995
    },
    "tone": {
     "dir": -1,
@@ -197,12 +175,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.947,
+    "recency": 0.945,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2841
+    "effective": 0.2835
    },
    "tone": {
     "dir": 0,
@@ -217,12 +195,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.737,
+    "recency": 0.735,
     "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.2748
+    "effective": 0.2747
    },
    "tone": {
     "dir": -1,
@@ -233,18 +211,38 @@
    }
   },
   {
+   "title": "Jim Cramer Calls Anthropic “the Silent Killer of This Market” - Yahoo Finance",
+   "published": "Wed, 25 Nov 2026 12:38:47 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.687,
+    "corroboration": 1.0,
+    "track": 1.245,
+    "track_note": "20/22",
+    "corroborated_by": 0,
+    "effective": 0.2566
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
    "title": "Anthropic IPO: Here's What a $5,000 Investment Could Look Like in 5 Years - Yahoo Finance",
    "published": "Tue, 24 Nov 2026 21:37:02 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.554,
-    "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
-    "corroborated_by": 0,
-    "effective": 0.2066
+    "recency": 0.553,
+    "corroboration": 1.15,
+    "track": 1.245,
+    "track_note": "20/22",
+    "corroborated_by": 1,
+    "effective": 0.2375
    },
    "tone": {
     "dir": 0,
@@ -259,12 +257,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.52,
+    "recency": 0.519,
     "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.194
+    "effective": 0.1939
    },
    "tone": {
     "dir": 1,
@@ -281,10 +279,10 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.515,
+    "recency": 0.514,
     "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 0,
     "effective": 0.1921
    },
@@ -306,12 +304,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.503,
+    "recency": 0.502,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "8/9",
     "corroborated_by": 0,
-    "effective": 0.1862
+    "effective": 0.1858
    },
    "tone": {
     "dir": -1,
@@ -331,10 +329,10 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.489,
+    "recency": 0.488,
     "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 0,
     "effective": 0.1823
    },
@@ -351,10 +349,10 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.486,
+    "recency": 0.484,
     "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 0,
     "effective": 0.181
    },
@@ -374,12 +372,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.552,
+    "recency": 0.55,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1655
+    "effective": 0.1651
    },
    "tone": {
     "dir": -1,
@@ -397,12 +395,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.509,
+    "recency": 0.508,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1527
+    "effective": 0.1523
    },
    "tone": {
     "dir": -1,
@@ -422,10 +420,10 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.383,
+    "recency": 0.382,
     "corroboration": 1.0,
-    "track": 1.243,
-    "track_note": "19/21",
+    "track": 1.245,
+    "track_note": "20/22",
     "corroborated_by": 0,
     "effective": 0.1427
    },
@@ -446,12 +444,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.39,
+    "recency": 0.389,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 1,
-    "effective": 0.1346
+    "effective": 0.1343
    },
    "tone": {
     "dir": 0,
@@ -466,12 +464,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.354,
+    "recency": 0.353,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1062
+    "effective": 0.106
    },
    "tone": {
     "dir": 0,
@@ -486,27 +484,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.61,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.0
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
-   "title": "Jim Cramer Calls Anthropic \"the Silent Killer of This Market\" - 24/7 Wall St.",
-   "published": "Wed, 25 Nov 2026 12:38:00 GMT",
-   "source": "247wallst.com",
-   "tier": 4,
-   "weight": {
-    "base": 0.0,
-    "recency": 0.688,
+    "recency": 0.608,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -526,7 +504,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.694,
+    "recency": 0.693,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -548,7 +526,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.65,
+    "recency": 0.648,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -568,7 +546,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.924,
+    "recency": 0.922,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -590,7 +568,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.952,
+    "recency": 0.949,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -612,7 +590,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.354,
+    "recency": 0.353,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -632,7 +610,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.524,
+    "recency": 0.523,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -654,7 +632,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.528,
+    "recency": 0.527,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -667,6 +645,26 @@
     "bear": [
      "drop"
     ]
+   }
+  },
+  {
+   "title": "Anthropic IPO: Here's What a $5,000 Investment Could Look Like in 5 Years - The Motley Fool",
+   "published": "Tue, 24 Nov 2026 21:17:02 GMT",
+   "source": "fool.com",
+   "tier": 4,
+   "weight": {
+    "base": 0.0,
+    "recency": 0.55,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 1,
+    "effective": 0.0
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
    }
   }
  ],
@@ -695,18 +693,6 @@
  ],
  "policy": [
   {
-   "title": "Nvidia reportedly stops shipments of AI chips to southeast Asia as US toughens export controls - KVUE",
-   "published": "Thu, 26 Nov 2026 11:46:47 GMT",
-   "source": "kvue.com",
-   "tier": 3
-  },
-  {
-   "title": "Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls - Yahoo Finance",
-   "published": "Thu, 26 Nov 2026 10:59:10 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3
-  },
-  {
    "title": "Bipartisan Desire to Regulate A.I. Faces Obstacles in Congress - The New York Times",
    "published": "Thu, 26 Nov 2026 10:03:47 GMT",
    "source": "nytimes.com",
@@ -716,6 +702,18 @@
    "title": "China’s AI constrained by U.S. export controls - Washington Times",
    "published": "Wed, 25 Nov 2026 20:15:00 GMT",
    "source": "washingtontimes.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia reportedly stops shipments of AI chips to southeast Asia as US toughens export controls - KVUE",
+   "published": "Thu, 26 Nov 2026 11:46:47 GMT",
+   "source": "kvue.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls - Yahoo Finance",
+   "published": "Thu, 26 Nov 2026 10:59:10 GMT",
+   "source": "finance.yahoo.com",
    "tier": 3
   },
   {
@@ -749,15 +747,15 @@
    "tier": 3
   },
   {
-   "title": "Nvidia Reportedly Halts AI Server Shipments to 4 Southeast Asian Countries Amid US Export Controls - TechRepublic",
-   "published": "Thu, 26 Nov 2026 11:19:43 GMT",
-   "source": "techrepublic.com",
-   "tier": 3
-  },
-  {
    "title": "Nvidia CEO Faces Senate Scrutiny Over China Chip and Spy Scandal - Legis1",
    "published": "Tue, 24 Nov 2026 16:21:55 GMT",
    "source": "legis1.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia Reportedly Halts AI Server Shipments to 4 Southeast Asian Countries Amid US Export Controls - TechRepublic",
+   "published": "Thu, 26 Nov 2026 13:36:29 GMT",
+   "source": "techrepublic.com",
    "tier": 3
   },
   {
@@ -767,16 +765,16 @@
    "tier": 3
   },
   {
-   "title": "The U.S. is tightening export controls on AI chips following the Nvidia scandal and concerns over transfers to China - Informat.ro",
-   "published": "Thu, 26 Nov 2026 07:45:57 GMT",
-   "source": "informat.ro",
-   "tier": 3
-  },
-  {
    "title": "Schumer accuses Huang of violating US export control laws amid shipments of chips to China | Jensen Huang - The Guardian",
    "published": "Tue, 24 Nov 2026 10:00:00 GMT",
    "source": "theguardian.com",
    "tier": 2
+  },
+  {
+   "title": "Jensen Huang’s Nvidia comeback gives China chip restrictions new momentum in Congress - The Hill",
+   "published": "Wed, 25 Nov 2026 11:00:00 GMT",
+   "source": "thehill.com",
+   "tier": 3
   }
  ],
  "filings": [
@@ -6252,19 +6250,19 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.0849,
+ "tone_net": -0.1579,
  "signals": {
   "short": {
    "name": "短线",
    "horizon": "数日内",
    "score": 0,
-   "net": 0,
+   "net": -1,
    "cap": 13,
    "up": 3,
-   "down": 3,
+   "down": 4,
    "up_n": 2,
-   "down_n": 1,
-   "raw": 1,
+   "down_n": 2,
+   "raw": 0,
    "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
@@ -6300,7 +6298,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.08）",
+     "t": "加权新闻口径为正（现 -0.16）",
      "on": false,
      "live": true,
      "w": 1,
@@ -6350,8 +6348,8 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.08）",
-     "on": false,
+     "t": "加权新闻口径为负（现 -0.16）",
+     "on": true,
      "live": true,
      "w": 1,
      "why": "同上，关键词启发式",
@@ -6496,13 +6494,13 @@
   "name": "短线",
   "horizon": "数日内",
   "score": 0,
-  "net": 0,
+  "net": -1,
   "cap": 13,
   "up": 3,
-  "down": 3,
+  "down": 4,
   "up_n": 2,
-  "down_n": 1,
-  "raw": 1,
+  "down_n": 2,
+  "raw": 0,
   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
@@ -6538,7 +6536,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.08）",
+    "t": "加权新闻口径为正（现 -0.16）",
     "on": false,
     "live": true,
     "w": 1,
@@ -6588,8 +6586,8 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.08）",
-    "on": false,
+    "t": "加权新闻口径为负（现 -0.16）",
+    "on": true,
     "live": true,
     "w": 1,
     "why": "同上，关键词启发式",
@@ -6707,13 +6705,13 @@
    "price": 82.79,
    "state": "BELOW_IPO",
    "score": 0,
-   "tone": -0.085
+   "tone": -0.158
   }
  ],
  "source_records": {
   "finance.yahoo.com": {
-   "n": 21,
-   "hits": 19
+   "n": 22,
+   "hits": 20
   },
   "reuters.com": {
    "n": 9,
@@ -6821,7 +6819,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 2
+  "pending_observations": 1
  },
  "next_unlock": {
   "date": "2026-12-15",
