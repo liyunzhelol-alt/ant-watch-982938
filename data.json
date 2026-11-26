@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:40:05-05:00",
+ "generated": "2026-11-26T12:50:05-05:00",
  "errors": [],
  "quote": {
   "price": 82.79,
@@ -20,18 +20,41 @@
  },
  "news": [
   {
+   "title": "Anthropic Shares Plunge Below IPO Price in Fourth Trading Day - Bloomberg",
+   "published": "Tue, 24 Nov 2026 21:10:02 GMT",
+   "source": "bloomberg.com",
+   "tier": 1,
+   "weight": {
+    "base": 1.0,
+    "recency": 0.525,
+    "corroboration": 1.0,
+    "track": 1.3,
+    "track_note": "5/5",
+    "corroborated_by": 0,
+    "effective": 0.682
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "below",
+     "plunge"
+    ]
+   }
+  },
+  {
    "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade - CNBC",
    "published": "Wed, 25 Nov 2026 16:05:25 GMT",
    "source": "cnbc.com",
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.691,
+    "recency": 0.69,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.4147
+    "effective": 0.4137
    },
    "tone": {
     "dir": 0,
@@ -46,12 +69,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.913,
+    "recency": 0.911,
     "corroboration": 1.15,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.3925
+    "effective": 0.3915
    },
    "tone": {
     "dir": 1,
@@ -68,12 +91,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.887,
+    "recency": 0.885,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.3315
+    "effective": 0.3307
    },
    "tone": {
     "dir": 1,
@@ -90,12 +113,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.764,
+    "recency": 0.762,
     "corroboration": 1.15,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.3284
+    "effective": 0.3276
    },
    "tone": {
     "dir": 0,
@@ -110,12 +133,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.537,
+    "recency": 0.535,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.322
+    "effective": 0.3213
    },
    "tone": {
     "dir": 0,
@@ -130,12 +153,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.504,
+    "recency": 0.503,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.3026
+    "effective": 0.3019
    },
    "tone": {
     "dir": -1,
@@ -153,12 +176,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.478,
+    "recency": 0.477,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2868
+    "effective": 0.2861
    },
    "tone": {
     "dir": -1,
@@ -175,12 +198,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.669,
+    "recency": 0.668,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.2501
+    "effective": 0.2495
    },
    "tone": {
     "dir": -1,
@@ -198,12 +221,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.529,
+    "recency": 0.528,
     "corroboration": 1.15,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.2274
+    "effective": 0.2269
    },
    "tone": {
     "dir": 0,
@@ -218,12 +241,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.532,
+    "recency": 0.53,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.1986
+    "effective": 0.1982
    },
    "tone": {
     "dir": 1,
@@ -240,12 +263,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.497,
+    "recency": 0.496,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.1857
+    "effective": 0.1852
    },
    "tone": {
     "dir": 1,
@@ -256,43 +279,18 @@
    }
   },
   {
-   "title": "Anthropic stock drops below $83 IPO price as day-one pop vanishes - Yahoo Finance",
-   "published": "Tue, 24 Nov 2026 16:34:56 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.492,
-    "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
-    "corroborated_by": 0,
-    "effective": 0.1839
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [
-     "pop"
-    ],
-    "bear": [
-     "below",
-     "drop"
-    ]
-   }
-  },
-  {
    "title": "Anthropic Stock Falls Below IPO Price Despite Bullish Views From Analysts - Investor's Business Daily",
    "published": "Tue, 24 Nov 2026 14:57:00 GMT",
    "source": "investors.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.481,
+    "recency": 0.48,
     "corroboration": 1.0,
     "track": 1.24,
     "track_note": "9/10",
     "corroborated_by": 0,
-    "effective": 0.1788
+    "effective": 0.1784
    },
    "tone": {
     "dir": -1,
@@ -306,38 +304,18 @@
    }
   },
   {
-   "title": "Dario and Daniela Amodei Each Sold $280 Million of Anthropic Stock in the IPO - Yahoo Finance",
-   "published": "Tue, 24 Nov 2026 12:57:59 GMT",
-   "source": "finance.yahoo.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.467,
-    "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
-    "corroborated_by": 0,
-    "effective": 0.1746
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic Falls Below IPO Price. The Threat Wasn’t Nvidia, It Came From Inside - Yahoo Finance",
    "published": "Tue, 24 Nov 2026 12:28:10 GMT",
    "source": "finance.yahoo.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.464,
+    "recency": 0.463,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.1733
+    "effective": 0.1729
    },
    "tone": {
     "dir": -1,
@@ -355,12 +333,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.527,
+    "recency": 0.526,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1581
+    "effective": 0.1577
    },
    "tone": {
     "dir": -1,
@@ -378,12 +356,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.505,
+    "recency": 0.504,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1516
+    "effective": 0.1513
    },
    "tone": {
     "dir": 0,
@@ -396,38 +374,18 @@
    }
   },
   {
-   "title": "ANT Stock Quote Price and Forecast - CNN",
-   "published": "Tue, 24 Nov 2026 08:02:01 GMT",
-   "source": "cnn.com",
-   "tier": 3,
-   "weight": {
-    "base": 0.3,
-    "recency": 0.435,
-    "corroboration": 1.15,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 1,
-    "effective": 0.1501
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Anthropic stock has already fallen below its IPO price: Will the AI trade fizzle again today? - Fast Company",
    "published": "Tue, 24 Nov 2026 15:43:29 GMT",
    "source": "fastcompany.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.486,
+    "recency": 0.485,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1458
+    "effective": 0.1455
    },
    "tone": {
     "dir": -1,
@@ -441,18 +399,42 @@
    }
   },
   {
+   "title": "Anthropic stock falls as Monday's tech rally takes off - Yahoo Finance",
+   "published": "Mon, 23 Nov 2026 19:59:37 GMT",
+   "source": "finance.yahoo.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.365,
+    "corroboration": 1.0,
+    "track": 1.245,
+    "track_note": "20/22",
+    "corroborated_by": 0,
+    "effective": 0.1363
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [
+     "rally"
+    ],
+    "bear": [
+     "fall"
+    ]
+   }
+  },
+  {
    "title": "Anthropic Stock Slips, Misses Out On AI Rally Following Jensen Huang's Nvidia Comeback - Investor's Business Daily",
    "published": "Mon, 23 Nov 2026 17:28:00 GMT",
    "source": "investors.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.353,
+    "recency": 0.352,
     "corroboration": 1.0,
     "track": 1.24,
     "track_note": "9/10",
     "corroborated_by": 0,
-    "effective": 0.1311
+    "effective": 0.1308
    },
    "tone": {
     "dir": 1,
@@ -466,18 +448,18 @@
    }
   },
   {
-   "title": "Binance Will Launch Stock Options on Anthropic (ANT) - Binance",
-   "published": "Mon, 23 Nov 2026 14:36:40 GMT",
-   "source": "binance.com",
+   "title": "ANT Stock Quote Price and Forecast - CNN",
+   "published": "Mon, 23 Nov 2026 21:20:30 GMT",
+   "source": "cnn.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.338,
-    "corroboration": 1.0,
+    "recency": 0.372,
+    "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.1015
+    "corroborated_by": 1,
+    "effective": 0.1283
    },
    "tone": {
     "dir": 0,
@@ -486,13 +468,55 @@
    }
   },
   {
-   "title": "Anthropic vs. SpaceX: Here's the Better IPO Stock to Buy With $1,000 Right Now - The Motley Fool",
-   "published": "Wed, 25 Nov 2026 04:15:00 GMT",
+   "title": "Binance Will Launch Stock Options on Anthropic (ANT) - Binance",
+   "published": "Mon, 23 Nov 2026 14:36:40 GMT",
+   "source": "binance.com",
+   "tier": 3,
+   "weight": {
+    "base": 0.3,
+    "recency": 0.337,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.1012
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Not SpaceX, Not Anthropic: These Are the 2 AI Stocks I Bought During the Sell-Off - The Motley Fool",
+   "published": "Wed, 25 Nov 2026 13:15:02 GMT",
    "source": "fool.com",
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.583,
+    "recency": 0.662,
+    "corroboration": 1.0,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 0,
+    "effective": 0.0
+   },
+   "tone": {
+    "dir": -1,
+    "bull": [],
+    "bear": [
+     "sell-off"
+    ]
+   }
+  },
+  {
+   "title": "Jim Cramer Calls Anthropic \"the Silent Killer of This Market\" - 24/7 Wall St.",
+   "published": "Wed, 25 Nov 2026 12:38:00 GMT",
+   "source": "247wallst.com",
+   "tier": 4,
+   "weight": {
+    "base": 0.0,
+    "recency": 0.656,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -506,13 +530,13 @@
    }
   },
   {
-   "title": "Jim Cramer Calls Anthropic \"the Silent Killer of This Market\" - 24/7 Wall St.",
-   "published": "Wed, 25 Nov 2026 12:38:00 GMT",
-   "source": "247wallst.com",
+   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
+   "published": "Mon, 23 Nov 2026 14:30:00 GMT",
+   "source": "fool.com",
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.658,
+    "recency": 0.337,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -532,7 +556,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.883,
+    "recency": 0.881,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -548,33 +572,13 @@
    }
   },
   {
-   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
-   "published": "Mon, 23 Nov 2026 14:30:00 GMT",
-   "source": "fool.com",
-   "tier": 4,
-   "weight": {
-    "base": 0.0,
-    "recency": 0.338,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=0 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.0
-   },
-   "tone": {
-    "dir": 0,
-    "bull": [],
-    "bear": []
-   }
-  },
-  {
    "title": "Should You Buy Anthropic Stock After Its IPO? Here’s What History Says About Record-Breaking Debuts. - The Motley Fool",
    "published": "Thu, 26 Nov 2026 11:04:02 GMT",
    "source": "fool.com",
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.909,
+    "recency": 0.907,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -596,7 +600,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.504,
+    "recency": 0.503,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -618,7 +622,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.5,
+    "recency": 0.499,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -640,7 +644,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.527,
+    "recency": 0.526,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -660,7 +664,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.556,
+    "recency": 0.554,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -713,33 +717,21 @@
    "tier": 3
   },
   {
-   "title": "Nvidia reportedly stops shipments of AI chips to southeast Asia as US toughens export controls - KVUE",
-   "published": "Thu, 26 Nov 2026 11:46:47 GMT",
-   "source": "kvue.com",
-   "tier": 3
-  },
-  {
    "title": "Nvidia Reportedly Halts AI Server Shipments to Four Southeast Asian Countries Amid Tighter US Export Controls - Yahoo Finance",
    "published": "Thu, 26 Nov 2026 10:59:10 GMT",
    "source": "finance.yahoo.com",
    "tier": 3
   },
   {
-   "title": "New chip-export rules are a start. Congress must make them last. - The Hill",
-   "published": "Mon, 23 Nov 2026 15:00:00 GMT",
-   "source": "thehill.com",
+   "title": "Nvidia reportedly stops shipments of AI chips to southeast Asia as US toughens export controls - KVUE",
+   "published": "Thu, 26 Nov 2026 11:46:47 GMT",
+   "source": "kvue.com",
    "tier": 3
   },
   {
-   "title": "Schumer accuses Huang of violating US export control laws amid shipments of chips to China | Jensen Huang - The Guardian",
-   "published": "Tue, 24 Nov 2026 10:00:00 GMT",
-   "source": "theguardian.com",
-   "tier": 2
-  },
-  {
-   "title": "New AI Export Controls: Implications for AI Companies and Data Center Lenders - Dechert",
-   "published": "Tue, 24 Nov 2026 20:40:49 GMT",
-   "source": "dechert.com",
+   "title": "Nvidia, Dell and Supermicro Halt AI Server Shipments Amid New US Chip Export Controls - Coinpaper",
+   "published": "Thu, 26 Nov 2026 16:35:20 GMT",
+   "source": "coinpaper.com",
    "tier": 3
   },
   {
@@ -749,40 +741,52 @@
    "tier": 1
   },
   {
-   "title": "How the Next Congress Will Tackle AI Copyright Questions - Newsweek",
-   "published": "Thu, 26 Nov 2026 13:00:00 GMT",
-   "source": "newsweek.com",
-   "tier": 3
-  },
-  {
    "title": "Nvidia Halts AI Server Shipments to Four Southeast Asian Countries Amid New US Export Controls - Modern Diplomacy",
    "published": "Thu, 26 Nov 2026 07:01:17 GMT",
    "source": "moderndiplomacy.eu",
    "tier": 3
   },
   {
-   "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely - TechCrunch",
-   "published": "Mon, 16 Nov 2026 08:00:00 GMT",
-   "source": "techcrunch.com",
-   "tier": 3
-  },
-  {
-   "title": "‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers - Skadden, Arps, Slate, Meagher & Flom",
-   "published": "Wed, 18 Nov 2026 08:00:00 GMT",
-   "source": "skadden.com",
-   "tier": 3
-  },
-  {
-   "title": "BIS Issues Export Controls on Remote Access Chips & Rescinds AI Diffusion Rule - Thompson Hine",
-   "published": "Fri, 20 Nov 2026 18:20:42 GMT",
-   "source": "thompsonhinesmartrade.com",
-   "tier": 3
-  },
-  {
-   "title": "Democrats must unite on AI regulation. Here’s our three-point plan | Nathan E Sanders and Bruce Schneier - The Guardian",
-   "published": "Wed, 25 Nov 2026 18:23:00 GMT",
+   "title": "Schumer accuses Huang of violating US export control laws amid shipments of chips to China | Jensen Huang - The Guardian",
+   "published": "Tue, 24 Nov 2026 10:00:00 GMT",
    "source": "theguardian.com",
    "tier": 2
+  },
+  {
+   "title": "Chinese Lawyers Sound the Alarm as U.S. Targets Southeast Asian Data Centers - The China-Global South Project",
+   "published": "Tue, 24 Nov 2026 08:39:57 GMT",
+   "source": "chinaglobalsouth.com",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia CEO Faces Senate Scrutiny Over China Chip and Spy Scandal - Legis1",
+   "published": "Tue, 24 Nov 2026 16:21:55 GMT",
+   "source": "legis1.com",
+   "tier": 3
+  },
+  {
+   "title": "US chip export controls challenge China’s AI progress, spur domestic chip push - Crypto Briefing",
+   "published": "Wed, 25 Nov 2026 18:41:52 GMT",
+   "source": "cryptobriefing.com",
+   "tier": 3
+  },
+  {
+   "title": "The U.S. is tightening export controls on AI chips following the Nvidia scandal and concerns over transfers to China - Informat.ro",
+   "published": "Thu, 26 Nov 2026 07:45:57 GMT",
+   "source": "informat.ro",
+   "tier": 3
+  },
+  {
+   "title": "Nvidia Reportedly Halts AI Server Shipments to 4 Southeast Asian Countries Amid US Export Controls - TechRepublic",
+   "published": "Thu, 26 Nov 2026 13:36:29 GMT",
+   "source": "techrepublic.com",
+   "tier": 3
+  },
+  {
+   "title": "Jensen Huang’s Nvidia comeback gives China chip restrictions new momentum in Congress - The Hill",
+   "published": "Wed, 25 Nov 2026 11:00:00 GMT",
+   "source": "thehill.com",
+   "tier": 3
   }
  ],
  "filings": [
@@ -6258,19 +6262,19 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.0919,
+ "tone_net": -0.1797,
  "signals": {
   "short": {
    "name": "短线",
    "horizon": "数日内",
    "score": 0,
-   "net": 0,
+   "net": -1,
    "cap": 13,
    "up": 3,
-   "down": 3,
+   "down": 4,
    "up_n": 2,
-   "down_n": 1,
-   "raw": 1,
+   "down_n": 2,
+   "raw": 0,
    "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
    "positive": [
     {
@@ -6306,7 +6310,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.09）",
+     "t": "加权新闻口径为正（现 -0.18）",
      "on": false,
      "live": true,
      "w": 1,
@@ -6356,8 +6360,8 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.09）",
-     "on": false,
+     "t": "加权新闻口径为负（现 -0.18）",
+     "on": true,
      "live": true,
      "w": 1,
      "why": "同上，关键词启发式",
@@ -6502,13 +6506,13 @@
   "name": "短线",
   "horizon": "数日内",
   "score": 0,
-  "net": 0,
+  "net": -1,
   "cap": 13,
   "up": 3,
-  "down": 3,
+  "down": 4,
   "up_n": 2,
-  "down_n": 1,
-  "raw": 1,
+  "down_n": 2,
+  "raw": 0,
   "note": "全部以当日开盘为参照，首日也成立。相对强弱把大盘波动和个股问题分开。",
   "positive": [
    {
@@ -6544,7 +6548,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.09）",
+    "t": "加权新闻口径为正（现 -0.18）",
     "on": false,
     "live": true,
     "w": 1,
@@ -6594,8 +6598,8 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.09）",
-    "on": false,
+    "t": "加权新闻口径为负（现 -0.18）",
+    "on": true,
     "live": true,
     "w": 1,
     "why": "同上，关键词启发式",
@@ -6713,7 +6717,7 @@
    "price": 82.79,
    "state": "BELOW_IPO",
    "score": 0,
-   "tone": -0.092
+   "tone": -0.18
   }
  ],
  "source_records": {
