@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:08:52-05:00",
+ "generated": "2026-11-26T18:00:11-05:00",
  "config_created": "2026-11-21",
  "errors": [],
  "series": {
@@ -7700,13 +7700,13 @@
   },
   "BTC-USD": {
    "symbol": "BTC-USD",
-   "price": 60512.64,
-   "pct_1d": 0.22,
-   "pct_5d": 0.7,
-   "pct_20d": -20.11,
+   "price": 60395.28,
+   "pct_1d": 0.03,
+   "pct_5d": 0.5,
+   "pct_20d": -20.27,
    "high_6mo": 86602.9140625,
-   "drawdown_6mo": 30.13,
-   "ma20": 65940.44,
+   "drawdown_6mo": 30.26,
+   "ma20": 65934.57,
    "above_ma20": false,
    "high_52w": 97860.6,
    "low_52w": 55149.566,
@@ -8081,7 +8081,7 @@
     ],
     [
      "2026-11-26",
-     79.8
+     79.65
     ]
    ],
    "label": "比特币",
@@ -8090,12 +8090,12 @@
   },
   "HG=F": {
    "symbol": "HG=F",
-   "price": 5.441,
-   "pct_1d": 2.03,
-   "pct_5d": -3.27,
-   "pct_20d": -17.32,
+   "price": 5.4335,
+   "pct_1d": 1.89,
+   "pct_5d": -3.4,
+   "pct_20d": -17.44,
    "high_6mo": 6.803500175476074,
-   "drawdown_6mo": 20.03,
+   "drawdown_6mo": 20.14,
    "ma20": 5.99,
    "above_ma20": false,
    "high_52w": 6.83,
@@ -8107,13 +8107,13 @@
   },
   "CL=F": {
    "symbol": "CL=F",
-   "price": 84.6,
-   "pct_1d": 1.1,
-   "pct_5d": 1.67,
-   "pct_20d": -17.06,
+   "price": 84.91,
+   "pct_1d": 1.47,
+   "pct_5d": 2.04,
+   "pct_20d": -16.75,
    "high_6mo": 105.83000183105469,
-   "drawdown_6mo": 20.06,
-   "ma20": 87.78,
+   "drawdown_6mo": 19.77,
+   "ma20": 87.79,
    "above_ma20": false,
    "high_52w": 119.48,
    "low_52w": 54.98,
@@ -8436,12 +8436,12 @@
   },
   "DX-Y.NYB": {
    "symbol": "DX-Y.NYB",
-   "price": 103.778,
-   "pct_1d": 0.1,
-   "pct_5d": -0.12,
-   "pct_20d": 1.7,
+   "price": 103.755,
+   "pct_1d": 0.08,
+   "pct_5d": -0.14,
+   "pct_20d": 1.68,
    "high_6mo": 104.31999969482422,
-   "drawdown_6mo": 0.52,
+   "drawdown_6mo": 0.54,
    "ma20": 102.92,
    "above_ma20": true,
    "high_52w": 104.53,
@@ -8453,12 +8453,12 @@
   },
   "USDCAD=X": {
    "symbol": "USDCAD=X",
-   "price": 1.4245,
-   "pct_1d": -0.2,
-   "pct_5d": -0.6,
-   "pct_20d": 1.85,
+   "price": 1.4241,
+   "pct_1d": -0.22,
+   "pct_5d": -0.63,
+   "pct_20d": 1.82,
    "high_6mo": 1.4365299940109253,
-   "drawdown_6mo": 0.84,
+   "drawdown_6mo": 0.87,
    "ma20": 1.42,
    "above_ma20": true,
    "high_52w": 1.4374,
@@ -8511,10 +8511,16 @@
    "source": "federalreserve.gov"
   },
   {
-   "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs - CNBC",
-   "published": "Thu, 26 Nov 2026 16:00:01 GMT",
+   "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say - CNBC",
+   "published": "Thu, 26 Nov 2026 15:34:08 GMT",
    "tier": 2,
    "source": "cnbc.com"
+  },
+  {
+   "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia - WSJ",
+   "published": "Thu, 26 Nov 2026 17:06:00 GMT",
+   "tier": 2,
+   "source": "wsj.com"
   },
   {
    "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports - Reuters",
@@ -8523,8 +8529,14 @@
    "source": "reuters.com"
   },
   {
-   "title": "The Other Nvidia Romance With an Executive at a Company Linked to China - WSJ",
-   "published": "Thu, 26 Nov 2026 02:00:00 GMT",
+   "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs - CNBC",
+   "published": "Thu, 26 Nov 2026 16:00:01 GMT",
+   "tier": 2,
+   "source": "cnbc.com"
+  },
+  {
+   "title": "Opinion | Does Nvidia Really Need Its Brilliant Nutjob? - WSJ",
+   "published": "Thu, 26 Nov 2026 18:10:00 GMT",
    "tier": 2,
    "source": "wsj.com"
   },
@@ -8533,12 +8545,6 @@
    "published": "Thu, 26 Nov 2026 02:57:00 GMT",
    "tier": 2,
    "source": "cnbc.com"
-  },
-  {
-   "title": "A ‘Silent War’ Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
-   "published": "Thu, 26 Nov 2026 03:00:00 GMT",
-   "tier": 2,
-   "source": "wsj.com"
   },
   {
    "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals - CNBC",
@@ -8553,10 +8559,16 @@
    "source": "cnbc.com"
   },
   {
-   "title": "Nvidia chip buyers told to rule out Chinese renters to buy GPUs, sources say - CNBC",
-   "published": "Thu, 26 Nov 2026 15:34:08 GMT",
+   "title": "European stocks end higher on easing tariff fears, ECB leadership continuity - Reuters",
+   "published": "Thu, 26 Nov 2026 17:43:00 GMT",
    "tier": 2,
-   "source": "cnbc.com"
+   "source": "reuters.com"
+  },
+  {
+   "title": "The Other Nvidia Romance With an Executive at a Company Linked to China - WSJ",
+   "published": "Thu, 26 Nov 2026 02:00:00 GMT",
+   "tier": 2,
+   "source": "wsj.com"
   },
   {
    "title": "China and other US trading partners hit back at Trump’s new tariff plans - AP News",
@@ -8565,22 +8577,22 @@
    "source": "apnews.com"
   },
   {
+   "title": "A ‘Silent War’ Grips Iran as Its Economy Strains Under U.S. Blockade - WSJ",
+   "published": "Thu, 26 Nov 2026 03:00:00 GMT",
+   "tier": 2,
+   "source": "wsj.com"
+  },
+  {
    "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO - CNBC",
    "published": "Thu, 26 Nov 2026 02:15:00 GMT",
    "tier": 2,
    "source": "cnbc.com"
   },
   {
-   "title": "US economy roars ahead in third quarter, inflation remains high in October - Reuters",
-   "published": "Wed, 25 Nov 2026 22:06:55 GMT",
+   "title": "The Frantic White House Push to Get Jensen Huang Back - WSJ",
+   "published": "Tue, 24 Nov 2026 02:00:00 GMT",
    "tier": 2,
-   "source": "reuters.com"
-  },
-  {
-   "title": "European stocks rally as tech, bank stocks rebound, tariff fears ease - Reuters",
-   "published": "Thu, 26 Nov 2026 12:19:30 GMT",
-   "tier": 2,
-   "source": "reuters.com"
+   "source": "wsj.com"
   },
   {
    "title": "Cartoon: Donald Trump helps Jensen Huang retake the wheel at Nvidia - The Economist",
@@ -8589,26 +8601,14 @@
    "source": "economist.com"
   },
   {
-   "title": "Nvidia's billion-dollar board bet: Who's protected as lawsuits mount? - CNBC",
-   "published": "Wed, 25 Nov 2026 18:02:45 GMT",
-   "tier": 2,
-   "source": "cnbc.com"
+   "title": "Jensen Huang’s Return Doesn’t Make Nvidia Stock (NVDA) a Buy - Yahoo Finance",
+   "published": "Thu, 26 Nov 2026 21:22:00 GMT",
+   "tier": 3,
+   "source": "finance.yahoo.com"
   },
   {
    "title": "Prediction: This Is What Nvidia Stock Will Be Worth by 2028 - Yahoo Finance",
    "published": "Thu, 26 Nov 2026 07:54:00 GMT",
-   "tier": 3,
-   "source": "finance.yahoo.com"
-  },
-  {
-   "title": "Nvidia stops shipping AI servers to 4 Southeast Asian countries- FT - Yahoo Finance",
-   "published": "Thu, 26 Nov 2026 06:29:00 GMT",
-   "tier": 3,
-   "source": "finance.yahoo.com"
-  },
-  {
-   "title": "Trump's new tariffs would put rates right back where they were before the Supreme Court stepped in - Yahoo Finance",
-   "published": "Thu, 26 Nov 2026 11:04:36 GMT",
    "tier": 3,
    "source": "finance.yahoo.com"
   }
