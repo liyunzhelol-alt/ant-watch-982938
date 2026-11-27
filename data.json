@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T15:20:06-05:00",
+ "generated": "2026-11-27T15:30:06-05:00",
  "errors": [],
  "quote": {
   "price": 91.88,
@@ -26,12 +26,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.933,
+    "recency": 0.931,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5598
+    "effective": 0.5585
    },
    "tone": {
     "dir": 1,
@@ -48,12 +48,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.356,
+    "recency": 0.355,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "8/9",
     "corroborated_by": 0,
-    "effective": 0.439
+    "effective": 0.4379
    },
    "tone": {
     "dir": -1,
@@ -71,12 +71,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.993,
+    "recency": 0.991,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.371
+    "effective": 0.3709
    },
    "tone": {
     "dir": 1,
@@ -93,12 +93,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.964,
+    "recency": 0.962,
     "corroboration": 1.0,
     "track": 1.24,
     "track_note": "9/10",
     "corroborated_by": 0,
-    "effective": 0.3587
+    "effective": 0.3578
    },
    "tone": {
     "dir": 1,
@@ -115,12 +115,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.829,
+    "recency": 0.827,
     "corroboration": 1.15,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 1,
-    "effective": 0.3564
+    "effective": 0.3562
    },
    "tone": {
     "dir": 0,
@@ -135,12 +135,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.916,
+    "recency": 0.913,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.3421
+    "effective": 0.3419
    },
    "tone": {
     "dir": -1,
@@ -157,12 +157,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.969,
+    "recency": 0.967,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2908
+    "effective": 0.2901
    },
    "tone": {
     "dir": 0,
@@ -177,12 +177,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.966,
+    "recency": 0.964,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2899
+    "effective": 0.2892
    },
    "tone": {
     "dir": 0,
@@ -197,12 +197,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.957,
+    "recency": 0.954,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.287
+    "effective": 0.2863
    },
    "tone": {
     "dir": 1,
@@ -220,12 +220,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.951,
+    "recency": 0.948,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2852
+    "effective": 0.2845
    },
    "tone": {
     "dir": 0,
@@ -244,12 +244,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.937,
+    "recency": 0.935,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.281
+    "effective": 0.2804
    },
    "tone": {
     "dir": 0,
@@ -268,12 +268,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.926,
+    "recency": 0.924,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2779
+    "effective": 0.2773
    },
    "tone": {
     "dir": 1,
@@ -290,12 +290,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.622,
+    "recency": 0.62,
     "corroboration": 1.15,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 1,
-    "effective": 0.267
+    "effective": 0.2669
    },
    "tone": {
     "dir": 1,
@@ -312,12 +312,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.702,
+    "recency": 0.7,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.2623
+    "effective": 0.2622
    },
    "tone": {
     "dir": 0,
@@ -332,12 +332,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.66,
+    "recency": 0.658,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.2466
+    "effective": 0.2464
    },
    "tone": {
     "dir": 0,
@@ -352,12 +352,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.604,
+    "recency": 0.602,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.2256
+    "effective": 0.2255
    },
    "tone": {
     "dir": 1,
@@ -374,12 +374,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.365,
+    "recency": 0.364,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2191
+    "effective": 0.2186
    },
    "tone": {
     "dir": 0,
@@ -394,12 +394,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.592,
+    "recency": 0.591,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1776
+    "effective": 0.1772
    },
    "tone": {
     "dir": 0,
@@ -414,12 +414,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.468,
+    "recency": 0.467,
     "corroboration": 1.0,
     "track": 1.24,
     "track_note": "9/10",
     "corroborated_by": 0,
-    "effective": 0.1742
+    "effective": 0.1738
    },
    "tone": {
     "dir": 0,
@@ -438,12 +438,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.455,
+    "recency": 0.454,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.1702
+    "effective": 0.1701
    },
    "tone": {
     "dir": -1,
@@ -461,10 +461,10 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.335,
+    "recency": 0.334,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
     "effective": 0.1251
    },
@@ -486,12 +486,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.318,
+    "recency": 0.317,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
-    "effective": 0.1188
+    "effective": 0.1187
    },
    "tone": {
     "dir": 0,
@@ -506,12 +506,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.331,
+    "recency": 0.33,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.0992
+    "effective": 0.099
    },
    "tone": {
     "dir": -1,
@@ -531,10 +531,10 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.249,
+    "recency": 0.248,
     "corroboration": 1.0,
-    "track": 1.245,
-    "track_note": "20/22",
+    "track": 1.248,
+    "track_note": "21/23",
     "corroborated_by": 0,
     "effective": 0.0929
    },
@@ -555,7 +555,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.451,
+    "recency": 0.45,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -577,7 +577,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.927,
+    "recency": 0.925,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -597,7 +597,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.825,
+    "recency": 0.823,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -617,7 +617,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.971,
+    "recency": 0.969,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -637,7 +637,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.874,
+    "recency": 0.872,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -657,7 +657,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.858,
+    "recency": 0.856,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -3294,11 +3294,15 @@
      91.3
     ],
     [
-     "2026-11-27T15:15-05:00",
-     91.57
+     "2026-11-27T15:20-05:00",
+     91.43
+    ],
+    [
+     "2026-11-27T15:25-05:00",
+     91.5188
     ]
    ],
-   "total": 1154,
+   "total": 1156,
    "persisted": true
   },
   "1h": {
@@ -4313,7 +4317,7 @@
     ],
     [
      "2026-11-27T15:00-05:00",
-     91.57
+     91.5188
     ]
    ],
    "total": 253,
@@ -5163,8 +5167,8 @@
  ],
  "source_records": {
   "finance.yahoo.com": {
-   "n": 22,
-   "hits": 20
+   "n": 23,
+   "hits": 21
   },
   "reuters.com": {
    "n": 9,
@@ -5272,7 +5276,7 @@
   "recency": "0.5 ^ (age_hours / 48)",
   "corroboration": "1 + 0.15 x (independent sources carrying the same story), capped 1.6x",
   "track_record": "0.7..1.3x from hit rate; frozen at 1.0 until n>=5. A 'hit' = this source published an item that was followed within 24h by a move of 4% or more. It measures surfacing market-moving information, not being right.",
-  "pending_observations": 11
+  "pending_observations": 10
  },
  "next_unlock": {
   "date": "2026-12-15",
