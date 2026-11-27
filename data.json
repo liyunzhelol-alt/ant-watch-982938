@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T14:30:06-05:00",
+ "generated": "2026-11-27T14:40:05-05:00",
  "errors": [],
  "quote": {
   "price": 91.88,
@@ -26,12 +26,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.944,
+    "recency": 0.942,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.5666
+    "effective": 0.5652
    },
    "tone": {
     "dir": 1,
@@ -48,12 +48,12 @@
    "tier": 1,
    "weight": {
     "base": 1.0,
-    "recency": 0.36,
+    "recency": 0.359,
     "corroboration": 1.0,
     "track": 1.233,
     "track_note": "8/9",
     "corroborated_by": 0,
-    "effective": 0.4443
+    "effective": 0.4432
    },
    "tone": {
     "dir": -1,
@@ -71,12 +71,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.976,
+    "recency": 0.974,
     "corroboration": 1.0,
     "track": 1.24,
     "track_note": "9/10",
     "corroborated_by": 0,
-    "effective": 0.3631
+    "effective": 0.3622
    },
    "tone": {
     "dir": 1,
@@ -93,12 +93,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.839,
+    "recency": 0.837,
     "corroboration": 1.15,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.3607
+    "effective": 0.3598
    },
    "tone": {
     "dir": 0,
@@ -113,12 +113,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.927,
+    "recency": 0.924,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.3462
+    "effective": 0.3454
    },
    "tone": {
     "dir": -1,
@@ -135,12 +135,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.71,
+    "recency": 0.709,
     "corroboration": 1.15,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.3053
+    "effective": 0.3046
    },
    "tone": {
     "dir": 0,
@@ -155,12 +155,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.981,
+    "recency": 0.979,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2944
+    "effective": 0.2937
    },
    "tone": {
     "dir": 0,
@@ -175,12 +175,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.978,
+    "recency": 0.976,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2934
+    "effective": 0.2927
    },
    "tone": {
     "dir": 0,
@@ -195,12 +195,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.968,
+    "recency": 0.966,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2904
+    "effective": 0.2897
    },
    "tone": {
     "dir": 1,
@@ -218,12 +218,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.962,
+    "recency": 0.96,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=3 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2886
+    "effective": 0.2879
    },
    "tone": {
     "dir": 0,
@@ -242,12 +242,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.948,
+    "recency": 0.946,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2844
+    "effective": 0.2837
    },
    "tone": {
     "dir": 0,
@@ -266,12 +266,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.629,
+    "recency": 0.628,
     "corroboration": 1.15,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 1,
-    "effective": 0.2703
+    "effective": 0.2696
    },
    "tone": {
     "dir": 1,
@@ -288,12 +288,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.668,
+    "recency": 0.666,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.2495
+    "effective": 0.2489
    },
    "tone": {
     "dir": 0,
@@ -308,12 +308,12 @@
    "tier": 2,
    "weight": {
     "base": 0.6,
-    "recency": 0.37,
+    "recency": 0.369,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2218
+    "effective": 0.2212
    },
    "tone": {
     "dir": 0,
@@ -333,7 +333,7 @@
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.2084
+    "effective": 0.2079
    },
    "tone": {
     "dir": -1,
@@ -345,40 +345,18 @@
    }
   },
   {
-   "title": "Anthropic closes below $83 IPO price, but analysts are still largely positive - CNBC",
-   "published": "Tue, 24 Nov 2026 14:33:22 GMT",
-   "source": "cnbc.com",
-   "tier": 2,
-   "weight": {
-    "base": 0.6,
-    "recency": 0.329,
-    "corroboration": 1.0,
-    "track": 1.0,
-    "track_note": "n=2 样本不足",
-    "corroborated_by": 0,
-    "effective": 0.1975
-   },
-   "tone": {
-    "dir": -1,
-    "bull": [],
-    "bear": [
-     "below"
-    ]
-   }
-  },
-  {
    "title": "ANT Stock Quote Price and Forecast - CNN",
    "published": "Thu, 26 Nov 2026 08:02:23 GMT",
    "source": "cnn.com",
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.599,
+    "recency": 0.598,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1798
+    "effective": 0.1793
    },
    "tone": {
     "dir": 0,
@@ -393,12 +371,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.474,
+    "recency": 0.473,
     "corroboration": 1.0,
     "track": 1.24,
     "track_note": "9/10",
     "corroborated_by": 0,
-    "effective": 0.1763
+    "effective": 0.1759
    },
    "tone": {
     "dir": 0,
@@ -417,12 +395,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.461,
+    "recency": 0.46,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.1722
+    "effective": 0.1718
    },
    "tone": {
     "dir": -1,
@@ -440,12 +418,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.339,
+    "recency": 0.338,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.1266
+    "effective": 0.1263
    },
    "tone": {
     "dir": -1,
@@ -465,12 +443,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.322,
+    "recency": 0.321,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.1202
+    "effective": 0.1199
    },
    "tone": {
     "dir": 0,
@@ -485,12 +463,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.335,
+    "recency": 0.334,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=2 样本不足",
     "corroborated_by": 0,
-    "effective": 0.1004
+    "effective": 0.1002
    },
    "tone": {
     "dir": -1,
@@ -510,12 +488,12 @@
    "tier": 3,
    "weight": {
     "base": 0.3,
-    "recency": 0.252,
+    "recency": 0.251,
     "corroboration": 1.0,
     "track": 1.245,
     "track_note": "20/22",
     "corroborated_by": 0,
-    "effective": 0.0941
+    "effective": 0.0938
    },
    "tone": {
     "dir": 0,
@@ -534,7 +512,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.707,
+    "recency": 0.705,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -554,7 +532,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.938,
+    "recency": 0.936,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -574,7 +552,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.983,
+    "recency": 0.981,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -594,7 +572,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.884,
+    "recency": 0.882,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -614,7 +592,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.868,
+    "recency": 0.866,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -634,7 +612,7 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.835,
+    "recency": 0.833,
     "corroboration": 1.15,
     "track": 1.0,
     "track_note": "n=0 样本不足",
@@ -654,11 +632,31 @@
    "tier": 4,
    "weight": {
     "base": 0.0,
-    "recency": 0.94,
+    "recency": 0.938,
     "corroboration": 1.0,
     "track": 1.0,
     "track_note": "n=0 样本不足",
     "corroborated_by": 0,
+    "effective": 0.0
+   },
+   "tone": {
+    "dir": 0,
+    "bull": [],
+    "bear": []
+   }
+  },
+  {
+   "title": "Anthropic Stock Is Now Trading. Should You Buy ANT Today? - The Motley Fool",
+   "published": "Mon, 23 Nov 2026 14:30:00 GMT",
+   "source": "fool.com",
+   "tier": 4,
+   "weight": {
+    "base": 0.0,
+    "recency": 0.232,
+    "corroboration": 1.15,
+    "track": 1.0,
+    "track_note": "n=0 样本不足",
+    "corroborated_by": 1,
     "effective": 0.0
    },
    "tone": {
@@ -687,8 +685,8 @@
    "symbol": "^TNX",
    "label": "美债 10 年期收益率",
    "kind": "rates",
-   "price": 4.936,
-   "pct": 0.49
+   "price": 4.934,
+   "pct": 0.45
   }
  ],
  "policy": [
@@ -717,10 +715,10 @@
    "tier": 3
   },
   {
-   "title": "Nvidia said to halt server shipments to four SE Asian countries amid tighter US export controls: report - TNGlobal",
-   "published": "Fri, 27 Nov 2026 12:58:16 GMT",
-   "source": "technode.global",
-   "tier": 3
+   "title": "Schumer accuses Huang of violating US export control laws amid shipments of chips to China | Jensen Huang - The Guardian",
+   "published": "Tue, 24 Nov 2026 10:00:00 GMT",
+   "source": "theguardian.com",
+   "tier": 2
   },
   {
    "title": "‘AI Diffusion’ 2.0: BIS Introduces New Export Controls on Advanced GPUs and Overseas Data Centers - Skadden, Arps, Slate, Meagher & Flom LLP",
@@ -729,10 +727,10 @@
    "tier": 3
   },
   {
-   "title": "Schumer accuses Huang of violating US export control laws amid shipments of chips to China | Jensen Huang - The Guardian",
-   "published": "Tue, 24 Nov 2026 10:00:00 GMT",
-   "source": "theguardian.com",
-   "tier": 2
+   "title": "Nvidia said to halt server shipments to four SE Asian countries amid tighter US export controls: report - TNGlobal",
+   "published": "Fri, 27 Nov 2026 12:59:29 GMT",
+   "source": "technode.global",
+   "tier": 3
   },
   {
    "title": "NVIDIA AI Chip — US Export Controls Backfire as China Accelerates Tech Independence - The Korea Daily",
@@ -771,10 +769,10 @@
    "tier": 3
   },
   {
-   "title": "New chip-export rules are a start. Congress must make them last. - The Hill",
-   "published": "Mon, 23 Nov 2026 15:00:00 GMT",
-   "source": "thehill.com",
-   "tier": 3
+   "title": "Congress moves to pass tighter AI chip export rules following Nvidia scandal - Financial Times",
+   "published": "Sun, 15 Nov 2026 08:00:00 GMT",
+   "source": "ft.com",
+   "tier": 1
   }
  ],
  "filings": [
@@ -3271,11 +3269,15 @@
      91.879
     ],
     [
-     "2026-11-27T14:25-05:00",
-     91.747
+     "2026-11-27T14:30-05:00",
+     91.31
+    ],
+    [
+     "2026-11-27T14:35-05:00",
+     91.43
     ]
    ],
-   "total": 1144,
+   "total": 1146,
    "persisted": true
   },
   "1h": {
@@ -4286,7 +4288,7 @@
     ],
     [
      "2026-11-27T14:00-05:00",
-     91.747
+     91.43
     ]
    ],
    "total": 252,
@@ -4676,7 +4678,7 @@
   ],
   "buy_condition_met": true
  },
- "tone_net": -0.0177,
+ "tone_net": 0.016,
  "signals": {
   "short": {
    "name": "短线",
@@ -4724,7 +4726,7 @@
      "id": "S_ABOVE_MID"
     },
     {
-     "t": "加权新闻口径为正（现 -0.02）",
+     "t": "加权新闻口径为正（现 +0.02）",
      "on": false,
      "live": true,
      "w": 1,
@@ -4774,7 +4776,7 @@
      "id": null
     },
     {
-     "t": "加权新闻口径为负（现 -0.02）",
+     "t": "加权新闻口径为负（现 +0.02）",
      "on": false,
      "live": true,
      "w": 1,
@@ -4785,7 +4787,7 @@
    "intraday_pct": -17.6,
    "ndx_pct": 0.79,
    "rel": -18.39,
-   "tnx": 4.936,
+   "tnx": 4.934,
    "live_refs": {
     "ipo": 83.0,
     "open": 111.5,
@@ -4962,7 +4964,7 @@
     "id": "S_ABOVE_MID"
    },
    {
-    "t": "加权新闻口径为正（现 -0.02）",
+    "t": "加权新闻口径为正（现 +0.02）",
     "on": false,
     "live": true,
     "w": 1,
@@ -5012,7 +5014,7 @@
     "id": null
    },
    {
-    "t": "加权新闻口径为负（现 -0.02）",
+    "t": "加权新闻口径为负（现 +0.02）",
     "on": false,
     "live": true,
     "w": 1,
@@ -5023,7 +5025,7 @@
   "intraday_pct": -17.6,
   "ndx_pct": 0.79,
   "rel": -18.39,
-  "tnx": 4.936,
+  "tnx": 4.934,
   "live_refs": {
    "ipo": 83.0,
    "open": 111.5,
@@ -5131,7 +5133,7 @@
    "price": 91.88,
    "state": "MECHANICAL",
    "score": 0,
-   "tone": -0.018
+   "tone": 0.016
   }
  ],
  "source_records": {
